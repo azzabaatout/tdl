@@ -1,0 +1,44 @@
+# Manipulate Byzantine Attack vs Norm Clipping Defense
+experiment_name: "mb_attack_vs_norm_clipping"
+random_seed: 123
+
+dataset:
+  type: "cifar10"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid_class"
+  alpha: 0.5
+
+model:
+  type: "alexnet_small"
+  num_classes: 10
+
+federated_learning:
+  num_rounds: 20
+  num_clients: 15
+  client_participation_rate: 0.8
+  learning_rate: 0.015
+  local_epochs: 2
+  batch_size: 48
+
+server:
+  data_size: 150
+
+# Manipulate Byzantine Attack
+attack:
+  type: "mb"
+  num_malicious_clients: 3
+  params:
+    max_iterations: 80
+    target_objective: "maximize_distance"
+    scaling_bounds: [-20.0, 20.0]
+    multi_objective: false
+
+# Norm Clipping Defense
+defense:
+  type: "norm_clipping"
+  params:
+    max_norm: 8.0
+    adaptive_threshold: true
+    norm_type: 2
+    relative_threshold: false

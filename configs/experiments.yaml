@@ -1,0 +1,74 @@
+# Federated Learning Experiment Configuration
+# Based on "Can We Trust the Similarity Measurement in Federated Learning"
+
+experiment_name: "fl_similarity_attack_defense_demo"
+random_seed: 42
+
+# Dataset Configuration
+dataset:
+  type: "cifar10"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid_dirichlet"  # Options: "iid", "non_iid_dirichlet", "non_iid_class"
+  alpha: 0.5  # Lower values = more non-IID
+
+# Model Configuration
+model:
+  type: "lenet"  # Options: "lenet", "alexnet_small", "resnet18"
+  num_classes: 10
+
+# Federated Learning Setup
+federated_learning:
+  num_rounds: 20
+  num_clients: 10
+  client_participation_rate: 0.8  # 80% clients participate per round
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+
+# Server Configuration
+server:
+  data_size: 100  # Size of server's clean dataset (for FLTrust)
+
+# Attack Configuration
+attack:
+  type: "faker"  # Options: "none", "la", "mb", "faker"
+  num_malicious_clients: 2  # Number of malicious clients
+  params:
+    # Faker Attack Parameters
+    max_iterations: 50
+    learning_rate: 0.01
+    target_similarity: 0.9
+    similarity_type: "cosine"  # Options: "cosine", "euclidean", "l2_norm"
+    stealth_factor: 1.0
+    
+    # LA Attack Parameters (if using "la")
+    # max_iterations: 100
+    # step_size: 0.1
+    # target_norm_ratio: 10.0
+    
+    # MB Attack Parameters (if using "mb")
+    # max_iterations: 100
+    # target_objective: "maximize_distance"
+    # scaling_bounds: [-50.0, 50.0]
+
+# Defense Configuration
+defense:
+  type: "fltrust"  # Options: "none", "fltrust", "krum", "norm_clipping"
+  params:
+    # FLTrust Parameters
+    server_epochs: 5
+    server_lr: 0.01
+    cosine_threshold: 0.0
+    use_relu: true
+    clip_updates: true
+    
+    # Krum Parameters (if using "krum")
+    # num_malicious: 2
+    # multi_krum: false
+    # num_selected: 1
+    
+    # Norm Clipping Parameters (if using "norm_clipping")
+    # max_norm: 10.0
+    # adaptive_threshold: false
+    # norm_type: 2
