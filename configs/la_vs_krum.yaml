@@ -10,7 +10,7 @@ dataset:
   alpha: 0.3  # More heterogeneous
 
 model:
-  type: "resnet18"
+  type: "lenet"
   num_classes: 10
 
 federated_learning:
