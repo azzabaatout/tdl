@@ -1,0 +1,40 @@
+2025-12-09 14:26:46,425 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 1: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:26:46,425 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:27:09,607 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 2: fltrust defense applied - Detected malicious: [0, 1]
+2025-12-09 14:27:09,607 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:27:33,622 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 3: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:27:33,623 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:27:59,152 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 4: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:27:59,153 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:28:25,974 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 5: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:28:25,975 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:28:55,857 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 6: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:28:55,858 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:29:19,412 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 7: fltrust defense applied - Detected malicious: [0, 1]
+2025-12-09 14:29:19,413 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:29:42,114 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 8: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:29:42,115 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:30:08,101 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 9: fltrust defense applied - Detected malicious: [0, 1]
+2025-12-09 14:30:08,104 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:30:30,403 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 10: fltrust defense applied - Detected malicious: [1]
+2025-12-09 14:30:30,404 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:30:52,639 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 11: fltrust defense applied - Detected malicious: [0, 1]
+2025-12-09 14:30:52,640 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:31:14,318 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 12: fltrust defense applied - Detected malicious: [1]
+2025-12-09 14:31:14,319 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:31:39,171 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 13: fltrust defense applied - Detected malicious: [1]
+2025-12-09 14:31:39,172 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:32:01,481 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 14: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:32:01,482 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:32:23,912 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 15: fltrust defense applied - Detected malicious: [0, 1]
+2025-12-09 14:32:23,913 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:32:46,206 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 16: fltrust defense applied - Detected malicious: [0]
+2025-12-09 14:32:46,207 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:33:08,190 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 17: fltrust defense applied - Detected malicious: [1, 0]
+2025-12-09 14:33:08,191 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:33:31,680 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 18: fltrust defense applied - Detected malicious: [0, 1]
+2025-12-09 14:33:31,681 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:33:53,264 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 19: fltrust defense applied - Detected malicious: [0]
+2025-12-09 14:33:53,265 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}
+2025-12-09 14:34:15,850 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Round 20: fltrust defense applied - Detected malicious: [0, 1]
+2025-12-09 14:34:15,851 - FL_Defense_fl_similarity_attack_defense_demo - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True}

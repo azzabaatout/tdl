@@ -1,0 +1,160 @@
+2025-12-09 14:26:28,522 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 1: Acc=0.0000, Loss=1.2355, Epochs=2
+2025-12-09 14:26:30,586 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 1: Acc=0.0000, Loss=1.3955, Epochs=2
+2025-12-09 14:26:32,935 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 1: Acc=0.0000, Loss=1.8147, Epochs=2
+2025-12-09 14:26:35,721 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 1: Acc=0.0000, Loss=1.1419, Epochs=2 [MALICIOUS]
+2025-12-09 14:26:37,964 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 1: Acc=0.0000, Loss=1.3154, Epochs=2
+2025-12-09 14:26:40,937 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 1: Acc=0.0000, Loss=1.1318, Epochs=2 [MALICIOUS]
+2025-12-09 14:26:44,726 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 1: Acc=0.0000, Loss=1.3237, Epochs=2
+2025-12-09 14:26:46,283 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 1: Acc=0.0000, Loss=1.3798, Epochs=2
+2025-12-09 14:26:51,482 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 2: Acc=0.0000, Loss=1.0642, Epochs=2
+2025-12-09 14:26:54,454 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 2: Acc=0.0000, Loss=1.0097, Epochs=2 [MALICIOUS]
+2025-12-09 14:26:56,558 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 2: Acc=0.0000, Loss=1.5885, Epochs=2
+2025-12-09 14:26:58,759 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 2: Acc=0.0000, Loss=1.1412, Epochs=2
+2025-12-09 14:27:01,464 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 2: Acc=0.0000, Loss=1.0216, Epochs=2 [MALICIOUS]
+2025-12-09 14:27:04,056 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 2: Acc=0.0000, Loss=1.1169, Epochs=2
+2025-12-09 14:27:07,919 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 2: Acc=0.0000, Loss=1.2078, Epochs=2
+2025-12-09 14:27:09,480 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 2: Acc=0.0000, Loss=1.1892, Epochs=2
+2025-12-09 14:27:12,612 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 3: Acc=0.0000, Loss=1.1260, Epochs=2
+2025-12-09 14:27:14,860 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 3: Acc=0.0000, Loss=1.4439, Epochs=2
+2025-12-09 14:27:18,827 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 3: Acc=0.0000, Loss=0.9941, Epochs=2
+2025-12-09 14:27:21,587 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 3: Acc=0.0000, Loss=0.9368, Epochs=2 [MALICIOUS]
+2025-12-09 14:27:25,505 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 3: Acc=0.0000, Loss=1.1355, Epochs=2
+2025-12-09 14:27:28,892 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 3: Acc=0.0000, Loss=1.0421, Epochs=2
+2025-12-09 14:27:30,484 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 3: Acc=0.0000, Loss=1.0850, Epochs=2
+2025-12-09 14:27:33,495 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 3: Acc=0.0000, Loss=0.9438, Epochs=2 [MALICIOUS]
+2025-12-09 14:27:36,285 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 4: Acc=0.0000, Loss=1.0165, Epochs=2
+2025-12-09 14:27:42,147 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 4: Acc=0.0000, Loss=0.9376, Epochs=2
+2025-12-09 14:27:44,435 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 4: Acc=0.0000, Loss=1.0112, Epochs=2
+2025-12-09 14:27:48,978 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 4: Acc=0.0000, Loss=1.1085, Epochs=2
+2025-12-09 14:27:51,663 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 4: Acc=0.0000, Loss=0.8960, Epochs=2 [MALICIOUS]
+2025-12-09 14:27:53,918 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 4: Acc=0.0000, Loss=0.9721, Epochs=2
+2025-12-09 14:27:56,012 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 4: Acc=0.0000, Loss=1.3692, Epochs=2
+2025-12-09 14:27:59,019 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 4: Acc=0.0000, Loss=0.8905, Epochs=2 [MALICIOUS]
+2025-12-09 14:28:02,963 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 5: Acc=0.0000, Loss=0.8710, Epochs=2 [MALICIOUS]
+2025-12-09 14:28:07,346 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 5: Acc=0.0000, Loss=0.8970, Epochs=2
+2025-12-09 14:28:11,166 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 5: Acc=0.0000, Loss=1.0813, Epochs=2
+2025-12-09 14:28:12,729 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 5: Acc=0.0000, Loss=0.9873, Epochs=2
+2025-12-09 14:28:14,867 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 5: Acc=0.0000, Loss=1.3413, Epochs=2
+2025-12-09 14:28:19,944 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 5: Acc=0.0000, Loss=0.9863, Epochs=2
+2025-12-09 14:28:22,672 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 5: Acc=0.0000, Loss=0.9785, Epochs=2
+2025-12-09 14:28:25,838 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 5: Acc=0.0000, Loss=0.8749, Epochs=2 [MALICIOUS]
+2025-12-09 14:28:32,907 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 6: Acc=0.0000, Loss=0.8967, Epochs=2
+2025-12-09 14:28:35,770 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 6: Acc=0.0000, Loss=1.2836, Epochs=2
+2025-12-09 14:28:40,127 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 6: Acc=0.0000, Loss=0.8463, Epochs=2 [MALICIOUS]
+2025-12-09 14:28:42,112 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 6: Acc=0.0000, Loss=1.0110, Epochs=2
+2025-12-09 14:28:45,097 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 6: Acc=0.0000, Loss=0.8390, Epochs=2 [MALICIOUS]
+2025-12-09 14:28:48,557 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 6: Acc=0.0000, Loss=0.9555, Epochs=2
+2025-12-09 14:28:50,279 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 6: Acc=0.0000, Loss=0.9436, Epochs=2
+2025-12-09 14:28:55,729 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 6: Acc=0.0000, Loss=0.8695, Epochs=2
+2025-12-09 14:29:00,739 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 7: Acc=0.0000, Loss=1.0497, Epochs=2
+2025-12-09 14:29:02,973 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 7: Acc=0.0000, Loss=0.9761, Epochs=2
+2025-12-09 14:29:04,850 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 7: Acc=0.0000, Loss=1.0114, Epochs=2
+2025-12-09 14:29:07,012 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 7: Acc=0.0000, Loss=1.2438, Epochs=2
+2025-12-09 14:29:10,280 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 7: Acc=0.0000, Loss=0.8164, Epochs=2 [MALICIOUS]
+2025-12-09 14:29:14,267 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 7: Acc=0.0000, Loss=0.8554, Epochs=2
+2025-12-09 14:29:17,046 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 7: Acc=0.0000, Loss=0.8255, Epochs=2 [MALICIOUS]
+2025-12-09 14:29:19,286 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 7: Acc=0.0000, Loss=0.8826, Epochs=2
+2025-12-09 14:29:23,358 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 8: Acc=0.0000, Loss=0.8080, Epochs=2 [MALICIOUS]
+2025-12-09 14:29:25,193 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 8: Acc=0.0000, Loss=0.9655, Epochs=2
+2025-12-09 14:29:28,966 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 8: Acc=0.0000, Loss=1.0283, Epochs=2
+2025-12-09 14:29:31,066 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 8: Acc=0.0000, Loss=1.2341, Epochs=2
+2025-12-09 14:29:32,627 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 8: Acc=0.0000, Loss=0.9015, Epochs=2
+2025-12-09 14:29:36,603 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 8: Acc=0.0000, Loss=0.8459, Epochs=2
+2025-12-09 14:29:38,846 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 8: Acc=0.0000, Loss=0.9273, Epochs=2
+2025-12-09 14:29:41,988 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 8: Acc=0.0000, Loss=0.7915, Epochs=2 [MALICIOUS]
+2025-12-09 14:29:46,274 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 9: Acc=0.0000, Loss=0.9245, Epochs=2
+2025-12-09 14:29:50,212 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 9: Acc=0.0000, Loss=1.0413, Epochs=2
+2025-12-09 14:29:52,348 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 9: Acc=0.0000, Loss=0.9465, Epochs=2
+2025-12-09 14:29:54,533 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 9: Acc=0.0000, Loss=1.2031, Epochs=2
+2025-12-09 14:29:56,261 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 9: Acc=0.0000, Loss=0.8845, Epochs=2
+2025-12-09 14:30:00,279 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 9: Acc=0.0000, Loss=0.7868, Epochs=2 [MALICIOUS]
+2025-12-09 14:30:03,383 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 9: Acc=0.0000, Loss=0.7725, Epochs=2 [MALICIOUS]
+2025-12-09 14:30:07,972 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 9: Acc=0.0000, Loss=0.8256, Epochs=2
+2025-12-09 14:30:11,054 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 10: Acc=0.0000, Loss=0.9205, Epochs=2
+2025-12-09 14:30:12,633 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 10: Acc=0.0000, Loss=0.8377, Epochs=2
+2025-12-09 14:30:15,027 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 10: Acc=0.0000, Loss=0.8354, Epochs=2
+2025-12-09 14:30:18,906 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 10: Acc=0.0000, Loss=1.0035, Epochs=2
+2025-12-09 14:30:21,220 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 10: Acc=0.0000, Loss=1.1886, Epochs=2
+2025-12-09 14:30:24,633 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 10: Acc=0.0000, Loss=0.9218, Epochs=2
+2025-12-09 14:30:27,896 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 10: Acc=0.0000, Loss=0.7526, Epochs=2 [MALICIOUS]
+2025-12-09 14:30:30,276 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 10: Acc=0.0000, Loss=0.9126, Epochs=2
+2025-12-09 14:30:34,091 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 11: Acc=0.0000, Loss=0.9061, Epochs=2
+2025-12-09 14:30:37,198 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 11: Acc=0.0000, Loss=0.7937, Epochs=2 [MALICIOUS]
+2025-12-09 14:30:39,085 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 11: Acc=0.0000, Loss=0.9011, Epochs=2
+2025-12-09 14:30:43,320 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 11: Acc=0.0000, Loss=0.8154, Epochs=2
+2025-12-09 14:30:45,413 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 11: Acc=0.0000, Loss=1.1816, Epochs=2
+2025-12-09 14:30:46,995 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 11: Acc=0.0000, Loss=0.8402, Epochs=2
+2025-12-09 14:30:49,593 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 11: Acc=0.0000, Loss=0.8250, Epochs=2
+2025-12-09 14:30:52,511 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 11: Acc=0.0000, Loss=0.7543, Epochs=2 [MALICIOUS]
+2025-12-09 14:30:56,453 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 12: Acc=0.0000, Loss=0.7336, Epochs=2 [MALICIOUS]
+2025-12-09 14:30:58,400 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 12: Acc=0.0000, Loss=0.8635, Epochs=2
+2025-12-09 14:31:00,831 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 12: Acc=0.0000, Loss=0.8929, Epochs=2
+2025-12-09 14:31:04,735 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 12: Acc=0.0000, Loss=0.9989, Epochs=2
+2025-12-09 14:31:06,989 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 12: Acc=0.0000, Loss=0.8127, Epochs=2
+2025-12-09 14:31:09,163 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 12: Acc=0.0000, Loss=1.1501, Epochs=2
+2025-12-09 14:31:12,564 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 12: Acc=0.0000, Loss=0.8970, Epochs=2
+2025-12-09 14:31:14,188 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 12: Acc=0.0000, Loss=0.8168, Epochs=2
+2025-12-09 14:31:17,685 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 13: Acc=0.0000, Loss=0.7962, Epochs=2
+2025-12-09 14:31:19,281 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 13: Acc=0.0000, Loss=0.7777, Epochs=2
+2025-12-09 14:31:22,828 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 13: Acc=0.0000, Loss=0.8705, Epochs=2
+2025-12-09 14:31:26,197 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 13: Acc=0.0000, Loss=0.7333, Epochs=2 [MALICIOUS]
+2025-12-09 14:31:30,131 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 13: Acc=0.0000, Loss=0.8073, Epochs=2
+2025-12-09 14:31:33,881 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 13: Acc=0.0000, Loss=0.9678, Epochs=2
+2025-12-09 14:31:35,968 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 13: Acc=0.0000, Loss=1.1426, Epochs=2
+2025-12-09 14:31:39,031 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 13: Acc=0.0000, Loss=0.8789, Epochs=2
+2025-12-09 14:31:44,078 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 14: Acc=0.0000, Loss=0.9737, Epochs=2
+2025-12-09 14:31:48,063 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 14: Acc=0.0000, Loss=0.7894, Epochs=2
+2025-12-09 14:31:50,157 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 14: Acc=0.0000, Loss=1.1394, Epochs=2
+2025-12-09 14:31:51,709 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 14: Acc=0.0000, Loss=0.7850, Epochs=2
+2025-12-09 14:31:54,384 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 14: Acc=0.0000, Loss=0.7265, Epochs=2 [MALICIOUS]
+2025-12-09 14:31:56,567 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 14: Acc=0.0000, Loss=0.8856, Epochs=2
+2025-12-09 14:31:58,394 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 14: Acc=0.0000, Loss=0.8743, Epochs=2
+2025-12-09 14:32:01,356 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 14: Acc=0.0000, Loss=0.7833, Epochs=2 [MALICIOUS]
+2025-12-09 14:32:05,512 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 15: Acc=0.0000, Loss=0.7846, Epochs=2 [MALICIOUS]
+2025-12-09 14:32:08,286 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 15: Acc=0.0000, Loss=0.7195, Epochs=2 [MALICIOUS]
+2025-12-09 14:32:09,858 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 15: Acc=0.0000, Loss=0.7830, Epochs=2
+2025-12-09 14:32:12,050 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 15: Acc=0.0000, Loss=0.8795, Epochs=2
+2025-12-09 14:32:14,148 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 15: Acc=0.0000, Loss=1.1174, Epochs=2
+2025-12-09 14:32:15,991 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 15: Acc=0.0000, Loss=0.8564, Epochs=2
+2025-12-09 14:32:19,761 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 15: Acc=0.0000, Loss=0.9601, Epochs=2
+2025-12-09 14:32:23,786 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 15: Acc=0.0000, Loss=0.7805, Epochs=2
+2025-12-09 14:32:29,828 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 16: Acc=0.0000, Loss=0.7784, Epochs=2
+2025-12-09 14:32:32,044 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 16: Acc=0.0000, Loss=0.7764, Epochs=2
+2025-12-09 14:32:35,404 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 16: Acc=0.0000, Loss=0.8662, Epochs=2
+2025-12-09 14:32:37,520 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 16: Acc=0.0000, Loss=1.0965, Epochs=2
+2025-12-09 14:32:40,509 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 16: Acc=0.0000, Loss=0.7480, Epochs=2 [MALICIOUS]
+2025-12-09 14:32:42,703 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 16: Acc=0.0000, Loss=0.8668, Epochs=2
+2025-12-09 14:32:44,250 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 16: Acc=0.0000, Loss=0.7675, Epochs=2
+2025-12-09 14:32:46,077 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 16: Acc=0.0000, Loss=0.8481, Epochs=2
+2025-12-09 14:32:49,496 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 17: Acc=0.0000, Loss=0.8461, Epochs=2
+2025-12-09 14:32:52,174 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 17: Acc=0.0000, Loss=0.6995, Epochs=2 [MALICIOUS]
+2025-12-09 14:32:55,536 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 17: Acc=0.0000, Loss=0.8381, Epochs=2
+2025-12-09 14:32:57,363 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 17: Acc=0.0000, Loss=0.8305, Epochs=2
+2025-12-09 14:32:59,459 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 17: Acc=0.0000, Loss=1.0874, Epochs=2
+2025-12-09 14:33:03,443 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 17: Acc=0.0000, Loss=0.7679, Epochs=2
+2025-12-09 14:33:06,433 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 17: Acc=0.0000, Loss=0.7524, Epochs=2 [MALICIOUS]
+2025-12-09 14:33:08,064 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 17: Acc=0.0000, Loss=0.7802, Epochs=2
+2025-12-09 14:33:12,626 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 18: Acc=0.0000, Loss=0.8328, Epochs=2
+2025-12-09 14:33:14,716 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 18: Acc=0.0000, Loss=1.0713, Epochs=2
+2025-12-09 14:33:16,294 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 18: Acc=0.0000, Loss=0.7260, Epochs=2
+2025-12-09 14:33:21,305 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 9 - Round 18: Acc=0.0000, Loss=0.9614, Epochs=2
+2025-12-09 14:33:24,341 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 18: Acc=0.0000, Loss=0.7353, Epochs=2 [MALICIOUS]
+2025-12-09 14:33:26,543 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 18: Acc=0.0000, Loss=0.7702, Epochs=2
+2025-12-09 14:33:29,309 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 18: Acc=0.0000, Loss=0.6879, Epochs=2 [MALICIOUS]
+2025-12-09 14:33:31,551 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 18: Acc=0.0000, Loss=0.8548, Epochs=2
+2025-12-09 14:33:34,997 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 19: Acc=0.0000, Loss=0.8389, Epochs=2
+2025-12-09 14:33:36,557 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 2 - Round 19: Acc=0.0000, Loss=0.7608, Epochs=2
+2025-12-09 14:33:39,706 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 19: Acc=0.0000, Loss=0.7561, Epochs=2 [MALICIOUS]
+2025-12-09 14:33:43,106 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 19: Acc=0.0000, Loss=0.8275, Epochs=2
+2025-12-09 14:33:45,201 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 19: Acc=0.0000, Loss=1.0852, Epochs=2
+2025-12-09 14:33:47,026 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 19: Acc=0.0000, Loss=0.8406, Epochs=2
+2025-12-09 14:33:49,213 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 19: Acc=0.0000, Loss=0.7455, Epochs=2
+2025-12-09 14:33:53,138 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 19: Acc=0.0000, Loss=0.7673, Epochs=2
+2025-12-09 14:33:56,630 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 5 - Round 20: Acc=0.0000, Loss=0.8492, Epochs=2
+2025-12-09 14:33:59,969 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 4 - Round 20: Acc=0.0000, Loss=0.8248, Epochs=2
+2025-12-09 14:34:01,789 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 3 - Round 20: Acc=0.0000, Loss=0.8230, Epochs=2
+2025-12-09 14:34:04,756 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 0 - Round 20: Acc=0.0000, Loss=0.7203, Epochs=2 [MALICIOUS]
+2025-12-09 14:34:07,467 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 1 - Round 20: Acc=0.0000, Loss=0.6801, Epochs=2 [MALICIOUS]
+2025-12-09 14:34:09,583 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 8 - Round 20: Acc=0.0000, Loss=1.0935, Epochs=2
+2025-12-09 14:34:13,524 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 6 - Round 20: Acc=0.0000, Loss=0.7651, Epochs=2
+2025-12-09 14:34:15,725 - FL_Client_fl_similarity_attack_defense_demo - INFO - Client 7 - Round 20: Acc=0.0000, Loss=0.7334, Epochs=2

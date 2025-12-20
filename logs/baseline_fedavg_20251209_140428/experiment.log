@@ -1,0 +1,192 @@
+2025-12-09 14:04:28,224 - FL_Main_baseline_fedavg - INFO - Experiment Configuration: {
+  "experiment_name": "baseline_fedavg",
+  "random_seed": 42,
+  "dataset": {
+    "type": "cifar10",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "iid",
+    "alpha": 0.5
+  },
+  "model": {
+    "type": "lenet",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 30,
+    "num_clients": 10,
+    "client_participation_rate": 1.0,
+    "learning_rate": 0.01,
+    "local_epochs": 1,
+    "batch_size": 32
+  },
+  "server": {
+    "data_size": 100
+  },
+  "attack": {
+    "type": "none",
+    "num_malicious_clients": 0
+  },
+  "defense": {
+    "type": "none"
+  }
+}
+2025-12-09 14:04:28,224 - FL_Main_baseline_fedavg - INFO - Using device: cpu
+2025-12-09 14:04:45,206 - FL_Main_baseline_fedavg - INFO - Data partitioned among 10 clients
+2025-12-09 14:04:45,212 - FL_Main_baseline_fedavg - INFO - Model initialized: lenet
+2025-12-09 14:04:45,214 - FL_Main_baseline_fedavg - INFO - Server initialized with defense: none
+2025-12-09 14:04:45,220 - FL_Main_baseline_fedavg - INFO - Created 10 clients (0 malicious)
+2025-12-09 14:04:45,220 - FL_Main_baseline_fedavg - INFO - Experiment setup completed
+2025-12-09 14:04:45,221 - FL_Main_baseline_fedavg - INFO - Starting experiment with 30 rounds
+2025-12-09 14:04:45,221 - FL_Main_baseline_fedavg - INFO - === Round 1 Started ===
+2025-12-09 14:04:45,221 - FL_Main_baseline_fedavg - INFO - Participating clients: [1, 0, 4, 9, 6, 5, 8, 2, 3, 7]
+2025-12-09 14:05:01,421 - FL_Main_baseline_fedavg - INFO - === Round 1 Completed ===
+2025-12-09 14:05:01,421 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 29.5200, Global Loss: 1.9577
+2025-12-09 14:05:01,421 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 29.5200, Test Loss: 1.9577
+2025-12-09 14:05:01,422 - FL_Main_baseline_fedavg - INFO - === Round 2 Started ===
+2025-12-09 14:05:01,422 - FL_Main_baseline_fedavg - INFO - Participating clients: [0, 9, 1, 7, 6, 4, 8, 2, 3, 5]
+2025-12-09 14:05:17,823 - FL_Main_baseline_fedavg - INFO - === Round 2 Completed ===
+2025-12-09 14:05:17,824 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 37.4000, Global Loss: 1.7272
+2025-12-09 14:05:17,824 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 37.4000, Test Loss: 1.7272
+2025-12-09 14:05:17,824 - FL_Main_baseline_fedavg - INFO - === Round 3 Started ===
+2025-12-09 14:05:17,825 - FL_Main_baseline_fedavg - INFO - Participating clients: [3, 7, 4, 6, 0, 1, 9, 8, 2, 5]
+2025-12-09 14:05:34,001 - FL_Main_baseline_fedavg - INFO - === Round 3 Completed ===
+2025-12-09 14:05:34,002 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 41.8400, Global Loss: 1.5918
+2025-12-09 14:05:34,002 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 41.8400, Test Loss: 1.5918
+2025-12-09 14:05:34,002 - FL_Main_baseline_fedavg - INFO - === Round 4 Started ===
+2025-12-09 14:05:34,002 - FL_Main_baseline_fedavg - INFO - Participating clients: [3, 5, 1, 0, 9, 6, 2, 7, 8, 4]
+2025-12-09 14:05:50,545 - FL_Main_baseline_fedavg - INFO - === Round 4 Completed ===
+2025-12-09 14:05:50,546 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 44.8200, Global Loss: 1.5461
+2025-12-09 14:05:50,546 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 44.8200, Test Loss: 1.5461
+2025-12-09 14:05:50,547 - FL_Main_baseline_fedavg - INFO - === Round 5 Started ===
+2025-12-09 14:05:50,547 - FL_Main_baseline_fedavg - INFO - Participating clients: [7, 8, 1, 3, 0, 4, 2, 6, 9, 5]
+2025-12-09 14:06:06,685 - FL_Main_baseline_fedavg - INFO - === Round 5 Completed ===
+2025-12-09 14:06:06,686 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 46.9400, Global Loss: 1.4741
+2025-12-09 14:06:06,686 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 46.9400, Test Loss: 1.4741
+2025-12-09 14:06:06,686 - FL_Main_baseline_fedavg - INFO - === Round 6 Started ===
+2025-12-09 14:06:06,686 - FL_Main_baseline_fedavg - INFO - Participating clients: [1, 0, 3, 6, 2, 8, 9, 4, 7, 5]
+2025-12-09 14:06:28,811 - FL_Main_baseline_fedavg - INFO - === Round 6 Completed ===
+2025-12-09 14:06:28,812 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 48.7300, Global Loss: 1.4484
+2025-12-09 14:06:28,814 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 48.7300, Test Loss: 1.4484
+2025-12-09 14:06:28,816 - FL_Main_baseline_fedavg - INFO - === Round 7 Started ===
+2025-12-09 14:06:28,816 - FL_Main_baseline_fedavg - INFO - Participating clients: [7, 5, 2, 9, 6, 1, 8, 3, 0, 4]
+2025-12-09 14:06:46,018 - FL_Main_baseline_fedavg - INFO - === Round 7 Completed ===
+2025-12-09 14:06:46,018 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 49.6800, Global Loss: 1.4077
+2025-12-09 14:06:46,018 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 49.6800, Test Loss: 1.4077
+2025-12-09 14:06:46,019 - FL_Main_baseline_fedavg - INFO - === Round 8 Started ===
+2025-12-09 14:06:46,019 - FL_Main_baseline_fedavg - INFO - Participating clients: [8, 3, 2, 9, 6, 7, 1, 4, 5, 0]
+2025-12-09 14:07:06,812 - FL_Main_baseline_fedavg - INFO - === Round 8 Completed ===
+2025-12-09 14:07:06,813 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 50.4600, Global Loss: 1.3903
+2025-12-09 14:07:06,813 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 50.4600, Test Loss: 1.3903
+2025-12-09 14:07:06,817 - FL_Main_baseline_fedavg - INFO - === Round 9 Started ===
+2025-12-09 14:07:06,817 - FL_Main_baseline_fedavg - INFO - Participating clients: [3, 0, 5, 9, 2, 8, 1, 7, 6, 4]
+2025-12-09 14:07:25,288 - FL_Main_baseline_fedavg - INFO - === Round 9 Completed ===
+2025-12-09 14:07:25,289 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 51.2700, Global Loss: 1.3716
+2025-12-09 14:07:25,289 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 51.2700, Test Loss: 1.3716
+2025-12-09 14:07:25,289 - FL_Main_baseline_fedavg - INFO - === Round 10 Started ===
+2025-12-09 14:07:25,289 - FL_Main_baseline_fedavg - INFO - Participating clients: [7, 6, 9, 1, 2, 8, 4, 5, 3, 0]
+2025-12-09 14:07:41,679 - FL_Main_baseline_fedavg - INFO - === Round 10 Completed ===
+2025-12-09 14:07:41,680 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 52.7300, Global Loss: 1.3486
+2025-12-09 14:07:41,680 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 52.7300, Test Loss: 1.3486
+2025-12-09 14:07:41,680 - FL_Main_baseline_fedavg - INFO - === Round 11 Started ===
+2025-12-09 14:07:41,680 - FL_Main_baseline_fedavg - INFO - Participating clients: [9, 6, 5, 1, 8, 4, 3, 0, 2, 7]
+2025-12-09 14:07:58,395 - FL_Main_baseline_fedavg - INFO - === Round 11 Completed ===
+2025-12-09 14:07:58,395 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 52.9400, Global Loss: 1.3262
+2025-12-09 14:07:58,395 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 52.9400, Test Loss: 1.3262
+2025-12-09 14:07:58,396 - FL_Main_baseline_fedavg - INFO - === Round 12 Started ===
+2025-12-09 14:07:58,396 - FL_Main_baseline_fedavg - INFO - Participating clients: [2, 9, 6, 4, 0, 3, 7, 8, 1, 5]
+2025-12-09 14:08:14,124 - FL_Main_baseline_fedavg - INFO - === Round 12 Completed ===
+2025-12-09 14:08:14,125 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 53.7100, Global Loss: 1.3128
+2025-12-09 14:08:14,125 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 53.7100, Test Loss: 1.3128
+2025-12-09 14:08:14,125 - FL_Main_baseline_fedavg - INFO - === Round 13 Started ===
+2025-12-09 14:08:14,125 - FL_Main_baseline_fedavg - INFO - Participating clients: [8, 0, 1, 5, 4, 2, 6, 9, 7, 3]
+2025-12-09 14:08:29,744 - FL_Main_baseline_fedavg - INFO - === Round 13 Completed ===
+2025-12-09 14:08:29,745 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 54.5600, Global Loss: 1.2788
+2025-12-09 14:08:29,745 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 54.5600, Test Loss: 1.2788
+2025-12-09 14:08:29,745 - FL_Main_baseline_fedavg - INFO - === Round 14 Started ===
+2025-12-09 14:08:29,745 - FL_Main_baseline_fedavg - INFO - Participating clients: [2, 7, 0, 5, 6, 9, 1, 4, 8, 3]
+2025-12-09 14:08:45,353 - FL_Main_baseline_fedavg - INFO - === Round 14 Completed ===
+2025-12-09 14:08:45,354 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 54.6500, Global Loss: 1.2854
+2025-12-09 14:08:45,354 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 54.6500, Test Loss: 1.2854
+2025-12-09 14:08:45,354 - FL_Main_baseline_fedavg - INFO - === Round 15 Started ===
+2025-12-09 14:08:45,354 - FL_Main_baseline_fedavg - INFO - Participating clients: [8, 3, 2, 7, 1, 4, 0, 6, 5, 9]
+2025-12-09 14:09:07,225 - FL_Main_baseline_fedavg - INFO - === Round 15 Completed ===
+2025-12-09 14:09:07,225 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 55.1300, Global Loss: 1.2634
+2025-12-09 14:09:07,225 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 55.1300, Test Loss: 1.2634
+2025-12-09 14:09:07,226 - FL_Main_baseline_fedavg - INFO - === Round 16 Started ===
+2025-12-09 14:09:07,226 - FL_Main_baseline_fedavg - INFO - Participating clients: [0, 1, 5, 6, 2, 8, 9, 3, 7, 4]
+2025-12-09 14:09:23,365 - FL_Main_baseline_fedavg - INFO - === Round 16 Completed ===
+2025-12-09 14:09:23,366 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 56.1900, Global Loss: 1.2511
+2025-12-09 14:09:23,366 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 56.1900, Test Loss: 1.2511
+2025-12-09 14:09:23,366 - FL_Main_baseline_fedavg - INFO - === Round 17 Started ===
+2025-12-09 14:09:23,366 - FL_Main_baseline_fedavg - INFO - Participating clients: [7, 1, 2, 8, 5, 3, 6, 4, 9, 0]
+2025-12-09 14:09:40,708 - FL_Main_baseline_fedavg - INFO - === Round 17 Completed ===
+2025-12-09 14:09:40,709 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 56.3500, Global Loss: 1.2439
+2025-12-09 14:09:40,709 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 56.3500, Test Loss: 1.2439
+2025-12-09 14:09:40,710 - FL_Main_baseline_fedavg - INFO - === Round 18 Started ===
+2025-12-09 14:09:40,710 - FL_Main_baseline_fedavg - INFO - Participating clients: [8, 3, 4, 9, 5, 2, 6, 7, 1, 0]
+2025-12-09 14:09:56,416 - FL_Main_baseline_fedavg - INFO - === Round 18 Completed ===
+2025-12-09 14:09:56,417 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 56.1800, Global Loss: 1.2437
+2025-12-09 14:09:56,417 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 56.1800, Test Loss: 1.2437
+2025-12-09 14:09:56,417 - FL_Main_baseline_fedavg - INFO - === Round 19 Started ===
+2025-12-09 14:09:56,417 - FL_Main_baseline_fedavg - INFO - Participating clients: [3, 9, 1, 2, 0, 4, 7, 6, 5, 8]
+2025-12-09 14:10:12,827 - FL_Main_baseline_fedavg - INFO - === Round 19 Completed ===
+2025-12-09 14:10:12,828 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 57.1800, Global Loss: 1.2126
+2025-12-09 14:10:12,828 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 57.1800, Test Loss: 1.2126
+2025-12-09 14:10:12,828 - FL_Main_baseline_fedavg - INFO - === Round 20 Started ===
+2025-12-09 14:10:12,828 - FL_Main_baseline_fedavg - INFO - Participating clients: [1, 0, 3, 8, 6, 2, 5, 4, 7, 9]
+2025-12-09 14:10:28,832 - FL_Main_baseline_fedavg - INFO - === Round 20 Completed ===
+2025-12-09 14:10:28,833 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 57.9000, Global Loss: 1.2134
+2025-12-09 14:10:28,833 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 57.9000, Test Loss: 1.2134
+2025-12-09 14:10:28,833 - FL_Main_baseline_fedavg - INFO - === Round 21 Started ===
+2025-12-09 14:10:28,833 - FL_Main_baseline_fedavg - INFO - Participating clients: [7, 3, 2, 5, 4, 6, 8, 0, 1, 9]
+2025-12-09 14:10:47,018 - FL_Main_baseline_fedavg - INFO - === Round 21 Completed ===
+2025-12-09 14:10:47,018 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 57.9500, Global Loss: 1.1983
+2025-12-09 14:10:47,019 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 57.9500, Test Loss: 1.1983
+2025-12-09 14:10:47,019 - FL_Main_baseline_fedavg - INFO - === Round 22 Started ===
+2025-12-09 14:10:47,019 - FL_Main_baseline_fedavg - INFO - Participating clients: [3, 1, 8, 5, 9, 2, 6, 7, 4, 0]
+2025-12-09 14:11:02,654 - FL_Main_baseline_fedavg - INFO - === Round 22 Completed ===
+2025-12-09 14:11:02,655 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 58.7700, Global Loss: 1.1842
+2025-12-09 14:11:02,655 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 58.7700, Test Loss: 1.1842
+2025-12-09 14:11:02,655 - FL_Main_baseline_fedavg - INFO - === Round 23 Started ===
+2025-12-09 14:11:02,655 - FL_Main_baseline_fedavg - INFO - Participating clients: [1, 0, 6, 5, 2, 8, 9, 4, 7, 3]
+2025-12-09 14:11:19,491 - FL_Main_baseline_fedavg - INFO - === Round 23 Completed ===
+2025-12-09 14:11:19,492 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 59.1000, Global Loss: 1.1761
+2025-12-09 14:11:19,492 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 59.1000, Test Loss: 1.1761
+2025-12-09 14:11:19,492 - FL_Main_baseline_fedavg - INFO - === Round 24 Started ===
+2025-12-09 14:11:19,492 - FL_Main_baseline_fedavg - INFO - Participating clients: [2, 6, 9, 7, 3, 1, 0, 4, 5, 8]
+2025-12-09 14:11:35,638 - FL_Main_baseline_fedavg - INFO - === Round 24 Completed ===
+2025-12-09 14:11:35,639 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 58.8600, Global Loss: 1.1746
+2025-12-09 14:11:35,639 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 58.8600, Test Loss: 1.1746
+2025-12-09 14:11:35,639 - FL_Main_baseline_fedavg - INFO - === Round 25 Started ===
+2025-12-09 14:11:35,639 - FL_Main_baseline_fedavg - INFO - Participating clients: [8, 0, 1, 6, 7, 5, 3, 4, 2, 9]
+2025-12-09 14:11:51,013 - FL_Main_baseline_fedavg - INFO - === Round 25 Completed ===
+2025-12-09 14:11:51,013 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 59.5100, Global Loss: 1.1604
+2025-12-09 14:11:51,013 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 59.5100, Test Loss: 1.1604
+2025-12-09 14:11:51,014 - FL_Main_baseline_fedavg - INFO - === Round 26 Started ===
+2025-12-09 14:11:51,014 - FL_Main_baseline_fedavg - INFO - Participating clients: [6, 0, 2, 3, 8, 9, 7, 1, 4, 5]
+2025-12-09 14:12:06,554 - FL_Main_baseline_fedavg - INFO - === Round 26 Completed ===
+2025-12-09 14:12:06,555 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 59.7300, Global Loss: 1.1546
+2025-12-09 14:12:06,555 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 59.7300, Test Loss: 1.1546
+2025-12-09 14:12:06,556 - FL_Main_baseline_fedavg - INFO - === Round 27 Started ===
+2025-12-09 14:12:06,556 - FL_Main_baseline_fedavg - INFO - Participating clients: [8, 7, 2, 1, 9, 6, 0, 5, 3, 4]
+2025-12-09 14:12:22,116 - FL_Main_baseline_fedavg - INFO - === Round 27 Completed ===
+2025-12-09 14:12:22,116 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 60.1200, Global Loss: 1.1375
+2025-12-09 14:12:22,116 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 60.1200, Test Loss: 1.1375
+2025-12-09 14:12:22,116 - FL_Main_baseline_fedavg - INFO - === Round 28 Started ===
+2025-12-09 14:12:22,116 - FL_Main_baseline_fedavg - INFO - Participating clients: [0, 9, 7, 4, 6, 1, 8, 2, 3, 5]
+2025-12-09 14:12:37,437 - FL_Main_baseline_fedavg - INFO - === Round 28 Completed ===
+2025-12-09 14:12:37,438 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 60.2400, Global Loss: 1.1443
+2025-12-09 14:12:37,438 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 60.2400, Test Loss: 1.1443
+2025-12-09 14:12:37,439 - FL_Main_baseline_fedavg - INFO - === Round 29 Started ===
+2025-12-09 14:12:37,439 - FL_Main_baseline_fedavg - INFO - Participating clients: [1, 9, 3, 7, 0, 4, 8, 2, 5, 6]
+2025-12-09 14:12:53,107 - FL_Main_baseline_fedavg - INFO - === Round 29 Completed ===
+2025-12-09 14:12:53,108 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 60.3400, Global Loss: 1.1222
+2025-12-09 14:12:53,108 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 60.3400, Test Loss: 1.1222
+2025-12-09 14:12:53,109 - FL_Main_baseline_fedavg - INFO - === Round 30 Started ===
+2025-12-09 14:12:53,109 - FL_Main_baseline_fedavg - INFO - Participating clients: [6, 8, 5, 2, 1, 9, 7, 3, 4, 0]
+2025-12-09 14:13:13,246 - FL_Main_baseline_fedavg - INFO - === Round 30 Completed ===
+2025-12-09 14:13:13,247 - FL_Main_baseline_fedavg - INFO - Global Accuracy: 61.0900, Global Loss: 1.1228
+2025-12-09 14:13:13,247 - FL_Main_baseline_fedavg - INFO - Test Accuracy: 61.0900, Test Loss: 1.1228
+2025-12-09 14:13:13,247 - FL_Main_baseline_fedavg - INFO - Experiment completed
+2025-12-09 14:13:13,253 - FL_Main_baseline_fedavg - INFO - All logs saved to logs/baseline_fedavg_20251209_140428

@@ -1,0 +1,50 @@
+2025-12-20 13:16:02,930 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 1: krum defense applied - Detected malicious: [7, 3, 0, 8]
+2025-12-20 13:16:02,930 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:16:29,651 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 2: krum defense applied - Detected malicious: [7, 8, 0]
+2025-12-20 13:16:29,651 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:16:56,622 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 3: krum defense applied - Detected malicious: [3, 0, 7]
+2025-12-20 13:16:56,622 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:17:24,956 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 4: krum defense applied - Detected malicious: [0, 3]
+2025-12-20 13:17:24,957 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:17:56,584 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 5: krum defense applied - Detected malicious: [3, 8]
+2025-12-20 13:17:56,585 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:18:26,238 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 6: krum defense applied - Detected malicious: [7, 8, 3, 0]
+2025-12-20 13:18:26,238 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:18:54,250 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 7: krum defense applied - Detected malicious: [8, 3, 7]
+2025-12-20 13:18:54,250 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:19:24,513 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 8: krum defense applied - Detected malicious: [8, 7, 3, 0]
+2025-12-20 13:19:24,513 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:19:57,071 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 9: krum defense applied - Detected malicious: [3, 7, 8]
+2025-12-20 13:19:57,071 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:20:27,666 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 10: krum defense applied - Detected malicious: [0, 3, 8, 7]
+2025-12-20 13:20:27,666 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:20:57,284 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 11: krum defense applied - Detected malicious: [3, 8, 0, 7]
+2025-12-20 13:20:57,285 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:21:24,892 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 12: krum defense applied - Detected malicious: [3, 7, 8]
+2025-12-20 13:21:24,892 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:21:53,807 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 13: krum defense applied - Detected malicious: [8, 3]
+2025-12-20 13:21:53,808 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:22:21,485 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 14: krum defense applied - Detected malicious: [3, 7, 0, 8]
+2025-12-20 13:22:21,485 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:22:49,547 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 15: krum defense applied - Detected malicious: [7, 8, 3]
+2025-12-20 13:22:49,547 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:23:15,033 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 16: krum defense applied - Detected malicious: [7, 3]
+2025-12-20 13:23:15,033 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:23:52,936 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 17: krum defense applied - Detected malicious: [3, 7]
+2025-12-20 13:23:52,936 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:24:31,157 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 18: krum defense applied - Detected malicious: [8, 7, 0]
+2025-12-20 13:24:31,157 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:25:18,908 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 19: krum defense applied - Detected malicious: [7, 3, 0]
+2025-12-20 13:25:18,909 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:25:59,882 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 20: krum defense applied - Detected malicious: [3, 0, 8]
+2025-12-20 13:25:59,882 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:26:32,403 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 21: krum defense applied - Detected malicious: [0, 8, 3, 7]
+2025-12-20 13:26:32,403 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:27:00,845 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 22: krum defense applied - Detected malicious: [3, 7, 8]
+2025-12-20 13:27:00,845 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:27:39,535 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 23: krum defense applied - Detected malicious: [7, 8, 0]
+2025-12-20 13:27:39,536 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:28:19,247 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 24: krum defense applied - Detected malicious: [3, 8, 7]
+2025-12-20 13:28:19,248 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}
+2025-12-20 13:28:56,036 - FL_Defense_la_attack_vs_krum_defense - INFO - Round 25: krum defense applied - Detected malicious: [0, 7]
+2025-12-20 13:28:56,036 - FL_Defense_la_attack_vs_krum_defense - INFO - Defense parameters: {'num_malicious': 4, 'multi_krum': False, 'num_selected': 1}

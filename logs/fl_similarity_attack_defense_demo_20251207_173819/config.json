@@ -1,0 +1,47 @@
+{
+  "experiment_name": "fl_similarity_attack_defense_demo",
+  "random_seed": 42,
+  "dataset": {
+    "type": "cifar10",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "non_iid_dirichlet",
+    "alpha": 0.5
+  },
+  "model": {
+    "type": "lenet",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 20,
+    "num_clients": 10,
+    "client_participation_rate": 0.8,
+    "learning_rate": 0.01,
+    "local_epochs": 2,
+    "batch_size": 32
+  },
+  "server": {
+    "data_size": 100
+  },
+  "attack": {
+    "type": "faker",
+    "num_malicious_clients": 2,
+    "params": {
+      "max_iterations": 50,
+      "learning_rate": 0.01,
+      "target_similarity": 0.9,
+      "similarity_type": "cosine",
+      "stealth_factor": 1.0
+    }
+  },
+  "defense": {
+    "type": "fltrust",
+    "params": {
+      "server_epochs": 5,
+      "server_lr": 0.01,
+      "cosine_threshold": 0.0,
+      "use_relu": true,
+      "clip_updates": true
+    }
+  }
+}

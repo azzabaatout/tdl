@@ -1,0 +1,46 @@
+{
+  "experiment_name": "baseline_fedavg",
+  "experiment_config": {
+    "experiment_name": "baseline_fedavg",
+    "random_seed": 42,
+    "dataset": {
+      "type": "cifar10",
+      "data_dir": "./data",
+      "num_classes": 10,
+      "partition_type": "iid",
+      "alpha": 0.5
+    },
+    "model": {
+      "type": "lenet",
+      "num_classes": 10
+    },
+    "federated_learning": {
+      "num_rounds": 30,
+      "num_clients": 10,
+      "client_participation_rate": 1.0,
+      "learning_rate": 0.01,
+      "local_epochs": 1,
+      "batch_size": 32
+    },
+    "server": {
+      "data_size": 100
+    },
+    "attack": {
+      "type": "none",
+      "num_malicious_clients": 0
+    },
+    "defense": {
+      "type": "none"
+    }
+  },
+  "experiment_dir": "logs/baseline_fedavg_20251209_140428",
+  "total_rounds": 30,
+  "total_clients": 10,
+  "total_attack_rounds": 0,
+  "total_defense_rounds": 0,
+  "final_timestamp": "2025-12-09T14:13:13.253209",
+  "final_accuracy": 61.09,
+  "final_loss": 1.1227542061013536,
+  "final_test_accuracy": 61.09,
+  "final_test_loss": 1.1227542061013536
+}

@@ -1,0 +1,52 @@
+2025-12-20 13:10:05,418 - FL_Main_la_attack_vs_krum_defense - INFO - Experiment Configuration: {
+  "experiment_name": "la_attack_vs_krum_defense",
+  "random_seed": 42,
+  "dataset": {
+    "type": "cifar10",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "non_iid_dirichlet",
+    "alpha": 0.3
+  },
+  "model": {
+    "type": "resnet18",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 25,
+    "num_clients": 20,
+    "client_participation_rate": 0.7,
+    "learning_rate": 0.02,
+    "local_epochs": 3,
+    "batch_size": 64
+  },
+  "server": {
+    "data_size": 200
+  },
+  "attack": {
+    "type": "la",
+    "num_malicious_clients": 4,
+    "params": {
+      "max_iterations": 100,
+      "step_size": 0.1,
+      "target_norm_ratio": 15.0
+    }
+  },
+  "defense": {
+    "type": "krum",
+    "params": {
+      "num_malicious": 4,
+      "multi_krum": false,
+      "num_selected": 1
+    }
+  }
+}
+2025-12-20 13:10:05,419 - FL_Main_la_attack_vs_krum_defense - INFO - Using device: cpu
+2025-12-20 13:10:12,933 - FL_Main_la_attack_vs_krum_defense - INFO - Data partitioned among 20 clients
+2025-12-20 13:10:12,983 - FL_Main_la_attack_vs_krum_defense - INFO - Model initialized: resnet18
+2025-12-20 13:10:12,995 - FL_Main_la_attack_vs_krum_defense - INFO - Server initialized with defense: krum
+2025-12-20 13:10:13,236 - FL_Main_la_attack_vs_krum_defense - INFO - Created 20 clients (4 malicious)
+2025-12-20 13:10:13,237 - FL_Main_la_attack_vs_krum_defense - INFO - Experiment setup completed
+2025-12-20 13:10:13,237 - FL_Main_la_attack_vs_krum_defense - INFO - Starting experiment with 25 rounds
+2025-12-20 13:10:13,237 - FL_Main_la_attack_vs_krum_defense - INFO - === Round 1 Started ===
+2025-12-20 13:10:13,237 - FL_Main_la_attack_vs_krum_defense - INFO - Participating clients: [7, 4, 3, 2, 13, 0, 14, 1, 17, 11, 8, 15, 10, 5]

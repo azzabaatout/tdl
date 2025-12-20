@@ -1,0 +1,350 @@
+2025-12-20 13:15:38,413 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 1: Acc=0.0000, Loss=0.9685, Epochs=3 [MALICIOUS]
+2025-12-20 13:15:40,195 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 1: Acc=0.0000, Loss=1.0202, Epochs=3
+2025-12-20 13:15:42,427 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 1: Acc=0.0000, Loss=1.2964, Epochs=3 [MALICIOUS]
+2025-12-20 13:15:44,630 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 1: Acc=0.0000, Loss=1.3093, Epochs=3
+2025-12-20 13:15:46,810 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 1: Acc=0.0000, Loss=0.8498, Epochs=3
+2025-12-20 13:15:48,781 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 1: Acc=0.0000, Loss=1.5748, Epochs=3 [MALICIOUS]
+2025-12-20 13:15:50,819 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 1: Acc=0.0000, Loss=1.1243, Epochs=3
+2025-12-20 13:15:51,429 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 1: Acc=0.0000, Loss=1.5594, Epochs=3
+2025-12-20 13:15:53,008 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 1: Acc=0.0000, Loss=1.3050, Epochs=3
+2025-12-20 13:15:55,074 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 1: Acc=0.0000, Loss=1.1369, Epochs=3
+2025-12-20 13:15:56,828 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 1: Acc=0.0000, Loss=1.7481, Epochs=3 [MALICIOUS]
+2025-12-20 13:15:58,353 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 1: Acc=0.0000, Loss=1.7963, Epochs=3
+2025-12-20 13:16:00,471 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 1: Acc=0.0000, Loss=1.5130, Epochs=3
+2025-12-20 13:16:02,892 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 1: Acc=0.0000, Loss=0.8400, Epochs=3
+2025-12-20 13:16:05,853 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 2: Acc=0.0000, Loss=1.0627, Epochs=3
+2025-12-20 13:16:08,184 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 2: Acc=0.0000, Loss=0.6463, Epochs=3
+2025-12-20 13:16:09,850 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 2: Acc=0.0000, Loss=0.8723, Epochs=3 [MALICIOUS]
+2025-12-20 13:16:11,901 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 2: Acc=0.0000, Loss=0.9409, Epochs=3
+2025-12-20 13:16:13,469 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 2: Acc=0.0000, Loss=1.6122, Epochs=3 [MALICIOUS]
+2025-12-20 13:16:15,795 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 2: Acc=0.0000, Loss=0.7625, Epochs=3
+2025-12-20 13:16:17,600 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 2: Acc=0.0000, Loss=1.6938, Epochs=3
+2025-12-20 13:16:19,584 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 2: Acc=0.0000, Loss=1.4997, Epochs=3 [MALICIOUS]
+2025-12-20 13:16:21,906 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 2: Acc=0.0000, Loss=1.3313, Epochs=3
+2025-12-20 13:16:22,823 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 2: Acc=0.0000, Loss=1.4997, Epochs=3
+2025-12-20 13:16:25,145 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 2: Acc=0.0000, Loss=0.8615, Epochs=3
+2025-12-20 13:16:26,947 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 2: Acc=0.0000, Loss=0.8400, Epochs=3
+2025-12-20 13:16:29,009 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 2: Acc=0.0000, Loss=1.1014, Epochs=3
+2025-12-20 13:16:29,625 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 2: Acc=0.0000, Loss=1.2601, Epochs=3
+2025-12-20 13:16:32,748 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 3: Acc=0.0000, Loss=1.4789, Epochs=3
+2025-12-20 13:16:34,979 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 3: Acc=0.0000, Loss=1.2901, Epochs=3 [MALICIOUS]
+2025-12-20 13:16:37,152 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 3: Acc=0.0000, Loss=1.3390, Epochs=3
+2025-12-20 13:16:39,519 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 3: Acc=0.0000, Loss=0.8276, Epochs=3
+2025-12-20 13:16:41,358 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 3: Acc=0.0000, Loss=1.7540, Epochs=3
+2025-12-20 13:16:43,668 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 3: Acc=0.0000, Loss=0.7895, Epochs=3
+2025-12-20 13:16:45,846 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 3: Acc=0.0000, Loss=0.7757, Epochs=3
+2025-12-20 13:16:47,888 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 3: Acc=0.0000, Loss=1.0804, Epochs=3
+2025-12-20 13:16:49,162 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 3: Acc=0.0000, Loss=1.5539, Epochs=3
+2025-12-20 13:16:50,949 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 3: Acc=0.0000, Loss=0.8826, Epochs=3
+2025-12-20 13:16:52,944 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 3: Acc=0.0000, Loss=1.5726, Epochs=3 [MALICIOUS]
+2025-12-20 13:16:54,609 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 3: Acc=0.0000, Loss=0.9490, Epochs=3 [MALICIOUS]
+2025-12-20 13:16:55,220 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 3: Acc=0.0000, Loss=1.0606, Epochs=3
+2025-12-20 13:16:56,598 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 3: Acc=0.0000, Loss=1.8125, Epochs=3
+2025-12-20 13:16:59,921 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 4: Acc=0.0000, Loss=1.3275, Epochs=3
+2025-12-20 13:17:01,533 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 4: Acc=0.0000, Loss=1.4031, Epochs=3
+2025-12-20 13:17:02,832 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 4: Acc=0.0000, Loss=1.5532, Epochs=3
+2025-12-20 13:17:04,986 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 4: Acc=0.0000, Loss=1.0531, Epochs=3
+2025-12-20 13:17:05,980 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 4: Acc=0.0000, Loss=1.2601, Epochs=3
+2025-12-20 13:17:09,761 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 4: Acc=0.0000, Loss=1.1929, Epochs=3
+2025-12-20 13:17:10,378 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 4: Acc=0.0000, Loss=0.9640, Epochs=3
+2025-12-20 13:17:12,405 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 4: Acc=0.0000, Loss=1.4973, Epochs=3 [MALICIOUS]
+2025-12-20 13:17:14,578 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 4: Acc=0.0000, Loss=1.4639, Epochs=3
+2025-12-20 13:17:16,854 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 4: Acc=0.0000, Loss=1.2509, Epochs=3 [MALICIOUS]
+2025-12-20 13:17:18,706 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 4: Acc=0.0000, Loss=0.8090, Epochs=3
+2025-12-20 13:17:21,074 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 4: Acc=0.0000, Loss=0.7632, Epochs=3
+2025-12-20 13:17:23,372 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 4: Acc=0.0000, Loss=1.0188, Epochs=3
+2025-12-20 13:17:24,933 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 4: Acc=0.0000, Loss=1.8258, Epochs=3
+2025-12-20 13:17:28,666 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 5: Acc=0.0000, Loss=1.2631, Epochs=3 [MALICIOUS]
+2025-12-20 13:17:31,327 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 5: Acc=0.0000, Loss=0.7509, Epochs=3
+2025-12-20 13:17:33,066 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 5: Acc=0.0000, Loss=1.5869, Epochs=3 [MALICIOUS]
+2025-12-20 13:17:35,173 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 5: Acc=0.0000, Loss=0.9712, Epochs=3
+2025-12-20 13:17:37,321 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 5: Acc=0.0000, Loss=1.0185, Epochs=3
+2025-12-20 13:17:39,700 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 5: Acc=0.0000, Loss=1.2629, Epochs=3
+2025-12-20 13:17:42,247 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 5: Acc=0.0000, Loss=0.7426, Epochs=3
+2025-12-20 13:17:44,561 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 5: Acc=0.0000, Loss=0.7295, Epochs=3
+2025-12-20 13:17:46,718 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 5: Acc=0.0000, Loss=1.2615, Epochs=3
+2025-12-20 13:17:48,832 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 5: Acc=0.0000, Loss=1.4235, Epochs=3
+2025-12-20 13:17:50,716 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 5: Acc=0.0000, Loss=0.8205, Epochs=3
+2025-12-20 13:17:51,382 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 5: Acc=0.0000, Loss=0.8829, Epochs=3
+2025-12-20 13:17:55,184 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 5: Acc=0.0000, Loss=1.1520, Epochs=3
+2025-12-20 13:17:56,560 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 5: Acc=0.0000, Loss=1.4823, Epochs=3
+2025-12-20 13:17:59,630 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 6: Acc=0.0000, Loss=0.8614, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:02,155 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 6: Acc=0.0000, Loss=0.7102, Epochs=3
+2025-12-20 13:18:04,473 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 6: Acc=0.0000, Loss=0.9453, Epochs=3
+2025-12-20 13:18:07,042 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 6: Acc=0.0000, Loss=0.7227, Epochs=3
+2025-12-20 13:18:08,810 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 6: Acc=0.0000, Loss=1.6264, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:10,581 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 6: Acc=0.0000, Loss=1.3824, Epochs=3
+2025-12-20 13:18:12,706 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 6: Acc=0.0000, Loss=1.3975, Epochs=3
+2025-12-20 13:18:14,953 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 6: Acc=0.0000, Loss=0.9884, Epochs=3
+2025-12-20 13:18:16,504 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 6: Acc=0.0000, Loss=1.7073, Epochs=3
+2025-12-20 13:18:18,899 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 6: Acc=0.0000, Loss=1.2748, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:20,707 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 6: Acc=0.0000, Loss=1.6910, Epochs=3
+2025-12-20 13:18:22,849 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 6: Acc=0.0000, Loss=1.4793, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:25,285 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 6: Acc=0.0000, Loss=0.7202, Epochs=3
+2025-12-20 13:18:26,210 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 6: Acc=0.0000, Loss=1.2076, Epochs=3
+2025-12-20 13:18:28,091 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 7: Acc=0.0000, Loss=1.3660, Epochs=3
+2025-12-20 13:18:30,314 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 7: Acc=0.0000, Loss=1.5025, Epochs=3
+2025-12-20 13:18:32,784 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 7: Acc=0.0000, Loss=0.8137, Epochs=3
+2025-12-20 13:18:34,541 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 7: Acc=0.0000, Loss=1.6030, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:36,951 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 7: Acc=0.0000, Loss=1.3102, Epochs=3
+2025-12-20 13:18:39,344 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 7: Acc=0.0000, Loss=1.1298, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:40,628 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 7: Acc=0.0000, Loss=1.0865, Epochs=3
+2025-12-20 13:18:42,932 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 7: Acc=0.0000, Loss=1.0785, Epochs=3
+2025-12-20 13:18:45,318 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 7: Acc=0.0000, Loss=0.8424, Epochs=3
+2025-12-20 13:18:47,371 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 7: Acc=0.0000, Loss=0.9321, Epochs=3
+2025-12-20 13:18:49,043 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 7: Acc=0.0000, Loss=0.8747, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:50,040 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 7: Acc=0.0000, Loss=1.5700, Epochs=3
+2025-12-20 13:18:52,229 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 7: Acc=0.0000, Loss=0.6529, Epochs=3
+2025-12-20 13:18:54,226 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 7: Acc=0.0000, Loss=0.9617, Epochs=3
+2025-12-20 13:18:57,040 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 8: Acc=0.0000, Loss=1.7011, Epochs=3 [MALICIOUS]
+2025-12-20 13:18:58,881 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 8: Acc=0.0000, Loss=1.0190, Epochs=3
+2025-12-20 13:19:00,675 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 8: Acc=0.0000, Loss=0.9495, Epochs=3 [MALICIOUS]
+2025-12-20 13:19:02,732 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 8: Acc=0.0000, Loss=0.9880, Epochs=3
+2025-12-20 13:19:05,267 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 8: Acc=0.0000, Loss=0.6871, Epochs=3
+2025-12-20 13:19:07,669 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 8: Acc=0.0000, Loss=0.8843, Epochs=3
+2025-12-20 13:19:08,993 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 8: Acc=0.0000, Loss=0.9485, Epochs=3
+2025-12-20 13:19:09,982 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 8: Acc=0.0000, Loss=1.6440, Epochs=3
+2025-12-20 13:19:12,642 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 8: Acc=0.0000, Loss=0.7608, Epochs=3
+2025-12-20 13:19:15,157 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 8: Acc=0.0000, Loss=1.1808, Epochs=3 [MALICIOUS]
+2025-12-20 13:19:17,343 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 8: Acc=0.0000, Loss=1.2120, Epochs=3
+2025-12-20 13:19:20,854 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 8: Acc=0.0000, Loss=1.3461, Epochs=3
+2025-12-20 13:19:22,438 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 8: Acc=0.0000, Loss=1.0662, Epochs=3
+2025-12-20 13:19:24,487 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 8: Acc=0.0000, Loss=1.5029, Epochs=3 [MALICIOUS]
+2025-12-20 13:19:26,275 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 9: Acc=0.0000, Loss=1.7796, Epochs=3
+2025-12-20 13:19:28,563 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 9: Acc=0.0000, Loss=1.1109, Epochs=3 [MALICIOUS]
+2025-12-20 13:19:31,087 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 9: Acc=0.0000, Loss=0.9684, Epochs=3
+2025-12-20 13:19:33,854 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 9: Acc=0.0000, Loss=0.7409, Epochs=3
+2025-12-20 13:19:36,781 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 9: Acc=0.0000, Loss=0.6314, Epochs=3
+2025-12-20 13:19:38,233 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 9: Acc=0.0000, Loss=0.9166, Epochs=3
+2025-12-20 13:19:40,254 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 9: Acc=0.0000, Loss=0.9645, Epochs=3
+2025-12-20 13:19:41,449 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 9: Acc=0.0000, Loss=1.4729, Epochs=3
+2025-12-20 13:19:45,054 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 9: Acc=0.0000, Loss=0.8457, Epochs=3
+2025-12-20 13:19:48,147 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 9: Acc=0.0000, Loss=0.8628, Epochs=3
+2025-12-20 13:19:50,363 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 9: Acc=0.0000, Loss=0.8552, Epochs=3 [MALICIOUS]
+2025-12-20 13:19:52,619 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 9: Acc=0.0000, Loss=1.6182, Epochs=3 [MALICIOUS]
+2025-12-20 13:19:54,263 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 9: Acc=0.0000, Loss=1.0893, Epochs=3
+2025-12-20 13:19:57,039 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 9: Acc=0.0000, Loss=1.4727, Epochs=3
+2025-12-20 13:20:00,544 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 10: Acc=0.0000, Loss=1.5015, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:02,912 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 10: Acc=0.0000, Loss=1.0838, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:04,562 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 10: Acc=0.0000, Loss=1.3630, Epochs=3
+2025-12-20 13:20:06,494 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 10: Acc=0.0000, Loss=1.6053, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:09,001 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 10: Acc=0.0000, Loss=1.4956, Epochs=3
+2025-12-20 13:20:09,774 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 10: Acc=0.0000, Loss=1.7013, Epochs=3
+2025-12-20 13:20:11,834 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 10: Acc=0.0000, Loss=0.9477, Epochs=3
+2025-12-20 13:20:12,793 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 10: Acc=0.0000, Loss=1.4351, Epochs=3
+2025-12-20 13:20:15,087 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 10: Acc=0.0000, Loss=1.1788, Epochs=3
+2025-12-20 13:20:16,800 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 10: Acc=0.0000, Loss=0.9432, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:18,769 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 10: Acc=0.0000, Loss=0.9748, Epochs=3
+2025-12-20 13:20:21,209 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 10: Acc=0.0000, Loss=0.6579, Epochs=3
+2025-12-20 13:20:24,043 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 10: Acc=0.0000, Loss=1.2421, Epochs=3
+2025-12-20 13:20:27,641 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 10: Acc=0.0000, Loss=1.3064, Epochs=3
+2025-12-20 13:20:31,089 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 11: Acc=0.0000, Loss=1.2004, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:32,381 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 11: Acc=0.0000, Loss=1.2460, Epochs=3
+2025-12-20 13:20:36,270 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 11: Acc=0.0000, Loss=1.2426, Epochs=3
+2025-12-20 13:20:37,278 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 11: Acc=0.0000, Loss=1.1629, Epochs=3
+2025-12-20 13:20:39,103 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 11: Acc=0.0000, Loss=0.9100, Epochs=3
+2025-12-20 13:20:41,421 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 11: Acc=0.0000, Loss=0.7381, Epochs=3
+2025-12-20 13:20:43,744 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 11: Acc=0.0000, Loss=0.9048, Epochs=3
+2025-12-20 13:20:45,906 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 11: Acc=0.0000, Loss=1.2959, Epochs=3
+2025-12-20 13:20:47,486 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 11: Acc=0.0000, Loss=1.5829, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:49,528 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 11: Acc=0.0000, Loss=1.1888, Epochs=3
+2025-12-20 13:20:51,492 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 11: Acc=0.0000, Loss=1.5743, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:53,539 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 11: Acc=0.0000, Loss=0.9279, Epochs=3
+2025-12-20 13:20:55,214 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 11: Acc=0.0000, Loss=0.7660, Epochs=3 [MALICIOUS]
+2025-12-20 13:20:57,254 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 11: Acc=0.0000, Loss=1.6057, Epochs=3
+2025-12-20 13:21:00,719 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 12: Acc=0.0000, Loss=1.2052, Epochs=3 [MALICIOUS]
+2025-12-20 13:21:02,778 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 12: Acc=0.0000, Loss=1.1885, Epochs=3
+2025-12-20 13:21:04,093 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 12: Acc=0.0000, Loss=1.2000, Epochs=3
+2025-12-20 13:21:05,761 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 12: Acc=0.0000, Loss=0.7462, Epochs=3 [MALICIOUS]
+2025-12-20 13:21:06,373 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 12: Acc=0.0000, Loss=1.0910, Epochs=3
+2025-12-20 13:21:08,265 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 12: Acc=0.0000, Loss=1.2015, Epochs=3
+2025-12-20 13:21:09,847 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 12: Acc=0.0000, Loss=1.2079, Epochs=3
+2025-12-20 13:21:11,235 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 12: Acc=0.0000, Loss=1.6422, Epochs=3
+2025-12-20 13:21:13,573 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 12: Acc=0.0000, Loss=0.8138, Epochs=3
+2025-12-20 13:21:17,107 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 12: Acc=0.0000, Loss=1.2451, Epochs=3
+2025-12-20 13:21:18,915 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 12: Acc=0.0000, Loss=1.5266, Epochs=3
+2025-12-20 13:21:20,485 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 12: Acc=0.0000, Loss=1.6020, Epochs=3 [MALICIOUS]
+2025-12-20 13:21:22,667 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 12: Acc=0.0000, Loss=1.2747, Epochs=3
+2025-12-20 13:21:24,868 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 12: Acc=0.0000, Loss=0.6947, Epochs=3
+2025-12-20 13:21:27,373 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 13: Acc=0.0000, Loss=1.4819, Epochs=3
+2025-12-20 13:21:28,958 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 13: Acc=0.0000, Loss=1.2670, Epochs=3
+2025-12-20 13:21:31,284 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 13: Acc=0.0000, Loss=0.8732, Epochs=3
+2025-12-20 13:21:32,862 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 13: Acc=0.0000, Loss=1.5675, Epochs=3 [MALICIOUS]
+2025-12-20 13:21:35,056 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 13: Acc=0.0000, Loss=0.6290, Epochs=3
+2025-12-20 13:21:37,306 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 13: Acc=0.0000, Loss=1.0891, Epochs=3 [MALICIOUS]
+2025-12-20 13:21:40,826 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 13: Acc=0.0000, Loss=1.2508, Epochs=3
+2025-12-20 13:21:43,161 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 13: Acc=0.0000, Loss=0.7503, Epochs=3
+2025-12-20 13:21:45,219 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 13: Acc=0.0000, Loss=1.1448, Epochs=3
+2025-12-20 13:21:47,273 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 13: Acc=0.0000, Loss=0.8650, Epochs=3
+2025-12-20 13:21:49,066 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 13: Acc=0.0000, Loss=0.8549, Epochs=3
+2025-12-20 13:21:49,983 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 13: Acc=0.0000, Loss=1.4676, Epochs=3
+2025-12-20 13:21:51,799 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 13: Acc=0.0000, Loss=1.6421, Epochs=3
+2025-12-20 13:21:53,783 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 13: Acc=0.0000, Loss=1.4686, Epochs=3
+2025-12-20 13:21:58,436 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 14: Acc=0.0000, Loss=1.2094, Epochs=3
+2025-12-20 13:22:00,495 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 14: Acc=0.0000, Loss=0.8541, Epochs=3
+2025-12-20 13:22:02,724 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 14: Acc=0.0000, Loss=1.0914, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:04,414 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 14: Acc=0.0000, Loss=0.8248, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:06,306 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 14: Acc=0.0000, Loss=0.9398, Epochs=3
+2025-12-20 13:22:06,918 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 14: Acc=0.0000, Loss=1.3040, Epochs=3
+2025-12-20 13:22:09,258 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 14: Acc=0.0000, Loss=0.9621, Epochs=3
+2025-12-20 13:22:11,243 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 14: Acc=0.0000, Loss=1.4369, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:12,517 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 14: Acc=0.0000, Loss=0.9800, Epochs=3
+2025-12-20 13:22:14,091 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 14: Acc=0.0000, Loss=1.5396, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:15,678 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 14: Acc=0.0000, Loss=1.0358, Epochs=3
+2025-12-20 13:22:17,740 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 14: Acc=0.0000, Loss=1.0889, Epochs=3
+2025-12-20 13:22:20,073 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 14: Acc=0.0000, Loss=0.7374, Epochs=3
+2025-12-20 13:22:21,461 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 14: Acc=0.0000, Loss=1.4309, Epochs=3
+2025-12-20 13:22:23,185 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 15: Acc=0.0000, Loss=1.2915, Epochs=3
+2025-12-20 13:22:24,856 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 15: Acc=0.0000, Loss=0.7875, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:27,053 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 15: Acc=0.0000, Loss=1.2623, Epochs=3
+2025-12-20 13:22:28,949 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 15: Acc=0.0000, Loss=0.9120, Epochs=3
+2025-12-20 13:22:30,951 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 15: Acc=0.0000, Loss=1.4679, Epochs=3
+2025-12-20 13:22:34,470 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 15: Acc=0.0000, Loss=1.2388, Epochs=3
+2025-12-20 13:22:36,042 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 15: Acc=0.0000, Loss=1.5334, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:38,284 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 15: Acc=0.0000, Loss=1.0776, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:40,074 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 15: Acc=0.0000, Loss=0.8057, Epochs=3
+2025-12-20 13:22:41,461 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 15: Acc=0.0000, Loss=1.3632, Epochs=3
+2025-12-20 13:22:43,274 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 15: Acc=0.0000, Loss=1.5937, Epochs=3
+2025-12-20 13:22:45,606 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 15: Acc=0.0000, Loss=0.6882, Epochs=3
+2025-12-20 13:22:47,190 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 15: Acc=0.0000, Loss=0.9771, Epochs=3
+2025-12-20 13:22:49,523 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 15: Acc=0.0000, Loss=0.8770, Epochs=3
+2025-12-20 13:22:52,442 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 16: Acc=0.0000, Loss=1.5771, Epochs=3
+2025-12-20 13:22:54,343 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 16: Acc=0.0000, Loss=0.8865, Epochs=3
+2025-12-20 13:22:55,730 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 16: Acc=0.0000, Loss=1.3576, Epochs=3
+2025-12-20 13:22:57,396 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 16: Acc=0.0000, Loss=0.9004, Epochs=3 [MALICIOUS]
+2025-12-20 13:22:58,985 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 16: Acc=0.0000, Loss=0.9448, Epochs=3
+2025-12-20 13:23:01,316 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 16: Acc=0.0000, Loss=0.6908, Epochs=3
+2025-12-20 13:23:02,233 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 16: Acc=0.0000, Loss=1.3715, Epochs=3
+2025-12-20 13:23:04,491 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 16: Acc=0.0000, Loss=1.0481, Epochs=3 [MALICIOUS]
+2025-12-20 13:23:05,104 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 16: Acc=0.0000, Loss=1.2300, Epochs=3
+2025-12-20 13:23:07,163 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 16: Acc=0.0000, Loss=1.1003, Epochs=3
+2025-12-20 13:23:09,356 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 16: Acc=0.0000, Loss=0.6383, Epochs=3
+2025-12-20 13:23:11,679 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 16: Acc=0.0000, Loss=0.9896, Epochs=3
+2025-12-20 13:23:12,951 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 16: Acc=0.0000, Loss=0.9068, Epochs=3
+2025-12-20 13:23:15,009 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 16: Acc=0.0000, Loss=0.8609, Epochs=3
+2025-12-20 13:23:18,185 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 17: Acc=0.0000, Loss=0.8530, Epochs=3
+2025-12-20 13:23:18,827 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 17: Acc=0.0000, Loss=1.1720, Epochs=3
+2025-12-20 13:23:21,921 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 17: Acc=0.0000, Loss=1.0323, Epochs=3 [MALICIOUS]
+2025-12-20 13:23:23,770 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 17: Acc=0.0000, Loss=1.5538, Epochs=3
+2025-12-20 13:23:26,356 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 17: Acc=0.0000, Loss=0.7043, Epochs=3
+2025-12-20 13:23:30,831 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 17: Acc=0.0000, Loss=1.0833, Epochs=3
+2025-12-20 13:23:36,128 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 17: Acc=0.0000, Loss=0.8761, Epochs=3
+2025-12-20 13:23:38,114 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 17: Acc=0.0000, Loss=1.3043, Epochs=3
+2025-12-20 13:23:41,958 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 17: Acc=0.0000, Loss=1.1964, Epochs=3
+2025-12-20 13:23:43,630 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 17: Acc=0.0000, Loss=1.1127, Epochs=3
+2025-12-20 13:23:45,755 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 17: Acc=0.0000, Loss=1.4449, Epochs=3
+2025-12-20 13:23:47,292 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 17: Acc=0.0000, Loss=0.9198, Epochs=3
+2025-12-20 13:23:50,855 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 17: Acc=0.0000, Loss=0.8165, Epochs=3 [MALICIOUS]
+2025-12-20 13:23:52,912 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 17: Acc=0.0000, Loss=0.8567, Epochs=3
+2025-12-20 13:23:58,022 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 18: Acc=0.0000, Loss=0.6268, Epochs=3
+2025-12-20 13:24:00,458 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 18: Acc=0.0000, Loss=0.8682, Epochs=3
+2025-12-20 13:24:02,419 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 18: Acc=0.0000, Loss=1.5272, Epochs=3 [MALICIOUS]
+2025-12-20 13:24:04,668 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 18: Acc=0.0000, Loss=0.8786, Epochs=3
+2025-12-20 13:24:06,452 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 18: Acc=0.0000, Loss=0.8308, Epochs=3 [MALICIOUS]
+2025-12-20 13:24:10,734 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 18: Acc=0.0000, Loss=0.8318, Epochs=3
+2025-12-20 13:24:11,549 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 18: Acc=0.0000, Loss=1.1919, Epochs=3
+2025-12-20 13:24:13,736 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 18: Acc=0.0000, Loss=1.2975, Epochs=3
+2025-12-20 13:24:16,927 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 18: Acc=0.0000, Loss=0.9511, Epochs=3
+2025-12-20 13:24:22,017 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 18: Acc=0.0000, Loss=1.1666, Epochs=3
+2025-12-20 13:24:24,241 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 18: Acc=0.0000, Loss=1.3902, Epochs=3 [MALICIOUS]
+2025-12-20 13:24:26,421 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 18: Acc=0.0000, Loss=1.0703, Epochs=3
+2025-12-20 13:24:27,747 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 18: Acc=0.0000, Loss=0.9040, Epochs=3
+2025-12-20 13:24:31,131 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 18: Acc=0.0000, Loss=0.7022, Epochs=3
+2025-12-20 13:24:37,516 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 19: Acc=0.0000, Loss=0.7972, Epochs=3 [MALICIOUS]
+2025-12-20 13:24:40,812 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 19: Acc=0.0000, Loss=0.8151, Epochs=3
+2025-12-20 13:24:43,843 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 19: Acc=0.0000, Loss=0.6246, Epochs=3
+2025-12-20 13:24:46,450 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 19: Acc=0.0000, Loss=1.2577, Epochs=3
+2025-12-20 13:24:53,176 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 19: Acc=0.0000, Loss=1.1594, Epochs=3
+2025-12-20 13:24:55,990 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 19: Acc=0.0000, Loss=0.9964, Epochs=3 [MALICIOUS]
+2025-12-20 13:24:59,966 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 19: Acc=0.0000, Loss=0.9412, Epochs=3
+2025-12-20 13:25:01,193 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 19: Acc=0.0000, Loss=1.4166, Epochs=3
+2025-12-20 13:25:04,612 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 19: Acc=0.0000, Loss=1.3938, Epochs=3 [MALICIOUS]
+2025-12-20 13:25:06,884 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 19: Acc=0.0000, Loss=1.1944, Epochs=3
+2025-12-20 13:25:11,707 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 19: Acc=0.0000, Loss=0.6810, Epochs=3
+2025-12-20 13:25:13,890 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 19: Acc=0.0000, Loss=1.0248, Epochs=3
+2025-12-20 13:25:16,561 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 19: Acc=0.0000, Loss=0.8669, Epochs=3
+2025-12-20 13:25:18,883 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 19: Acc=0.0000, Loss=1.4244, Epochs=3
+2025-12-20 13:25:22,890 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 20: Acc=0.0000, Loss=0.8284, Epochs=3
+2025-12-20 13:25:24,565 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 20: Acc=0.0000, Loss=0.8112, Epochs=3
+2025-12-20 13:25:28,583 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 20: Acc=0.0000, Loss=0.6226, Epochs=3
+2025-12-20 13:25:30,101 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 20: Acc=0.0000, Loss=1.3335, Epochs=3
+2025-12-20 13:25:31,987 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 20: Acc=0.0000, Loss=0.9038, Epochs=3
+2025-12-20 13:25:34,404 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 20: Acc=0.0000, Loss=1.0223, Epochs=3 [MALICIOUS]
+2025-12-20 13:25:39,159 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 20: Acc=0.0000, Loss=1.1937, Epochs=3
+2025-12-20 13:25:41,729 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 20: Acc=0.0000, Loss=0.8815, Epochs=3
+2025-12-20 13:25:44,393 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 20: Acc=0.0000, Loss=1.4348, Epochs=3 [MALICIOUS]
+2025-12-20 13:25:48,357 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 20: Acc=0.0000, Loss=1.5731, Epochs=3
+2025-12-20 13:25:50,007 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 20: Acc=0.0000, Loss=1.5321, Epochs=3 [MALICIOUS]
+2025-12-20 13:25:52,171 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 20: Acc=0.0000, Loss=1.1561, Epochs=3
+2025-12-20 13:25:55,096 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 20: Acc=0.0000, Loss=0.8427, Epochs=3
+2025-12-20 13:25:59,836 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 20: Acc=0.0000, Loss=1.4219, Epochs=3
+2025-12-20 13:26:03,076 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 21: Acc=0.0000, Loss=1.1817, Epochs=3
+2025-12-20 13:26:05,070 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 21: Acc=0.0000, Loss=1.5489, Epochs=3
+2025-12-20 13:26:06,528 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 21: Acc=0.0000, Loss=1.2831, Epochs=3
+2025-12-20 13:26:10,245 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 21: Acc=0.0000, Loss=1.1659, Epochs=3
+2025-12-20 13:26:12,747 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 21: Acc=0.0000, Loss=0.8510, Epochs=3
+2025-12-20 13:26:14,924 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 21: Acc=0.0000, Loss=1.4117, Epochs=3 [MALICIOUS]
+2025-12-20 13:26:16,695 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 21: Acc=0.0000, Loss=1.5102, Epochs=3 [MALICIOUS]
+2025-12-20 13:26:19,798 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 21: Acc=0.0000, Loss=0.7911, Epochs=3
+2025-12-20 13:26:22,111 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 21: Acc=0.0000, Loss=1.2303, Epochs=3
+2025-12-20 13:26:24,549 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 21: Acc=0.0000, Loss=0.6641, Epochs=3
+2025-12-20 13:26:25,911 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 21: Acc=0.0000, Loss=0.9062, Epochs=3
+2025-12-20 13:26:28,097 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 21: Acc=0.0000, Loss=1.4311, Epochs=3
+2025-12-20 13:26:30,616 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 21: Acc=0.0000, Loss=0.9954, Epochs=3 [MALICIOUS]
+2025-12-20 13:26:32,379 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 21: Acc=0.0000, Loss=0.8114, Epochs=3 [MALICIOUS]
+2025-12-20 13:26:35,861 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 22: Acc=0.0000, Loss=0.9555, Epochs=3 [MALICIOUS]
+2025-12-20 13:26:37,738 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 22: Acc=0.0000, Loss=1.5431, Epochs=3
+2025-12-20 13:26:39,493 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 22: Acc=0.0000, Loss=0.7816, Epochs=3 [MALICIOUS]
+2025-12-20 13:26:40,136 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 22: Acc=0.0000, Loss=1.1045, Epochs=3
+2025-12-20 13:26:42,382 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 22: Acc=0.0000, Loss=1.2032, Epochs=3
+2025-12-20 13:26:43,339 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 22: Acc=0.0000, Loss=1.3498, Epochs=3
+2025-12-20 13:26:45,505 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 22: Acc=0.0000, Loss=1.4087, Epochs=3
+2025-12-20 13:26:46,779 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 22: Acc=0.0000, Loss=0.8889, Epochs=3
+2025-12-20 13:26:49,244 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 22: Acc=0.0000, Loss=0.7032, Epochs=3
+2025-12-20 13:26:50,904 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 22: Acc=0.0000, Loss=1.5006, Epochs=3 [MALICIOUS]
+2025-12-20 13:26:53,550 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 22: Acc=0.0000, Loss=0.8935, Epochs=3
+2025-12-20 13:26:56,615 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 22: Acc=0.0000, Loss=0.7398, Epochs=3
+2025-12-20 13:26:58,639 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 22: Acc=0.0000, Loss=0.8054, Epochs=3
+2025-12-20 13:27:00,819 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 22: Acc=0.0000, Loss=1.0215, Epochs=3
+2025-12-20 13:27:04,607 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 23: Acc=0.0000, Loss=1.4413, Epochs=3
+2025-12-20 13:27:06,642 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 23: Acc=0.0000, Loss=0.7791, Epochs=3 [MALICIOUS]
+2025-12-20 13:27:08,256 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 23: Acc=0.0000, Loss=1.5084, Epochs=3 [MALICIOUS]
+2025-12-20 13:27:12,374 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 23: Acc=0.0000, Loss=0.7007, Epochs=3
+2025-12-20 13:27:15,022 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 23: Acc=0.0000, Loss=0.7682, Epochs=3
+2025-12-20 13:27:18,424 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 23: Acc=0.0000, Loss=1.0836, Epochs=3
+2025-12-20 13:27:21,194 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 23: Acc=0.0000, Loss=0.9138, Epochs=3
+2025-12-20 13:27:23,198 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 23: Acc=0.0000, Loss=1.6216, Epochs=3
+2025-12-20 13:27:26,356 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 23: Acc=0.0000, Loss=1.5729, Epochs=3
+2025-12-20 13:27:28,822 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 23: Acc=0.0000, Loss=0.8364, Epochs=3
+2025-12-20 13:27:29,843 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 23: Acc=0.0000, Loss=0.8966, Epochs=3
+2025-12-20 13:27:32,231 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 23: Acc=0.0000, Loss=1.4340, Epochs=3 [MALICIOUS]
+2025-12-20 13:27:34,407 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 23: Acc=0.0000, Loss=1.0795, Epochs=3
+2025-12-20 13:27:39,510 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 23: Acc=0.0000, Loss=1.1441, Epochs=3
+2025-12-20 13:27:43,159 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 24: Acc=0.0000, Loss=1.6354, Epochs=3
+2025-12-20 13:27:48,106 - FL_Client_la_attack_vs_krum_defense - INFO - Client 3 - Round 24: Acc=0.0000, Loss=1.1450, Epochs=3 [MALICIOUS]
+2025-12-20 13:27:51,721 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 24: Acc=0.0000, Loss=1.2817, Epochs=3
+2025-12-20 13:27:52,716 - FL_Client_la_attack_vs_krum_defense - INFO - Client 6 - Round 24: Acc=0.0000, Loss=1.2515, Epochs=3
+2025-12-20 13:27:55,404 - FL_Client_la_attack_vs_krum_defense - INFO - Client 8 - Round 24: Acc=0.0000, Loss=1.5192, Epochs=3 [MALICIOUS]
+2025-12-20 13:27:57,962 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 24: Acc=0.0000, Loss=1.2599, Epochs=3
+2025-12-20 13:28:01,719 - FL_Client_la_attack_vs_krum_defense - INFO - Client 5 - Round 24: Acc=0.0000, Loss=0.8651, Epochs=3
+2025-12-20 13:28:02,391 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 24: Acc=0.0000, Loss=0.9086, Epochs=3
+2025-12-20 13:28:04,782 - FL_Client_la_attack_vs_krum_defense - INFO - Client 19 - Round 24: Acc=0.0000, Loss=1.1661, Epochs=3
+2025-12-20 13:28:08,126 - FL_Client_la_attack_vs_krum_defense - INFO - Client 13 - Round 24: Acc=0.0000, Loss=0.6628, Epochs=3
+2025-12-20 13:28:10,066 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 24: Acc=0.0000, Loss=0.7585, Epochs=3
+2025-12-20 13:28:13,546 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 24: Acc=0.0000, Loss=0.8959, Epochs=3
+2025-12-20 13:28:15,475 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 24: Acc=0.0000, Loss=0.7976, Epochs=3 [MALICIOUS]
+2025-12-20 13:28:19,207 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 24: Acc=0.0000, Loss=1.1419, Epochs=3
+2025-12-20 13:28:24,255 - FL_Client_la_attack_vs_krum_defense - INFO - Client 17 - Round 25: Acc=0.0000, Loss=1.2344, Epochs=3
+2025-12-20 13:28:28,149 - FL_Client_la_attack_vs_krum_defense - INFO - Client 9 - Round 25: Acc=0.0000, Loss=1.4656, Epochs=3
+2025-12-20 13:28:31,807 - FL_Client_la_attack_vs_krum_defense - INFO - Client 16 - Round 25: Acc=0.0000, Loss=1.1460, Epochs=3
+2025-12-20 13:28:34,805 - FL_Client_la_attack_vs_krum_defense - INFO - Client 0 - Round 25: Acc=0.0000, Loss=1.4968, Epochs=3 [MALICIOUS]
+2025-12-20 13:28:36,738 - FL_Client_la_attack_vs_krum_defense - INFO - Client 18 - Round 25: Acc=0.0000, Loss=1.7884, Epochs=3
+2025-12-20 13:28:39,079 - FL_Client_la_attack_vs_krum_defense - INFO - Client 14 - Round 25: Acc=0.0000, Loss=0.9445, Epochs=3
+2025-12-20 13:28:41,443 - FL_Client_la_attack_vs_krum_defense - INFO - Client 10 - Round 25: Acc=0.0000, Loss=1.4417, Epochs=3
+2025-12-20 13:28:42,112 - FL_Client_la_attack_vs_krum_defense - INFO - Client 1 - Round 25: Acc=0.0000, Loss=0.9069, Epochs=3
+2025-12-20 13:28:44,536 - FL_Client_la_attack_vs_krum_defense - INFO - Client 2 - Round 25: Acc=0.0000, Loss=1.3446, Epochs=3
+2025-12-20 13:28:47,397 - FL_Client_la_attack_vs_krum_defense - INFO - Client 4 - Round 25: Acc=0.0000, Loss=0.7570, Epochs=3
+2025-12-20 13:28:49,819 - FL_Client_la_attack_vs_krum_defense - INFO - Client 12 - Round 25: Acc=0.0000, Loss=0.7030, Epochs=3
+2025-12-20 13:28:51,237 - FL_Client_la_attack_vs_krum_defense - INFO - Client 15 - Round 25: Acc=0.0000, Loss=1.6421, Epochs=3
+2025-12-20 13:28:54,149 - FL_Client_la_attack_vs_krum_defense - INFO - Client 11 - Round 25: Acc=0.0000, Loss=1.1044, Epochs=3
+2025-12-20 13:28:56,010 - FL_Client_la_attack_vs_krum_defense - INFO - Client 7 - Round 25: Acc=0.0000, Loss=0.8923, Epochs=3 [MALICIOUS]
