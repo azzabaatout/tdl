@@ -1,0 +1,29 @@
+# Krum - No Attack
+experiment_name: "krum_none"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "iid"
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100
+  client_participation_rate: 0.2
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  data_size: 100
+attack:
+  type: "none"
+  num_malicious_clients: 0
+defense:
+  type: "krum"
+  params:
+    num_malicious: 5
+    multi_krum: true
+    num_selected: 10

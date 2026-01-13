@@ -1,0 +1,35 @@
+# SPP (replacing FLAME) - LA Attack
+experiment_name: "spp_la"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "iid"
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100
+  client_participation_rate: 0.2
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  data_size: 500
+attack:
+  type: "la"
+  num_malicious_clients: 20
+  params:
+    max_iterations: 100
+    step_size: 0.1
+    target_norm_ratio: 15.0
+defense:
+  type: "spp"
+  params:
+    selection_ratio: 0.5
+    cosine_threshold: 0.0
+    use_relu: true
+    server_epochs: 5
+    server_lr: 0.01
