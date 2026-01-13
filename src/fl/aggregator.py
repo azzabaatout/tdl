@@ -1,7 +1,8 @@
 import torch
 import copy
 from collections import OrderedDict
-from ..utils.model_utils import model_average, flatten_model
+
+from src.models.model_utils import flatten_model
 
 
 class Aggregator:
