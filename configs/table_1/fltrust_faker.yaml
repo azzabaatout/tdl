@@ -12,7 +12,7 @@ model:
 federated_learning:
   num_rounds: 30
   num_clients: 100
-  client_participation_rate: 0.2
+  client_participation_rate: 0.1
   learning_rate: 0.01
   local_epochs: 2
   batch_size: 32
