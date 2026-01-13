@@ -12,7 +12,6 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
 # Import FL components
-from src.data.cifar import CIFARDataset
 from src.data.partition import DataPartitioner
 from src.models.lenet import LeNet
 from src.models.alexnet_small import AlexNetSmall
