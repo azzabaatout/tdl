@@ -1,5 +1,4 @@
 import torch
-import copy
 from collections import OrderedDict
 
 

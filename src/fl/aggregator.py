@@ -1,5 +1,4 @@
 import torch
-import copy
 from collections import OrderedDict
 
 from src.models.model_utils import flatten_model
@@ -44,17 +43,19 @@ class DefensiveAggregator(Aggregator):
         super().__init__()
         self.defense_method = defense_method
         self.defense_params = defense_params
-    
-    def aggregate(self, client_models, client_weights=None, server_model=None):
-        """Aggregate with defensive mechanisms"""
+
+    def aggregate(self, client_models, client_weights=None, server_model=None, client_ids=None, current_round=None):
+        """Aggregate with defensive mechanisms."""
         if self.defense_method == 'none':
             return self._federated_averaging(client_models, client_weights)
         elif self.defense_method == 'krum':
-            return self._krum_aggregation(client_models)
+            return self._krum_aggregation(client_models, client_ids)
         elif self.defense_method == 'norm_clipping':
-            return self._norm_clipping_aggregation(client_models, client_weights)
+            return self._norm_clipping_aggregation(client_models, client_weights, client_ids)
         elif self.defense_method == 'fltrust':
-            return self._fltrust_aggregation(client_models, server_model)
+            return self._fltrust_aggregation(client_models, server_model, client_ids)
+        elif self.defense_method in ['spp', 'adaptive_spp']:
+            return self._spp_aggregation(client_models, server_model, client_ids, current_round)
         else:
             raise ValueError(f"Unknown defense method: {self.defense_method}")
     

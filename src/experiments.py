@@ -24,7 +24,7 @@ from src.attacks.mb import ManipulateByzantineAttack, AdaptiveMBAttack
 from src.attacks.faker import FakerAttack, AdaptiveFakerAttack
 from src.defenses.fltrust import FLTrust, EnhancedFLTrust
 from src.defenses.krum import Krum, TrimmedMean, AdaptiveKrum
-from src.defenses.norm_clipping import NormClipping, GradientClipping, HybridNormDefense
+from src.defenses.norm_clipping import NormClipping, GradientClipping
 from src.utils.metrics import FLMetrics
 from src.utils.logging import FLLogger
 

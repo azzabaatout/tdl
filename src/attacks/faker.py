@@ -7,7 +7,6 @@ from .base_attack import ModelPoisoningAttack
 class FakerAttack(ModelPoisoningAttack):
     """
     Faker Attack: Sophisticated attack that exploits vulnerabilities in similarity metrics.
-    Based on the paper "Can We Trust the Similarity Measurement in Federated Learning".
     """
     
     def __init__(self, attack_params=None):
