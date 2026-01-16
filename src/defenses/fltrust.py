@@ -20,41 +20,41 @@ class FLTrust(SimilarityBasedDefense):
         self.clip_updates = defense_params.get('clip_updates', True)
 
     def defend(self, client_models, server_data=None, global_model=None, server_model=None, **kwargs):
-        """
-        Apply FLTrust defense mechanism.
+        """Apply FLTrust defense mechanism."""
 
-        Args:
-            client_models: List of client models
-            server_data: Clean dataset on server (optional if server_model provided)
-            global_model: Current global model (optional if server_model provided)
-            server_model: Pre-trained server reference model (optional)
+        # CRITICAL: we need the global_model to compute updates!
+        if global_model is None:
+            raise ValueError("FLTrust requires global_model to compute updates!")
 
-        Returns:
-            dict: Defense results with filtered models and weights
-        """
         # step 1: Get or train server model
         if server_model is not None:
-            # use provided server model as reference
             reference_model = server_model
-        elif server_data is not None and global_model is not None:
-            # train server model on clean data
+        elif server_data is not None:
             reference_model = self._train_server_model(global_model, server_data)
         else:
-            # if no server data or model available, fall back to simple averaging
-            return {
-                'filtered_models': client_models,
-                'weights': [1.0 / len(client_models)] * len(client_models),
-                'rejected_count': 0,
-                'defense_applied': False
-            }
+            return self._fallback_aggregation(client_models)
 
-        # step 2: eval client models using server model
-        model_scores = self._evaluate_client_models(client_models, reference_model)
+        # step 2: comp updates
+        server_update = self._compute_update(reference_model, global_model)
+        client_updates = [self._compute_update(client, global_model)
+                          for client in client_models]
 
-        # step 3: filzer and weight client models
-        filtered_results = self._filter_and_weight_models(client_models, model_scores)
+        # step 3: eval client UPDATES using server UPDATE
+        model_scores = self._evaluate_client_updates(client_updates, server_update)
+
+        # step 4: filter and weight (pass original models for aggregation)
+        filtered_results = self._filter_and_weight_models(
+            client_updates, model_scores)
 
         return filtered_results
+
+    def _compute_update(self, model, base_model):
+
+        model_flat = self._flatten_model(model)
+        base_flat = self._flatten_model(base_model)
+
+        update = model_flat - base_flat
+        return update
 
     def _train_server_model(self, global_model, server_data):
         """Train a clean model on server data."""
@@ -79,44 +79,27 @@ class FLTrust(SimilarityBasedDefense):
 
         return server_model
 
-    def _evaluate_client_models(self, client_models, server_model):
-        """Evaluate client models against server model using cosine similarity and L2 norm."""
-        server_flat = self._flatten_model(server_model)
+    def _evaluate_client_updates(self, client_updates, server_update):
         model_scores = []
 
-        for i, client_model in enumerate(client_models):
-            client_flat = self._flatten_model(client_model)
-            
-            cosine_sim = self._calculate_cosine_similarity(client_flat, server_flat)
-            
-            # aplly relu to filter out opposite directions
-            if self.use_relu:
-                cosine_score = max(0.0, cosine_sim)
-            else:
-                cosine_score = cosine_sim
-            
-            # calc L2 norm ratio for magnitude analysis
-            client_norm = torch.norm(client_flat, p=2)
-            server_norm = torch.norm(server_flat, p=2)
+        for i, client_update in enumerate(client_updates):
+            cosine_sim = self._calculate_cosine_similarity(client_update, server_update)
+            cosine_score = max(0.0, cosine_sim)  # relu
 
-            if server_norm != 0:
-                norm_ratio = client_norm / server_norm
-            else:
-                norm_ratio = float('inf')
-
-            # combine cosine similarity and norm analysis
-            # fltrust uses cosine similarity as primary filter
-            final_score = cosine_score
+            client_norm = torch.norm(client_update, p=2).item()
+            server_norm = torch.norm(server_update, p=2).item()
 
             model_scores.append({
                 'model_idx': i,
                 'cosine_similarity': cosine_sim,
                 'cosine_score': cosine_score,
-                'norm_ratio': norm_ratio.item(),
-                'final_score': final_score
+                'client_norm': client_norm,
+                'server_norm': server_norm,
+                'final_score': cosine_score  # weight by cosine similarity only
             })
 
         return model_scores
+
 
     def _calculate_cosine_similarity(self, vec1, vec2):
         """Calculate cosine similarity between two vectors."""
@@ -129,11 +112,11 @@ class FLTrust(SimilarityBasedDefense):
 
         return (dot_product / (norm1 * norm2)).item()
 
-    def _filter_and_weight_models(self, client_models, model_scores):
+    def _filter_and_weight_models(self, client_updates, model_scores, original_models=None):
         """Filter malicious models and compute weights for remaining models."""
         if len(model_scores) <= 2:
-            # if not enough models for statistical analysis, use basic filtering
-            return self._basic_filter(client_models, model_scores)
+            # not enough models for statistical analysis, use basic filtering
+            return self._basic_filter(client_updates, model_scores, original_models)
 
         # enhanced filtering with multiple criteria
         valid_models = []
@@ -181,17 +164,23 @@ class FLTrust(SimilarityBasedDefense):
                 is_valid = False
 
             if is_valid:
-                valid_models.append(client_models[score_info['model_idx']])
+                # return original models (not updates) for aggregation
+                if original_models is not None:
+                    valid_models.append(original_models[score_info['model_idx']])
+                else:
+                    valid_models.append(client_updates[score_info['model_idx']])
                 valid_scores.append(score_info)
             else:
                 rejected_count += 1
 
         if not valid_models:
-            # if all models rejected, use the top-scoring models
             sorted_scores = sorted(model_scores, key=lambda x: x['cosine_score'], reverse=True)
             top_half = sorted_scores[:max(1, len(sorted_scores)//2)]
 
-            valid_models = [client_models[score['model_idx']] for score in top_half]
+            if original_models is not None:
+                valid_models = [original_models[score['model_idx']] for score in top_half]
+            else:
+                valid_models = [client_updates[score['model_idx']] for score in top_half]
             valid_scores = top_half
             rejected_count = len(model_scores) - len(valid_models)
 
@@ -216,7 +205,7 @@ class FLTrust(SimilarityBasedDefense):
             'dynamic_threshold': dynamic_cosine_threshold
         }
 
-    def _basic_filter(self, client_models, model_scores):
+    def _basic_filter(self, client_updates, model_scores, original_models=None):
         """Basic filtering for small numbers of models."""
         valid_models = []
         valid_scores = []
@@ -224,16 +213,20 @@ class FLTrust(SimilarityBasedDefense):
 
         for score_info in model_scores:
             if score_info['cosine_score'] >= self.cosine_threshold:
-                valid_models.append(client_models[score_info['model_idx']])
+                if original_models is not None:
+                    valid_models.append(original_models[score_info['model_idx']])
+                else:
+                    valid_models.append(client_updates[score_info['model_idx']])
                 valid_scores.append(score_info)
             else:
                 rejected_count += 1
 
         if not valid_models:
-            # if all models rejected, use all with equal weights
+            # if all models rejected, use all original models with equal weights
+            models_to_use = original_models if original_models is not None else client_updates
             return {
-                'filtered_models': client_models,
-                'weights': [1.0 / len(client_models)] * len(client_models),
+                'filtered_models': models_to_use,
+                'weights': [1.0 / len(models_to_use)] * len(models_to_use),
                 'rejected_count': 0,
                 'defense_applied': True,
                 'all_rejected': True
@@ -262,8 +255,8 @@ class FLTrust(SimilarityBasedDefense):
 
         for i, (weight, score_info) in enumerate(zip(weights, score_infos)):
             norm_ratio = score_info['norm_ratio']
-            
-            # Clip weights if norm ratio is too large
+
+            # clip weights if norm ratio is too large
             if norm_ratio > 5.0:  # Threshold for large norms
                 clipped_weight = weight * min(1.0, 5.0 / norm_ratio)
             else:
@@ -271,7 +264,7 @@ class FLTrust(SimilarityBasedDefense):
 
             clipped_weights.append(clipped_weight)
 
-        # Renormalize weights
+        # renomorlize weights
         total_weight = sum(clipped_weights)
         if total_weight > 0:
             clipped_weights = [w / total_weight for w in clipped_weights]
