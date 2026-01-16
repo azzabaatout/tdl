@@ -1,0 +1,577 @@
+{
+  "1": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [],
+      "detected_malicious": [
+        69,
+        28,
+        75,
+        35
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:43:01.322755"
+    }
+  ],
+  "2": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        54,
+        35,
+        27,
+        13
+      ],
+      "detected_malicious": [
+        54,
+        35,
+        27,
+        13
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:43:07.969358"
+    }
+  ],
+  "3": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        11,
+        77
+      ],
+      "detected_malicious": [
+        11,
+        77
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:43:17.509238"
+    }
+  ],
+  "4": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:43:30.013489"
+    }
+  ],
+  "5": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        29
+      ],
+      "detected_malicious": [
+        29
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:43:39.443119"
+    }
+  ],
+  "6": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        35,
+        81
+      ],
+      "detected_malicious": [
+        35,
+        81
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:43:46.917111"
+    }
+  ],
+  "7": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        77,
+        81
+      ],
+      "detected_malicious": [
+        77,
+        81
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:43:54.485445"
+    }
+  ],
+  "8": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        31,
+        81,
+        71,
+        28
+      ],
+      "detected_malicious": [
+        31,
+        81,
+        71,
+        28
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:44:01.601007"
+    }
+  ],
+  "9": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        29,
+        4
+      ],
+      "detected_malicious": [
+        29,
+        4
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:44:10.477539"
+    }
+  ],
+  "10": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        27
+      ],
+      "detected_malicious": [
+        27
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:44:17.606078"
+    }
+  ],
+  "11": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        17,
+        31,
+        71,
+        54
+      ],
+      "detected_malicious": [
+        17,
+        31,
+        71,
+        54
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:44:24.655341"
+    }
+  ],
+  "12": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        28,
+        17,
+        11,
+        14
+      ],
+      "detected_malicious": [
+        28,
+        17,
+        11,
+        14
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:44:32.485670"
+    }
+  ],
+  "13": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        54
+      ],
+      "detected_malicious": [
+        54
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:44:47.877156"
+    }
+  ],
+  "14": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        14
+      ],
+      "detected_malicious": [
+        14
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:44:56.174427"
+    }
+  ],
+  "15": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        14,
+        64
+      ],
+      "detected_malicious": [
+        14,
+        64
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:45:07.013639"
+    }
+  ],
+  "16": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        64,
+        13,
+        81,
+        77
+      ],
+      "detected_malicious": [
+        64,
+        13,
+        81,
+        77
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:45:19.749492"
+    }
+  ],
+  "17": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        69
+      ],
+      "detected_malicious": [
+        69
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:45:29.049757"
+    }
+  ],
+  "18": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        14
+      ],
+      "detected_malicious": [
+        14
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:45:40.409027"
+    }
+  ],
+  "19": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:45:48.374115"
+    }
+  ],
+  "20": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        77,
+        54,
+        27,
+        69
+      ],
+      "detected_malicious": [
+        77,
+        54,
+        27,
+        69
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:45:55.850652"
+    }
+  ],
+  "21": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        31
+      ],
+      "detected_malicious": [
+        31
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:46:03.309664"
+    }
+  ],
+  "22": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        28,
+        75,
+        29
+      ],
+      "detected_malicious": [
+        28,
+        75,
+        29
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:46:10.597789"
+    }
+  ],
+  "23": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        29,
+        4,
+        35
+      ],
+      "detected_malicious": [
+        29,
+        4,
+        35
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:46:20.870395"
+    }
+  ],
+  "24": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        27,
+        69,
+        31
+      ],
+      "detected_malicious": [
+        27,
+        69,
+        31
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:46:28.229146"
+    }
+  ],
+  "25": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        54
+      ],
+      "detected_malicious": [
+        54
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:46:35.392693"
+    }
+  ],
+  "26": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        86,
+        13,
+        31
+      ],
+      "detected_malicious": [
+        86,
+        13,
+        31
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:46:43.896425"
+    }
+  ],
+  "27": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        17,
+        54,
+        35,
+        31
+      ],
+      "detected_malicious": [
+        17,
+        54,
+        35,
+        31
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:46:51.462106"
+    }
+  ],
+  "28": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        69,
+        11
+      ],
+      "detected_malicious": [
+        69,
+        11
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:47:00.741081"
+    }
+  ],
+  "29": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        27
+      ],
+      "detected_malicious": [
+        27
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:47:07.202113"
+    }
+  ],
+  "30": [
+    {
+      "defense_type": "norm_clipping",
+      "defense_params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      },
+      "rejected_clients": [
+        54,
+        71
+      ],
+      "detected_malicious": [
+        54,
+        71
+      ],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:47:14.451151"
+    }
+  ]
+}

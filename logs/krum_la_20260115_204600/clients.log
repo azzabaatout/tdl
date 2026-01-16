@@ -1,0 +1,300 @@
+2026-01-15 20:46:03,682 - FL_Client_krum_la - INFO - Client 25 - Round 1: Acc=0.0000, Loss=2.2687, Epochs=2
+2026-01-15 20:46:03,871 - FL_Client_krum_la - INFO - Client 91 - Round 1: Acc=0.0000, Loss=2.2705, Epochs=2
+2026-01-15 20:46:04,065 - FL_Client_krum_la - INFO - Client 83 - Round 1: Acc=0.0000, Loss=2.2719, Epochs=2
+2026-01-15 20:46:04,261 - FL_Client_krum_la - INFO - Client 89 - Round 1: Acc=0.0000, Loss=2.2653, Epochs=2
+2026-01-15 20:46:04,462 - FL_Client_krum_la - INFO - Client 69 - Round 1: Acc=0.0000, Loss=2.2712, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:04,658 - FL_Client_krum_la - INFO - Client 53 - Round 1: Acc=0.0000, Loss=2.2705, Epochs=2
+2026-01-15 20:46:04,856 - FL_Client_krum_la - INFO - Client 28 - Round 1: Acc=0.0000, Loss=2.2566, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:05,072 - FL_Client_krum_la - INFO - Client 57 - Round 1: Acc=0.0000, Loss=2.2658, Epochs=2
+2026-01-15 20:46:05,283 - FL_Client_krum_la - INFO - Client 75 - Round 1: Acc=0.0000, Loss=2.2683, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:05,491 - FL_Client_krum_la - INFO - Client 35 - Round 1: Acc=0.0000, Loss=2.2626, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:08,771 - FL_Client_krum_la - INFO - Client 0 - Round 2: Acc=0.0000, Loss=1.7345, Epochs=2
+2026-01-15 20:46:09,500 - FL_Client_krum_la - INFO - Client 97 - Round 2: Acc=0.0000, Loss=1.6859, Epochs=2
+2026-01-15 20:46:10,301 - FL_Client_krum_la - INFO - Client 20 - Round 2: Acc=0.0000, Loss=1.7048, Epochs=2
+2026-01-15 20:46:10,880 - FL_Client_krum_la - INFO - Client 89 - Round 2: Acc=0.0000, Loss=1.6193, Epochs=2
+2026-01-15 20:46:11,572 - FL_Client_krum_la - INFO - Client 54 - Round 2: Acc=0.0000, Loss=1.6958, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:12,201 - FL_Client_krum_la - INFO - Client 43 - Round 2: Acc=0.0000, Loss=1.7337, Epochs=2
+2026-01-15 20:46:12,636 - FL_Client_krum_la - INFO - Client 35 - Round 2: Acc=0.0000, Loss=1.5878, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:12,995 - FL_Client_krum_la - INFO - Client 19 - Round 2: Acc=0.0000, Loss=1.7332, Epochs=2
+2026-01-15 20:46:13,386 - FL_Client_krum_la - INFO - Client 27 - Round 2: Acc=0.0000, Loss=1.7545, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:13,762 - FL_Client_krum_la - INFO - Client 13 - Round 2: Acc=0.0000, Loss=1.6808, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:18,906 - FL_Client_krum_la - INFO - Client 11 - Round 3: Acc=0.0000, Loss=0.6793, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:19,400 - FL_Client_krum_la - INFO - Client 48 - Round 3: Acc=0.0000, Loss=0.7448, Epochs=2
+2026-01-15 20:46:20,014 - FL_Client_krum_la - INFO - Client 12 - Round 3: Acc=0.0000, Loss=0.7569, Epochs=2
+2026-01-15 20:46:20,603 - FL_Client_krum_la - INFO - Client 45 - Round 3: Acc=0.0000, Loss=0.7383, Epochs=2
+2026-01-15 20:46:21,311 - FL_Client_krum_la - INFO - Client 44 - Round 3: Acc=0.0000, Loss=0.7850, Epochs=2
+2026-01-15 20:46:23,380 - FL_Client_krum_la - INFO - Client 77 - Round 3: Acc=0.0000, Loss=0.6761, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:24,538 - FL_Client_krum_la - INFO - Client 33 - Round 3: Acc=0.0000, Loss=0.7185, Epochs=2
+2026-01-15 20:46:25,415 - FL_Client_krum_la - INFO - Client 5 - Round 3: Acc=0.0000, Loss=0.7437, Epochs=2
+2026-01-15 20:46:26,344 - FL_Client_krum_la - INFO - Client 93 - Round 3: Acc=0.0000, Loss=0.6834, Epochs=2
+2026-01-15 20:46:27,541 - FL_Client_krum_la - INFO - Client 58 - Round 3: Acc=0.0000, Loss=0.7325, Epochs=2
+2026-01-15 20:46:29,444 - FL_Client_krum_la - INFO - Client 68 - Round 4: Acc=0.0000, Loss=0.4772, Epochs=2
+2026-01-15 20:46:29,723 - FL_Client_krum_la - INFO - Client 15 - Round 4: Acc=0.0000, Loss=0.3987, Epochs=2
+2026-01-15 20:46:30,021 - FL_Client_krum_la - INFO - Client 48 - Round 4: Acc=0.0000, Loss=0.4883, Epochs=2
+2026-01-15 20:46:30,417 - FL_Client_krum_la - INFO - Client 10 - Round 4: Acc=0.0000, Loss=0.4708, Epochs=2
+2026-01-15 20:46:30,697 - FL_Client_krum_la - INFO - Client 70 - Round 4: Acc=0.0000, Loss=0.4272, Epochs=2
+2026-01-15 20:46:31,037 - FL_Client_krum_la - INFO - Client 37 - Round 4: Acc=0.0000, Loss=0.3683, Epochs=2
+2026-01-15 20:46:31,355 - FL_Client_krum_la - INFO - Client 80 - Round 4: Acc=0.0000, Loss=0.4348, Epochs=2
+2026-01-15 20:46:31,713 - FL_Client_krum_la - INFO - Client 79 - Round 4: Acc=0.0000, Loss=0.4236, Epochs=2
+2026-01-15 20:46:32,017 - FL_Client_krum_la - INFO - Client 46 - Round 4: Acc=0.0000, Loss=0.4673, Epochs=2
+2026-01-15 20:46:32,415 - FL_Client_krum_la - INFO - Client 73 - Round 4: Acc=0.0000, Loss=0.4138, Epochs=2
+2026-01-15 20:46:33,934 - FL_Client_krum_la - INFO - Client 24 - Round 5: Acc=0.0000, Loss=0.3688, Epochs=2
+2026-01-15 20:46:34,261 - FL_Client_krum_la - INFO - Client 90 - Round 5: Acc=0.0000, Loss=0.3523, Epochs=2
+2026-01-15 20:46:34,632 - FL_Client_krum_la - INFO - Client 8 - Round 5: Acc=0.0000, Loss=0.2717, Epochs=2
+2026-01-15 20:46:35,075 - FL_Client_krum_la - INFO - Client 5 - Round 5: Acc=0.0000, Loss=0.3585, Epochs=2
+2026-01-15 20:46:35,653 - FL_Client_krum_la - INFO - Client 84 - Round 5: Acc=0.0000, Loss=0.3259, Epochs=2
+2026-01-15 20:46:35,946 - FL_Client_krum_la - INFO - Client 29 - Round 5: Acc=0.0000, Loss=0.3302, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:36,262 - FL_Client_krum_la - INFO - Client 98 - Round 5: Acc=0.0000, Loss=0.3447, Epochs=2
+2026-01-15 20:46:36,547 - FL_Client_krum_la - INFO - Client 37 - Round 5: Acc=0.0000, Loss=0.2431, Epochs=2
+2026-01-15 20:46:36,890 - FL_Client_krum_la - INFO - Client 10 - Round 5: Acc=0.0000, Loss=0.3202, Epochs=2
+2026-01-15 20:46:37,271 - FL_Client_krum_la - INFO - Client 12 - Round 5: Acc=0.0000, Loss=0.3179, Epochs=2
+2026-01-15 20:46:39,094 - FL_Client_krum_la - INFO - Client 48 - Round 6: Acc=0.0000, Loss=0.3204, Epochs=2
+2026-01-15 20:46:39,426 - FL_Client_krum_la - INFO - Client 35 - Round 6: Acc=0.0000, Loss=0.2484, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:39,894 - FL_Client_krum_la - INFO - Client 58 - Round 6: Acc=0.0000, Loss=0.2753, Epochs=2
+2026-01-15 20:46:40,396 - FL_Client_krum_la - INFO - Client 81 - Round 6: Acc=0.0000, Loss=0.3696, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:40,704 - FL_Client_krum_la - INFO - Client 46 - Round 6: Acc=0.0000, Loss=0.3144, Epochs=2
+2026-01-15 20:46:41,016 - FL_Client_krum_la - INFO - Client 20 - Round 6: Acc=0.0000, Loss=0.2882, Epochs=2
+2026-01-15 20:46:41,283 - FL_Client_krum_la - INFO - Client 47 - Round 6: Acc=0.0000, Loss=0.2450, Epochs=2
+2026-01-15 20:46:41,570 - FL_Client_krum_la - INFO - Client 45 - Round 6: Acc=0.0000, Loss=0.2875, Epochs=2
+2026-01-15 20:46:41,841 - FL_Client_krum_la - INFO - Client 26 - Round 6: Acc=0.0000, Loss=0.2852, Epochs=2
+2026-01-15 20:46:42,128 - FL_Client_krum_la - INFO - Client 85 - Round 6: Acc=0.0000, Loss=0.2475, Epochs=2
+2026-01-15 20:46:43,630 - FL_Client_krum_la - INFO - Client 34 - Round 7: Acc=0.0000, Loss=0.2075, Epochs=2
+2026-01-15 20:46:43,954 - FL_Client_krum_la - INFO - Client 89 - Round 7: Acc=0.0000, Loss=0.2124, Epochs=2
+2026-01-15 20:46:44,459 - FL_Client_krum_la - INFO - Client 87 - Round 7: Acc=0.0000, Loss=0.2672, Epochs=2
+2026-01-15 20:46:44,982 - FL_Client_krum_la - INFO - Client 82 - Round 7: Acc=0.0000, Loss=0.1855, Epochs=2
+2026-01-15 20:46:45,428 - FL_Client_krum_la - INFO - Client 9 - Round 7: Acc=0.0000, Loss=0.1817, Epochs=2
+2026-01-15 20:46:45,867 - FL_Client_krum_la - INFO - Client 77 - Round 7: Acc=0.0000, Loss=0.2280, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:46,366 - FL_Client_krum_la - INFO - Client 81 - Round 7: Acc=0.0000, Loss=0.2659, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:46,762 - FL_Client_krum_la - INFO - Client 21 - Round 7: Acc=0.0000, Loss=0.2290, Epochs=2
+2026-01-15 20:46:47,059 - FL_Client_krum_la - INFO - Client 68 - Round 7: Acc=0.0000, Loss=0.2971, Epochs=2
+2026-01-15 20:46:47,349 - FL_Client_krum_la - INFO - Client 93 - Round 7: Acc=0.0000, Loss=0.2365, Epochs=2
+2026-01-15 20:46:48,731 - FL_Client_krum_la - INFO - Client 31 - Round 8: Acc=0.0000, Loss=0.2400, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:49,017 - FL_Client_krum_la - INFO - Client 20 - Round 8: Acc=0.0000, Loss=0.1878, Epochs=2
+2026-01-15 20:46:49,314 - FL_Client_krum_la - INFO - Client 59 - Round 8: Acc=0.0000, Loss=0.1865, Epochs=2
+2026-01-15 20:46:49,636 - FL_Client_krum_la - INFO - Client 48 - Round 8: Acc=0.0000, Loss=0.2127, Epochs=2
+2026-01-15 20:46:49,941 - FL_Client_krum_la - INFO - Client 34 - Round 8: Acc=0.0000, Loss=0.1547, Epochs=2
+2026-01-15 20:46:50,259 - FL_Client_krum_la - INFO - Client 81 - Round 8: Acc=0.0000, Loss=0.2558, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:50,630 - FL_Client_krum_la - INFO - Client 88 - Round 8: Acc=0.0000, Loss=0.1868, Epochs=2
+2026-01-15 20:46:51,728 - FL_Client_krum_la - INFO - Client 71 - Round 8: Acc=0.0000, Loss=0.2095, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:52,169 - FL_Client_krum_la - INFO - Client 28 - Round 8: Acc=0.0000, Loss=0.1574, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:52,647 - FL_Client_krum_la - INFO - Client 87 - Round 8: Acc=0.0000, Loss=0.1752, Epochs=2
+2026-01-15 20:46:54,732 - FL_Client_krum_la - INFO - Client 41 - Round 9: Acc=0.0000, Loss=0.1574, Epochs=2
+2026-01-15 20:46:55,038 - FL_Client_krum_la - INFO - Client 98 - Round 9: Acc=0.0000, Loss=0.1446, Epochs=2
+2026-01-15 20:46:55,339 - FL_Client_krum_la - INFO - Client 99 - Round 9: Acc=0.0000, Loss=0.2003, Epochs=2
+2026-01-15 20:46:55,653 - FL_Client_krum_la - INFO - Client 7 - Round 9: Acc=0.0000, Loss=0.2164, Epochs=2
+2026-01-15 20:46:55,949 - FL_Client_krum_la - INFO - Client 29 - Round 9: Acc=0.0000, Loss=0.1527, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:57,036 - FL_Client_krum_la - INFO - Client 4 - Round 9: Acc=0.0000, Loss=0.1798, Epochs=2 [MALICIOUS]
+2026-01-15 20:46:57,726 - FL_Client_krum_la - INFO - Client 40 - Round 9: Acc=0.0000, Loss=0.1487, Epochs=2
+2026-01-15 20:46:58,226 - FL_Client_krum_la - INFO - Client 51 - Round 9: Acc=0.0000, Loss=0.1573, Epochs=2
+2026-01-15 20:46:58,745 - FL_Client_krum_la - INFO - Client 34 - Round 9: Acc=0.0000, Loss=0.1188, Epochs=2
+2026-01-15 20:46:59,212 - FL_Client_krum_la - INFO - Client 8 - Round 9: Acc=0.0000, Loss=0.1006, Epochs=2
+2026-01-15 20:47:00,654 - FL_Client_krum_la - INFO - Client 27 - Round 10: Acc=0.0000, Loss=0.2308, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:00,974 - FL_Client_krum_la - INFO - Client 72 - Round 10: Acc=0.0000, Loss=0.1457, Epochs=2
+2026-01-15 20:47:01,347 - FL_Client_krum_la - INFO - Client 91 - Round 10: Acc=0.0000, Loss=0.1569, Epochs=2
+2026-01-15 20:47:01,783 - FL_Client_krum_la - INFO - Client 40 - Round 10: Acc=0.0000, Loss=0.1033, Epochs=2
+2026-01-15 20:47:02,223 - FL_Client_krum_la - INFO - Client 83 - Round 10: Acc=0.0000, Loss=0.1945, Epochs=2
+2026-01-15 20:47:02,909 - FL_Client_krum_la - INFO - Client 63 - Round 10: Acc=0.0000, Loss=0.1305, Epochs=2
+2026-01-15 20:47:03,729 - FL_Client_krum_la - INFO - Client 50 - Round 10: Acc=0.0000, Loss=0.2448, Epochs=2
+2026-01-15 20:47:04,535 - FL_Client_krum_la - INFO - Client 82 - Round 10: Acc=0.0000, Loss=0.1043, Epochs=2
+2026-01-15 20:47:05,333 - FL_Client_krum_la - INFO - Client 58 - Round 10: Acc=0.0000, Loss=0.1439, Epochs=2
+2026-01-15 20:47:06,043 - FL_Client_krum_la - INFO - Client 18 - Round 10: Acc=0.0000, Loss=0.2110, Epochs=2
+2026-01-15 20:47:08,774 - FL_Client_krum_la - INFO - Client 33 - Round 11: Acc=0.0000, Loss=0.1839, Epochs=2
+2026-01-15 20:47:09,074 - FL_Client_krum_la - INFO - Client 17 - Round 11: Acc=0.0000, Loss=0.1587, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:09,370 - FL_Client_krum_la - INFO - Client 31 - Round 11: Acc=0.0000, Loss=0.1703, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:10,251 - FL_Client_krum_la - INFO - Client 95 - Round 11: Acc=0.0000, Loss=0.1434, Epochs=2
+2026-01-15 20:47:10,913 - FL_Client_krum_la - INFO - Client 71 - Round 11: Acc=0.0000, Loss=0.1589, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:11,388 - FL_Client_krum_la - INFO - Client 68 - Round 11: Acc=0.0000, Loss=0.1371, Epochs=2
+2026-01-15 20:47:12,258 - FL_Client_krum_la - INFO - Client 74 - Round 11: Acc=0.0000, Loss=0.1077, Epochs=2
+2026-01-15 20:47:12,993 - FL_Client_krum_la - INFO - Client 54 - Round 11: Acc=0.0000, Loss=0.1653, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:13,399 - FL_Client_krum_la - INFO - Client 51 - Round 11: Acc=0.0000, Loss=0.1188, Epochs=2
+2026-01-15 20:47:13,974 - FL_Client_krum_la - INFO - Client 46 - Round 11: Acc=0.0000, Loss=0.2004, Epochs=2
+2026-01-15 20:47:17,081 - FL_Client_krum_la - INFO - Client 28 - Round 12: Acc=0.0000, Loss=0.1121, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:17,351 - FL_Client_krum_la - INFO - Client 17 - Round 12: Acc=0.0000, Loss=0.1278, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:17,653 - FL_Client_krum_la - INFO - Client 65 - Round 12: Acc=0.0000, Loss=0.0961, Epochs=2
+2026-01-15 20:47:17,926 - FL_Client_krum_la - INFO - Client 63 - Round 12: Acc=0.0000, Loss=0.0845, Epochs=2
+2026-01-15 20:47:18,235 - FL_Client_krum_la - INFO - Client 11 - Round 12: Acc=0.0000, Loss=0.1458, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:18,532 - FL_Client_krum_la - INFO - Client 96 - Round 12: Acc=0.0000, Loss=0.1288, Epochs=2
+2026-01-15 20:47:18,839 - FL_Client_krum_la - INFO - Client 6 - Round 12: Acc=0.0000, Loss=0.1373, Epochs=2
+2026-01-15 20:47:19,149 - FL_Client_krum_la - INFO - Client 14 - Round 12: Acc=0.0000, Loss=0.1318, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:19,485 - FL_Client_krum_la - INFO - Client 19 - Round 12: Acc=0.0000, Loss=0.1480, Epochs=2
+2026-01-15 20:47:19,784 - FL_Client_krum_la - INFO - Client 80 - Round 12: Acc=0.0000, Loss=0.1511, Epochs=2
+2026-01-15 20:47:21,280 - FL_Client_krum_la - INFO - Client 20 - Round 13: Acc=0.0000, Loss=0.1384, Epochs=2
+2026-01-15 20:47:21,798 - FL_Client_krum_la - INFO - Client 87 - Round 13: Acc=0.0000, Loss=0.0924, Epochs=2
+2026-01-15 20:47:22,107 - FL_Client_krum_la - INFO - Client 54 - Round 13: Acc=0.0000, Loss=0.1077, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:22,411 - FL_Client_krum_la - INFO - Client 76 - Round 13: Acc=0.0000, Loss=0.1175, Epochs=2
+2026-01-15 20:47:22,762 - FL_Client_krum_la - INFO - Client 8 - Round 13: Acc=0.0000, Loss=0.0677, Epochs=2
+2026-01-15 20:47:23,067 - FL_Client_krum_la - INFO - Client 49 - Round 13: Acc=0.0000, Loss=0.1279, Epochs=2
+2026-01-15 20:47:23,383 - FL_Client_krum_la - INFO - Client 48 - Round 13: Acc=0.0000, Loss=0.1752, Epochs=2
+2026-01-15 20:47:23,831 - FL_Client_krum_la - INFO - Client 59 - Round 13: Acc=0.0000, Loss=0.1104, Epochs=2
+2026-01-15 20:47:24,312 - FL_Client_krum_la - INFO - Client 67 - Round 13: Acc=0.0000, Loss=0.1454, Epochs=2
+2026-01-15 20:47:24,822 - FL_Client_krum_la - INFO - Client 32 - Round 13: Acc=0.0000, Loss=0.0965, Epochs=2
+2026-01-15 20:47:26,505 - FL_Client_krum_la - INFO - Client 70 - Round 14: Acc=0.0000, Loss=0.1239, Epochs=2
+2026-01-15 20:47:26,800 - FL_Client_krum_la - INFO - Client 1 - Round 14: Acc=0.0000, Loss=0.1324, Epochs=2
+2026-01-15 20:47:27,101 - FL_Client_krum_la - INFO - Client 87 - Round 14: Acc=0.0000, Loss=0.0777, Epochs=2
+2026-01-15 20:47:27,467 - FL_Client_krum_la - INFO - Client 92 - Round 14: Acc=0.0000, Loss=0.1030, Epochs=2
+2026-01-15 20:47:27,830 - FL_Client_krum_la - INFO - Client 14 - Round 14: Acc=0.0000, Loss=0.0911, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:28,141 - FL_Client_krum_la - INFO - Client 68 - Round 14: Acc=0.0000, Loss=0.1189, Epochs=2
+2026-01-15 20:47:28,469 - FL_Client_krum_la - INFO - Client 96 - Round 14: Acc=0.0000, Loss=0.1009, Epochs=2
+2026-01-15 20:47:28,770 - FL_Client_krum_la - INFO - Client 34 - Round 14: Acc=0.0000, Loss=0.0898, Epochs=2
+2026-01-15 20:47:29,053 - FL_Client_krum_la - INFO - Client 98 - Round 14: Acc=0.0000, Loss=0.0838, Epochs=2
+2026-01-15 20:47:29,370 - FL_Client_krum_la - INFO - Client 82 - Round 14: Acc=0.0000, Loss=0.0726, Epochs=2
+2026-01-15 20:47:30,798 - FL_Client_krum_la - INFO - Client 43 - Round 15: Acc=0.0000, Loss=0.1591, Epochs=2
+2026-01-15 20:47:31,106 - FL_Client_krum_la - INFO - Client 14 - Round 15: Acc=0.0000, Loss=0.0895, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:31,378 - FL_Client_krum_la - INFO - Client 37 - Round 15: Acc=0.0000, Loss=0.0692, Epochs=2
+2026-01-15 20:47:31,670 - FL_Client_krum_la - INFO - Client 55 - Round 15: Acc=0.0000, Loss=0.0521, Epochs=2
+2026-01-15 20:47:31,949 - FL_Client_krum_la - INFO - Client 20 - Round 15: Acc=0.0000, Loss=0.1365, Epochs=2
+2026-01-15 20:47:32,230 - FL_Client_krum_la - INFO - Client 58 - Round 15: Acc=0.0000, Loss=0.0781, Epochs=2
+2026-01-15 20:47:32,526 - FL_Client_krum_la - INFO - Client 0 - Round 15: Acc=0.0000, Loss=0.1365, Epochs=2
+2026-01-15 20:47:32,814 - FL_Client_krum_la - INFO - Client 92 - Round 15: Acc=0.0000, Loss=0.0589, Epochs=2
+2026-01-15 20:47:33,141 - FL_Client_krum_la - INFO - Client 33 - Round 15: Acc=0.0000, Loss=0.1321, Epochs=2
+2026-01-15 20:47:33,444 - FL_Client_krum_la - INFO - Client 64 - Round 15: Acc=0.0000, Loss=0.1338, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:35,100 - FL_Client_krum_la - INFO - Client 97 - Round 16: Acc=0.0000, Loss=0.0923, Epochs=2
+2026-01-15 20:47:35,663 - FL_Client_krum_la - INFO - Client 22 - Round 16: Acc=0.0000, Loss=0.1357, Epochs=2
+2026-01-15 20:47:36,169 - FL_Client_krum_la - INFO - Client 64 - Round 16: Acc=0.0000, Loss=0.1092, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:36,954 - FL_Client_krum_la - INFO - Client 13 - Round 16: Acc=0.0000, Loss=0.1342, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:37,350 - FL_Client_krum_la - INFO - Client 80 - Round 16: Acc=0.0000, Loss=0.0835, Epochs=2
+2026-01-15 20:47:37,638 - FL_Client_krum_la - INFO - Client 38 - Round 16: Acc=0.0000, Loss=0.0942, Epochs=2
+2026-01-15 20:47:37,993 - FL_Client_krum_la - INFO - Client 81 - Round 16: Acc=0.0000, Loss=0.1613, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:38,341 - FL_Client_krum_la - INFO - Client 77 - Round 16: Acc=0.0000, Loss=0.0974, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:38,659 - FL_Client_krum_la - INFO - Client 25 - Round 16: Acc=0.0000, Loss=0.1500, Epochs=2
+2026-01-15 20:47:39,010 - FL_Client_krum_la - INFO - Client 19 - Round 16: Acc=0.0000, Loss=0.0902, Epochs=2
+2026-01-15 20:47:43,598 - FL_Client_krum_la - INFO - Client 47 - Round 17: Acc=0.0000, Loss=0.1120, Epochs=2
+2026-01-15 20:47:44,228 - FL_Client_krum_la - INFO - Client 97 - Round 17: Acc=0.0000, Loss=0.0844, Epochs=2
+2026-01-15 20:47:44,851 - FL_Client_krum_la - INFO - Client 20 - Round 17: Acc=0.0000, Loss=0.0812, Epochs=2
+2026-01-15 20:47:45,484 - FL_Client_krum_la - INFO - Client 69 - Round 17: Acc=0.0000, Loss=0.0885, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:45,895 - FL_Client_krum_la - INFO - Client 99 - Round 17: Acc=0.0000, Loss=0.1530, Epochs=2
+2026-01-15 20:47:46,307 - FL_Client_krum_la - INFO - Client 67 - Round 17: Acc=0.0000, Loss=0.1042, Epochs=2
+2026-01-15 20:47:46,696 - FL_Client_krum_la - INFO - Client 0 - Round 17: Acc=0.0000, Loss=0.1053, Epochs=2
+2026-01-15 20:47:47,066 - FL_Client_krum_la - INFO - Client 76 - Round 17: Acc=0.0000, Loss=0.0738, Epochs=2
+2026-01-15 20:47:47,389 - FL_Client_krum_la - INFO - Client 41 - Round 17: Acc=0.0000, Loss=0.0783, Epochs=2
+2026-01-15 20:47:47,750 - FL_Client_krum_la - INFO - Client 62 - Round 17: Acc=0.0000, Loss=0.1254, Epochs=2
+2026-01-15 20:47:49,077 - FL_Client_krum_la - INFO - Client 2 - Round 18: Acc=0.0000, Loss=0.0662, Epochs=2
+2026-01-15 20:47:49,424 - FL_Client_krum_la - INFO - Client 14 - Round 18: Acc=0.0000, Loss=0.0793, Epochs=2 [MALICIOUS]
+2026-01-15 20:47:49,734 - FL_Client_krum_la - INFO - Client 46 - Round 18: Acc=0.0000, Loss=0.1240, Epochs=2
+2026-01-15 20:47:50,036 - FL_Client_krum_la - INFO - Client 39 - Round 18: Acc=0.0000, Loss=0.1435, Epochs=2
+2026-01-15 20:47:50,373 - FL_Client_krum_la - INFO - Client 30 - Round 18: Acc=0.0000, Loss=0.1007, Epochs=2
+2026-01-15 20:47:51,082 - FL_Client_krum_la - INFO - Client 7 - Round 18: Acc=0.0000, Loss=0.1050, Epochs=2
+2026-01-15 20:47:51,397 - FL_Client_krum_la - INFO - Client 72 - Round 18: Acc=0.0000, Loss=0.0857, Epochs=2
+2026-01-15 20:47:51,703 - FL_Client_krum_la - INFO - Client 10 - Round 18: Acc=0.0000, Loss=0.1155, Epochs=2
+2026-01-15 20:47:52,053 - FL_Client_krum_la - INFO - Client 93 - Round 18: Acc=0.0000, Loss=0.1255, Epochs=2
+2026-01-15 20:47:52,360 - FL_Client_krum_la - INFO - Client 62 - Round 18: Acc=0.0000, Loss=0.1413, Epochs=2
+2026-01-15 20:47:54,019 - FL_Client_krum_la - INFO - Client 8 - Round 19: Acc=0.0000, Loss=0.0314, Epochs=2
+2026-01-15 20:47:54,359 - FL_Client_krum_la - INFO - Client 97 - Round 19: Acc=0.0000, Loss=0.0519, Epochs=2
+2026-01-15 20:47:54,784 - FL_Client_krum_la - INFO - Client 68 - Round 19: Acc=0.0000, Loss=0.1099, Epochs=2
+2026-01-15 20:47:55,088 - FL_Client_krum_la - INFO - Client 98 - Round 19: Acc=0.0000, Loss=0.0634, Epochs=2
+2026-01-15 20:47:55,401 - FL_Client_krum_la - INFO - Client 16 - Round 19: Acc=0.0000, Loss=0.1126, Epochs=2
+2026-01-15 20:47:55,885 - FL_Client_krum_la - INFO - Client 84 - Round 19: Acc=0.0000, Loss=0.1029, Epochs=2
+2026-01-15 20:47:56,440 - FL_Client_krum_la - INFO - Client 60 - Round 19: Acc=0.0000, Loss=0.1123, Epochs=2
+2026-01-15 20:47:57,003 - FL_Client_krum_la - INFO - Client 70 - Round 19: Acc=0.0000, Loss=0.1275, Epochs=2
+2026-01-15 20:47:57,667 - FL_Client_krum_la - INFO - Client 21 - Round 19: Acc=0.0000, Loss=0.1073, Epochs=2
+2026-01-15 20:47:58,200 - FL_Client_krum_la - INFO - Client 33 - Round 19: Acc=0.0000, Loss=0.0749, Epochs=2
+2026-01-15 20:48:00,865 - FL_Client_krum_la - INFO - Client 67 - Round 20: Acc=0.0000, Loss=0.0723, Epochs=2
+2026-01-15 20:48:01,353 - FL_Client_krum_la - INFO - Client 77 - Round 20: Acc=0.0000, Loss=0.0716, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:01,824 - FL_Client_krum_la - INFO - Client 54 - Round 20: Acc=0.0000, Loss=0.0833, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:02,414 - FL_Client_krum_la - INFO - Client 27 - Round 20: Acc=0.0000, Loss=0.1257, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:02,803 - FL_Client_krum_la - INFO - Client 69 - Round 20: Acc=0.0000, Loss=0.0766, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:03,343 - FL_Client_krum_la - INFO - Client 96 - Round 20: Acc=0.0000, Loss=0.0815, Epochs=2
+2026-01-15 20:48:03,934 - FL_Client_krum_la - INFO - Client 93 - Round 20: Acc=0.0000, Loss=0.0845, Epochs=2
+2026-01-15 20:48:04,321 - FL_Client_krum_la - INFO - Client 88 - Round 20: Acc=0.0000, Loss=0.0683, Epochs=2
+2026-01-15 20:48:04,696 - FL_Client_krum_la - INFO - Client 25 - Round 20: Acc=0.0000, Loss=0.1039, Epochs=2
+2026-01-15 20:48:05,094 - FL_Client_krum_la - INFO - Client 91 - Round 20: Acc=0.0000, Loss=0.1328, Epochs=2
+2026-01-15 20:48:07,535 - FL_Client_krum_la - INFO - Client 39 - Round 21: Acc=0.0000, Loss=0.1442, Epochs=2
+2026-01-15 20:48:08,194 - FL_Client_krum_la - INFO - Client 51 - Round 21: Acc=0.0000, Loss=0.0845, Epochs=2
+2026-01-15 20:48:08,887 - FL_Client_krum_la - INFO - Client 85 - Round 21: Acc=0.0000, Loss=0.0870, Epochs=2
+2026-01-15 20:48:09,586 - FL_Client_krum_la - INFO - Client 83 - Round 21: Acc=0.0000, Loss=0.1083, Epochs=2
+2026-01-15 20:48:10,833 - FL_Client_krum_la - INFO - Client 47 - Round 21: Acc=0.0000, Loss=0.0472, Epochs=2
+2026-01-15 20:48:11,228 - FL_Client_krum_la - INFO - Client 56 - Round 21: Acc=0.0000, Loss=0.0787, Epochs=2
+2026-01-15 20:48:11,630 - FL_Client_krum_la - INFO - Client 66 - Round 21: Acc=0.0000, Loss=0.0963, Epochs=2
+2026-01-15 20:48:12,055 - FL_Client_krum_la - INFO - Client 57 - Round 21: Acc=0.0000, Loss=0.0868, Epochs=2
+2026-01-15 20:48:12,491 - FL_Client_krum_la - INFO - Client 15 - Round 21: Acc=0.0000, Loss=0.1131, Epochs=2
+2026-01-15 20:48:13,196 - FL_Client_krum_la - INFO - Client 31 - Round 21: Acc=0.0000, Loss=0.1070, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:15,354 - FL_Client_krum_la - INFO - Client 28 - Round 22: Acc=0.0000, Loss=0.0879, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:15,962 - FL_Client_krum_la - INFO - Client 8 - Round 22: Acc=0.0000, Loss=0.0220, Epochs=2
+2026-01-15 20:48:16,380 - FL_Client_krum_la - INFO - Client 43 - Round 22: Acc=0.0000, Loss=0.1022, Epochs=2
+2026-01-15 20:48:16,883 - FL_Client_krum_la - INFO - Client 2 - Round 22: Acc=0.0000, Loss=0.0372, Epochs=2
+2026-01-15 20:48:17,278 - FL_Client_krum_la - INFO - Client 75 - Round 22: Acc=0.0000, Loss=0.1108, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:17,634 - FL_Client_krum_la - INFO - Client 70 - Round 22: Acc=0.0000, Loss=0.0816, Epochs=2
+2026-01-15 20:48:18,018 - FL_Client_krum_la - INFO - Client 29 - Round 22: Acc=0.0000, Loss=0.1124, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:18,411 - FL_Client_krum_la - INFO - Client 0 - Round 22: Acc=0.0000, Loss=0.0724, Epochs=2
+2026-01-15 20:48:18,768 - FL_Client_krum_la - INFO - Client 9 - Round 22: Acc=0.0000, Loss=0.0889, Epochs=2
+2026-01-15 20:48:19,146 - FL_Client_krum_la - INFO - Client 90 - Round 22: Acc=0.0000, Loss=0.0877, Epochs=2
+2026-01-15 20:48:21,971 - FL_Client_krum_la - INFO - Client 80 - Round 23: Acc=0.0000, Loss=0.0590, Epochs=2
+2026-01-15 20:48:22,344 - FL_Client_krum_la - INFO - Client 7 - Round 23: Acc=0.0000, Loss=0.0749, Epochs=2
+2026-01-15 20:48:22,727 - FL_Client_krum_la - INFO - Client 29 - Round 23: Acc=0.0000, Loss=0.0976, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:23,403 - FL_Client_krum_la - INFO - Client 8 - Round 23: Acc=0.0000, Loss=0.0123, Epochs=2
+2026-01-15 20:48:23,923 - FL_Client_krum_la - INFO - Client 4 - Round 23: Acc=0.0000, Loss=0.0519, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:24,435 - FL_Client_krum_la - INFO - Client 42 - Round 23: Acc=0.0000, Loss=0.0926, Epochs=2
+2026-01-15 20:48:24,882 - FL_Client_krum_la - INFO - Client 9 - Round 23: Acc=0.0000, Loss=0.0680, Epochs=2
+2026-01-15 20:48:25,357 - FL_Client_krum_la - INFO - Client 65 - Round 23: Acc=0.0000, Loss=0.0555, Epochs=2
+2026-01-15 20:48:25,790 - FL_Client_krum_la - INFO - Client 30 - Round 23: Acc=0.0000, Loss=0.0610, Epochs=2
+2026-01-15 20:48:26,390 - FL_Client_krum_la - INFO - Client 35 - Round 23: Acc=0.0000, Loss=0.0710, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:28,567 - FL_Client_krum_la - INFO - Client 85 - Round 24: Acc=0.0000, Loss=0.0500, Epochs=2
+2026-01-15 20:48:29,329 - FL_Client_krum_la - INFO - Client 62 - Round 24: Acc=0.0000, Loss=0.0861, Epochs=2
+2026-01-15 20:48:29,984 - FL_Client_krum_la - INFO - Client 27 - Round 24: Acc=0.0000, Loss=0.0781, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:31,034 - FL_Client_krum_la - INFO - Client 69 - Round 24: Acc=0.0000, Loss=0.0706, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:31,731 - FL_Client_krum_la - INFO - Client 16 - Round 24: Acc=0.0000, Loss=0.0704, Epochs=2
+2026-01-15 20:48:32,586 - FL_Client_krum_la - INFO - Client 92 - Round 24: Acc=0.0000, Loss=0.0492, Epochs=2
+2026-01-15 20:48:33,148 - FL_Client_krum_la - INFO - Client 73 - Round 24: Acc=0.0000, Loss=0.1204, Epochs=2
+2026-01-15 20:48:33,743 - FL_Client_krum_la - INFO - Client 60 - Round 24: Acc=0.0000, Loss=0.0952, Epochs=2
+2026-01-15 20:48:34,393 - FL_Client_krum_la - INFO - Client 31 - Round 24: Acc=0.0000, Loss=0.0935, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:34,981 - FL_Client_krum_la - INFO - Client 52 - Round 24: Acc=0.0000, Loss=0.0421, Epochs=2
+2026-01-15 20:48:38,095 - FL_Client_krum_la - INFO - Client 24 - Round 25: Acc=0.0000, Loss=0.0802, Epochs=2
+2026-01-15 20:48:39,182 - FL_Client_krum_la - INFO - Client 12 - Round 25: Acc=0.0000, Loss=0.0878, Epochs=2
+2026-01-15 20:48:40,125 - FL_Client_krum_la - INFO - Client 84 - Round 25: Acc=0.0000, Loss=0.1047, Epochs=2
+2026-01-15 20:48:40,743 - FL_Client_krum_la - INFO - Client 55 - Round 25: Acc=0.0000, Loss=0.0308, Epochs=2
+2026-01-15 20:48:41,836 - FL_Client_krum_la - INFO - Client 45 - Round 25: Acc=0.0000, Loss=0.0932, Epochs=2
+2026-01-15 20:48:42,413 - FL_Client_krum_la - INFO - Client 54 - Round 25: Acc=0.0000, Loss=0.0443, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:43,340 - FL_Client_krum_la - INFO - Client 52 - Round 25: Acc=0.0000, Loss=0.0224, Epochs=2
+2026-01-15 20:48:43,919 - FL_Client_krum_la - INFO - Client 59 - Round 25: Acc=0.0000, Loss=0.0615, Epochs=2
+2026-01-15 20:48:44,388 - FL_Client_krum_la - INFO - Client 93 - Round 25: Acc=0.0000, Loss=0.0738, Epochs=2
+2026-01-15 20:48:45,315 - FL_Client_krum_la - INFO - Client 6 - Round 25: Acc=0.0000, Loss=0.0871, Epochs=2
+2026-01-15 20:48:49,465 - FL_Client_krum_la - INFO - Client 86 - Round 26: Acc=0.0000, Loss=0.1014, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:49,874 - FL_Client_krum_la - INFO - Client 83 - Round 26: Acc=0.0000, Loss=0.1450, Epochs=2
+2026-01-15 20:48:50,564 - FL_Client_krum_la - INFO - Client 82 - Round 26: Acc=0.0000, Loss=0.0370, Epochs=2
+2026-01-15 20:48:50,944 - FL_Client_krum_la - INFO - Client 12 - Round 26: Acc=0.0000, Loss=0.0757, Epochs=2
+2026-01-15 20:48:51,310 - FL_Client_krum_la - INFO - Client 7 - Round 26: Acc=0.0000, Loss=0.0583, Epochs=2
+2026-01-15 20:48:51,956 - FL_Client_krum_la - INFO - Client 51 - Round 26: Acc=0.0000, Loss=0.0398, Epochs=2
+2026-01-15 20:48:52,949 - FL_Client_krum_la - INFO - Client 93 - Round 26: Acc=0.0000, Loss=0.0667, Epochs=2
+2026-01-15 20:48:53,799 - FL_Client_krum_la - INFO - Client 43 - Round 26: Acc=0.0000, Loss=0.0763, Epochs=2
+2026-01-15 20:48:54,620 - FL_Client_krum_la - INFO - Client 13 - Round 26: Acc=0.0000, Loss=0.0976, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:55,270 - FL_Client_krum_la - INFO - Client 31 - Round 26: Acc=0.0000, Loss=0.0731, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:57,067 - FL_Client_krum_la - INFO - Client 24 - Round 27: Acc=0.0000, Loss=0.0722, Epochs=2
+2026-01-15 20:48:57,434 - FL_Client_krum_la - INFO - Client 68 - Round 27: Acc=0.0000, Loss=0.0968, Epochs=2
+2026-01-15 20:48:57,815 - FL_Client_krum_la - INFO - Client 57 - Round 27: Acc=0.0000, Loss=0.0598, Epochs=2
+2026-01-15 20:48:58,244 - FL_Client_krum_la - INFO - Client 17 - Round 27: Acc=0.0000, Loss=0.1028, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:58,750 - FL_Client_krum_la - INFO - Client 54 - Round 27: Acc=0.0000, Loss=0.0509, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:59,208 - FL_Client_krum_la - INFO - Client 23 - Round 27: Acc=0.0000, Loss=0.1241, Epochs=2
+2026-01-15 20:48:59,580 - FL_Client_krum_la - INFO - Client 35 - Round 27: Acc=0.0000, Loss=0.0509, Epochs=2 [MALICIOUS]
+2026-01-15 20:48:59,962 - FL_Client_krum_la - INFO - Client 59 - Round 27: Acc=0.0000, Loss=0.0570, Epochs=2
+2026-01-15 20:49:00,471 - FL_Client_krum_la - INFO - Client 31 - Round 27: Acc=0.0000, Loss=0.0892, Epochs=2 [MALICIOUS]
+2026-01-15 20:49:00,829 - FL_Client_krum_la - INFO - Client 9 - Round 27: Acc=0.0000, Loss=0.0549, Epochs=2
+2026-01-15 20:49:03,407 - FL_Client_krum_la - INFO - Client 56 - Round 28: Acc=0.0000, Loss=0.0590, Epochs=2
+2026-01-15 20:49:03,770 - FL_Client_krum_la - INFO - Client 70 - Round 28: Acc=0.0000, Loss=0.0689, Epochs=2
+2026-01-15 20:49:04,197 - FL_Client_krum_la - INFO - Client 12 - Round 28: Acc=0.0000, Loss=0.0531, Epochs=2
+2026-01-15 20:49:04,546 - FL_Client_krum_la - INFO - Client 6 - Round 28: Acc=0.0000, Loss=0.0652, Epochs=2
+2026-01-15 20:49:04,896 - FL_Client_krum_la - INFO - Client 83 - Round 28: Acc=0.0000, Loss=0.1221, Epochs=2
+2026-01-15 20:49:05,243 - FL_Client_krum_la - INFO - Client 69 - Round 28: Acc=0.0000, Loss=0.0634, Epochs=2 [MALICIOUS]
+2026-01-15 20:49:05,692 - FL_Client_krum_la - INFO - Client 1 - Round 28: Acc=0.0000, Loss=0.0779, Epochs=2
+2026-01-15 20:49:06,103 - FL_Client_krum_la - INFO - Client 11 - Round 28: Acc=0.0000, Loss=0.0786, Epochs=2 [MALICIOUS]
+2026-01-15 20:49:06,420 - FL_Client_krum_la - INFO - Client 96 - Round 28: Acc=0.0000, Loss=0.0651, Epochs=2
+2026-01-15 20:49:06,851 - FL_Client_krum_la - INFO - Client 30 - Round 28: Acc=0.0000, Loss=0.0545, Epochs=2
+2026-01-15 20:49:09,316 - FL_Client_krum_la - INFO - Client 21 - Round 29: Acc=0.0000, Loss=0.0557, Epochs=2
+2026-01-15 20:49:09,801 - FL_Client_krum_la - INFO - Client 52 - Round 29: Acc=0.0000, Loss=0.0274, Epochs=2
+2026-01-15 20:49:10,149 - FL_Client_krum_la - INFO - Client 62 - Round 29: Acc=0.0000, Loss=0.0813, Epochs=2
+2026-01-15 20:49:10,470 - FL_Client_krum_la - INFO - Client 61 - Round 29: Acc=0.0000, Loss=0.0759, Epochs=2
+2026-01-15 20:49:10,878 - FL_Client_krum_la - INFO - Client 27 - Round 29: Acc=0.0000, Loss=0.0715, Epochs=2 [MALICIOUS]
+2026-01-15 20:49:11,173 - FL_Client_krum_la - INFO - Client 51 - Round 29: Acc=0.0000, Loss=0.0381, Epochs=2
+2026-01-15 20:49:11,504 - FL_Client_krum_la - INFO - Client 7 - Round 29: Acc=0.0000, Loss=0.0359, Epochs=2
+2026-01-15 20:49:11,877 - FL_Client_krum_la - INFO - Client 48 - Round 29: Acc=0.0000, Loss=0.0780, Epochs=2
+2026-01-15 20:49:12,372 - FL_Client_krum_la - INFO - Client 0 - Round 29: Acc=0.0000, Loss=0.0454, Epochs=2
+2026-01-15 20:49:12,709 - FL_Client_krum_la - INFO - Client 49 - Round 29: Acc=0.0000, Loss=0.0632, Epochs=2
+2026-01-15 20:49:14,376 - FL_Client_krum_la - INFO - Client 33 - Round 30: Acc=0.0000, Loss=0.0308, Epochs=2
+2026-01-15 20:49:14,740 - FL_Client_krum_la - INFO - Client 58 - Round 30: Acc=0.0000, Loss=0.0476, Epochs=2
+2026-01-15 20:49:15,115 - FL_Client_krum_la - INFO - Client 36 - Round 30: Acc=0.0000, Loss=0.0807, Epochs=2
+2026-01-15 20:49:16,199 - FL_Client_krum_la - INFO - Client 54 - Round 30: Acc=0.0000, Loss=0.0502, Epochs=2 [MALICIOUS]
+2026-01-15 20:49:17,049 - FL_Client_krum_la - INFO - Client 89 - Round 30: Acc=0.0000, Loss=0.0564, Epochs=2
+2026-01-15 20:49:17,818 - FL_Client_krum_la - INFO - Client 93 - Round 30: Acc=0.0000, Loss=0.0397, Epochs=2
+2026-01-15 20:49:18,338 - FL_Client_krum_la - INFO - Client 71 - Round 30: Acc=0.0000, Loss=0.0929, Epochs=2 [MALICIOUS]
+2026-01-15 20:49:18,843 - FL_Client_krum_la - INFO - Client 84 - Round 30: Acc=0.0000, Loss=0.0645, Epochs=2
+2026-01-15 20:49:19,172 - FL_Client_krum_la - INFO - Client 91 - Round 30: Acc=0.0000, Loss=0.0576, Epochs=2
+2026-01-15 20:49:19,566 - FL_Client_krum_la - INFO - Client 62 - Round 30: Acc=0.0000, Loss=0.0779, Epochs=2

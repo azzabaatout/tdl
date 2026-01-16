@@ -1,0 +1,210 @@
+2026-01-15 20:20:15,491 - FL_Main_fltrust_faker - INFO - Experiment Configuration: {
+  "experiment_name": "fltrust_faker",
+  "random_seed": 42,
+  "dataset": {
+    "type": "mnist",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "iid"
+  },
+  "model": {
+    "type": "lenet",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 30,
+    "num_clients": 100,
+    "client_participation_rate": 0.2,
+    "learning_rate": 0.01,
+    "local_epochs": 2,
+    "batch_size": 32
+  },
+  "server": {
+    "data_size": 500
+  },
+  "attack": {
+    "type": "faker",
+    "num_malicious_clients": 100,
+    "params": {
+      "target_defense": "fltrust",
+      "optimization_mode": "constrained",
+      "num_groups": 100,
+      "optimization_iterations": 50,
+      "min_cosine_margin": 0.05,
+      "alpha_min": -10.0,
+      "alpha_max": 10.0,
+      "init_strategy": "alternating_negative"
+    }
+  },
+  "defense": {
+    "type": "fltrust",
+    "params": {
+      "server_epochs": 5,
+      "server_lr": 0.01,
+      "cosine_threshold": 0.0,
+      "use_relu": true,
+      "clip_updates": false,
+      "use_statistical_filtering": true,
+      "std_threshold": 1.5
+    }
+  }
+}
+2026-01-15 20:20:15,492 - FL_Main_fltrust_faker - INFO - Using device: cpu
+2026-01-15 20:20:18,884 - FL_Main_fltrust_faker - INFO - Data partitioned among 100 clients
+2026-01-15 20:20:18,893 - FL_Main_fltrust_faker - INFO - Model initialized: lenet
+2026-01-15 20:20:18,895 - FL_Main_fltrust_faker - INFO - Server initialized with defense: fltrust
+2026-01-15 20:20:18,993 - FL_Main_fltrust_faker - INFO - Created 100 clients (100 malicious)
+2026-01-15 20:20:18,993 - FL_Main_fltrust_faker - INFO - Experiment setup completed
+2026-01-15 20:20:18,993 - FL_Main_fltrust_faker - INFO - Starting experiment with 30 rounds
+2026-01-15 20:20:18,993 - FL_Main_fltrust_faker - INFO - === Round 1 Started ===
+2026-01-15 20:20:18,993 - FL_Main_fltrust_faker - INFO - Participating clients: [72, 91, 40, 27, 83, 63, 50, 82, 58, 18, 33, 17, 31, 95, 71, 68, 74, 54, 51, 46]
+2026-01-15 20:20:35,088 - FL_Main_fltrust_faker - INFO - === Round 1 Completed ===
+2026-01-15 20:20:35,088 - FL_Main_fltrust_faker - INFO - Global Accuracy: 11.7500, Global Loss: 2.2999
+2026-01-15 20:20:35,088 - FL_Main_fltrust_faker - INFO - Test Accuracy: 11.7500, Test Loss: 2.2999
+2026-01-15 20:20:35,089 - FL_Main_fltrust_faker - INFO - === Round 2 Started ===
+2026-01-15 20:20:35,089 - FL_Main_fltrust_faker - INFO - Participating clients: [28, 17, 65, 63, 11, 96, 6, 14, 19, 80, 20, 87, 54, 76, 8, 49, 48, 59, 67, 32]
+2026-01-15 20:20:50,740 - FL_Main_fltrust_faker - INFO - === Round 2 Completed ===
+2026-01-15 20:20:50,741 - FL_Main_fltrust_faker - INFO - Global Accuracy: 13.1900, Global Loss: 2.2958
+2026-01-15 20:20:50,741 - FL_Main_fltrust_faker - INFO - Test Accuracy: 13.1900, Test Loss: 2.2958
+2026-01-15 20:20:50,741 - FL_Main_fltrust_faker - INFO - === Round 3 Started ===
+2026-01-15 20:20:50,741 - FL_Main_fltrust_faker - INFO - Participating clients: [70, 1, 87, 92, 14, 68, 96, 34, 98, 82, 43, 37, 55, 20, 58, 0, 33, 64, 97, 22]
+2026-01-15 20:21:03,971 - FL_Main_fltrust_faker - INFO - === Round 3 Completed ===
+2026-01-15 20:21:03,971 - FL_Main_fltrust_faker - INFO - Global Accuracy: 15.8100, Global Loss: 2.2908
+2026-01-15 20:21:03,971 - FL_Main_fltrust_faker - INFO - Test Accuracy: 15.8100, Test Loss: 2.2908
+2026-01-15 20:21:03,972 - FL_Main_fltrust_faker - INFO - === Round 4 Started ===
+2026-01-15 20:21:03,972 - FL_Main_fltrust_faker - INFO - Participating clients: [64, 13, 80, 38, 81, 77, 25, 19, 47, 97, 20, 69, 99, 67, 0, 76, 41, 62, 2, 14]
+2026-01-15 20:21:17,319 - FL_Main_fltrust_faker - INFO - === Round 4 Completed ===
+2026-01-15 20:21:17,319 - FL_Main_fltrust_faker - INFO - Global Accuracy: 20.5200, Global Loss: 2.2836
+2026-01-15 20:21:17,319 - FL_Main_fltrust_faker - INFO - Test Accuracy: 20.5200, Test Loss: 2.2836
+2026-01-15 20:21:17,320 - FL_Main_fltrust_faker - INFO - === Round 5 Started ===
+2026-01-15 20:21:17,320 - FL_Main_fltrust_faker - INFO - Participating clients: [46, 39, 30, 7, 72, 10, 93, 62, 8, 97, 68, 98, 16, 84, 60, 70, 21, 33, 67, 77]
+2026-01-15 20:21:31,798 - FL_Main_fltrust_faker - INFO - === Round 5 Completed ===
+2026-01-15 20:21:31,798 - FL_Main_fltrust_faker - INFO - Global Accuracy: 28.2400, Global Loss: 2.2716
+2026-01-15 20:21:31,798 - FL_Main_fltrust_faker - INFO - Test Accuracy: 28.2400, Test Loss: 2.2716
+2026-01-15 20:21:31,798 - FL_Main_fltrust_faker - INFO - === Round 6 Started ===
+2026-01-15 20:21:31,798 - FL_Main_fltrust_faker - INFO - Participating clients: [54, 27, 69, 96, 93, 88, 25, 91, 39, 51, 85, 83, 47, 56, 66, 57, 15, 31, 28, 8]
+2026-01-15 20:21:51,247 - FL_Main_fltrust_faker - INFO - === Round 6 Completed ===
+2026-01-15 20:21:51,247 - FL_Main_fltrust_faker - INFO - Global Accuracy: 33.4600, Global Loss: 2.2449
+2026-01-15 20:21:51,247 - FL_Main_fltrust_faker - INFO - Test Accuracy: 33.4600, Test Loss: 2.2449
+2026-01-15 20:21:51,248 - FL_Main_fltrust_faker - INFO - === Round 7 Started ===
+2026-01-15 20:21:51,248 - FL_Main_fltrust_faker - INFO - Participating clients: [43, 2, 75, 70, 29, 28, 0, 9, 90, 80, 7, 8, 4, 42, 65, 30, 35, 85, 62, 27]
+2026-01-15 20:22:08,746 - FL_Main_fltrust_faker - INFO - === Round 7 Completed ===
+2026-01-15 20:22:08,746 - FL_Main_fltrust_faker - INFO - Global Accuracy: 42.8900, Global Loss: 2.1787
+2026-01-15 20:22:08,746 - FL_Main_fltrust_faker - INFO - Test Accuracy: 42.8900, Test Loss: 2.1787
+2026-01-15 20:22:08,746 - FL_Main_fltrust_faker - INFO - === Round 8 Started ===
+2026-01-15 20:22:08,746 - FL_Main_fltrust_faker - INFO - Participating clients: [69, 16, 92, 73, 60, 31, 52, 24, 12, 84, 55, 45, 54, 59, 93, 6, 86, 83, 82, 7]
+2026-01-15 20:22:21,779 - FL_Main_fltrust_faker - INFO - === Round 8 Completed ===
+2026-01-15 20:22:21,779 - FL_Main_fltrust_faker - INFO - Global Accuracy: 47.4700, Global Loss: 2.0356
+2026-01-15 20:22:21,779 - FL_Main_fltrust_faker - INFO - Test Accuracy: 47.4700, Test Loss: 2.0356
+2026-01-15 20:22:21,779 - FL_Main_fltrust_faker - INFO - === Round 9 Started ===
+2026-01-15 20:22:21,779 - FL_Main_fltrust_faker - INFO - Participating clients: [51, 93, 43, 13, 31, 24, 68, 57, 17, 54, 23, 35, 59, 9, 56, 70, 12, 6, 83, 69]
+2026-01-15 20:22:34,931 - FL_Main_fltrust_faker - INFO - === Round 9 Completed ===
+2026-01-15 20:22:34,931 - FL_Main_fltrust_faker - INFO - Global Accuracy: 62.3100, Global Loss: 1.8175
+2026-01-15 20:22:34,931 - FL_Main_fltrust_faker - INFO - Test Accuracy: 62.3100, Test Loss: 1.8175
+2026-01-15 20:22:34,932 - FL_Main_fltrust_faker - INFO - === Round 10 Started ===
+2026-01-15 20:22:34,932 - FL_Main_fltrust_faker - INFO - Participating clients: [1, 11, 96, 30, 21, 52, 62, 61, 27, 51, 7, 48, 0, 49, 33, 58, 36, 54, 89, 93]
+2026-01-15 20:22:49,044 - FL_Main_fltrust_faker - INFO - === Round 10 Completed ===
+2026-01-15 20:22:49,044 - FL_Main_fltrust_faker - INFO - Global Accuracy: 69.9700, Global Loss: 1.6092
+2026-01-15 20:22:49,044 - FL_Main_fltrust_faker - INFO - Test Accuracy: 69.9700, Test Loss: 1.6092
+2026-01-15 20:22:49,044 - FL_Main_fltrust_faker - INFO - === Round 11 Started ===
+2026-01-15 20:22:49,044 - FL_Main_fltrust_faker - INFO - Participating clients: [71, 84, 91, 62, 19, 24, 37, 27, 7, 74, 94, 69, 95, 40, 6, 61, 64, 67, 20, 65]
+2026-01-15 20:23:01,156 - FL_Main_fltrust_faker - INFO - === Round 11 Completed ===
+2026-01-15 20:23:01,156 - FL_Main_fltrust_faker - INFO - Global Accuracy: 74.3100, Global Loss: 1.3908
+2026-01-15 20:23:01,156 - FL_Main_fltrust_faker - INFO - Test Accuracy: 74.3100, Test Loss: 1.3908
+2026-01-15 20:23:01,156 - FL_Main_fltrust_faker - INFO - === Round 12 Started ===
+2026-01-15 20:23:01,156 - FL_Main_fltrust_faker - INFO - Participating clients: [10, 23, 8, 76, 86, 30, 51, 15, 72, 31, 74, 5, 79, 53, 84, 66, 40, 33, 26, 85]
+2026-01-15 20:23:13,483 - FL_Main_fltrust_faker - INFO - === Round 12 Completed ===
+2026-01-15 20:23:13,483 - FL_Main_fltrust_faker - INFO - Global Accuracy: 79.7000, Global Loss: 1.1826
+2026-01-15 20:23:13,483 - FL_Main_fltrust_faker - INFO - Test Accuracy: 79.7000, Test Loss: 1.1826
+2026-01-15 20:23:13,483 - FL_Main_fltrust_faker - INFO - === Round 13 Started ===
+2026-01-15 20:23:13,483 - FL_Main_fltrust_faker - INFO - Participating clients: [91, 40, 30, 33, 50, 16, 85, 82, 38, 58, 96, 9, 1, 79, 72, 12, 68, 27, 64, 44]
+2026-01-15 20:23:25,840 - FL_Main_fltrust_faker - INFO - === Round 13 Completed ===
+2026-01-15 20:23:25,840 - FL_Main_fltrust_faker - INFO - Global Accuracy: 84.4100, Global Loss: 0.9387
+2026-01-15 20:23:25,840 - FL_Main_fltrust_faker - INFO - Test Accuracy: 84.4100, Test Loss: 0.9387
+2026-01-15 20:23:25,840 - FL_Main_fltrust_faker - INFO - === Round 14 Started ===
+2026-01-15 20:23:25,840 - FL_Main_fltrust_faker - INFO - Participating clients: [8, 31, 47, 36, 20, 56, 69, 90, 38, 78, 83, 67, 1, 85, 70, 84, 13, 17, 33, 14]
+2026-01-15 20:23:38,513 - FL_Main_fltrust_faker - INFO - === Round 14 Completed ===
+2026-01-15 20:23:38,513 - FL_Main_fltrust_faker - INFO - Global Accuracy: 86.4500, Global Loss: 0.7924
+2026-01-15 20:23:38,513 - FL_Main_fltrust_faker - INFO - Test Accuracy: 86.4500, Test Loss: 0.7924
+2026-01-15 20:23:38,513 - FL_Main_fltrust_faker - INFO - === Round 15 Started ===
+2026-01-15 20:23:38,513 - FL_Main_fltrust_faker - INFO - Participating clients: [13, 95, 70, 19, 34, 36, 77, 26, 91, 43, 87, 81, 33, 64, 62, 32, 6, 11, 54, 35]
+2026-01-15 20:23:53,071 - FL_Main_fltrust_faker - INFO - === Round 15 Completed ===
+2026-01-15 20:23:53,072 - FL_Main_fltrust_faker - INFO - Global Accuracy: 87.7100, Global Loss: 0.6857
+2026-01-15 20:23:53,072 - FL_Main_fltrust_faker - INFO - Test Accuracy: 87.7100, Test Loss: 0.6857
+2026-01-15 20:23:53,072 - FL_Main_fltrust_faker - INFO - === Round 16 Started ===
+2026-01-15 20:23:53,072 - FL_Main_fltrust_faker - INFO - Participating clients: [5, 0, 42, 98, 16, 81, 33, 20, 94, 56, 70, 90, 54, 71, 1, 14, 9, 88, 19, 69]
+2026-01-15 20:24:06,175 - FL_Main_fltrust_faker - INFO - === Round 16 Completed ===
+2026-01-15 20:24:06,175 - FL_Main_fltrust_faker - INFO - Global Accuracy: 89.0000, Global Loss: 0.6137
+2026-01-15 20:24:06,175 - FL_Main_fltrust_faker - INFO - Test Accuracy: 89.0000, Test Loss: 0.6137
+2026-01-15 20:24:06,175 - FL_Main_fltrust_faker - INFO - === Round 17 Started ===
+2026-01-15 20:24:06,175 - FL_Main_fltrust_faker - INFO - Participating clients: [4, 47, 74, 70, 18, 55, 16, 5, 39, 46, 45, 26, 87, 31, 85, 13, 99, 71, 52, 79]
+2026-01-15 20:24:20,636 - FL_Main_fltrust_faker - INFO - === Round 17 Completed ===
+2026-01-15 20:24:20,636 - FL_Main_fltrust_faker - INFO - Global Accuracy: 89.8300, Global Loss: 0.5407
+2026-01-15 20:24:20,636 - FL_Main_fltrust_faker - INFO - Test Accuracy: 89.8300, Test Loss: 0.5407
+2026-01-15 20:24:20,636 - FL_Main_fltrust_faker - INFO - === Round 18 Started ===
+2026-01-15 20:24:20,636 - FL_Main_fltrust_faker - INFO - Participating clients: [95, 19, 30, 20, 22, 52, 3, 94, 42, 85, 31, 34, 89, 13, 48, 4, 60, 28, 25, 58]
+2026-01-15 20:24:33,117 - FL_Main_fltrust_faker - INFO - === Round 18 Completed ===
+2026-01-15 20:24:33,117 - FL_Main_fltrust_faker - INFO - Global Accuracy: 90.6400, Global Loss: 0.4810
+2026-01-15 20:24:33,117 - FL_Main_fltrust_faker - INFO - Test Accuracy: 90.6400, Test Loss: 0.4810
+2026-01-15 20:24:33,118 - FL_Main_fltrust_faker - INFO - === Round 19 Started ===
+2026-01-15 20:24:33,118 - FL_Main_fltrust_faker - INFO - Participating clients: [44, 39, 29, 28, 3, 84, 24, 51, 42, 35, 8, 98, 82, 65, 86, 68, 14, 33, 22, 74]
+2026-01-15 20:24:46,329 - FL_Main_fltrust_faker - INFO - === Round 19 Completed ===
+2026-01-15 20:24:46,329 - FL_Main_fltrust_faker - INFO - Global Accuracy: 91.2900, Global Loss: 0.4188
+2026-01-15 20:24:46,329 - FL_Main_fltrust_faker - INFO - Test Accuracy: 91.2900, Test Loss: 0.4188
+2026-01-15 20:24:46,329 - FL_Main_fltrust_faker - INFO - === Round 20 Started ===
+2026-01-15 20:24:46,329 - FL_Main_fltrust_faker - INFO - Participating clients: [33, 4, 13, 76, 55, 44, 93, 40, 77, 65, 14, 49, 73, 24, 32, 5, 90, 0, 66, 68]
+2026-01-15 20:24:59,809 - FL_Main_fltrust_faker - INFO - === Round 20 Completed ===
+2026-01-15 20:24:59,809 - FL_Main_fltrust_faker - INFO - Global Accuracy: 91.8900, Global Loss: 0.3727
+2026-01-15 20:24:59,809 - FL_Main_fltrust_faker - INFO - Test Accuracy: 91.8900, Test Loss: 0.3727
+2026-01-15 20:24:59,809 - FL_Main_fltrust_faker - INFO - === Round 21 Started ===
+2026-01-15 20:24:59,809 - FL_Main_fltrust_faker - INFO - Participating clients: [87, 92, 94, 85, 25, 46, 55, 8, 42, 79, 40, 84, 15, 38, 64, 39, 52, 41, 51, 89]
+2026-01-15 20:25:11,899 - FL_Main_fltrust_faker - INFO - === Round 21 Completed ===
+2026-01-15 20:25:11,899 - FL_Main_fltrust_faker - INFO - Global Accuracy: 92.3800, Global Loss: 0.3279
+2026-01-15 20:25:11,899 - FL_Main_fltrust_faker - INFO - Test Accuracy: 92.3800, Test Loss: 0.3279
+2026-01-15 20:25:11,900 - FL_Main_fltrust_faker - INFO - === Round 22 Started ===
+2026-01-15 20:25:11,900 - FL_Main_fltrust_faker - INFO - Participating clients: [37, 70, 16, 24, 53, 85, 48, 86, 95, 22, 78, 72, 38, 51, 0, 36, 26, 55, 74, 77]
+2026-01-15 20:25:22,818 - FL_Main_fltrust_faker - INFO - === Round 22 Completed ===
+2026-01-15 20:25:22,819 - FL_Main_fltrust_faker - INFO - Global Accuracy: 92.5300, Global Loss: 0.3028
+2026-01-15 20:25:22,819 - FL_Main_fltrust_faker - INFO - Test Accuracy: 92.5300, Test Loss: 0.3028
+2026-01-15 20:25:22,819 - FL_Main_fltrust_faker - INFO - === Round 23 Started ===
+2026-01-15 20:25:22,819 - FL_Main_fltrust_faker - INFO - Participating clients: [83, 41, 59, 56, 86, 27, 65, 60, 94, 21, 84, 10, 36, 81, 79, 42, 11, 96, 30, 39]
+2026-01-15 20:25:34,118 - FL_Main_fltrust_faker - INFO - === Round 23 Completed ===
+2026-01-15 20:25:34,118 - FL_Main_fltrust_faker - INFO - Global Accuracy: 92.7600, Global Loss: 0.2818
+2026-01-15 20:25:34,118 - FL_Main_fltrust_faker - INFO - Test Accuracy: 92.7600, Test Loss: 0.2818
+2026-01-15 20:25:34,118 - FL_Main_fltrust_faker - INFO - === Round 24 Started ===
+2026-01-15 20:25:34,118 - FL_Main_fltrust_faker - INFO - Participating clients: [28, 25, 18, 3, 5, 31, 60, 78, 98, 9, 58, 53, 80, 73, 24, 91, 89, 49, 63, 51]
+2026-01-15 20:25:46,301 - FL_Main_fltrust_faker - INFO - === Round 24 Completed ===
+2026-01-15 20:25:46,301 - FL_Main_fltrust_faker - INFO - Global Accuracy: 93.0600, Global Loss: 0.2655
+2026-01-15 20:25:46,301 - FL_Main_fltrust_faker - INFO - Test Accuracy: 93.0600, Test Loss: 0.2655
+2026-01-15 20:25:46,301 - FL_Main_fltrust_faker - INFO - === Round 25 Started ===
+2026-01-15 20:25:46,301 - FL_Main_fltrust_faker - INFO - Participating clients: [31, 18, 83, 88, 0, 96, 98, 13, 99, 54, 28, 22, 89, 66, 59, 6, 71, 15, 58, 17]
+2026-01-15 20:26:00,467 - FL_Main_fltrust_faker - INFO - === Round 25 Completed ===
+2026-01-15 20:26:00,468 - FL_Main_fltrust_faker - INFO - Global Accuracy: 93.2600, Global Loss: 0.2494
+2026-01-15 20:26:00,468 - FL_Main_fltrust_faker - INFO - Test Accuracy: 93.2600, Test Loss: 0.2494
+2026-01-15 20:26:00,468 - FL_Main_fltrust_faker - INFO - === Round 26 Started ===
+2026-01-15 20:26:00,468 - FL_Main_fltrust_faker - INFO - Participating clients: [59, 85, 67, 71, 76, 40, 96, 56, 78, 92, 64, 54, 70, 57, 20, 95, 60, 33, 31, 81]
+2026-01-15 20:26:14,889 - FL_Main_fltrust_faker - INFO - === Round 26 Completed ===
+2026-01-15 20:26:14,889 - FL_Main_fltrust_faker - INFO - Global Accuracy: 93.5400, Global Loss: 0.2365
+2026-01-15 20:26:14,889 - FL_Main_fltrust_faker - INFO - Test Accuracy: 93.5400, Test Loss: 0.2365
+2026-01-15 20:26:14,889 - FL_Main_fltrust_faker - INFO - === Round 27 Started ===
+2026-01-15 20:26:14,889 - FL_Main_fltrust_faker - INFO - Participating clients: [35, 98, 99, 66, 62, 80, 30, 56, 9, 91, 36, 34, 42, 40, 69, 10, 17, 19, 29, 49]
+2026-01-15 20:26:26,930 - FL_Main_fltrust_faker - INFO - === Round 27 Completed ===
+2026-01-15 20:26:26,930 - FL_Main_fltrust_faker - INFO - Global Accuracy: 93.7000, Global Loss: 0.2268
+2026-01-15 20:26:26,930 - FL_Main_fltrust_faker - INFO - Test Accuracy: 93.7000, Test Loss: 0.2268
+2026-01-15 20:26:26,930 - FL_Main_fltrust_faker - INFO - === Round 28 Started ===
+2026-01-15 20:26:26,930 - FL_Main_fltrust_faker - INFO - Participating clients: [88, 19, 90, 27, 8, 53, 52, 42, 69, 59, 7, 26, 49, 98, 74, 89, 2, 97, 73, 48]
+2026-01-15 20:26:37,786 - FL_Main_fltrust_faker - INFO - === Round 28 Completed ===
+2026-01-15 20:26:37,786 - FL_Main_fltrust_faker - INFO - Global Accuracy: 93.8400, Global Loss: 0.2174
+2026-01-15 20:26:37,786 - FL_Main_fltrust_faker - INFO - Test Accuracy: 93.8400, Test Loss: 0.2174
+2026-01-15 20:26:37,786 - FL_Main_fltrust_faker - INFO - === Round 29 Started ===
+2026-01-15 20:26:37,786 - FL_Main_fltrust_faker - INFO - Participating clients: [61, 0, 45, 38, 96, 49, 53, 68, 95, 94, 69, 77, 28, 62, 34, 55, 3, 43, 85, 86]
+2026-01-15 20:26:49,447 - FL_Main_fltrust_faker - INFO - === Round 29 Completed ===
+2026-01-15 20:26:49,447 - FL_Main_fltrust_faker - INFO - Global Accuracy: 94.0700, Global Loss: 0.2081
+2026-01-15 20:26:49,447 - FL_Main_fltrust_faker - INFO - Test Accuracy: 94.0700, Test Loss: 0.2081
+2026-01-15 20:26:49,447 - FL_Main_fltrust_faker - INFO - === Round 30 Started ===
+2026-01-15 20:26:49,447 - FL_Main_fltrust_faker - INFO - Participating clients: [51, 92, 21, 59, 16, 79, 68, 3, 50, 75, 72, 84, 10, 82, 54, 17, 23, 6, 33, 48]
+2026-01-15 20:27:00,190 - FL_Main_fltrust_faker - INFO - === Round 30 Completed ===
+2026-01-15 20:27:00,191 - FL_Main_fltrust_faker - INFO - Global Accuracy: 94.1600, Global Loss: 0.2006
+2026-01-15 20:27:00,191 - FL_Main_fltrust_faker - INFO - Test Accuracy: 94.1600, Test Loss: 0.2006
+2026-01-15 20:27:00,191 - FL_Main_fltrust_faker - INFO - Experiment completed
+2026-01-15 20:27:00,200 - FL_Main_fltrust_faker - INFO - All logs saved to logs/fltrust_faker_20260115_202015

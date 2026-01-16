@@ -1,0 +1,53 @@
+{
+  "experiment_name": "normclip_faker",
+  "experiment_config": {
+    "experiment_name": "normclip_faker",
+    "random_seed": 42,
+    "dataset": {
+      "type": "mnist",
+      "data_dir": "./data",
+      "num_classes": 10,
+      "partition_type": "iid"
+    },
+    "model": {
+      "type": "lenet",
+      "num_classes": 10
+    },
+    "federated_learning": {
+      "num_rounds": 30,
+      "num_clients": 100,
+      "client_participation_rate": 0.1,
+      "learning_rate": 0.01,
+      "local_epochs": 2,
+      "batch_size": 32
+    },
+    "server": {
+      "data_size": 100
+    },
+    "attack": {
+      "type": "faker",
+      "num_malicious_clients": 20,
+      "params": {
+        "target_defense": "norm_clipping",
+        "num_groups": 10
+      }
+    },
+    "defense": {
+      "type": "norm_clipping",
+      "params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      }
+    }
+  },
+  "experiment_dir": "logs/normclip_faker_20260115_192327",
+  "total_rounds": 30,
+  "total_clients": 97,
+  "total_attack_rounds": 28,
+  "total_defense_rounds": 30,
+  "final_timestamp": "2026-01-15T19:25:37.604872",
+  "final_accuracy": 77.64,
+  "final_loss": 0.8327976101622604,
+  "final_test_accuracy": 77.64,
+  "final_test_loss": 0.8327976101622604
+}

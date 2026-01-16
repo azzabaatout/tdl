@@ -1,0 +1,60 @@
+2026-01-15 20:46:29,647 - FL_Defense_krum_mb - INFO - Round 1: krum defense applied - Rejected clients: [89, 69, 28, 75, 35] - Detected malicious: [69, 28, 75, 35]
+2026-01-15 20:46:29,647 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:46:34,200 - FL_Defense_krum_mb - INFO - Round 2: krum defense applied - Rejected clients: [89, 54, 35, 27, 13] - Detected malicious: [54, 35, 27, 13]
+2026-01-15 20:46:34,200 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:46:39,376 - FL_Defense_krum_mb - INFO - Round 3: krum defense applied - Rejected clients: [11, 44, 77, 5, 58] - Detected malicious: [11, 77]
+2026-01-15 20:46:39,376 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:46:44,002 - FL_Defense_krum_mb - INFO - Round 4: krum defense applied - Rejected clients: [68, 48, 10, 46, 73]
+2026-01-15 20:46:44,002 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:46:49,240 - FL_Defense_krum_mb - INFO - Round 5: krum defense applied - Rejected clients: [5, 29, 37, 10, 12] - Detected malicious: [29]
+2026-01-15 20:46:49,240 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:46:55,295 - FL_Defense_krum_mb - INFO - Round 6: krum defense applied - Rejected clients: [35, 81, 46, 20, 45] - Detected malicious: [35, 81]
+2026-01-15 20:46:55,295 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:01,458 - FL_Defense_krum_mb - INFO - Round 7: krum defense applied - Rejected clients: [89, 77, 81, 68, 93] - Detected malicious: [77, 81]
+2026-01-15 20:47:01,458 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:09,461 - FL_Defense_krum_mb - INFO - Round 8: krum defense applied - Rejected clients: [31, 48, 81, 71, 28] - Detected malicious: [31, 81, 71, 28]
+2026-01-15 20:47:09,461 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:17,719 - FL_Defense_krum_mb - INFO - Round 9: krum defense applied - Rejected clients: [98, 99, 29, 4, 51] - Detected malicious: [29, 4]
+2026-01-15 20:47:17,719 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:22,189 - FL_Defense_krum_mb - INFO - Round 10: krum defense applied - Rejected clients: [27, 72, 91, 83, 58] - Detected malicious: [27]
+2026-01-15 20:47:22,189 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:27,177 - FL_Defense_krum_mb - INFO - Round 11: krum defense applied - Rejected clients: [33, 17, 31, 71, 54] - Detected malicious: [17, 31, 71, 54]
+2026-01-15 20:47:27,177 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:31,423 - FL_Defense_krum_mb - INFO - Round 12: krum defense applied - Rejected clients: [28, 17, 11, 14, 19] - Detected malicious: [28, 17, 11, 14]
+2026-01-15 20:47:31,423 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:36,157 - FL_Defense_krum_mb - INFO - Round 13: krum defense applied - Rejected clients: [20, 87, 54, 48, 59] - Detected malicious: [54]
+2026-01-15 20:47:36,157 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:44,523 - FL_Defense_krum_mb - INFO - Round 14: krum defense applied - Rejected clients: [70, 1, 14, 68, 96] - Detected malicious: [14]
+2026-01-15 20:47:44,524 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:49,624 - FL_Defense_krum_mb - INFO - Round 15: krum defense applied - Rejected clients: [43, 14, 0, 33, 64] - Detected malicious: [14, 64]
+2026-01-15 20:47:49,624 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:47:54,684 - FL_Defense_krum_mb - INFO - Round 16: krum defense applied - Rejected clients: [97, 64, 13, 81, 77] - Detected malicious: [64, 13, 81, 77]
+2026-01-15 20:47:54,685 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:01,661 - FL_Defense_krum_mb - INFO - Round 17: krum defense applied - Rejected clients: [47, 69, 99, 0, 41] - Detected malicious: [69]
+2026-01-15 20:48:01,662 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:08,269 - FL_Defense_krum_mb - INFO - Round 18: krum defense applied - Rejected clients: [14, 46, 7, 10, 93] - Detected malicious: [14]
+2026-01-15 20:48:08,269 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:15,279 - FL_Defense_krum_mb - INFO - Round 19: krum defense applied - Rejected clients: [68, 84, 70, 21, 33]
+2026-01-15 20:48:15,279 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:20,961 - FL_Defense_krum_mb - INFO - Round 20: krum defense applied - Rejected clients: [77, 54, 27, 69, 93] - Detected malicious: [77, 54, 27, 69]
+2026-01-15 20:48:20,961 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:27,033 - FL_Defense_krum_mb - INFO - Round 21: krum defense applied - Rejected clients: [39, 85, 83, 15, 31] - Detected malicious: [31]
+2026-01-15 20:48:27,033 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:35,436 - FL_Defense_krum_mb - INFO - Round 22: krum defense applied - Rejected clients: [28, 75, 29, 0, 90] - Detected malicious: [28, 75, 29]
+2026-01-15 20:48:35,436 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:44,526 - FL_Defense_krum_mb - INFO - Round 23: krum defense applied - Rejected clients: [80, 7, 29, 4, 35] - Detected malicious: [29, 4, 35]
+2026-01-15 20:48:44,526 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:54,031 - FL_Defense_krum_mb - INFO - Round 24: krum defense applied - Rejected clients: [27, 69, 73, 60, 31] - Detected malicious: [27, 69, 31]
+2026-01-15 20:48:54,031 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:48:59,686 - FL_Defense_krum_mb - INFO - Round 25: krum defense applied - Rejected clients: [24, 12, 45, 54, 6] - Detected malicious: [54]
+2026-01-15 20:48:59,686 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:49:05,269 - FL_Defense_krum_mb - INFO - Round 26: krum defense applied - Rejected clients: [86, 83, 12, 13, 31] - Detected malicious: [86, 13, 31]
+2026-01-15 20:49:05,269 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:49:10,920 - FL_Defense_krum_mb - INFO - Round 27: krum defense applied - Rejected clients: [68, 17, 54, 35, 31] - Detected malicious: [17, 54, 35, 31]
+2026-01-15 20:49:10,920 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:49:16,517 - FL_Defense_krum_mb - INFO - Round 28: krum defense applied - Rejected clients: [12, 83, 69, 1, 11] - Detected malicious: [69, 11]
+2026-01-15 20:49:16,517 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:49:22,990 - FL_Defense_krum_mb - INFO - Round 29: krum defense applied - Rejected clients: [62, 27, 48, 0, 49] - Detected malicious: [27]
+2026-01-15 20:49:22,990 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}
+2026-01-15 20:49:28,701 - FL_Defense_krum_mb - INFO - Round 30: krum defense applied - Rejected clients: [33, 58, 54, 89, 71] - Detected malicious: [54, 71]
+2026-01-15 20:49:28,701 - FL_Defense_krum_mb - INFO - Defense parameters: {'num_malicious': 2, 'multi_krum': True, 'num_selected': 5}

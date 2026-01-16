@@ -1,0 +1,300 @@
+2026-01-14 19:42:57,304 - FL_Client_normclip_la - INFO - Client 25 - Round 1: Acc=0.0000, Loss=2.2687, Epochs=2
+2026-01-14 19:42:57,568 - FL_Client_normclip_la - INFO - Client 91 - Round 1: Acc=0.0000, Loss=2.2705, Epochs=2
+2026-01-14 19:42:57,818 - FL_Client_normclip_la - INFO - Client 83 - Round 1: Acc=0.0000, Loss=2.2719, Epochs=2
+2026-01-14 19:42:58,111 - FL_Client_normclip_la - INFO - Client 89 - Round 1: Acc=0.0000, Loss=2.2653, Epochs=2
+2026-01-14 19:42:58,441 - FL_Client_normclip_la - INFO - Client 69 - Round 1: Acc=0.0000, Loss=2.2712, Epochs=2 [MALICIOUS]
+2026-01-14 19:42:58,770 - FL_Client_normclip_la - INFO - Client 53 - Round 1: Acc=0.0000, Loss=2.2705, Epochs=2
+2026-01-14 19:42:59,105 - FL_Client_normclip_la - INFO - Client 28 - Round 1: Acc=0.0000, Loss=2.2566, Epochs=2 [MALICIOUS]
+2026-01-14 19:42:59,512 - FL_Client_normclip_la - INFO - Client 57 - Round 1: Acc=0.0000, Loss=2.2658, Epochs=2
+2026-01-14 19:43:00,395 - FL_Client_normclip_la - INFO - Client 75 - Round 1: Acc=0.0000, Loss=2.2683, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:01,298 - FL_Client_normclip_la - INFO - Client 35 - Round 1: Acc=0.0000, Loss=2.2626, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:04,629 - FL_Client_normclip_la - INFO - Client 0 - Round 2: Acc=0.0000, Loss=1.8836, Epochs=2
+2026-01-14 19:43:05,041 - FL_Client_normclip_la - INFO - Client 97 - Round 2: Acc=0.0000, Loss=1.6844, Epochs=2
+2026-01-14 19:43:05,417 - FL_Client_normclip_la - INFO - Client 20 - Round 2: Acc=0.0000, Loss=1.6747, Epochs=2
+2026-01-14 19:43:05,796 - FL_Client_normclip_la - INFO - Client 89 - Round 2: Acc=0.0000, Loss=1.7317, Epochs=2
+2026-01-14 19:43:06,120 - FL_Client_normclip_la - INFO - Client 54 - Round 2: Acc=0.0000, Loss=1.7521, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:06,468 - FL_Client_normclip_la - INFO - Client 43 - Round 2: Acc=0.0000, Loss=1.7229, Epochs=2
+2026-01-14 19:43:06,814 - FL_Client_normclip_la - INFO - Client 35 - Round 2: Acc=0.0000, Loss=1.7388, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:07,190 - FL_Client_normclip_la - INFO - Client 19 - Round 2: Acc=0.0000, Loss=1.6636, Epochs=2
+2026-01-14 19:43:07,605 - FL_Client_normclip_la - INFO - Client 27 - Round 2: Acc=0.0000, Loss=1.8128, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:07,955 - FL_Client_normclip_la - INFO - Client 13 - Round 2: Acc=0.0000, Loss=1.8550, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:10,437 - FL_Client_normclip_la - INFO - Client 11 - Round 3: Acc=0.0000, Loss=0.6110, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:11,404 - FL_Client_normclip_la - INFO - Client 48 - Round 3: Acc=0.0000, Loss=0.5967, Epochs=2
+2026-01-14 19:43:11,999 - FL_Client_normclip_la - INFO - Client 12 - Round 3: Acc=0.0000, Loss=0.5719, Epochs=2
+2026-01-14 19:43:12,946 - FL_Client_normclip_la - INFO - Client 45 - Round 3: Acc=0.0000, Loss=0.6586, Epochs=2
+2026-01-14 19:43:13,876 - FL_Client_normclip_la - INFO - Client 44 - Round 3: Acc=0.0000, Loss=0.6310, Epochs=2
+2026-01-14 19:43:14,324 - FL_Client_normclip_la - INFO - Client 77 - Round 3: Acc=0.0000, Loss=0.5056, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:14,891 - FL_Client_normclip_la - INFO - Client 33 - Round 3: Acc=0.0000, Loss=0.5941, Epochs=2
+2026-01-14 19:43:16,068 - FL_Client_normclip_la - INFO - Client 5 - Round 3: Acc=0.0000, Loss=0.5736, Epochs=2
+2026-01-14 19:43:16,964 - FL_Client_normclip_la - INFO - Client 93 - Round 3: Acc=0.0000, Loss=0.6452, Epochs=2
+2026-01-14 19:43:17,496 - FL_Client_normclip_la - INFO - Client 58 - Round 3: Acc=0.0000, Loss=0.5747, Epochs=2
+2026-01-14 19:43:21,902 - FL_Client_normclip_la - INFO - Client 68 - Round 4: Acc=0.0000, Loss=0.3806, Epochs=2
+2026-01-14 19:43:22,648 - FL_Client_normclip_la - INFO - Client 15 - Round 4: Acc=0.0000, Loss=0.2875, Epochs=2
+2026-01-14 19:43:23,472 - FL_Client_normclip_la - INFO - Client 48 - Round 4: Acc=0.0000, Loss=0.2664, Epochs=2
+2026-01-14 19:43:25,513 - FL_Client_normclip_la - INFO - Client 10 - Round 4: Acc=0.0000, Loss=0.3414, Epochs=2
+2026-01-14 19:43:27,427 - FL_Client_normclip_la - INFO - Client 70 - Round 4: Acc=0.0000, Loss=0.3404, Epochs=2
+2026-01-14 19:43:28,195 - FL_Client_normclip_la - INFO - Client 37 - Round 4: Acc=0.0000, Loss=0.2364, Epochs=2
+2026-01-14 19:43:28,657 - FL_Client_normclip_la - INFO - Client 80 - Round 4: Acc=0.0000, Loss=0.3186, Epochs=2
+2026-01-14 19:43:29,068 - FL_Client_normclip_la - INFO - Client 79 - Round 4: Acc=0.0000, Loss=0.3245, Epochs=2
+2026-01-14 19:43:29,524 - FL_Client_normclip_la - INFO - Client 46 - Round 4: Acc=0.0000, Loss=0.3540, Epochs=2
+2026-01-14 19:43:30,000 - FL_Client_normclip_la - INFO - Client 73 - Round 4: Acc=0.0000, Loss=0.3035, Epochs=2
+2026-01-14 19:43:32,771 - FL_Client_normclip_la - INFO - Client 24 - Round 5: Acc=0.0000, Loss=0.2775, Epochs=2
+2026-01-14 19:43:33,796 - FL_Client_normclip_la - INFO - Client 90 - Round 5: Acc=0.0000, Loss=0.2467, Epochs=2
+2026-01-14 19:43:34,462 - FL_Client_normclip_la - INFO - Client 8 - Round 5: Acc=0.0000, Loss=0.1857, Epochs=2
+2026-01-14 19:43:35,182 - FL_Client_normclip_la - INFO - Client 5 - Round 5: Acc=0.0000, Loss=0.2232, Epochs=2
+2026-01-14 19:43:35,837 - FL_Client_normclip_la - INFO - Client 84 - Round 5: Acc=0.0000, Loss=0.2613, Epochs=2
+2026-01-14 19:43:36,458 - FL_Client_normclip_la - INFO - Client 29 - Round 5: Acc=0.0000, Loss=0.2429, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:36,916 - FL_Client_normclip_la - INFO - Client 98 - Round 5: Acc=0.0000, Loss=0.2346, Epochs=2
+2026-01-14 19:43:37,576 - FL_Client_normclip_la - INFO - Client 37 - Round 5: Acc=0.0000, Loss=0.1405, Epochs=2
+2026-01-14 19:43:38,502 - FL_Client_normclip_la - INFO - Client 10 - Round 5: Acc=0.0000, Loss=0.2344, Epochs=2
+2026-01-14 19:43:39,420 - FL_Client_normclip_la - INFO - Client 12 - Round 5: Acc=0.0000, Loss=0.1974, Epochs=2
+2026-01-14 19:43:42,697 - FL_Client_normclip_la - INFO - Client 48 - Round 6: Acc=0.0000, Loss=0.2033, Epochs=2
+2026-01-14 19:43:43,312 - FL_Client_normclip_la - INFO - Client 35 - Round 6: Acc=0.0000, Loss=0.1985, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:43,834 - FL_Client_normclip_la - INFO - Client 58 - Round 6: Acc=0.0000, Loss=0.1782, Epochs=2
+2026-01-14 19:43:44,284 - FL_Client_normclip_la - INFO - Client 81 - Round 6: Acc=0.0000, Loss=0.2307, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:44,727 - FL_Client_normclip_la - INFO - Client 46 - Round 6: Acc=0.0000, Loss=0.2033, Epochs=2
+2026-01-14 19:43:45,159 - FL_Client_normclip_la - INFO - Client 20 - Round 6: Acc=0.0000, Loss=0.2136, Epochs=2
+2026-01-14 19:43:45,576 - FL_Client_normclip_la - INFO - Client 47 - Round 6: Acc=0.0000, Loss=0.1810, Epochs=2
+2026-01-14 19:43:46,014 - FL_Client_normclip_la - INFO - Client 45 - Round 6: Acc=0.0000, Loss=0.2384, Epochs=2
+2026-01-14 19:43:46,475 - FL_Client_normclip_la - INFO - Client 26 - Round 6: Acc=0.0000, Loss=0.2333, Epochs=2
+2026-01-14 19:43:46,905 - FL_Client_normclip_la - INFO - Client 85 - Round 6: Acc=0.0000, Loss=0.1879, Epochs=2
+2026-01-14 19:43:49,688 - FL_Client_normclip_la - INFO - Client 34 - Round 7: Acc=0.0000, Loss=0.1632, Epochs=2
+2026-01-14 19:43:50,220 - FL_Client_normclip_la - INFO - Client 89 - Round 7: Acc=0.0000, Loss=0.1724, Epochs=2
+2026-01-14 19:43:50,712 - FL_Client_normclip_la - INFO - Client 87 - Round 7: Acc=0.0000, Loss=0.2254, Epochs=2
+2026-01-14 19:43:51,192 - FL_Client_normclip_la - INFO - Client 82 - Round 7: Acc=0.0000, Loss=0.1614, Epochs=2
+2026-01-14 19:43:51,714 - FL_Client_normclip_la - INFO - Client 9 - Round 7: Acc=0.0000, Loss=0.1648, Epochs=2
+2026-01-14 19:43:52,327 - FL_Client_normclip_la - INFO - Client 77 - Round 7: Acc=0.0000, Loss=0.1301, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:53,088 - FL_Client_normclip_la - INFO - Client 81 - Round 7: Acc=0.0000, Loss=0.2049, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:53,579 - FL_Client_normclip_la - INFO - Client 21 - Round 7: Acc=0.0000, Loss=0.1937, Epochs=2
+2026-01-14 19:43:54,016 - FL_Client_normclip_la - INFO - Client 68 - Round 7: Acc=0.0000, Loss=0.2450, Epochs=2
+2026-01-14 19:43:54,473 - FL_Client_normclip_la - INFO - Client 93 - Round 7: Acc=0.0000, Loss=0.2145, Epochs=2
+2026-01-14 19:43:56,703 - FL_Client_normclip_la - INFO - Client 31 - Round 8: Acc=0.0000, Loss=0.1914, Epochs=2 [MALICIOUS]
+2026-01-14 19:43:57,238 - FL_Client_normclip_la - INFO - Client 20 - Round 8: Acc=0.0000, Loss=0.1515, Epochs=2
+2026-01-14 19:43:57,689 - FL_Client_normclip_la - INFO - Client 59 - Round 8: Acc=0.0000, Loss=0.1293, Epochs=2
+2026-01-14 19:43:58,342 - FL_Client_normclip_la - INFO - Client 48 - Round 8: Acc=0.0000, Loss=0.1397, Epochs=2
+2026-01-14 19:43:59,054 - FL_Client_normclip_la - INFO - Client 34 - Round 8: Acc=0.0000, Loss=0.1039, Epochs=2
+2026-01-14 19:43:59,578 - FL_Client_normclip_la - INFO - Client 81 - Round 8: Acc=0.0000, Loss=0.1832, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:00,068 - FL_Client_normclip_la - INFO - Client 88 - Round 8: Acc=0.0000, Loss=0.1412, Epochs=2
+2026-01-14 19:44:00,568 - FL_Client_normclip_la - INFO - Client 71 - Round 8: Acc=0.0000, Loss=0.1612, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:01,032 - FL_Client_normclip_la - INFO - Client 28 - Round 8: Acc=0.0000, Loss=0.1328, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:01,588 - FL_Client_normclip_la - INFO - Client 87 - Round 8: Acc=0.0000, Loss=0.1630, Epochs=2
+2026-01-14 19:44:04,429 - FL_Client_normclip_la - INFO - Client 41 - Round 9: Acc=0.0000, Loss=0.1752, Epochs=2
+2026-01-14 19:44:04,944 - FL_Client_normclip_la - INFO - Client 98 - Round 9: Acc=0.0000, Loss=0.1336, Epochs=2
+2026-01-14 19:44:05,784 - FL_Client_normclip_la - INFO - Client 99 - Round 9: Acc=0.0000, Loss=0.1943, Epochs=2
+2026-01-14 19:44:06,392 - FL_Client_normclip_la - INFO - Client 7 - Round 9: Acc=0.0000, Loss=0.1596, Epochs=2
+2026-01-14 19:44:07,713 - FL_Client_normclip_la - INFO - Client 29 - Round 9: Acc=0.0000, Loss=0.1042, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:08,432 - FL_Client_normclip_la - INFO - Client 4 - Round 9: Acc=0.0000, Loss=0.0972, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:08,910 - FL_Client_normclip_la - INFO - Client 40 - Round 9: Acc=0.0000, Loss=0.1458, Epochs=2
+2026-01-14 19:44:09,413 - FL_Client_normclip_la - INFO - Client 51 - Round 9: Acc=0.0000, Loss=0.1215, Epochs=2
+2026-01-14 19:44:09,891 - FL_Client_normclip_la - INFO - Client 34 - Round 9: Acc=0.0000, Loss=0.1096, Epochs=2
+2026-01-14 19:44:10,448 - FL_Client_normclip_la - INFO - Client 8 - Round 9: Acc=0.0000, Loss=0.1046, Epochs=2
+2026-01-14 19:44:13,438 - FL_Client_normclip_la - INFO - Client 27 - Round 10: Acc=0.0000, Loss=0.1689, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:13,876 - FL_Client_normclip_la - INFO - Client 72 - Round 10: Acc=0.0000, Loss=0.1775, Epochs=2
+2026-01-14 19:44:14,343 - FL_Client_normclip_la - INFO - Client 91 - Round 10: Acc=0.0000, Loss=0.1112, Epochs=2
+2026-01-14 19:44:14,804 - FL_Client_normclip_la - INFO - Client 40 - Round 10: Acc=0.0000, Loss=0.0892, Epochs=2
+2026-01-14 19:44:15,251 - FL_Client_normclip_la - INFO - Client 83 - Round 10: Acc=0.0000, Loss=0.1524, Epochs=2
+2026-01-14 19:44:15,708 - FL_Client_normclip_la - INFO - Client 63 - Round 10: Acc=0.0000, Loss=0.0874, Epochs=2
+2026-01-14 19:44:16,180 - FL_Client_normclip_la - INFO - Client 50 - Round 10: Acc=0.0000, Loss=0.1530, Epochs=2
+2026-01-14 19:44:16,691 - FL_Client_normclip_la - INFO - Client 82 - Round 10: Acc=0.0000, Loss=0.0933, Epochs=2
+2026-01-14 19:44:17,161 - FL_Client_normclip_la - INFO - Client 58 - Round 10: Acc=0.0000, Loss=0.1084, Epochs=2
+2026-01-14 19:44:17,592 - FL_Client_normclip_la - INFO - Client 18 - Round 10: Acc=0.0000, Loss=0.1774, Epochs=2
+2026-01-14 19:44:20,132 - FL_Client_normclip_la - INFO - Client 33 - Round 11: Acc=0.0000, Loss=0.1468, Epochs=2
+2026-01-14 19:44:20,629 - FL_Client_normclip_la - INFO - Client 17 - Round 11: Acc=0.0000, Loss=0.1375, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:21,114 - FL_Client_normclip_la - INFO - Client 31 - Round 11: Acc=0.0000, Loss=0.1237, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:21,580 - FL_Client_normclip_la - INFO - Client 95 - Round 11: Acc=0.0000, Loss=0.1320, Epochs=2
+2026-01-14 19:44:22,126 - FL_Client_normclip_la - INFO - Client 71 - Round 11: Acc=0.0000, Loss=0.1562, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:22,601 - FL_Client_normclip_la - INFO - Client 68 - Round 11: Acc=0.0000, Loss=0.1495, Epochs=2
+2026-01-14 19:44:23,092 - FL_Client_normclip_la - INFO - Client 74 - Round 11: Acc=0.0000, Loss=0.1101, Epochs=2
+2026-01-14 19:44:23,567 - FL_Client_normclip_la - INFO - Client 54 - Round 11: Acc=0.0000, Loss=0.1640, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:24,123 - FL_Client_normclip_la - INFO - Client 51 - Round 11: Acc=0.0000, Loss=0.0898, Epochs=2
+2026-01-14 19:44:24,639 - FL_Client_normclip_la - INFO - Client 46 - Round 11: Acc=0.0000, Loss=0.1473, Epochs=2
+2026-01-14 19:44:27,087 - FL_Client_normclip_la - INFO - Client 28 - Round 12: Acc=0.0000, Loss=0.1096, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:27,685 - FL_Client_normclip_la - INFO - Client 17 - Round 12: Acc=0.0000, Loss=0.1073, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:28,240 - FL_Client_normclip_la - INFO - Client 65 - Round 12: Acc=0.0000, Loss=0.1066, Epochs=2
+2026-01-14 19:44:28,760 - FL_Client_normclip_la - INFO - Client 63 - Round 12: Acc=0.0000, Loss=0.0600, Epochs=2
+2026-01-14 19:44:29,292 - FL_Client_normclip_la - INFO - Client 11 - Round 12: Acc=0.0000, Loss=0.1100, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:29,844 - FL_Client_normclip_la - INFO - Client 96 - Round 12: Acc=0.0000, Loss=0.0938, Epochs=2
+2026-01-14 19:44:30,436 - FL_Client_normclip_la - INFO - Client 6 - Round 12: Acc=0.0000, Loss=0.1390, Epochs=2
+2026-01-14 19:44:31,017 - FL_Client_normclip_la - INFO - Client 14 - Round 12: Acc=0.0000, Loss=0.1207, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:31,636 - FL_Client_normclip_la - INFO - Client 19 - Round 12: Acc=0.0000, Loss=0.1097, Epochs=2
+2026-01-14 19:44:32,451 - FL_Client_normclip_la - INFO - Client 80 - Round 12: Acc=0.0000, Loss=0.1010, Epochs=2
+2026-01-14 19:44:39,692 - FL_Client_normclip_la - INFO - Client 20 - Round 13: Acc=0.0000, Loss=0.1077, Epochs=2
+2026-01-14 19:44:40,952 - FL_Client_normclip_la - INFO - Client 87 - Round 13: Acc=0.0000, Loss=0.0861, Epochs=2
+2026-01-14 19:44:41,699 - FL_Client_normclip_la - INFO - Client 54 - Round 13: Acc=0.0000, Loss=0.0983, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:42,387 - FL_Client_normclip_la - INFO - Client 76 - Round 13: Acc=0.0000, Loss=0.1150, Epochs=2
+2026-01-14 19:44:43,080 - FL_Client_normclip_la - INFO - Client 8 - Round 13: Acc=0.0000, Loss=0.0900, Epochs=2
+2026-01-14 19:44:44,697 - FL_Client_normclip_la - INFO - Client 49 - Round 13: Acc=0.0000, Loss=0.1048, Epochs=2
+2026-01-14 19:44:45,617 - FL_Client_normclip_la - INFO - Client 48 - Round 13: Acc=0.0000, Loss=0.1188, Epochs=2
+2026-01-14 19:44:46,414 - FL_Client_normclip_la - INFO - Client 59 - Round 13: Acc=0.0000, Loss=0.0955, Epochs=2
+2026-01-14 19:44:47,230 - FL_Client_normclip_la - INFO - Client 67 - Round 13: Acc=0.0000, Loss=0.1095, Epochs=2
+2026-01-14 19:44:47,857 - FL_Client_normclip_la - INFO - Client 32 - Round 13: Acc=0.0000, Loss=0.0880, Epochs=2
+2026-01-14 19:44:50,564 - FL_Client_normclip_la - INFO - Client 70 - Round 14: Acc=0.0000, Loss=0.1060, Epochs=2
+2026-01-14 19:44:51,131 - FL_Client_normclip_la - INFO - Client 1 - Round 14: Acc=0.0000, Loss=0.1465, Epochs=2
+2026-01-14 19:44:51,706 - FL_Client_normclip_la - INFO - Client 87 - Round 14: Acc=0.0000, Loss=0.0721, Epochs=2
+2026-01-14 19:44:52,276 - FL_Client_normclip_la - INFO - Client 92 - Round 14: Acc=0.0000, Loss=0.0931, Epochs=2
+2026-01-14 19:44:52,861 - FL_Client_normclip_la - INFO - Client 14 - Round 14: Acc=0.0000, Loss=0.1093, Epochs=2 [MALICIOUS]
+2026-01-14 19:44:53,506 - FL_Client_normclip_la - INFO - Client 68 - Round 14: Acc=0.0000, Loss=0.1109, Epochs=2
+2026-01-14 19:44:54,146 - FL_Client_normclip_la - INFO - Client 96 - Round 14: Acc=0.0000, Loss=0.0812, Epochs=2
+2026-01-14 19:44:54,840 - FL_Client_normclip_la - INFO - Client 34 - Round 14: Acc=0.0000, Loss=0.0673, Epochs=2
+2026-01-14 19:44:55,470 - FL_Client_normclip_la - INFO - Client 98 - Round 14: Acc=0.0000, Loss=0.0995, Epochs=2
+2026-01-14 19:44:56,154 - FL_Client_normclip_la - INFO - Client 82 - Round 14: Acc=0.0000, Loss=0.0772, Epochs=2
+2026-01-14 19:44:59,348 - FL_Client_normclip_la - INFO - Client 43 - Round 15: Acc=0.0000, Loss=0.1905, Epochs=2
+2026-01-14 19:45:00,916 - FL_Client_normclip_la - INFO - Client 14 - Round 15: Acc=0.0000, Loss=0.1124, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:01,932 - FL_Client_normclip_la - INFO - Client 37 - Round 15: Acc=0.0000, Loss=0.0549, Epochs=2
+2026-01-14 19:45:02,663 - FL_Client_normclip_la - INFO - Client 55 - Round 15: Acc=0.0000, Loss=0.0657, Epochs=2
+2026-01-14 19:45:03,393 - FL_Client_normclip_la - INFO - Client 20 - Round 15: Acc=0.0000, Loss=0.1168, Epochs=2
+2026-01-14 19:45:03,959 - FL_Client_normclip_la - INFO - Client 58 - Round 15: Acc=0.0000, Loss=0.1071, Epochs=2
+2026-01-14 19:45:04,557 - FL_Client_normclip_la - INFO - Client 0 - Round 15: Acc=0.0000, Loss=0.1157, Epochs=2
+2026-01-14 19:45:05,081 - FL_Client_normclip_la - INFO - Client 92 - Round 15: Acc=0.0000, Loss=0.0524, Epochs=2
+2026-01-14 19:45:05,707 - FL_Client_normclip_la - INFO - Client 33 - Round 15: Acc=0.0000, Loss=0.1143, Epochs=2
+2026-01-14 19:45:06,352 - FL_Client_normclip_la - INFO - Client 64 - Round 15: Acc=0.0000, Loss=0.1316, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:11,144 - FL_Client_normclip_la - INFO - Client 97 - Round 16: Acc=0.0000, Loss=0.0924, Epochs=2
+2026-01-14 19:45:12,487 - FL_Client_normclip_la - INFO - Client 22 - Round 16: Acc=0.0000, Loss=0.1144, Epochs=2
+2026-01-14 19:45:13,139 - FL_Client_normclip_la - INFO - Client 64 - Round 16: Acc=0.0000, Loss=0.1269, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:13,696 - FL_Client_normclip_la - INFO - Client 13 - Round 16: Acc=0.0000, Loss=0.1236, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:14,303 - FL_Client_normclip_la - INFO - Client 80 - Round 16: Acc=0.0000, Loss=0.0814, Epochs=2
+2026-01-14 19:45:14,909 - FL_Client_normclip_la - INFO - Client 38 - Round 16: Acc=0.0000, Loss=0.0744, Epochs=2
+2026-01-14 19:45:16,216 - FL_Client_normclip_la - INFO - Client 81 - Round 16: Acc=0.0000, Loss=0.1326, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:17,458 - FL_Client_normclip_la - INFO - Client 77 - Round 16: Acc=0.0000, Loss=0.0842, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:18,913 - FL_Client_normclip_la - INFO - Client 25 - Round 16: Acc=0.0000, Loss=0.1041, Epochs=2
+2026-01-14 19:45:19,726 - FL_Client_normclip_la - INFO - Client 19 - Round 16: Acc=0.0000, Loss=0.0657, Epochs=2
+2026-01-14 19:45:23,035 - FL_Client_normclip_la - INFO - Client 47 - Round 17: Acc=0.0000, Loss=0.0792, Epochs=2
+2026-01-14 19:45:23,792 - FL_Client_normclip_la - INFO - Client 97 - Round 17: Acc=0.0000, Loss=0.0381, Epochs=2
+2026-01-14 19:45:24,433 - FL_Client_normclip_la - INFO - Client 20 - Round 17: Acc=0.0000, Loss=0.0713, Epochs=2
+2026-01-14 19:45:25,104 - FL_Client_normclip_la - INFO - Client 69 - Round 17: Acc=0.0000, Loss=0.0924, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:25,713 - FL_Client_normclip_la - INFO - Client 99 - Round 17: Acc=0.0000, Loss=0.1617, Epochs=2
+2026-01-14 19:45:26,326 - FL_Client_normclip_la - INFO - Client 67 - Round 17: Acc=0.0000, Loss=0.0746, Epochs=2
+2026-01-14 19:45:26,993 - FL_Client_normclip_la - INFO - Client 0 - Round 17: Acc=0.0000, Loss=0.0850, Epochs=2
+2026-01-14 19:45:27,724 - FL_Client_normclip_la - INFO - Client 76 - Round 17: Acc=0.0000, Loss=0.0753, Epochs=2
+2026-01-14 19:45:28,362 - FL_Client_normclip_la - INFO - Client 41 - Round 17: Acc=0.0000, Loss=0.1122, Epochs=2
+2026-01-14 19:45:29,031 - FL_Client_normclip_la - INFO - Client 62 - Round 17: Acc=0.0000, Loss=0.1225, Epochs=2
+2026-01-14 19:45:33,319 - FL_Client_normclip_la - INFO - Client 2 - Round 18: Acc=0.0000, Loss=0.0599, Epochs=2
+2026-01-14 19:45:34,240 - FL_Client_normclip_la - INFO - Client 14 - Round 18: Acc=0.0000, Loss=0.0789, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:35,213 - FL_Client_normclip_la - INFO - Client 46 - Round 18: Acc=0.0000, Loss=0.1161, Epochs=2
+2026-01-14 19:45:36,241 - FL_Client_normclip_la - INFO - Client 39 - Round 18: Acc=0.0000, Loss=0.1482, Epochs=2
+2026-01-14 19:45:37,207 - FL_Client_normclip_la - INFO - Client 30 - Round 18: Acc=0.0000, Loss=0.1017, Epochs=2
+2026-01-14 19:45:37,801 - FL_Client_normclip_la - INFO - Client 7 - Round 18: Acc=0.0000, Loss=0.0833, Epochs=2
+2026-01-14 19:45:38,397 - FL_Client_normclip_la - INFO - Client 72 - Round 18: Acc=0.0000, Loss=0.1259, Epochs=2
+2026-01-14 19:45:39,239 - FL_Client_normclip_la - INFO - Client 10 - Round 18: Acc=0.0000, Loss=0.0576, Epochs=2
+2026-01-14 19:45:39,827 - FL_Client_normclip_la - INFO - Client 93 - Round 18: Acc=0.0000, Loss=0.1127, Epochs=2
+2026-01-14 19:45:40,389 - FL_Client_normclip_la - INFO - Client 62 - Round 18: Acc=0.0000, Loss=0.0934, Epochs=2
+2026-01-14 19:45:42,892 - FL_Client_normclip_la - INFO - Client 8 - Round 19: Acc=0.0000, Loss=0.0369, Epochs=2
+2026-01-14 19:45:43,514 - FL_Client_normclip_la - INFO - Client 97 - Round 19: Acc=0.0000, Loss=0.0527, Epochs=2
+2026-01-14 19:45:44,092 - FL_Client_normclip_la - INFO - Client 68 - Round 19: Acc=0.0000, Loss=0.1105, Epochs=2
+2026-01-14 19:45:44,720 - FL_Client_normclip_la - INFO - Client 98 - Round 19: Acc=0.0000, Loss=0.0687, Epochs=2
+2026-01-14 19:45:45,366 - FL_Client_normclip_la - INFO - Client 16 - Round 19: Acc=0.0000, Loss=0.1103, Epochs=2
+2026-01-14 19:45:46,058 - FL_Client_normclip_la - INFO - Client 84 - Round 19: Acc=0.0000, Loss=0.0899, Epochs=2
+2026-01-14 19:45:46,725 - FL_Client_normclip_la - INFO - Client 60 - Round 19: Acc=0.0000, Loss=0.0816, Epochs=2
+2026-01-14 19:45:47,290 - FL_Client_normclip_la - INFO - Client 70 - Round 19: Acc=0.0000, Loss=0.0653, Epochs=2
+2026-01-14 19:45:47,810 - FL_Client_normclip_la - INFO - Client 21 - Round 19: Acc=0.0000, Loss=0.0923, Epochs=2
+2026-01-14 19:45:48,360 - FL_Client_normclip_la - INFO - Client 33 - Round 19: Acc=0.0000, Loss=0.0946, Epochs=2
+2026-01-14 19:45:50,677 - FL_Client_normclip_la - INFO - Client 67 - Round 20: Acc=0.0000, Loss=0.0725, Epochs=2
+2026-01-14 19:45:51,223 - FL_Client_normclip_la - INFO - Client 77 - Round 20: Acc=0.0000, Loss=0.0631, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:51,934 - FL_Client_normclip_la - INFO - Client 54 - Round 20: Acc=0.0000, Loss=0.1369, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:52,519 - FL_Client_normclip_la - INFO - Client 27 - Round 20: Acc=0.0000, Loss=0.1226, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:53,134 - FL_Client_normclip_la - INFO - Client 69 - Round 20: Acc=0.0000, Loss=0.1021, Epochs=2 [MALICIOUS]
+2026-01-14 19:45:53,727 - FL_Client_normclip_la - INFO - Client 96 - Round 20: Acc=0.0000, Loss=0.0655, Epochs=2
+2026-01-14 19:45:54,268 - FL_Client_normclip_la - INFO - Client 93 - Round 20: Acc=0.0000, Loss=0.0586, Epochs=2
+2026-01-14 19:45:54,797 - FL_Client_normclip_la - INFO - Client 88 - Round 20: Acc=0.0000, Loss=0.0576, Epochs=2
+2026-01-14 19:45:55,304 - FL_Client_normclip_la - INFO - Client 25 - Round 20: Acc=0.0000, Loss=0.0529, Epochs=2
+2026-01-14 19:45:55,833 - FL_Client_normclip_la - INFO - Client 91 - Round 20: Acc=0.0000, Loss=0.0869, Epochs=2
+2026-01-14 19:45:58,205 - FL_Client_normclip_la - INFO - Client 39 - Round 21: Acc=0.0000, Loss=0.1380, Epochs=2
+2026-01-14 19:45:58,742 - FL_Client_normclip_la - INFO - Client 51 - Round 21: Acc=0.0000, Loss=0.0905, Epochs=2
+2026-01-14 19:45:59,312 - FL_Client_normclip_la - INFO - Client 85 - Round 21: Acc=0.0000, Loss=0.0635, Epochs=2
+2026-01-14 19:45:59,885 - FL_Client_normclip_la - INFO - Client 83 - Round 21: Acc=0.0000, Loss=0.0740, Epochs=2
+2026-01-14 19:46:00,438 - FL_Client_normclip_la - INFO - Client 47 - Round 21: Acc=0.0000, Loss=0.0434, Epochs=2
+2026-01-14 19:46:01,045 - FL_Client_normclip_la - INFO - Client 56 - Round 21: Acc=0.0000, Loss=0.0457, Epochs=2
+2026-01-14 19:46:01,648 - FL_Client_normclip_la - INFO - Client 66 - Round 21: Acc=0.0000, Loss=0.1270, Epochs=2
+2026-01-14 19:46:02,191 - FL_Client_normclip_la - INFO - Client 57 - Round 21: Acc=0.0000, Loss=0.0547, Epochs=2
+2026-01-14 19:46:02,730 - FL_Client_normclip_la - INFO - Client 15 - Round 21: Acc=0.0000, Loss=0.0893, Epochs=2
+2026-01-14 19:46:03,294 - FL_Client_normclip_la - INFO - Client 31 - Round 21: Acc=0.0000, Loss=0.0994, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:05,566 - FL_Client_normclip_la - INFO - Client 28 - Round 22: Acc=0.0000, Loss=0.0884, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:06,072 - FL_Client_normclip_la - INFO - Client 8 - Round 22: Acc=0.0000, Loss=0.0350, Epochs=2
+2026-01-14 19:46:06,639 - FL_Client_normclip_la - INFO - Client 43 - Round 22: Acc=0.0000, Loss=0.1317, Epochs=2
+2026-01-14 19:46:07,163 - FL_Client_normclip_la - INFO - Client 2 - Round 22: Acc=0.0000, Loss=0.0400, Epochs=2
+2026-01-14 19:46:07,676 - FL_Client_normclip_la - INFO - Client 75 - Round 22: Acc=0.0000, Loss=0.0621, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:08,268 - FL_Client_normclip_la - INFO - Client 70 - Round 22: Acc=0.0000, Loss=0.0491, Epochs=2
+2026-01-14 19:46:08,829 - FL_Client_normclip_la - INFO - Client 29 - Round 22: Acc=0.0000, Loss=0.0782, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:09,357 - FL_Client_normclip_la - INFO - Client 0 - Round 22: Acc=0.0000, Loss=0.0744, Epochs=2
+2026-01-14 19:46:09,917 - FL_Client_normclip_la - INFO - Client 9 - Round 22: Acc=0.0000, Loss=0.0651, Epochs=2
+2026-01-14 19:46:10,580 - FL_Client_normclip_la - INFO - Client 90 - Round 22: Acc=0.0000, Loss=0.0683, Epochs=2
+2026-01-14 19:46:13,359 - FL_Client_normclip_la - INFO - Client 80 - Round 23: Acc=0.0000, Loss=0.0553, Epochs=2
+2026-01-14 19:46:13,874 - FL_Client_normclip_la - INFO - Client 7 - Round 23: Acc=0.0000, Loss=0.0777, Epochs=2
+2026-01-14 19:46:15,134 - FL_Client_normclip_la - INFO - Client 29 - Round 23: Acc=0.0000, Loss=0.0636, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:16,129 - FL_Client_normclip_la - INFO - Client 8 - Round 23: Acc=0.0000, Loss=0.0276, Epochs=2
+2026-01-14 19:46:17,473 - FL_Client_normclip_la - INFO - Client 4 - Round 23: Acc=0.0000, Loss=0.0443, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:18,441 - FL_Client_normclip_la - INFO - Client 42 - Round 23: Acc=0.0000, Loss=0.0732, Epochs=2
+2026-01-14 19:46:19,009 - FL_Client_normclip_la - INFO - Client 9 - Round 23: Acc=0.0000, Loss=0.0454, Epochs=2
+2026-01-14 19:46:19,601 - FL_Client_normclip_la - INFO - Client 65 - Round 23: Acc=0.0000, Loss=0.0600, Epochs=2
+2026-01-14 19:46:20,246 - FL_Client_normclip_la - INFO - Client 30 - Round 23: Acc=0.0000, Loss=0.0755, Epochs=2
+2026-01-14 19:46:20,852 - FL_Client_normclip_la - INFO - Client 35 - Round 23: Acc=0.0000, Loss=0.0884, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:23,285 - FL_Client_normclip_la - INFO - Client 85 - Round 24: Acc=0.0000, Loss=0.0453, Epochs=2
+2026-01-14 19:46:23,826 - FL_Client_normclip_la - INFO - Client 62 - Round 24: Acc=0.0000, Loss=0.0711, Epochs=2
+2026-01-14 19:46:24,378 - FL_Client_normclip_la - INFO - Client 27 - Round 24: Acc=0.0000, Loss=0.0880, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:24,934 - FL_Client_normclip_la - INFO - Client 69 - Round 24: Acc=0.0000, Loss=0.0700, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:25,454 - FL_Client_normclip_la - INFO - Client 16 - Round 24: Acc=0.0000, Loss=0.0840, Epochs=2
+2026-01-14 19:46:26,085 - FL_Client_normclip_la - INFO - Client 92 - Round 24: Acc=0.0000, Loss=0.0701, Epochs=2
+2026-01-14 19:46:26,593 - FL_Client_normclip_la - INFO - Client 73 - Round 24: Acc=0.0000, Loss=0.1012, Epochs=2
+2026-01-14 19:46:27,179 - FL_Client_normclip_la - INFO - Client 60 - Round 24: Acc=0.0000, Loss=0.0650, Epochs=2
+2026-01-14 19:46:27,702 - FL_Client_normclip_la - INFO - Client 31 - Round 24: Acc=0.0000, Loss=0.0810, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:28,215 - FL_Client_normclip_la - INFO - Client 52 - Round 24: Acc=0.0000, Loss=0.0639, Epochs=2
+2026-01-14 19:46:30,386 - FL_Client_normclip_la - INFO - Client 24 - Round 25: Acc=0.0000, Loss=0.0652, Epochs=2
+2026-01-14 19:46:30,899 - FL_Client_normclip_la - INFO - Client 12 - Round 25: Acc=0.0000, Loss=0.0858, Epochs=2
+2026-01-14 19:46:31,437 - FL_Client_normclip_la - INFO - Client 84 - Round 25: Acc=0.0000, Loss=0.0630, Epochs=2
+2026-01-14 19:46:31,964 - FL_Client_normclip_la - INFO - Client 55 - Round 25: Acc=0.0000, Loss=0.0358, Epochs=2
+2026-01-14 19:46:32,518 - FL_Client_normclip_la - INFO - Client 45 - Round 25: Acc=0.0000, Loss=0.1145, Epochs=2
+2026-01-14 19:46:33,085 - FL_Client_normclip_la - INFO - Client 54 - Round 25: Acc=0.0000, Loss=0.0582, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:33,651 - FL_Client_normclip_la - INFO - Client 52 - Round 25: Acc=0.0000, Loss=0.0470, Epochs=2
+2026-01-14 19:46:34,243 - FL_Client_normclip_la - INFO - Client 59 - Round 25: Acc=0.0000, Loss=0.0526, Epochs=2
+2026-01-14 19:46:34,836 - FL_Client_normclip_la - INFO - Client 93 - Round 25: Acc=0.0000, Loss=0.0634, Epochs=2
+2026-01-14 19:46:35,376 - FL_Client_normclip_la - INFO - Client 6 - Round 25: Acc=0.0000, Loss=0.1117, Epochs=2
+2026-01-14 19:46:37,709 - FL_Client_normclip_la - INFO - Client 86 - Round 26: Acc=0.0000, Loss=0.0887, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:38,324 - FL_Client_normclip_la - INFO - Client 83 - Round 26: Acc=0.0000, Loss=0.0850, Epochs=2
+2026-01-14 19:46:39,116 - FL_Client_normclip_la - INFO - Client 82 - Round 26: Acc=0.0000, Loss=0.0671, Epochs=2
+2026-01-14 19:46:40,040 - FL_Client_normclip_la - INFO - Client 12 - Round 26: Acc=0.0000, Loss=0.0665, Epochs=2
+2026-01-14 19:46:40,694 - FL_Client_normclip_la - INFO - Client 7 - Round 26: Acc=0.0000, Loss=0.0403, Epochs=2
+2026-01-14 19:46:41,278 - FL_Client_normclip_la - INFO - Client 51 - Round 26: Acc=0.0000, Loss=0.0433, Epochs=2
+2026-01-14 19:46:41,864 - FL_Client_normclip_la - INFO - Client 93 - Round 26: Acc=0.0000, Loss=0.0536, Epochs=2
+2026-01-14 19:46:42,462 - FL_Client_normclip_la - INFO - Client 43 - Round 26: Acc=0.0000, Loss=0.0967, Epochs=2
+2026-01-14 19:46:43,257 - FL_Client_normclip_la - INFO - Client 13 - Round 26: Acc=0.0000, Loss=0.0948, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:43,872 - FL_Client_normclip_la - INFO - Client 31 - Round 26: Acc=0.0000, Loss=0.0633, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:46,534 - FL_Client_normclip_la - INFO - Client 24 - Round 27: Acc=0.0000, Loss=0.0488, Epochs=2
+2026-01-14 19:46:47,087 - FL_Client_normclip_la - INFO - Client 68 - Round 27: Acc=0.0000, Loss=0.0876, Epochs=2
+2026-01-14 19:46:47,666 - FL_Client_normclip_la - INFO - Client 57 - Round 27: Acc=0.0000, Loss=0.0387, Epochs=2
+2026-01-14 19:46:48,252 - FL_Client_normclip_la - INFO - Client 17 - Round 27: Acc=0.0000, Loss=0.0751, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:48,822 - FL_Client_normclip_la - INFO - Client 54 - Round 27: Acc=0.0000, Loss=0.0498, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:49,373 - FL_Client_normclip_la - INFO - Client 23 - Round 27: Acc=0.0000, Loss=0.0766, Epochs=2
+2026-01-14 19:46:49,891 - FL_Client_normclip_la - INFO - Client 35 - Round 27: Acc=0.0000, Loss=0.0538, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:50,443 - FL_Client_normclip_la - INFO - Client 59 - Round 27: Acc=0.0000, Loss=0.0412, Epochs=2
+2026-01-14 19:46:50,938 - FL_Client_normclip_la - INFO - Client 31 - Round 27: Acc=0.0000, Loss=0.0884, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:51,446 - FL_Client_normclip_la - INFO - Client 9 - Round 27: Acc=0.0000, Loss=0.0382, Epochs=2
+2026-01-14 19:46:53,880 - FL_Client_normclip_la - INFO - Client 56 - Round 28: Acc=0.0000, Loss=0.0474, Epochs=2
+2026-01-14 19:46:54,393 - FL_Client_normclip_la - INFO - Client 70 - Round 28: Acc=0.0000, Loss=0.0592, Epochs=2
+2026-01-14 19:46:54,928 - FL_Client_normclip_la - INFO - Client 12 - Round 28: Acc=0.0000, Loss=0.0575, Epochs=2
+2026-01-14 19:46:55,512 - FL_Client_normclip_la - INFO - Client 6 - Round 28: Acc=0.0000, Loss=0.0777, Epochs=2
+2026-01-14 19:46:56,061 - FL_Client_normclip_la - INFO - Client 83 - Round 28: Acc=0.0000, Loss=0.0533, Epochs=2
+2026-01-14 19:46:56,797 - FL_Client_normclip_la - INFO - Client 69 - Round 28: Acc=0.0000, Loss=0.0771, Epochs=2 [MALICIOUS]
+2026-01-14 19:46:58,048 - FL_Client_normclip_la - INFO - Client 1 - Round 28: Acc=0.0000, Loss=0.0928, Epochs=2
+2026-01-14 19:46:59,201 - FL_Client_normclip_la - INFO - Client 11 - Round 28: Acc=0.0000, Loss=0.0626, Epochs=2 [MALICIOUS]
+2026-01-14 19:47:00,080 - FL_Client_normclip_la - INFO - Client 96 - Round 28: Acc=0.0000, Loss=0.0395, Epochs=2
+2026-01-14 19:47:00,722 - FL_Client_normclip_la - INFO - Client 30 - Round 28: Acc=0.0000, Loss=0.0650, Epochs=2
+2026-01-14 19:47:03,001 - FL_Client_normclip_la - INFO - Client 21 - Round 29: Acc=0.0000, Loss=0.0430, Epochs=2
+2026-01-14 19:47:03,482 - FL_Client_normclip_la - INFO - Client 52 - Round 29: Acc=0.0000, Loss=0.0399, Epochs=2
+2026-01-14 19:47:03,981 - FL_Client_normclip_la - INFO - Client 62 - Round 29: Acc=0.0000, Loss=0.0531, Epochs=2
+2026-01-14 19:47:04,431 - FL_Client_normclip_la - INFO - Client 61 - Round 29: Acc=0.0000, Loss=0.0866, Epochs=2
+2026-01-14 19:47:04,925 - FL_Client_normclip_la - INFO - Client 27 - Round 29: Acc=0.0000, Loss=0.0696, Epochs=2 [MALICIOUS]
+2026-01-14 19:47:05,366 - FL_Client_normclip_la - INFO - Client 51 - Round 29: Acc=0.0000, Loss=0.0292, Epochs=2
+2026-01-14 19:47:05,790 - FL_Client_normclip_la - INFO - Client 7 - Round 29: Acc=0.0000, Loss=0.0363, Epochs=2
+2026-01-14 19:47:06,243 - FL_Client_normclip_la - INFO - Client 48 - Round 29: Acc=0.0000, Loss=0.0745, Epochs=2
+2026-01-14 19:47:06,750 - FL_Client_normclip_la - INFO - Client 0 - Round 29: Acc=0.0000, Loss=0.0536, Epochs=2
+2026-01-14 19:47:07,188 - FL_Client_normclip_la - INFO - Client 49 - Round 29: Acc=0.0000, Loss=0.0814, Epochs=2
+2026-01-14 19:47:09,316 - FL_Client_normclip_la - INFO - Client 33 - Round 30: Acc=0.0000, Loss=0.0570, Epochs=2
+2026-01-14 19:47:09,785 - FL_Client_normclip_la - INFO - Client 58 - Round 30: Acc=0.0000, Loss=0.0965, Epochs=2
+2026-01-14 19:47:10,240 - FL_Client_normclip_la - INFO - Client 36 - Round 30: Acc=0.0000, Loss=0.0929, Epochs=2
+2026-01-14 19:47:10,689 - FL_Client_normclip_la - INFO - Client 54 - Round 30: Acc=0.0000, Loss=0.0468, Epochs=2 [MALICIOUS]
+2026-01-14 19:47:11,147 - FL_Client_normclip_la - INFO - Client 89 - Round 30: Acc=0.0000, Loss=0.0893, Epochs=2
+2026-01-14 19:47:11,617 - FL_Client_normclip_la - INFO - Client 93 - Round 30: Acc=0.0000, Loss=0.0363, Epochs=2
+2026-01-14 19:47:12,071 - FL_Client_normclip_la - INFO - Client 71 - Round 30: Acc=0.0000, Loss=0.0892, Epochs=2 [MALICIOUS]
+2026-01-14 19:47:12,533 - FL_Client_normclip_la - INFO - Client 84 - Round 30: Acc=0.0000, Loss=0.0505, Epochs=2
+2026-01-14 19:47:13,258 - FL_Client_normclip_la - INFO - Client 91 - Round 30: Acc=0.0000, Loss=0.0389, Epochs=2
+2026-01-14 19:47:14,434 - FL_Client_normclip_la - INFO - Client 62 - Round 30: Acc=0.0000, Loss=0.0196, Epochs=2

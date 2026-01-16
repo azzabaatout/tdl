@@ -1,0 +1,685 @@
+{
+  "1": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        69,
+        28,
+        75,
+        35
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": 9.999333381652832,
+        "euclidean_distance": 98.39203643798828,
+        "cosine_similarity": -0.9995688199996948,
+        "correlation": -0.9995682835578918,
+        "l2_norm1": 89.44999694824219,
+        "l2_norm2": 8.945595741271973
+      },
+      "timestamp": "2026-01-14T19:32:36.142950"
+    }
+  ],
+  "2": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        54,
+        35,
+        27,
+        13
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": 10.29400634765625,
+        "euclidean_distance": 371.96044921875,
+        "cosine_similarity": -0.9351009130477905,
+        "correlation": -0.9337721467018127,
+        "l2_norm1": 340.8159484863281,
+        "l2_norm2": 33.108192443847656
+      },
+      "timestamp": "2026-01-14T19:32:40.580952"
+    }
+  ],
+  "3": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        11,
+        77
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:32:48.705349"
+    }
+  ],
+  "5": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        29
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:00.426236"
+    }
+  ],
+  "6": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        35,
+        81
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:05.598037"
+    }
+  ],
+  "7": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        77,
+        81
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:10.768167"
+    }
+  ],
+  "8": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        31,
+        81,
+        71,
+        28
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:16.026899"
+    }
+  ],
+  "9": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        29,
+        4
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:21.725045"
+    }
+  ],
+  "10": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        27
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:28.492315"
+    }
+  ],
+  "11": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        17,
+        31,
+        71,
+        54
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:34.072819"
+    }
+  ],
+  "12": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        28,
+        17,
+        11,
+        14
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:39.342153"
+    }
+  ],
+  "13": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        54
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:45.287284"
+    }
+  ],
+  "14": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        14
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:51.177961"
+    }
+  ],
+  "15": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        14,
+        64
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:33:56.827654"
+    }
+  ],
+  "16": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        64,
+        13,
+        81,
+        77
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:34:02.547581"
+    }
+  ],
+  "17": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        69
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:34:08.826049"
+    }
+  ],
+  "18": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        14
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:34:19.204423"
+    }
+  ],
+  "20": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        77,
+        54,
+        27,
+        69
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:34:46.602880"
+    }
+  ],
+  "21": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        31
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:34:59.320809"
+    }
+  ],
+  "22": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        28,
+        75,
+        29
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:35:10.539558"
+    }
+  ],
+  "23": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        29,
+        4,
+        35
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:35:21.140425"
+    }
+  ],
+  "24": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        27,
+        69,
+        31
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:35:31.890220"
+    }
+  ],
+  "25": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        54
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:35:42.291665"
+    }
+  ],
+  "26": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        86,
+        13,
+        31
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:36:00.004371"
+    }
+  ],
+  "27": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        17,
+        54,
+        35,
+        31
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:36:09.173942"
+    }
+  ],
+  "28": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        69,
+        11
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:36:17.700361"
+    }
+  ],
+  "29": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        27
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:36:27.365723"
+    }
+  ],
+  "30": [
+    {
+      "attack_type": "mb",
+      "attacker_ids": [
+        54,
+        71
+      ],
+      "attack_params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": NaN,
+        "euclidean_distance": NaN,
+        "cosine_similarity": NaN,
+        "correlation": 0.0,
+        "l2_norm1": NaN,
+        "l2_norm2": NaN
+      },
+      "timestamp": "2026-01-14T19:36:35.121375"
+    }
+  ]
+}

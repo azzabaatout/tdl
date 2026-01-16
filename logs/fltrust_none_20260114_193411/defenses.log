@@ -1,0 +1,60 @@
+2026-01-14 19:34:36,570 - FL_Defense_fltrust_none - INFO - Round 1: fltrust defense applied
+2026-01-14 19:34:36,571 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:34:52,297 - FL_Defense_fltrust_none - INFO - Round 2: fltrust defense applied
+2026-01-14 19:34:52,300 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:35:06,847 - FL_Defense_fltrust_none - INFO - Round 3: fltrust defense applied
+2026-01-14 19:35:06,848 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:35:20,651 - FL_Defense_fltrust_none - INFO - Round 4: fltrust defense applied
+2026-01-14 19:35:20,652 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:35:34,577 - FL_Defense_fltrust_none - INFO - Round 5: fltrust defense applied
+2026-01-14 19:35:34,577 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:35:52,316 - FL_Defense_fltrust_none - INFO - Round 6: fltrust defense applied
+2026-01-14 19:35:52,317 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:36:09,029 - FL_Defense_fltrust_none - INFO - Round 7: fltrust defense applied
+2026-01-14 19:36:09,030 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:36:20,736 - FL_Defense_fltrust_none - INFO - Round 8: fltrust defense applied
+2026-01-14 19:36:20,737 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:36:31,508 - FL_Defense_fltrust_none - INFO - Round 9: fltrust defense applied
+2026-01-14 19:36:31,508 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:36:43,348 - FL_Defense_fltrust_none - INFO - Round 10: fltrust defense applied
+2026-01-14 19:36:43,349 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:36:52,757 - FL_Defense_fltrust_none - INFO - Round 11: fltrust defense applied
+2026-01-14 19:36:52,757 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:02,461 - FL_Defense_fltrust_none - INFO - Round 12: fltrust defense applied
+2026-01-14 19:37:02,461 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:11,336 - FL_Defense_fltrust_none - INFO - Round 13: fltrust defense applied
+2026-01-14 19:37:11,336 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:20,495 - FL_Defense_fltrust_none - INFO - Round 14: fltrust defense applied
+2026-01-14 19:37:20,495 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:27,636 - FL_Defense_fltrust_none - INFO - Round 15: fltrust defense applied
+2026-01-14 19:37:27,637 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:36,090 - FL_Defense_fltrust_none - INFO - Round 16: fltrust defense applied
+2026-01-14 19:37:36,090 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:43,329 - FL_Defense_fltrust_none - INFO - Round 17: fltrust defense applied
+2026-01-14 19:37:43,330 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:50,217 - FL_Defense_fltrust_none - INFO - Round 18: fltrust defense applied
+2026-01-14 19:37:50,217 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:37:57,940 - FL_Defense_fltrust_none - INFO - Round 19: fltrust defense applied - Rejected clients: [25]
+2026-01-14 19:37:57,941 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:04,335 - FL_Defense_fltrust_none - INFO - Round 20: fltrust defense applied
+2026-01-14 19:38:04,336 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:11,371 - FL_Defense_fltrust_none - INFO - Round 21: fltrust defense applied
+2026-01-14 19:38:11,371 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:18,763 - FL_Defense_fltrust_none - INFO - Round 22: fltrust defense applied
+2026-01-14 19:38:18,763 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:25,414 - FL_Defense_fltrust_none - INFO - Round 23: fltrust defense applied
+2026-01-14 19:38:25,414 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:31,817 - FL_Defense_fltrust_none - INFO - Round 24: fltrust defense applied
+2026-01-14 19:38:31,817 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:38,080 - FL_Defense_fltrust_none - INFO - Round 25: fltrust defense applied
+2026-01-14 19:38:38,081 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:45,796 - FL_Defense_fltrust_none - INFO - Round 26: fltrust defense applied
+2026-01-14 19:38:45,797 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:51,656 - FL_Defense_fltrust_none - INFO - Round 27: fltrust defense applied - Rejected clients: [52]
+2026-01-14 19:38:51,656 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:38:56,448 - FL_Defense_fltrust_none - INFO - Round 28: fltrust defense applied
+2026-01-14 19:38:56,448 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:39:01,348 - FL_Defense_fltrust_none - INFO - Round 29: fltrust defense applied
+2026-01-14 19:39:01,349 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-14 19:39:06,875 - FL_Defense_fltrust_none - INFO - Round 30: fltrust defense applied - Rejected clients: [17]
+2026-01-14 19:39:06,875 - FL_Defense_fltrust_none - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}

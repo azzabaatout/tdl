@@ -1,0 +1,60 @@
+2026-01-14 19:43:16,532 - FL_Defense_normclip_mb - INFO - Round 1: norm_clipping defense applied - Detected malicious: [69, 28, 75, 35]
+2026-01-14 19:43:16,532 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:29,452 - FL_Defense_normclip_mb - INFO - Round 2: norm_clipping defense applied - Rejected clients: [54, 35, 27, 13] - Detected malicious: [54, 35, 27, 13]
+2026-01-14 19:43:29,452 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:38,674 - FL_Defense_normclip_mb - INFO - Round 3: norm_clipping defense applied - Rejected clients: [11, 77] - Detected malicious: [11, 77]
+2026-01-14 19:43:38,675 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:46,461 - FL_Defense_normclip_mb - INFO - Round 4: norm_clipping defense applied
+2026-01-14 19:43:46,461 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:53,947 - FL_Defense_normclip_mb - INFO - Round 5: norm_clipping defense applied - Rejected clients: [29] - Detected malicious: [29]
+2026-01-14 19:43:53,947 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:01,001 - FL_Defense_normclip_mb - INFO - Round 6: norm_clipping defense applied - Rejected clients: [35, 81] - Detected malicious: [35, 81]
+2026-01-14 19:44:01,001 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:09,975 - FL_Defense_normclip_mb - INFO - Round 7: norm_clipping defense applied - Rejected clients: [77, 81] - Detected malicious: [77, 81]
+2026-01-14 19:44:09,975 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:17,069 - FL_Defense_normclip_mb - INFO - Round 8: norm_clipping defense applied - Rejected clients: [31, 81, 71, 28] - Detected malicious: [31, 81, 71, 28]
+2026-01-14 19:44:17,069 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:24,050 - FL_Defense_normclip_mb - INFO - Round 9: norm_clipping defense applied - Rejected clients: [29, 4] - Detected malicious: [29, 4]
+2026-01-14 19:44:24,051 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:31,474 - FL_Defense_normclip_mb - INFO - Round 10: norm_clipping defense applied - Rejected clients: [27] - Detected malicious: [27]
+2026-01-14 19:44:31,474 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:46,991 - FL_Defense_normclip_mb - INFO - Round 11: norm_clipping defense applied - Rejected clients: [17, 31, 71, 54] - Detected malicious: [17, 31, 71, 54]
+2026-01-14 19:44:46,991 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:55,156 - FL_Defense_normclip_mb - INFO - Round 12: norm_clipping defense applied - Rejected clients: [28, 17, 11, 14] - Detected malicious: [28, 17, 11, 14]
+2026-01-14 19:44:55,156 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:05,237 - FL_Defense_normclip_mb - INFO - Round 13: norm_clipping defense applied - Rejected clients: [54] - Detected malicious: [54]
+2026-01-14 19:45:05,237 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:18,407 - FL_Defense_normclip_mb - INFO - Round 14: norm_clipping defense applied - Rejected clients: [14] - Detected malicious: [14]
+2026-01-14 19:45:18,408 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:28,553 - FL_Defense_normclip_mb - INFO - Round 15: norm_clipping defense applied - Rejected clients: [14, 64] - Detected malicious: [14, 64]
+2026-01-14 19:45:28,554 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:39,784 - FL_Defense_normclip_mb - INFO - Round 16: norm_clipping defense applied - Rejected clients: [64, 13, 81, 77] - Detected malicious: [64, 13, 81, 77]
+2026-01-14 19:45:39,785 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:47,633 - FL_Defense_normclip_mb - INFO - Round 17: norm_clipping defense applied - Rejected clients: [69] - Detected malicious: [69]
+2026-01-14 19:45:47,633 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:55,156 - FL_Defense_normclip_mb - INFO - Round 18: norm_clipping defense applied - Rejected clients: [14] - Detected malicious: [14]
+2026-01-14 19:45:55,156 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:02,793 - FL_Defense_normclip_mb - INFO - Round 19: norm_clipping defense applied
+2026-01-14 19:46:02,793 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:10,625 - FL_Defense_normclip_mb - INFO - Round 20: norm_clipping defense applied - Rejected clients: [77, 54, 27, 69] - Detected malicious: [77, 54, 27, 69]
+2026-01-14 19:46:10,625 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:21,048 - FL_Defense_normclip_mb - INFO - Round 21: norm_clipping defense applied - Rejected clients: [31] - Detected malicious: [31]
+2026-01-14 19:46:21,048 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:28,435 - FL_Defense_normclip_mb - INFO - Round 22: norm_clipping defense applied - Rejected clients: [28, 75, 29] - Detected malicious: [28, 75, 29]
+2026-01-14 19:46:28,435 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:35,803 - FL_Defense_normclip_mb - INFO - Round 23: norm_clipping defense applied - Rejected clients: [29, 4, 35] - Detected malicious: [29, 4, 35]
+2026-01-14 19:46:35,803 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:44,492 - FL_Defense_normclip_mb - INFO - Round 24: norm_clipping defense applied - Rejected clients: [27, 69, 31] - Detected malicious: [27, 69, 31]
+2026-01-14 19:46:44,493 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:51,867 - FL_Defense_normclip_mb - INFO - Round 25: norm_clipping defense applied - Rejected clients: [54] - Detected malicious: [54]
+2026-01-14 19:46:51,868 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:47:01,301 - FL_Defense_normclip_mb - INFO - Round 26: norm_clipping defense applied - Rejected clients: [86, 13, 31] - Detected malicious: [86, 13, 31]
+2026-01-14 19:47:01,301 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:47:07,371 - FL_Defense_normclip_mb - INFO - Round 27: norm_clipping defense applied - Rejected clients: [17, 54, 35, 31] - Detected malicious: [17, 54, 35, 31]
+2026-01-14 19:47:07,371 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:47:14,597 - FL_Defense_normclip_mb - INFO - Round 28: norm_clipping defense applied - Rejected clients: [69, 11] - Detected malicious: [69, 11]
+2026-01-14 19:47:14,597 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:47:20,168 - FL_Defense_normclip_mb - INFO - Round 29: norm_clipping defense applied - Rejected clients: [27] - Detected malicious: [27]
+2026-01-14 19:47:20,168 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:47:24,535 - FL_Defense_normclip_mb - INFO - Round 30: norm_clipping defense applied - Rejected clients: [54, 71] - Detected malicious: [54, 71]
+2026-01-14 19:47:24,535 - FL_Defense_normclip_mb - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}

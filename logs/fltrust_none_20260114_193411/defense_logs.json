@@ -1,0 +1,548 @@
+{
+  "1": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:34:36.571293"
+    }
+  ],
+  "2": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:34:52.300446"
+    }
+  ],
+  "3": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:35:06.848735"
+    }
+  ],
+  "4": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:35:20.652413"
+    }
+  ],
+  "5": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:35:34.577708"
+    }
+  ],
+  "6": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:35:52.317475"
+    }
+  ],
+  "7": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:36:09.030216"
+    }
+  ],
+  "8": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:36:20.737279"
+    }
+  ],
+  "9": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:36:31.508810"
+    }
+  ],
+  "10": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:36:43.349140"
+    }
+  ],
+  "11": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:36:52.757396"
+    }
+  ],
+  "12": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:02.462036"
+    }
+  ],
+  "13": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:11.336720"
+    }
+  ],
+  "14": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:20.495410"
+    }
+  ],
+  "15": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:27.637535"
+    }
+  ],
+  "16": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:36.090698"
+    }
+  ],
+  "17": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:43.330170"
+    }
+  ],
+  "18": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:50.217808"
+    }
+  ],
+  "19": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [
+        25
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:37:57.941240"
+    }
+  ],
+  "20": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:04.336135"
+    }
+  ],
+  "21": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:11.371721"
+    }
+  ],
+  "22": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:18.763433"
+    }
+  ],
+  "23": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:25.414961"
+    }
+  ],
+  "24": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:31.818034"
+    }
+  ],
+  "25": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:38.081460"
+    }
+  ],
+  "26": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:45.797766"
+    }
+  ],
+  "27": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [
+        52
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:51.656467"
+    }
+  ],
+  "28": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:38:56.448209"
+    }
+  ],
+  "29": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:39:01.349147"
+    }
+  ],
+  "30": [
+    {
+      "defense_type": "fltrust",
+      "defense_params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      },
+      "rejected_clients": [
+        17
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T19:39:06.875569"
+    }
+  ]
+}

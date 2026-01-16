@@ -1,0 +1,60 @@
+2026-01-14 19:42:47,225 - FL_Defense_normclip_none - INFO - Round 1: norm_clipping defense applied
+2026-01-14 19:42:47,225 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:42:51,998 - FL_Defense_normclip_none - INFO - Round 2: norm_clipping defense applied
+2026-01-14 19:42:51,999 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:42:55,906 - FL_Defense_normclip_none - INFO - Round 3: norm_clipping defense applied
+2026-01-14 19:42:55,906 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:42:59,999 - FL_Defense_normclip_none - INFO - Round 4: norm_clipping defense applied
+2026-01-14 19:43:00,000 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:07,604 - FL_Defense_normclip_none - INFO - Round 5: norm_clipping defense applied
+2026-01-14 19:43:07,605 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:16,987 - FL_Defense_normclip_none - INFO - Round 6: norm_clipping defense applied
+2026-01-14 19:43:16,987 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:29,639 - FL_Defense_normclip_none - INFO - Round 7: norm_clipping defense applied
+2026-01-14 19:43:29,639 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:38,731 - FL_Defense_normclip_none - INFO - Round 8: norm_clipping defense applied
+2026-01-14 19:43:38,731 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:46,667 - FL_Defense_normclip_none - INFO - Round 9: norm_clipping defense applied
+2026-01-14 19:43:46,667 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:43:54,097 - FL_Defense_normclip_none - INFO - Round 10: norm_clipping defense applied
+2026-01-14 19:43:54,097 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:01,262 - FL_Defense_normclip_none - INFO - Round 11: norm_clipping defense applied
+2026-01-14 19:44:01,262 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:10,099 - FL_Defense_normclip_none - INFO - Round 12: norm_clipping defense applied
+2026-01-14 19:44:10,099 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:17,268 - FL_Defense_normclip_none - INFO - Round 13: norm_clipping defense applied
+2026-01-14 19:44:17,268 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:24,307 - FL_Defense_normclip_none - INFO - Round 14: norm_clipping defense applied
+2026-01-14 19:44:24,307 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:31,811 - FL_Defense_normclip_none - INFO - Round 15: norm_clipping defense applied
+2026-01-14 19:44:31,811 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:47,331 - FL_Defense_normclip_none - INFO - Round 16: norm_clipping defense applied
+2026-01-14 19:44:47,332 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:44:55,470 - FL_Defense_normclip_none - INFO - Round 17: norm_clipping defense applied
+2026-01-14 19:44:55,470 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:05,804 - FL_Defense_normclip_none - INFO - Round 18: norm_clipping defense applied
+2026-01-14 19:45:05,804 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:19,312 - FL_Defense_normclip_none - INFO - Round 19: norm_clipping defense applied
+2026-01-14 19:45:19,313 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:28,837 - FL_Defense_normclip_none - INFO - Round 20: norm_clipping defense applied
+2026-01-14 19:45:28,837 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:40,290 - FL_Defense_normclip_none - INFO - Round 21: norm_clipping defense applied
+2026-01-14 19:45:40,290 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:48,432 - FL_Defense_normclip_none - INFO - Round 22: norm_clipping defense applied
+2026-01-14 19:45:48,432 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:45:56,042 - FL_Defense_normclip_none - INFO - Round 23: norm_clipping defense applied
+2026-01-14 19:45:56,042 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:03,782 - FL_Defense_normclip_none - INFO - Round 24: norm_clipping defense applied
+2026-01-14 19:46:03,782 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:11,540 - FL_Defense_normclip_none - INFO - Round 25: norm_clipping defense applied
+2026-01-14 19:46:11,540 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:22,026 - FL_Defense_normclip_none - INFO - Round 26: norm_clipping defense applied
+2026-01-14 19:46:22,026 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:29,373 - FL_Defense_normclip_none - INFO - Round 27: norm_clipping defense applied
+2026-01-14 19:46:29,373 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:36,784 - FL_Defense_normclip_none - INFO - Round 28: norm_clipping defense applied
+2026-01-14 19:46:36,784 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:45,640 - FL_Defense_normclip_none - INFO - Round 29: norm_clipping defense applied
+2026-01-14 19:46:45,640 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-14 19:46:53,271 - FL_Defense_normclip_none - INFO - Round 30: norm_clipping defense applied
+2026-01-14 19:46:53,272 - FL_Defense_normclip_none - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}

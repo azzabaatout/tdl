@@ -1,0 +1,84 @@
+2026-01-15 20:29:46,091 - FL_Attack_spp_mb - INFO - Round 1: mb attack by clients [69, 28, 75, 35] - Success: False
+2026-01-15 20:29:46,091 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:29:46,091 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.999333381652832, 'euclidean_distance': 98.39203643798828, 'cosine_similarity': -0.9995688199996948, 'correlation': -0.9995682835578918, 'l2_norm1': 89.44999694824219, 'l2_norm2': 8.945595741271973}
+2026-01-15 20:29:55,918 - FL_Attack_spp_mb - INFO - Round 2: mb attack by clients [54, 35, 27, 13] - Success: False
+2026-01-15 20:29:55,919 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:29:55,919 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.989749908447266, 'euclidean_distance': 103.52494812011719, 'cosine_similarity': -0.9976356625556946, 'correlation': -0.9976480007171631, 'l2_norm1': 94.12316131591797, 'l2_norm2': 9.421974182128906}
+2026-01-15 20:30:10,292 - FL_Attack_spp_mb - INFO - Round 3: mb attack by clients [11, 77] - Success: False
+2026-01-15 20:30:10,293 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:30:10,293 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.995942115783691, 'euclidean_distance': 107.04859161376953, 'cosine_similarity': -0.9934394359588623, 'correlation': -0.9934477806091309, 'l2_norm1': 97.36612701416016, 'l2_norm2': 9.740565299987793}
+2026-01-15 20:30:31,657 - FL_Attack_spp_mb - INFO - Round 5: mb attack by clients [29] - Success: False
+2026-01-15 20:30:31,657 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:30:31,658 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.035588264465332, 'euclidean_distance': 110.25902557373047, 'cosine_similarity': -0.9944499135017395, 'correlation': -0.9944581985473633, 'l2_norm1': 100.31365966796875, 'l2_norm2': 9.995792388916016}
+2026-01-15 20:30:47,129 - FL_Attack_spp_mb - INFO - Round 6: mb attack by clients [35, 81] - Success: False
+2026-01-15 20:30:47,129 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:30:47,129 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.205214500427246, 'euclidean_distance': 114.05780792236328, 'cosine_similarity': -0.9906009435653687, 'correlation': -0.9906556606292725, 'l2_norm1': 103.95823669433594, 'l2_norm2': 10.186776161193848}
+2026-01-15 20:30:59,279 - FL_Attack_spp_mb - INFO - Round 7: mb attack by clients [77, 81] - Success: False
+2026-01-15 20:30:59,280 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:30:59,280 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.100650787353516, 'euclidean_distance': 114.20907592773438, 'cosine_similarity': -0.9938046336174011, 'correlation': -0.993847131729126, 'l2_norm1': 103.97343444824219, 'l2_norm2': 10.293736457824707}
+2026-01-15 20:31:10,100 - FL_Attack_spp_mb - INFO - Round 8: mb attack by clients [31, 81, 71, 28] - Success: False
+2026-01-15 20:31:10,101 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:31:10,101 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.962225914001465, 'euclidean_distance': 114.1076889038086, 'cosine_similarity': -0.9948776960372925, 'correlation': -0.9948835372924805, 'l2_norm1': 103.74262237548828, 'l2_norm2': 10.413599014282227}
+2026-01-15 20:31:21,995 - FL_Attack_spp_mb - INFO - Round 9: mb attack by clients [29, 4] - Success: False
+2026-01-15 20:31:21,996 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:31:21,996 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.042160034179688, 'euclidean_distance': 115.64533233642578, 'cosine_similarity': -0.995330274105072, 'correlation': -0.9953367114067078, 'l2_norm1': 105.21275329589844, 'l2_norm2': 10.477104187011719}
+2026-01-15 20:31:34,155 - FL_Attack_spp_mb - INFO - Round 10: mb attack by clients [27] - Success: False
+2026-01-15 20:31:34,155 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:31:34,155 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.273531913757324, 'euclidean_distance': 118.72463989257812, 'cosine_similarity': -0.9925576448440552, 'correlation': -0.9925981760025024, 'l2_norm1': 108.25853729248047, 'l2_norm2': 10.537616729736328}
+2026-01-15 20:31:45,124 - FL_Attack_spp_mb - INFO - Round 11: mb attack by clients [17, 31, 71, 54] - Success: False
+2026-01-15 20:31:45,124 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:31:45,124 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.866722106933594, 'euclidean_distance': 116.66793060302734, 'cosine_similarity': -0.9938147068023682, 'correlation': -0.9938185811042786, 'l2_norm1': 105.98643493652344, 'l2_norm2': 10.74180793762207}
+2026-01-15 20:31:58,275 - FL_Attack_spp_mb - INFO - Round 12: mb attack by clients [28, 17, 11, 14] - Success: False
+2026-01-15 20:31:58,276 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:31:58,276 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.059772491455078, 'euclidean_distance': 118.15250396728516, 'cosine_similarity': -0.9948235750198364, 'correlation': -0.9948409199714661, 'l2_norm1': 107.51519775390625, 'l2_norm2': 10.687637329101562}
+2026-01-15 20:32:08,828 - FL_Attack_spp_mb - INFO - Round 13: mb attack by clients [54] - Success: False
+2026-01-15 20:32:08,828 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:32:08,828 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.008050918579102, 'euclidean_distance': 118.78800964355469, 'cosine_similarity': -0.9955999851226807, 'correlation': -0.9956001043319702, 'l2_norm1': 108.03626251220703, 'l2_norm2': 10.79493522644043}
+2026-01-15 20:32:21,073 - FL_Attack_spp_mb - INFO - Round 14: mb attack by clients [14] - Success: False
+2026-01-15 20:32:21,075 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:32:21,075 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.958230018615723, 'euclidean_distance': 119.4516372680664, 'cosine_similarity': -0.9946660399436951, 'correlation': -0.9946835041046143, 'l2_norm1': 108.59896087646484, 'l2_norm2': 10.905447959899902}
+2026-01-15 20:32:32,523 - FL_Attack_spp_mb - INFO - Round 15: mb attack by clients [14, 64] - Success: False
+2026-01-15 20:32:32,524 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:32:32,524 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.822813987731934, 'euclidean_distance': 120.47793579101562, 'cosine_similarity': -0.9918249249458313, 'correlation': -0.9918909072875977, 'l2_norm1': 109.42115020751953, 'l2_norm2': 11.139491081237793}
+2026-01-15 20:32:46,585 - FL_Attack_spp_mb - INFO - Round 16: mb attack by clients [64, 13, 81, 77] - Success: False
+2026-01-15 20:32:46,586 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:32:46,586 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.710190773010254, 'euclidean_distance': 121.51224517822266, 'cosine_similarity': -0.9910773038864136, 'correlation': -0.9911352396011353, 'l2_norm1': 110.25006103515625, 'l2_norm2': 11.354057312011719}
+2026-01-15 20:33:03,139 - FL_Attack_spp_mb - INFO - Round 17: mb attack by clients [69] - Success: False
+2026-01-15 20:33:03,140 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:33:03,141 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.980890274047852, 'euclidean_distance': 122.3221664428711, 'cosine_similarity': -0.9956377148628235, 'correlation': -0.9956386089324951, 'l2_norm1': 111.22284698486328, 'l2_norm2': 11.143579483032227}
+2026-01-15 20:33:15,846 - FL_Attack_spp_mb - INFO - Round 18: mb attack by clients [14] - Success: False
+2026-01-15 20:33:15,849 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:33:15,849 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.030037879943848, 'euclidean_distance': 122.85970306396484, 'cosine_similarity': -0.996794581413269, 'correlation': -0.9967961311340332, 'l2_norm1': 111.7506103515625, 'l2_norm2': 11.141593933105469}
+2026-01-15 20:33:45,614 - FL_Attack_spp_mb - INFO - Round 20: mb attack by clients [77, 54, 27, 69] - Success: False
+2026-01-15 20:33:45,616 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:33:45,617 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.989923477172852, 'euclidean_distance': 123.54637908935547, 'cosine_similarity': -0.9961605072021484, 'correlation': -0.9961597919464111, 'l2_norm1': 112.3403091430664, 'l2_norm2': 11.245362281799316}
+2026-01-15 20:34:01,156 - FL_Attack_spp_mb - INFO - Round 21: mb attack by clients [31] - Success: False
+2026-01-15 20:34:01,156 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:34:01,156 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.032769203186035, 'euclidean_distance': 124.53044891357422, 'cosine_similarity': -0.9947078824043274, 'correlation': -0.994705855846405, 'l2_norm1': 113.29254913330078, 'l2_norm2': 11.292251586914062}
+2026-01-15 20:34:15,823 - FL_Attack_spp_mb - INFO - Round 22: mb attack by clients [28, 75, 29] - Success: False
+2026-01-15 20:34:15,824 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:34:15,824 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.021881103515625, 'euclidean_distance': 124.8847885131836, 'cosine_similarity': -0.9974344968795776, 'correlation': -0.9974435567855835, 'l2_norm1': 113.57819366455078, 'l2_norm2': 11.33302116394043}
+2026-01-15 20:34:26,701 - FL_Attack_spp_mb - INFO - Round 23: mb attack by clients [29, 4, 35] - Success: False
+2026-01-15 20:34:26,701 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:34:26,701 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.969010353088379, 'euclidean_distance': 125.05438995361328, 'cosine_similarity': -0.9963688850402832, 'correlation': -0.9963734745979309, 'l2_norm1': 113.6878890991211, 'l2_norm2': 11.404129981994629}
+2026-01-15 20:34:39,425 - FL_Attack_spp_mb - INFO - Round 24: mb attack by clients [27, 69, 31] - Success: False
+2026-01-15 20:34:39,426 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:34:39,426 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.965782165527344, 'euclidean_distance': 125.3907699584961, 'cosine_similarity': -0.9956262707710266, 'correlation': -0.9956437349319458, 'l2_norm1': 113.99742889404297, 'l2_norm2': 11.438884735107422}
+2026-01-15 20:34:54,462 - FL_Attack_spp_mb - INFO - Round 25: mb attack by clients [54] - Success: False
+2026-01-15 20:34:54,463 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:34:54,463 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.9478759765625, 'euclidean_distance': 125.989990234375, 'cosine_similarity': -0.9962379932403564, 'correlation': -0.9962368607521057, 'l2_norm1': 114.51760864257812, 'l2_norm2': 11.511764526367188}
+2026-01-15 20:35:04,664 - FL_Attack_spp_mb - INFO - Round 26: mb attack by clients [86, 13, 31] - Success: False
+2026-01-15 20:35:04,665 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:35:04,666 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.954179763793945, 'euclidean_distance': 126.09966278076172, 'cosine_similarity': -0.9971385598182678, 'correlation': -0.9971399307250977, 'l2_norm1': 114.61530303955078, 'l2_norm2': 11.514288902282715}
+2026-01-15 20:35:10,461 - FL_Attack_spp_mb - INFO - Round 27: mb attack by clients [17, 54, 35, 31] - Success: False
+2026-01-15 20:35:10,462 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:35:10,462 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.00352668762207, 'euclidean_distance': 126.88131713867188, 'cosine_similarity': -0.995234489440918, 'correlation': -0.9952476024627686, 'l2_norm1': 115.39585876464844, 'l2_norm2': 11.535517692565918}
+2026-01-15 20:35:16,204 - FL_Attack_spp_mb - INFO - Round 28: mb attack by clients [69, 11] - Success: False
+2026-01-15 20:35:16,204 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:35:16,204 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.981487274169922, 'euclidean_distance': 126.81192016601562, 'cosine_similarity': -0.9979062676429749, 'correlation': -0.9979079365730286, 'l2_norm1': 115.28407287597656, 'l2_norm2': 11.549789428710938}
+2026-01-15 20:35:24,312 - FL_Attack_spp_mb - INFO - Round 29: mb attack by clients [27] - Success: False
+2026-01-15 20:35:24,314 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:35:24,314 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 10.000102996826172, 'euclidean_distance': 127.3505630493164, 'cosine_similarity': -0.9959022402763367, 'correlation': -0.9958989024162292, 'l2_norm1': 115.81251525878906, 'l2_norm2': 11.581131935119629}
+2026-01-15 20:35:31,068 - FL_Attack_spp_mb - INFO - Round 30: mb attack by clients [54, 71] - Success: False
+2026-01-15 20:35:31,069 - FL_Attack_spp_mb - INFO - Attack parameters: {'scaling_min': -100.0, 'scaling_max': 100.0, 'num_steps': 200}
+2026-01-15 20:35:31,069 - FL_Attack_spp_mb - INFO - Similarity metrics: {'l2_ratio': 9.987529754638672, 'euclidean_distance': 127.6659927368164, 'cosine_similarity': -0.9965518712997437, 'correlation': -0.9965531229972839, 'l2_norm1': 116.0799331665039, 'l2_norm2': 11.62248706817627}

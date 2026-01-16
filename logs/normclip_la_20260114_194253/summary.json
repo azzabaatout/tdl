@@ -1,0 +1,53 @@
+{
+  "experiment_name": "normclip_la",
+  "experiment_config": {
+    "experiment_name": "normclip_la",
+    "random_seed": 42,
+    "dataset": {
+      "type": "mnist",
+      "data_dir": "./data",
+      "num_classes": 10,
+      "partition_type": "iid"
+    },
+    "model": {
+      "type": "lenet",
+      "num_classes": 10
+    },
+    "federated_learning": {
+      "num_rounds": 30,
+      "num_clients": 100,
+      "client_participation_rate": 0.1,
+      "learning_rate": 0.01,
+      "local_epochs": 2,
+      "batch_size": 32
+    },
+    "server": {
+      "data_size": 100
+    },
+    "attack": {
+      "type": "la",
+      "num_malicious_clients": 20,
+      "params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      }
+    },
+    "defense": {
+      "type": "norm_clipping",
+      "params": {
+        "max_norm": 100.0,
+        "check_lower_bound": true
+      }
+    }
+  },
+  "experiment_dir": "logs/normclip_la_20260114_194253",
+  "total_rounds": 30,
+  "total_clients": 97,
+  "total_attack_rounds": 28,
+  "total_defense_rounds": 30,
+  "final_timestamp": "2026-01-14T19:47:15.854390",
+  "final_accuracy": 98.01,
+  "final_loss": 0.06895787486770458,
+  "final_test_accuracy": 98.01,
+  "final_test_loss": 0.06895787486770458
+}

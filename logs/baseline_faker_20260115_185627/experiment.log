@@ -1,0 +1,196 @@
+2026-01-15 18:56:27,818 - FL_Main_baseline_faker - INFO - Experiment Configuration: {
+  "experiment_name": "baseline_faker",
+  "random_seed": 42,
+  "dataset": {
+    "type": "mnist",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "iid"
+  },
+  "model": {
+    "type": "lenet",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 30,
+    "num_clients": 100,
+    "client_participation_rate": 0.1,
+    "learning_rate": 0.01,
+    "local_epochs": 2,
+    "batch_size": 32
+  },
+  "server": {
+    "data_size": 100
+  },
+  "attack": {
+    "type": "faker",
+    "num_malicious_clients": 20,
+    "params": {
+      "target_defense": "none",
+      "scale_factor": -5.0,
+      "noise_scale": 0.01
+    }
+  },
+  "defense": {
+    "type": "none"
+  }
+}
+2026-01-15 18:56:27,819 - FL_Main_baseline_faker - INFO - Using device: cpu
+2026-01-15 18:56:32,845 - FL_Main_baseline_faker - INFO - Data partitioned among 100 clients
+2026-01-15 18:56:32,847 - FL_Main_baseline_faker - INFO - Model initialized: lenet
+2026-01-15 18:56:32,847 - FL_Main_baseline_faker - INFO - Server initialized with defense: none
+2026-01-15 18:56:32,892 - FL_Main_baseline_faker - INFO - Created 100 clients (20 malicious)
+2026-01-15 18:56:32,892 - FL_Main_baseline_faker - INFO - Experiment setup completed
+2026-01-15 18:56:32,892 - FL_Main_baseline_faker - INFO - Starting experiment with 30 rounds
+2026-01-15 18:56:32,892 - FL_Main_baseline_faker - INFO - === Round 1 Started ===
+2026-01-15 18:56:32,892 - FL_Main_baseline_faker - INFO - Participating clients: [25, 91, 83, 89, 69, 53, 28, 57, 75, 35]
+2026-01-15 18:56:35,975 - FL_Main_baseline_faker - INFO - === Round 1 Completed ===
+2026-01-15 18:56:35,975 - FL_Main_baseline_faker - INFO - Global Accuracy: 6.7600, Global Loss: 2.3122
+2026-01-15 18:56:35,975 - FL_Main_baseline_faker - INFO - Test Accuracy: 6.7600, Test Loss: 2.3122
+2026-01-15 18:56:35,976 - FL_Main_baseline_faker - INFO - === Round 2 Started ===
+2026-01-15 18:56:35,976 - FL_Main_baseline_faker - INFO - Participating clients: [0, 97, 20, 89, 54, 43, 35, 19, 27, 13]
+2026-01-15 18:56:39,001 - FL_Main_baseline_faker - INFO - === Round 2 Completed ===
+2026-01-15 18:56:39,002 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3288
+2026-01-15 18:56:39,002 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3288
+2026-01-15 18:56:39,002 - FL_Main_baseline_faker - INFO - === Round 3 Started ===
+2026-01-15 18:56:39,002 - FL_Main_baseline_faker - INFO - Participating clients: [11, 48, 12, 45, 44, 77, 33, 5, 93, 58]
+2026-01-15 18:56:42,573 - FL_Main_baseline_faker - INFO - === Round 3 Completed ===
+2026-01-15 18:56:42,573 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3369
+2026-01-15 18:56:42,573 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3369
+2026-01-15 18:56:42,574 - FL_Main_baseline_faker - INFO - === Round 4 Started ===
+2026-01-15 18:56:42,574 - FL_Main_baseline_faker - INFO - Participating clients: [68, 15, 48, 10, 70, 37, 80, 79, 46, 73]
+2026-01-15 18:56:45,507 - FL_Main_baseline_faker - INFO - === Round 4 Completed ===
+2026-01-15 18:56:45,507 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3098
+2026-01-15 18:56:45,507 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3098
+2026-01-15 18:56:45,507 - FL_Main_baseline_faker - INFO - === Round 5 Started ===
+2026-01-15 18:56:45,508 - FL_Main_baseline_faker - INFO - Participating clients: [24, 90, 8, 5, 84, 29, 98, 37, 10, 12]
+2026-01-15 18:56:48,555 - FL_Main_baseline_faker - INFO - === Round 5 Completed ===
+2026-01-15 18:56:48,555 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3067
+2026-01-15 18:56:48,555 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3067
+2026-01-15 18:56:48,555 - FL_Main_baseline_faker - INFO - === Round 6 Started ===
+2026-01-15 18:56:48,555 - FL_Main_baseline_faker - INFO - Participating clients: [48, 35, 58, 81, 46, 20, 47, 45, 26, 85]
+2026-01-15 18:56:51,539 - FL_Main_baseline_faker - INFO - === Round 6 Completed ===
+2026-01-15 18:56:51,539 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3088
+2026-01-15 18:56:51,539 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3088
+2026-01-15 18:56:51,539 - FL_Main_baseline_faker - INFO - === Round 7 Started ===
+2026-01-15 18:56:51,539 - FL_Main_baseline_faker - INFO - Participating clients: [34, 89, 87, 82, 9, 77, 81, 21, 68, 93]
+2026-01-15 18:56:54,577 - FL_Main_baseline_faker - INFO - === Round 7 Completed ===
+2026-01-15 18:56:54,577 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3141
+2026-01-15 18:56:54,577 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3141
+2026-01-15 18:56:54,577 - FL_Main_baseline_faker - INFO - === Round 8 Started ===
+2026-01-15 18:56:54,577 - FL_Main_baseline_faker - INFO - Participating clients: [31, 20, 59, 48, 34, 81, 88, 71, 28, 87]
+2026-01-15 18:56:57,509 - FL_Main_baseline_faker - INFO - === Round 8 Completed ===
+2026-01-15 18:56:57,509 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3350
+2026-01-15 18:56:57,509 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3350
+2026-01-15 18:56:57,509 - FL_Main_baseline_faker - INFO - === Round 9 Started ===
+2026-01-15 18:56:57,509 - FL_Main_baseline_faker - INFO - Participating clients: [41, 98, 99, 7, 29, 4, 40, 51, 34, 8]
+2026-01-15 18:57:00,442 - FL_Main_baseline_faker - INFO - === Round 9 Completed ===
+2026-01-15 18:57:00,442 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3410
+2026-01-15 18:57:00,442 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3410
+2026-01-15 18:57:00,443 - FL_Main_baseline_faker - INFO - === Round 10 Started ===
+2026-01-15 18:57:00,443 - FL_Main_baseline_faker - INFO - Participating clients: [27, 72, 91, 40, 83, 63, 50, 82, 58, 18]
+2026-01-15 18:57:03,420 - FL_Main_baseline_faker - INFO - === Round 10 Completed ===
+2026-01-15 18:57:03,420 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3287
+2026-01-15 18:57:03,420 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3287
+2026-01-15 18:57:03,420 - FL_Main_baseline_faker - INFO - === Round 11 Started ===
+2026-01-15 18:57:03,421 - FL_Main_baseline_faker - INFO - Participating clients: [33, 17, 31, 95, 71, 68, 74, 54, 51, 46]
+2026-01-15 18:57:06,522 - FL_Main_baseline_faker - INFO - === Round 11 Completed ===
+2026-01-15 18:57:06,522 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3801
+2026-01-15 18:57:06,522 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3801
+2026-01-15 18:57:06,522 - FL_Main_baseline_faker - INFO - === Round 12 Started ===
+2026-01-15 18:57:06,522 - FL_Main_baseline_faker - INFO - Participating clients: [28, 17, 65, 63, 11, 96, 6, 14, 19, 80]
+2026-01-15 18:57:09,974 - FL_Main_baseline_faker - INFO - === Round 12 Completed ===
+2026-01-15 18:57:09,974 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.5516
+2026-01-15 18:57:09,974 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.5516
+2026-01-15 18:57:09,974 - FL_Main_baseline_faker - INFO - === Round 13 Started ===
+2026-01-15 18:57:09,974 - FL_Main_baseline_faker - INFO - Participating clients: [20, 87, 54, 76, 8, 49, 48, 59, 67, 32]
+2026-01-15 18:57:12,905 - FL_Main_baseline_faker - INFO - === Round 13 Completed ===
+2026-01-15 18:57:12,905 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.4206
+2026-01-15 18:57:12,905 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.4206
+2026-01-15 18:57:12,906 - FL_Main_baseline_faker - INFO - === Round 14 Started ===
+2026-01-15 18:57:12,906 - FL_Main_baseline_faker - INFO - Participating clients: [70, 1, 87, 92, 14, 68, 96, 34, 98, 82]
+2026-01-15 18:57:18,553 - FL_Main_baseline_faker - INFO - === Round 14 Completed ===
+2026-01-15 18:57:18,553 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3722
+2026-01-15 18:57:18,553 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3722
+2026-01-15 18:57:18,554 - FL_Main_baseline_faker - INFO - === Round 15 Started ===
+2026-01-15 18:57:18,554 - FL_Main_baseline_faker - INFO - Participating clients: [43, 14, 37, 55, 20, 58, 0, 92, 33, 64]
+2026-01-15 18:57:21,497 - FL_Main_baseline_faker - INFO - === Round 15 Completed ===
+2026-01-15 18:57:21,497 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.4035
+2026-01-15 18:57:21,497 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.4035
+2026-01-15 18:57:21,497 - FL_Main_baseline_faker - INFO - === Round 16 Started ===
+2026-01-15 18:57:21,497 - FL_Main_baseline_faker - INFO - Participating clients: [97, 22, 64, 13, 80, 38, 81, 77, 25, 19]
+2026-01-15 18:57:24,157 - FL_Main_baseline_faker - INFO - === Round 16 Completed ===
+2026-01-15 18:57:24,157 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.6673
+2026-01-15 18:57:24,157 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.6673
+2026-01-15 18:57:24,158 - FL_Main_baseline_faker - INFO - === Round 17 Started ===
+2026-01-15 18:57:24,158 - FL_Main_baseline_faker - INFO - Participating clients: [47, 97, 20, 69, 99, 67, 0, 76, 41, 62]
+2026-01-15 18:57:26,750 - FL_Main_baseline_faker - INFO - === Round 17 Completed ===
+2026-01-15 18:57:26,750 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.4676
+2026-01-15 18:57:26,750 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.4676
+2026-01-15 18:57:26,750 - FL_Main_baseline_faker - INFO - === Round 18 Started ===
+2026-01-15 18:57:26,751 - FL_Main_baseline_faker - INFO - Participating clients: [2, 14, 46, 39, 30, 7, 72, 10, 93, 62]
+2026-01-15 18:57:29,371 - FL_Main_baseline_faker - INFO - === Round 18 Completed ===
+2026-01-15 18:57:29,372 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.4130
+2026-01-15 18:57:29,372 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.4130
+2026-01-15 18:57:29,372 - FL_Main_baseline_faker - INFO - === Round 19 Started ===
+2026-01-15 18:57:29,372 - FL_Main_baseline_faker - INFO - Participating clients: [8, 97, 68, 98, 16, 84, 60, 70, 21, 33]
+2026-01-15 18:57:31,976 - FL_Main_baseline_faker - INFO - === Round 19 Completed ===
+2026-01-15 18:57:31,977 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3421
+2026-01-15 18:57:31,977 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3421
+2026-01-15 18:57:31,977 - FL_Main_baseline_faker - INFO - === Round 20 Started ===
+2026-01-15 18:57:31,977 - FL_Main_baseline_faker - INFO - Participating clients: [67, 77, 54, 27, 69, 96, 93, 88, 25, 91]
+2026-01-15 18:57:34,628 - FL_Main_baseline_faker - INFO - === Round 20 Completed ===
+2026-01-15 18:57:34,628 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.4161
+2026-01-15 18:57:34,628 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.4161
+2026-01-15 18:57:34,629 - FL_Main_baseline_faker - INFO - === Round 21 Started ===
+2026-01-15 18:57:34,629 - FL_Main_baseline_faker - INFO - Participating clients: [39, 51, 85, 83, 47, 56, 66, 57, 15, 31]
+2026-01-15 18:57:37,269 - FL_Main_baseline_faker - INFO - === Round 21 Completed ===
+2026-01-15 18:57:37,269 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.3945
+2026-01-15 18:57:37,269 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.3945
+2026-01-15 18:57:37,269 - FL_Main_baseline_faker - INFO - === Round 22 Started ===
+2026-01-15 18:57:37,269 - FL_Main_baseline_faker - INFO - Participating clients: [28, 8, 43, 2, 75, 70, 29, 0, 9, 90]
+2026-01-15 18:57:39,920 - FL_Main_baseline_faker - INFO - === Round 22 Completed ===
+2026-01-15 18:57:39,920 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.4524
+2026-01-15 18:57:39,920 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.4524
+2026-01-15 18:57:39,920 - FL_Main_baseline_faker - INFO - === Round 23 Started ===
+2026-01-15 18:57:39,920 - FL_Main_baseline_faker - INFO - Participating clients: [80, 7, 29, 8, 4, 42, 9, 65, 30, 35]
+2026-01-15 18:57:42,629 - FL_Main_baseline_faker - INFO - === Round 23 Completed ===
+2026-01-15 18:57:42,629 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.5822
+2026-01-15 18:57:42,629 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.5822
+2026-01-15 18:57:42,629 - FL_Main_baseline_faker - INFO - === Round 24 Started ===
+2026-01-15 18:57:42,629 - FL_Main_baseline_faker - INFO - Participating clients: [85, 62, 27, 69, 16, 92, 73, 60, 31, 52]
+2026-01-15 18:57:45,284 - FL_Main_baseline_faker - INFO - === Round 24 Completed ===
+2026-01-15 18:57:45,284 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.8932
+2026-01-15 18:57:45,284 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.8932
+2026-01-15 18:57:45,284 - FL_Main_baseline_faker - INFO - === Round 25 Started ===
+2026-01-15 18:57:45,284 - FL_Main_baseline_faker - INFO - Participating clients: [24, 12, 84, 55, 45, 54, 52, 59, 93, 6]
+2026-01-15 18:57:48,555 - FL_Main_baseline_faker - INFO - === Round 25 Completed ===
+2026-01-15 18:57:48,555 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 2.6807
+2026-01-15 18:57:48,555 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 2.6807
+2026-01-15 18:57:48,556 - FL_Main_baseline_faker - INFO - === Round 26 Started ===
+2026-01-15 18:57:48,556 - FL_Main_baseline_faker - INFO - Participating clients: [86, 83, 82, 12, 7, 51, 93, 43, 13, 31]
+2026-01-15 18:57:51,228 - FL_Main_baseline_faker - INFO - === Round 26 Completed ===
+2026-01-15 18:57:51,228 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 3.1353
+2026-01-15 18:57:51,228 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 3.1353
+2026-01-15 18:57:51,228 - FL_Main_baseline_faker - INFO - === Round 27 Started ===
+2026-01-15 18:57:51,228 - FL_Main_baseline_faker - INFO - Participating clients: [24, 68, 57, 17, 54, 23, 35, 59, 31, 9]
+2026-01-15 18:57:54,039 - FL_Main_baseline_faker - INFO - === Round 27 Completed ===
+2026-01-15 18:57:54,039 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 9.5664
+2026-01-15 18:57:54,039 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 9.5664
+2026-01-15 18:57:54,039 - FL_Main_baseline_faker - INFO - === Round 28 Started ===
+2026-01-15 18:57:54,039 - FL_Main_baseline_faker - INFO - Participating clients: [56, 70, 12, 6, 83, 69, 1, 11, 96, 30]
+2026-01-15 18:57:57,178 - FL_Main_baseline_faker - INFO - === Round 28 Completed ===
+2026-01-15 18:57:57,179 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 34.0714
+2026-01-15 18:57:57,179 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 34.0714
+2026-01-15 18:57:57,179 - FL_Main_baseline_faker - INFO - === Round 29 Started ===
+2026-01-15 18:57:57,179 - FL_Main_baseline_faker - INFO - Participating clients: [21, 52, 62, 61, 27, 51, 7, 48, 0, 49]
+2026-01-15 18:57:59,861 - FL_Main_baseline_faker - INFO - === Round 29 Completed ===
+2026-01-15 18:57:59,862 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 4.1105
+2026-01-15 18:57:59,862 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 4.1105
+2026-01-15 18:57:59,862 - FL_Main_baseline_faker - INFO - === Round 30 Started ===
+2026-01-15 18:57:59,862 - FL_Main_baseline_faker - INFO - Participating clients: [33, 58, 36, 54, 89, 93, 71, 84, 91, 62]
+2026-01-15 18:58:02,587 - FL_Main_baseline_faker - INFO - === Round 30 Completed ===
+2026-01-15 18:58:02,588 - FL_Main_baseline_faker - INFO - Global Accuracy: 9.8000, Global Loss: 4.8174
+2026-01-15 18:58:02,588 - FL_Main_baseline_faker - INFO - Test Accuracy: 9.8000, Test Loss: 4.8174
+2026-01-15 18:58:02,588 - FL_Main_baseline_faker - INFO - Experiment completed
+2026-01-15 18:58:02,593 - FL_Main_baseline_faker - INFO - All logs saved to logs/baseline_faker_20260115_185627

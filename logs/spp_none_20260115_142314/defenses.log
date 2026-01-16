@@ -1,0 +1,30 @@
+2026-01-15 14:23:20,149 - FL_Defense_spp_none - INFO - Round 1: spp defense applied
+2026-01-15 14:23:20,149 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:23,462 - FL_Defense_spp_none - INFO - Round 2: spp defense applied
+2026-01-15 14:23:23,463 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:26,554 - FL_Defense_spp_none - INFO - Round 3: spp defense applied
+2026-01-15 14:23:26,555 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:29,658 - FL_Defense_spp_none - INFO - Round 4: spp defense applied
+2026-01-15 14:23:29,658 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:33,087 - FL_Defense_spp_none - INFO - Round 5: spp defense applied
+2026-01-15 14:23:33,088 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:36,128 - FL_Defense_spp_none - INFO - Round 6: spp defense applied
+2026-01-15 14:23:36,128 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:39,198 - FL_Defense_spp_none - INFO - Round 7: spp defense applied
+2026-01-15 14:23:39,198 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:42,311 - FL_Defense_spp_none - INFO - Round 8: spp defense applied
+2026-01-15 14:23:42,311 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:45,440 - FL_Defense_spp_none - INFO - Round 9: spp defense applied
+2026-01-15 14:23:45,440 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:48,697 - FL_Defense_spp_none - INFO - Round 10: spp defense applied
+2026-01-15 14:23:48,697 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:51,807 - FL_Defense_spp_none - INFO - Round 11: spp defense applied
+2026-01-15 14:23:51,807 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:54,909 - FL_Defense_spp_none - INFO - Round 12: spp defense applied
+2026-01-15 14:23:54,909 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:23:57,974 - FL_Defense_spp_none - INFO - Round 13: spp defense applied
+2026-01-15 14:23:57,974 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:24:01,749 - FL_Defense_spp_none - INFO - Round 14: spp defense applied
+2026-01-15 14:24:01,750 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 14:24:04,833 - FL_Defense_spp_none - INFO - Round 15: spp defense applied
+2026-01-15 14:24:04,833 - FL_Defense_spp_none - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}

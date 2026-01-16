@@ -1,0 +1,199 @@
+2026-01-14 19:42:53,966 - FL_Main_normclip_la - INFO - Experiment Configuration: {
+  "experiment_name": "normclip_la",
+  "random_seed": 42,
+  "dataset": {
+    "type": "mnist",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "iid"
+  },
+  "model": {
+    "type": "lenet",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 30,
+    "num_clients": 100,
+    "client_participation_rate": 0.1,
+    "learning_rate": 0.01,
+    "local_epochs": 2,
+    "batch_size": 32
+  },
+  "server": {
+    "data_size": 100
+  },
+  "attack": {
+    "type": "la",
+    "num_malicious_clients": 20,
+    "params": {
+      "target_norm_ratio": 10.0,
+      "max_iterations": 100
+    }
+  },
+  "defense": {
+    "type": "norm_clipping",
+    "params": {
+      "max_norm": 100.0,
+      "check_lower_bound": true
+    }
+  }
+}
+2026-01-14 19:42:53,967 - FL_Main_normclip_la - INFO - Using device: cpu
+2026-01-14 19:42:56,945 - FL_Main_normclip_la - INFO - Data partitioned among 100 clients
+2026-01-14 19:42:56,947 - FL_Main_normclip_la - INFO - Model initialized: lenet
+2026-01-14 19:42:56,948 - FL_Main_normclip_la - INFO - Server initialized with defense: norm_clipping
+2026-01-14 19:42:57,000 - FL_Main_normclip_la - INFO - Created 100 clients (20 malicious)
+2026-01-14 19:42:57,000 - FL_Main_normclip_la - INFO - Experiment setup completed
+2026-01-14 19:42:57,000 - FL_Main_normclip_la - INFO - Starting experiment with 30 rounds
+2026-01-14 19:42:57,000 - FL_Main_normclip_la - INFO - === Round 1 Started ===
+2026-01-14 19:42:57,000 - FL_Main_normclip_la - INFO - Participating clients: [25, 91, 83, 89, 69, 53, 28, 57, 75, 35]
+2026-01-14 19:43:04,173 - FL_Main_normclip_la - INFO - === Round 1 Completed ===
+2026-01-14 19:43:04,173 - FL_Main_normclip_la - INFO - Global Accuracy: 9.7400, Global Loss: 4.8492
+2026-01-14 19:43:04,173 - FL_Main_normclip_la - INFO - Test Accuracy: 9.7400, Test Loss: 4.8492
+2026-01-14 19:43:04,173 - FL_Main_normclip_la - INFO - === Round 2 Started ===
+2026-01-14 19:43:04,173 - FL_Main_normclip_la - INFO - Participating clients: [0, 97, 20, 89, 54, 43, 35, 19, 27, 13]
+2026-01-14 19:43:09,428 - FL_Main_normclip_la - INFO - === Round 2 Completed ===
+2026-01-14 19:43:09,428 - FL_Main_normclip_la - INFO - Global Accuracy: 77.5300, Global Loss: 0.7156
+2026-01-14 19:43:09,428 - FL_Main_normclip_la - INFO - Test Accuracy: 77.5300, Test Loss: 0.7156
+2026-01-14 19:43:09,429 - FL_Main_normclip_la - INFO - === Round 3 Started ===
+2026-01-14 19:43:09,429 - FL_Main_normclip_la - INFO - Participating clients: [11, 48, 12, 45, 44, 77, 33, 5, 93, 58]
+2026-01-14 19:43:19,154 - FL_Main_normclip_la - INFO - === Round 3 Completed ===
+2026-01-14 19:43:19,155 - FL_Main_normclip_la - INFO - Global Accuracy: 90.0300, Global Loss: 0.3329
+2026-01-14 19:43:19,155 - FL_Main_normclip_la - INFO - Test Accuracy: 90.0300, Test Loss: 0.3329
+2026-01-14 19:43:19,155 - FL_Main_normclip_la - INFO - === Round 4 Started ===
+2026-01-14 19:43:19,155 - FL_Main_normclip_la - INFO - Participating clients: [68, 15, 48, 10, 70, 37, 80, 79, 46, 73]
+2026-01-14 19:43:32,029 - FL_Main_normclip_la - INFO - === Round 4 Completed ===
+2026-01-14 19:43:32,029 - FL_Main_normclip_la - INFO - Global Accuracy: 93.7900, Global Loss: 0.2154
+2026-01-14 19:43:32,030 - FL_Main_normclip_la - INFO - Test Accuracy: 93.7900, Test Loss: 0.2154
+2026-01-14 19:43:32,031 - FL_Main_normclip_la - INFO - === Round 5 Started ===
+2026-01-14 19:43:32,034 - FL_Main_normclip_la - INFO - Participating clients: [24, 90, 8, 5, 84, 29, 98, 37, 10, 12]
+2026-01-14 19:43:41,944 - FL_Main_normclip_la - INFO - === Round 5 Completed ===
+2026-01-14 19:43:41,945 - FL_Main_normclip_la - INFO - Global Accuracy: 94.7200, Global Loss: 0.1806
+2026-01-14 19:43:41,946 - FL_Main_normclip_la - INFO - Test Accuracy: 94.7200, Test Loss: 0.1806
+2026-01-14 19:43:41,947 - FL_Main_normclip_la - INFO - === Round 6 Started ===
+2026-01-14 19:43:41,950 - FL_Main_normclip_la - INFO - Participating clients: [48, 35, 58, 81, 46, 20, 47, 45, 26, 85]
+2026-01-14 19:43:48,638 - FL_Main_normclip_la - INFO - === Round 6 Completed ===
+2026-01-14 19:43:48,638 - FL_Main_normclip_la - INFO - Global Accuracy: 95.6900, Global Loss: 0.1481
+2026-01-14 19:43:48,639 - FL_Main_normclip_la - INFO - Test Accuracy: 95.6900, Test Loss: 0.1481
+2026-01-14 19:43:48,639 - FL_Main_normclip_la - INFO - === Round 7 Started ===
+2026-01-14 19:43:48,639 - FL_Main_normclip_la - INFO - Participating clients: [34, 89, 87, 82, 9, 77, 81, 21, 68, 93]
+2026-01-14 19:43:56,146 - FL_Main_normclip_la - INFO - === Round 7 Completed ===
+2026-01-14 19:43:56,147 - FL_Main_normclip_la - INFO - Global Accuracy: 95.6000, Global Loss: 0.1449
+2026-01-14 19:43:56,147 - FL_Main_normclip_la - INFO - Test Accuracy: 95.6000, Test Loss: 0.1449
+2026-01-14 19:43:56,147 - FL_Main_normclip_la - INFO - === Round 8 Started ===
+2026-01-14 19:43:56,147 - FL_Main_normclip_la - INFO - Participating clients: [31, 20, 59, 48, 34, 81, 88, 71, 28, 87]
+2026-01-14 19:44:03,884 - FL_Main_normclip_la - INFO - === Round 8 Completed ===
+2026-01-14 19:44:03,884 - FL_Main_normclip_la - INFO - Global Accuracy: 96.0800, Global Loss: 0.1322
+2026-01-14 19:44:03,884 - FL_Main_normclip_la - INFO - Test Accuracy: 96.0800, Test Loss: 0.1322
+2026-01-14 19:44:03,885 - FL_Main_normclip_la - INFO - === Round 9 Started ===
+2026-01-14 19:44:03,885 - FL_Main_normclip_la - INFO - Participating clients: [41, 98, 99, 7, 29, 4, 40, 51, 34, 8]
+2026-01-14 19:44:12,905 - FL_Main_normclip_la - INFO - === Round 9 Completed ===
+2026-01-14 19:44:12,906 - FL_Main_normclip_la - INFO - Global Accuracy: 96.4200, Global Loss: 0.1177
+2026-01-14 19:44:12,906 - FL_Main_normclip_la - INFO - Test Accuracy: 96.4200, Test Loss: 0.1177
+2026-01-14 19:44:12,908 - FL_Main_normclip_la - INFO - === Round 10 Started ===
+2026-01-14 19:44:12,908 - FL_Main_normclip_la - INFO - Participating clients: [27, 72, 91, 40, 83, 63, 50, 82, 58, 18]
+2026-01-14 19:44:19,490 - FL_Main_normclip_la - INFO - === Round 10 Completed ===
+2026-01-14 19:44:19,490 - FL_Main_normclip_la - INFO - Global Accuracy: 96.4000, Global Loss: 0.1143
+2026-01-14 19:44:19,490 - FL_Main_normclip_la - INFO - Test Accuracy: 96.4000, Test Loss: 0.1143
+2026-01-14 19:44:19,490 - FL_Main_normclip_la - INFO - === Round 11 Started ===
+2026-01-14 19:44:19,490 - FL_Main_normclip_la - INFO - Participating clients: [33, 17, 31, 95, 71, 68, 74, 54, 51, 46]
+2026-01-14 19:44:26,482 - FL_Main_normclip_la - INFO - === Round 11 Completed ===
+2026-01-14 19:44:26,482 - FL_Main_normclip_la - INFO - Global Accuracy: 96.5200, Global Loss: 0.1110
+2026-01-14 19:44:26,482 - FL_Main_normclip_la - INFO - Test Accuracy: 96.5200, Test Loss: 0.1110
+2026-01-14 19:44:26,483 - FL_Main_normclip_la - INFO - === Round 12 Started ===
+2026-01-14 19:44:26,483 - FL_Main_normclip_la - INFO - Participating clients: [28, 17, 65, 63, 11, 96, 6, 14, 19, 80]
+2026-01-14 19:44:38,190 - FL_Main_normclip_la - INFO - === Round 12 Completed ===
+2026-01-14 19:44:38,191 - FL_Main_normclip_la - INFO - Global Accuracy: 96.7300, Global Loss: 0.1029
+2026-01-14 19:44:38,191 - FL_Main_normclip_la - INFO - Test Accuracy: 96.7300, Test Loss: 0.1029
+2026-01-14 19:44:38,192 - FL_Main_normclip_la - INFO - === Round 13 Started ===
+2026-01-14 19:44:38,192 - FL_Main_normclip_la - INFO - Participating clients: [20, 87, 54, 76, 8, 49, 48, 59, 67, 32]
+2026-01-14 19:44:50,008 - FL_Main_normclip_la - INFO - === Round 13 Completed ===
+2026-01-14 19:44:50,009 - FL_Main_normclip_la - INFO - Global Accuracy: 97.1100, Global Loss: 0.0909
+2026-01-14 19:44:50,009 - FL_Main_normclip_la - INFO - Test Accuracy: 97.1100, Test Loss: 0.0909
+2026-01-14 19:44:50,009 - FL_Main_normclip_la - INFO - === Round 14 Started ===
+2026-01-14 19:44:50,009 - FL_Main_normclip_la - INFO - Participating clients: [70, 1, 87, 92, 14, 68, 96, 34, 98, 82]
+2026-01-14 19:44:58,652 - FL_Main_normclip_la - INFO - === Round 14 Completed ===
+2026-01-14 19:44:58,653 - FL_Main_normclip_la - INFO - Global Accuracy: 97.2900, Global Loss: 0.0865
+2026-01-14 19:44:58,654 - FL_Main_normclip_la - INFO - Test Accuracy: 97.2900, Test Loss: 0.0865
+2026-01-14 19:44:58,655 - FL_Main_normclip_la - INFO - === Round 15 Started ===
+2026-01-14 19:44:58,655 - FL_Main_normclip_la - INFO - Participating clients: [43, 14, 37, 55, 20, 58, 0, 92, 33, 64]
+2026-01-14 19:45:10,524 - FL_Main_normclip_la - INFO - === Round 15 Completed ===
+2026-01-14 19:45:10,526 - FL_Main_normclip_la - INFO - Global Accuracy: 97.2600, Global Loss: 0.0851
+2026-01-14 19:45:10,526 - FL_Main_normclip_la - INFO - Test Accuracy: 97.2600, Test Loss: 0.0851
+2026-01-14 19:45:10,532 - FL_Main_normclip_la - INFO - === Round 16 Started ===
+2026-01-14 19:45:10,532 - FL_Main_normclip_la - INFO - Participating clients: [97, 22, 64, 13, 80, 38, 81, 77, 25, 19]
+2026-01-14 19:45:22,305 - FL_Main_normclip_la - INFO - === Round 16 Completed ===
+2026-01-14 19:45:22,306 - FL_Main_normclip_la - INFO - Global Accuracy: 97.1800, Global Loss: 0.0884
+2026-01-14 19:45:22,306 - FL_Main_normclip_la - INFO - Test Accuracy: 97.1800, Test Loss: 0.0884
+2026-01-14 19:45:22,307 - FL_Main_normclip_la - INFO - === Round 17 Started ===
+2026-01-14 19:45:22,307 - FL_Main_normclip_la - INFO - Participating clients: [47, 97, 20, 69, 99, 67, 0, 76, 41, 62]
+2026-01-14 19:45:31,390 - FL_Main_normclip_la - INFO - === Round 17 Completed ===
+2026-01-14 19:45:31,391 - FL_Main_normclip_la - INFO - Global Accuracy: 97.4300, Global Loss: 0.0859
+2026-01-14 19:45:31,391 - FL_Main_normclip_la - INFO - Test Accuracy: 97.4300, Test Loss: 0.0859
+2026-01-14 19:45:31,391 - FL_Main_normclip_la - INFO - === Round 18 Started ===
+2026-01-14 19:45:31,391 - FL_Main_normclip_la - INFO - Participating clients: [2, 14, 46, 39, 30, 7, 72, 10, 93, 62]
+2026-01-14 19:45:42,310 - FL_Main_normclip_la - INFO - === Round 18 Completed ===
+2026-01-14 19:45:42,310 - FL_Main_normclip_la - INFO - Global Accuracy: 97.4100, Global Loss: 0.0814
+2026-01-14 19:45:42,310 - FL_Main_normclip_la - INFO - Test Accuracy: 97.4100, Test Loss: 0.0814
+2026-01-14 19:45:42,310 - FL_Main_normclip_la - INFO - === Round 19 Started ===
+2026-01-14 19:45:42,310 - FL_Main_normclip_la - INFO - Participating clients: [8, 97, 68, 98, 16, 84, 60, 70, 21, 33]
+2026-01-14 19:45:50,146 - FL_Main_normclip_la - INFO - === Round 19 Completed ===
+2026-01-14 19:45:50,147 - FL_Main_normclip_la - INFO - Global Accuracy: 97.5600, Global Loss: 0.0794
+2026-01-14 19:45:50,147 - FL_Main_normclip_la - INFO - Test Accuracy: 97.5600, Test Loss: 0.0794
+2026-01-14 19:45:50,149 - FL_Main_normclip_la - INFO - === Round 20 Started ===
+2026-01-14 19:45:50,149 - FL_Main_normclip_la - INFO - Participating clients: [67, 77, 54, 27, 69, 96, 93, 88, 25, 91]
+2026-01-14 19:45:57,689 - FL_Main_normclip_la - INFO - === Round 20 Completed ===
+2026-01-14 19:45:57,690 - FL_Main_normclip_la - INFO - Global Accuracy: 97.5600, Global Loss: 0.0766
+2026-01-14 19:45:57,690 - FL_Main_normclip_la - INFO - Test Accuracy: 97.5600, Test Loss: 0.0766
+2026-01-14 19:45:57,690 - FL_Main_normclip_la - INFO - === Round 21 Started ===
+2026-01-14 19:45:57,691 - FL_Main_normclip_la - INFO - Participating clients: [39, 51, 85, 83, 47, 56, 66, 57, 15, 31]
+2026-01-14 19:46:04,963 - FL_Main_normclip_la - INFO - === Round 21 Completed ===
+2026-01-14 19:46:04,964 - FL_Main_normclip_la - INFO - Global Accuracy: 97.7300, Global Loss: 0.0760
+2026-01-14 19:46:04,964 - FL_Main_normclip_la - INFO - Test Accuracy: 97.7300, Test Loss: 0.0760
+2026-01-14 19:46:04,965 - FL_Main_normclip_la - INFO - === Round 22 Started ===
+2026-01-14 19:46:04,965 - FL_Main_normclip_la - INFO - Participating clients: [28, 8, 43, 2, 75, 70, 29, 0, 9, 90]
+2026-01-14 19:46:12,624 - FL_Main_normclip_la - INFO - === Round 22 Completed ===
+2026-01-14 19:46:12,624 - FL_Main_normclip_la - INFO - Global Accuracy: 97.7800, Global Loss: 0.0769
+2026-01-14 19:46:12,624 - FL_Main_normclip_la - INFO - Test Accuracy: 97.7800, Test Loss: 0.0769
+2026-01-14 19:46:12,624 - FL_Main_normclip_la - INFO - === Round 23 Started ===
+2026-01-14 19:46:12,624 - FL_Main_normclip_la - INFO - Participating clients: [80, 7, 29, 8, 4, 42, 9, 65, 30, 35]
+2026-01-14 19:46:22,758 - FL_Main_normclip_la - INFO - === Round 23 Completed ===
+2026-01-14 19:46:22,758 - FL_Main_normclip_la - INFO - Global Accuracy: 97.9000, Global Loss: 0.0704
+2026-01-14 19:46:22,758 - FL_Main_normclip_la - INFO - Test Accuracy: 97.9000, Test Loss: 0.0704
+2026-01-14 19:46:22,759 - FL_Main_normclip_la - INFO - === Round 24 Started ===
+2026-01-14 19:46:22,759 - FL_Main_normclip_la - INFO - Participating clients: [85, 62, 27, 69, 16, 92, 73, 60, 31, 52]
+2026-01-14 19:46:29,865 - FL_Main_normclip_la - INFO - === Round 24 Completed ===
+2026-01-14 19:46:29,865 - FL_Main_normclip_la - INFO - Global Accuracy: 97.6900, Global Loss: 0.0733
+2026-01-14 19:46:29,865 - FL_Main_normclip_la - INFO - Test Accuracy: 97.6900, Test Loss: 0.0733
+2026-01-14 19:46:29,865 - FL_Main_normclip_la - INFO - === Round 25 Started ===
+2026-01-14 19:46:29,866 - FL_Main_normclip_la - INFO - Participating clients: [24, 12, 84, 55, 45, 54, 52, 59, 93, 6]
+2026-01-14 19:46:37,190 - FL_Main_normclip_la - INFO - === Round 25 Completed ===
+2026-01-14 19:46:37,190 - FL_Main_normclip_la - INFO - Global Accuracy: 97.6900, Global Loss: 0.0758
+2026-01-14 19:46:37,190 - FL_Main_normclip_la - INFO - Test Accuracy: 97.6900, Test Loss: 0.0758
+2026-01-14 19:46:37,191 - FL_Main_normclip_la - INFO - === Round 26 Started ===
+2026-01-14 19:46:37,191 - FL_Main_normclip_la - INFO - Participating clients: [86, 83, 82, 12, 7, 51, 93, 43, 13, 31]
+2026-01-14 19:46:45,891 - FL_Main_normclip_la - INFO - === Round 26 Completed ===
+2026-01-14 19:46:45,891 - FL_Main_normclip_la - INFO - Global Accuracy: 97.6200, Global Loss: 0.0773
+2026-01-14 19:46:45,893 - FL_Main_normclip_la - INFO - Test Accuracy: 97.6200, Test Loss: 0.0773
+2026-01-14 19:46:45,893 - FL_Main_normclip_la - INFO - === Round 27 Started ===
+2026-01-14 19:46:45,896 - FL_Main_normclip_la - INFO - Participating clients: [24, 68, 57, 17, 54, 23, 35, 59, 31, 9]
+2026-01-14 19:46:53,313 - FL_Main_normclip_la - INFO - === Round 27 Completed ===
+2026-01-14 19:46:53,313 - FL_Main_normclip_la - INFO - Global Accuracy: 97.8300, Global Loss: 0.0749
+2026-01-14 19:46:53,313 - FL_Main_normclip_la - INFO - Test Accuracy: 97.8300, Test Loss: 0.0749
+2026-01-14 19:46:53,314 - FL_Main_normclip_la - INFO - === Round 28 Started ===
+2026-01-14 19:46:53,315 - FL_Main_normclip_la - INFO - Participating clients: [56, 70, 12, 6, 83, 69, 1, 11, 96, 30]
+2026-01-14 19:47:02,479 - FL_Main_normclip_la - INFO - === Round 28 Completed ===
+2026-01-14 19:47:02,480 - FL_Main_normclip_la - INFO - Global Accuracy: 97.7700, Global Loss: 0.0711
+2026-01-14 19:47:02,480 - FL_Main_normclip_la - INFO - Test Accuracy: 97.7700, Test Loss: 0.0711
+2026-01-14 19:47:02,481 - FL_Main_normclip_la - INFO - === Round 29 Started ===
+2026-01-14 19:47:02,481 - FL_Main_normclip_la - INFO - Participating clients: [21, 52, 62, 61, 27, 51, 7, 48, 0, 49]
+2026-01-14 19:47:08,792 - FL_Main_normclip_la - INFO - === Round 29 Completed ===
+2026-01-14 19:47:08,792 - FL_Main_normclip_la - INFO - Global Accuracy: 97.8900, Global Loss: 0.0710
+2026-01-14 19:47:08,792 - FL_Main_normclip_la - INFO - Test Accuracy: 97.8900, Test Loss: 0.0710
+2026-01-14 19:47:08,794 - FL_Main_normclip_la - INFO - === Round 30 Started ===
+2026-01-14 19:47:08,794 - FL_Main_normclip_la - INFO - Participating clients: [33, 58, 36, 54, 89, 93, 71, 84, 91, 62]
+2026-01-14 19:47:15,844 - FL_Main_normclip_la - INFO - === Round 30 Completed ===
+2026-01-14 19:47:15,844 - FL_Main_normclip_la - INFO - Global Accuracy: 98.0100, Global Loss: 0.0690
+2026-01-14 19:47:15,844 - FL_Main_normclip_la - INFO - Test Accuracy: 98.0100, Test Loss: 0.0690
+2026-01-14 19:47:15,845 - FL_Main_normclip_la - INFO - Experiment completed
+2026-01-14 19:47:15,854 - FL_Main_normclip_la - INFO - All logs saved to logs/normclip_la_20260114_194253

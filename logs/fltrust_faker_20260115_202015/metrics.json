@@ -1,0 +1,6375 @@
+{
+  "round_metrics": [
+    {
+      "round": 1,
+      "global_accuracy": 11.75,
+      "global_loss": 2.2998924895216484,
+      "test_accuracy": 11.75,
+      "test_loss": 2.2998924895216484
+    },
+    {
+      "round": 2,
+      "global_accuracy": 13.19,
+      "global_loss": 2.29577781445683,
+      "test_accuracy": 13.19,
+      "test_loss": 2.29577781445683
+    },
+    {
+      "round": 3,
+      "global_accuracy": 15.81,
+      "global_loss": 2.290849141038645,
+      "test_accuracy": 15.81,
+      "test_loss": 2.290849141038645
+    },
+    {
+      "round": 4,
+      "global_accuracy": 20.52,
+      "global_loss": 2.2835935220931667,
+      "test_accuracy": 20.52,
+      "test_loss": 2.2835935220931667
+    },
+    {
+      "round": 5,
+      "global_accuracy": 28.24,
+      "global_loss": 2.2715946881534954,
+      "test_accuracy": 28.24,
+      "test_loss": 2.2715946881534954
+    },
+    {
+      "round": 6,
+      "global_accuracy": 33.46,
+      "global_loss": 2.2448637051323352,
+      "test_accuracy": 33.46,
+      "test_loss": 2.2448637051323352
+    },
+    {
+      "round": 7,
+      "global_accuracy": 42.89,
+      "global_loss": 2.1786745508638816,
+      "test_accuracy": 42.89,
+      "test_loss": 2.1786745508638816
+    },
+    {
+      "round": 8,
+      "global_accuracy": 47.47,
+      "global_loss": 2.0356059527625674,
+      "test_accuracy": 47.47,
+      "test_loss": 2.0356059527625674
+    },
+    {
+      "round": 9,
+      "global_accuracy": 62.31,
+      "global_loss": 1.8175106829347702,
+      "test_accuracy": 62.31,
+      "test_loss": 1.8175106829347702
+    },
+    {
+      "round": 10,
+      "global_accuracy": 69.97,
+      "global_loss": 1.6091546242991195,
+      "test_accuracy": 69.97,
+      "test_loss": 1.6091546242991195
+    },
+    {
+      "round": 11,
+      "global_accuracy": 74.31,
+      "global_loss": 1.390822789158684,
+      "test_accuracy": 74.31,
+      "test_loss": 1.390822789158684
+    },
+    {
+      "round": 12,
+      "global_accuracy": 79.7,
+      "global_loss": 1.1825893300409895,
+      "test_accuracy": 79.7,
+      "test_loss": 1.1825893300409895
+    },
+    {
+      "round": 13,
+      "global_accuracy": 84.41,
+      "global_loss": 0.9386870737273854,
+      "test_accuracy": 84.41,
+      "test_loss": 0.9386870737273854
+    },
+    {
+      "round": 14,
+      "global_accuracy": 86.45,
+      "global_loss": 0.7924095138002889,
+      "test_accuracy": 86.45,
+      "test_loss": 0.7924095138002889
+    },
+    {
+      "round": 15,
+      "global_accuracy": 87.71,
+      "global_loss": 0.6856585195460639,
+      "test_accuracy": 87.71,
+      "test_loss": 0.6856585195460639
+    },
+    {
+      "round": 16,
+      "global_accuracy": 89.0,
+      "global_loss": 0.6137282198039107,
+      "test_accuracy": 89.0,
+      "test_loss": 0.6137282198039107
+    },
+    {
+      "round": 17,
+      "global_accuracy": 89.83,
+      "global_loss": 0.5406778067731248,
+      "test_accuracy": 89.83,
+      "test_loss": 0.5406778067731248
+    },
+    {
+      "round": 18,
+      "global_accuracy": 90.64,
+      "global_loss": 0.4810297732916884,
+      "test_accuracy": 90.64,
+      "test_loss": 0.4810297732916884
+    },
+    {
+      "round": 19,
+      "global_accuracy": 91.29,
+      "global_loss": 0.4188151512140283,
+      "test_accuracy": 91.29,
+      "test_loss": 0.4188151512140283
+    },
+    {
+      "round": 20,
+      "global_accuracy": 91.89,
+      "global_loss": 0.3726585453596359,
+      "test_accuracy": 91.89,
+      "test_loss": 0.3726585453596359
+    },
+    {
+      "round": 21,
+      "global_accuracy": 92.38,
+      "global_loss": 0.3279305691726672,
+      "test_accuracy": 92.38,
+      "test_loss": 0.3279305691726672
+    },
+    {
+      "round": 22,
+      "global_accuracy": 92.53,
+      "global_loss": 0.30280680822345396,
+      "test_accuracy": 92.53,
+      "test_loss": 0.30280680822345396
+    },
+    {
+      "round": 23,
+      "global_accuracy": 92.76,
+      "global_loss": 0.28176191059973676,
+      "test_accuracy": 92.76,
+      "test_loss": 0.28176191059973676
+    },
+    {
+      "round": 24,
+      "global_accuracy": 93.06,
+      "global_loss": 0.2655153006981737,
+      "test_accuracy": 93.06,
+      "test_loss": 0.2655153006981737
+    },
+    {
+      "round": 25,
+      "global_accuracy": 93.26,
+      "global_loss": 0.24941307101577234,
+      "test_accuracy": 93.26,
+      "test_loss": 0.24941307101577234
+    },
+    {
+      "round": 26,
+      "global_accuracy": 93.54,
+      "global_loss": 0.2365074171253239,
+      "test_accuracy": 93.54,
+      "test_loss": 0.2365074171253239
+    },
+    {
+      "round": 27,
+      "global_accuracy": 93.7,
+      "global_loss": 0.22677237047150303,
+      "test_accuracy": 93.7,
+      "test_loss": 0.22677237047150303
+    },
+    {
+      "round": 28,
+      "global_accuracy": 93.84,
+      "global_loss": 0.2173822127318325,
+      "test_accuracy": 93.84,
+      "test_loss": 0.2173822127318325
+    },
+    {
+      "round": 29,
+      "global_accuracy": 94.07,
+      "global_loss": 0.2080647901709254,
+      "test_accuracy": 94.07,
+      "test_loss": 0.2080647901709254
+    },
+    {
+      "round": 30,
+      "global_accuracy": 94.16,
+      "global_loss": 0.20063086850538897,
+      "test_accuracy": 94.16,
+      "test_loss": 0.20063086850538897
+    }
+  ],
+  "client_metrics": {
+    "72": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "91": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "40": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "27": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "83": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "63": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "50": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "82": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "58": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "18": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "33": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "17": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "31": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "95": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "71": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "68": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "74": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "54": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "51": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "46": [
+      {
+        "round": 1,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "28": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "65": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "11": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "96": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "6": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "14": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "19": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "80": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "20": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "87": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "76": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "8": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "49": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "48": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "59": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "67": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "32": [
+      {
+        "round": 2,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "70": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "1": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "92": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "34": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "98": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "43": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "37": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "55": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "0": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "64": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "97": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "22": [
+      {
+        "round": 3,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "13": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "38": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "81": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "77": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "25": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "47": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "69": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "99": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "41": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "62": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "2": [
+      {
+        "round": 4,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "39": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "30": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "7": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "10": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "93": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "16": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "84": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "60": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "21": [
+      {
+        "round": 5,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "88": [
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "85": [
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "56": [
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "66": [
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "57": [
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "15": [
+      {
+        "round": 6,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "75": [
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "29": [
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "9": [
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "90": [
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "4": [
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "42": [
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "35": [
+      {
+        "round": 7,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "73": [
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "52": [
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "24": [
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "12": [
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "45": [
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "86": [
+      {
+        "round": 8,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "23": [
+      {
+        "round": 9,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "61": [
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "36": [
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 27,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "89": [
+      {
+        "round": 10,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 25,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "94": [
+      {
+        "round": 11,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "5": [
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 16,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "79": [
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 21,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 23,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "53": [
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "26": [
+      {
+        "round": 12,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 15,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 17,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 28,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "44": [
+      {
+        "round": 13,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 20,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "78": [
+      {
+        "round": 14,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 22,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 26,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ],
+    "3": [
+      {
+        "round": 18,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 19,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 24,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 29,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      },
+      {
+        "round": 30,
+        "local_accuracy": 0.0,
+        "local_loss": 0.0,
+        "data_size": 600,
+        "is_malicious": true
+      }
+    ]
+  },
+  "attack_metrics": {
+    "1": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          72,
+          91,
+          40,
+          27,
+          83,
+          63,
+          50,
+          82,
+          58,
+          18,
+          33,
+          17,
+          31,
+          95,
+          71,
+          68,
+          74,
+          54,
+          51,
+          46
+        ]
+      }
+    ],
+    "2": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          28,
+          17,
+          65,
+          63,
+          11,
+          96,
+          6,
+          14,
+          19,
+          80,
+          20,
+          87,
+          54,
+          76,
+          8,
+          49,
+          48,
+          59,
+          67,
+          32
+        ]
+      }
+    ],
+    "3": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          70,
+          1,
+          87,
+          92,
+          14,
+          68,
+          96,
+          34,
+          98,
+          82,
+          43,
+          37,
+          55,
+          20,
+          58,
+          0,
+          33,
+          64,
+          97,
+          22
+        ]
+      }
+    ],
+    "4": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          64,
+          13,
+          80,
+          38,
+          81,
+          77,
+          25,
+          19,
+          47,
+          97,
+          20,
+          69,
+          99,
+          67,
+          0,
+          76,
+          41,
+          62,
+          2,
+          14
+        ]
+      }
+    ],
+    "5": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          46,
+          39,
+          30,
+          7,
+          72,
+          10,
+          93,
+          62,
+          8,
+          97,
+          68,
+          98,
+          16,
+          84,
+          60,
+          70,
+          21,
+          33,
+          67,
+          77
+        ]
+      }
+    ],
+    "6": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          54,
+          27,
+          69,
+          96,
+          93,
+          88,
+          25,
+          91,
+          39,
+          51,
+          85,
+          83,
+          47,
+          56,
+          66,
+          57,
+          15,
+          31,
+          28,
+          8
+        ]
+      }
+    ],
+    "7": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          43,
+          2,
+          75,
+          70,
+          29,
+          28,
+          0,
+          9,
+          90,
+          80,
+          7,
+          8,
+          4,
+          42,
+          65,
+          30,
+          35,
+          85,
+          62,
+          27
+        ]
+      }
+    ],
+    "8": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          69,
+          16,
+          92,
+          73,
+          60,
+          31,
+          52,
+          24,
+          12,
+          84,
+          55,
+          45,
+          54,
+          59,
+          93,
+          6,
+          86,
+          83,
+          82,
+          7
+        ]
+      }
+    ],
+    "9": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          51,
+          93,
+          43,
+          13,
+          31,
+          24,
+          68,
+          57,
+          17,
+          54,
+          23,
+          35,
+          59,
+          9,
+          56,
+          70,
+          12,
+          6,
+          83,
+          69
+        ]
+      }
+    ],
+    "10": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          1,
+          11,
+          96,
+          30,
+          21,
+          52,
+          62,
+          61,
+          27,
+          51,
+          7,
+          48,
+          0,
+          49,
+          33,
+          58,
+          36,
+          54,
+          89,
+          93
+        ]
+      }
+    ],
+    "11": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          71,
+          84,
+          91,
+          62,
+          19,
+          24,
+          37,
+          27,
+          7,
+          74,
+          94,
+          69,
+          95,
+          40,
+          6,
+          61,
+          64,
+          67,
+          20,
+          65
+        ]
+      }
+    ],
+    "12": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          10,
+          23,
+          8,
+          76,
+          86,
+          30,
+          51,
+          15,
+          72,
+          31,
+          74,
+          5,
+          79,
+          53,
+          84,
+          66,
+          40,
+          33,
+          26,
+          85
+        ]
+      }
+    ],
+    "13": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          91,
+          40,
+          30,
+          33,
+          50,
+          16,
+          85,
+          82,
+          38,
+          58,
+          96,
+          9,
+          1,
+          79,
+          72,
+          12,
+          68,
+          27,
+          64,
+          44
+        ]
+      }
+    ],
+    "14": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          8,
+          31,
+          47,
+          36,
+          20,
+          56,
+          69,
+          90,
+          38,
+          78,
+          83,
+          67,
+          1,
+          85,
+          70,
+          84,
+          13,
+          17,
+          33,
+          14
+        ]
+      }
+    ],
+    "15": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          13,
+          95,
+          70,
+          19,
+          34,
+          36,
+          77,
+          26,
+          91,
+          43,
+          87,
+          81,
+          33,
+          64,
+          62,
+          32,
+          6,
+          11,
+          54,
+          35
+        ]
+      }
+    ],
+    "16": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          5,
+          0,
+          42,
+          98,
+          16,
+          81,
+          33,
+          20,
+          94,
+          56,
+          70,
+          90,
+          54,
+          71,
+          1,
+          14,
+          9,
+          88,
+          19,
+          69
+        ]
+      }
+    ],
+    "17": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          4,
+          47,
+          74,
+          70,
+          18,
+          55,
+          16,
+          5,
+          39,
+          46,
+          45,
+          26,
+          87,
+          31,
+          85,
+          13,
+          99,
+          71,
+          52,
+          79
+        ]
+      }
+    ],
+    "18": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          95,
+          19,
+          30,
+          20,
+          22,
+          52,
+          3,
+          94,
+          42,
+          85,
+          31,
+          34,
+          89,
+          13,
+          48,
+          4,
+          60,
+          28,
+          25,
+          58
+        ]
+      }
+    ],
+    "19": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          44,
+          39,
+          29,
+          28,
+          3,
+          84,
+          24,
+          51,
+          42,
+          35,
+          8,
+          98,
+          82,
+          65,
+          86,
+          68,
+          14,
+          33,
+          22,
+          74
+        ]
+      }
+    ],
+    "20": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          33,
+          4,
+          13,
+          76,
+          55,
+          44,
+          93,
+          40,
+          77,
+          65,
+          14,
+          49,
+          73,
+          24,
+          32,
+          5,
+          90,
+          0,
+          66,
+          68
+        ]
+      }
+    ],
+    "21": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          87,
+          92,
+          94,
+          85,
+          25,
+          46,
+          55,
+          8,
+          42,
+          79,
+          40,
+          84,
+          15,
+          38,
+          64,
+          39,
+          52,
+          41,
+          51,
+          89
+        ]
+      }
+    ],
+    "22": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          37,
+          70,
+          16,
+          24,
+          53,
+          85,
+          48,
+          86,
+          95,
+          22,
+          78,
+          72,
+          38,
+          51,
+          0,
+          36,
+          26,
+          55,
+          74,
+          77
+        ]
+      }
+    ],
+    "23": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          83,
+          41,
+          59,
+          56,
+          86,
+          27,
+          65,
+          60,
+          94,
+          21,
+          84,
+          10,
+          36,
+          81,
+          79,
+          42,
+          11,
+          96,
+          30,
+          39
+        ]
+      }
+    ],
+    "24": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          28,
+          25,
+          18,
+          3,
+          5,
+          31,
+          60,
+          78,
+          98,
+          9,
+          58,
+          53,
+          80,
+          73,
+          24,
+          91,
+          89,
+          49,
+          63,
+          51
+        ]
+      }
+    ],
+    "25": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          31,
+          18,
+          83,
+          88,
+          0,
+          96,
+          98,
+          13,
+          99,
+          54,
+          28,
+          22,
+          89,
+          66,
+          59,
+          6,
+          71,
+          15,
+          58,
+          17
+        ]
+      }
+    ],
+    "26": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          59,
+          85,
+          67,
+          71,
+          76,
+          40,
+          96,
+          56,
+          78,
+          92,
+          64,
+          54,
+          70,
+          57,
+          20,
+          95,
+          60,
+          33,
+          31,
+          81
+        ]
+      }
+    ],
+    "27": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          35,
+          98,
+          99,
+          66,
+          62,
+          80,
+          30,
+          56,
+          9,
+          91,
+          36,
+          34,
+          42,
+          40,
+          69,
+          10,
+          17,
+          19,
+          29,
+          49
+        ]
+      }
+    ],
+    "28": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          88,
+          19,
+          90,
+          27,
+          8,
+          53,
+          52,
+          42,
+          69,
+          59,
+          7,
+          26,
+          49,
+          98,
+          74,
+          89,
+          2,
+          97,
+          73,
+          48
+        ]
+      }
+    ],
+    "29": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          61,
+          0,
+          45,
+          38,
+          96,
+          49,
+          53,
+          68,
+          95,
+          94,
+          69,
+          77,
+          28,
+          62,
+          34,
+          55,
+          3,
+          43,
+          85,
+          86
+        ]
+      }
+    ],
+    "30": [
+      {
+        "attack_type": "faker",
+        "attack_success": true,
+        "similarity_metrics": {},
+        "target_clients": [
+          51,
+          92,
+          21,
+          59,
+          16,
+          79,
+          68,
+          3,
+          50,
+          75,
+          72,
+          84,
+          10,
+          82,
+          54,
+          17,
+          23,
+          6,
+          33,
+          48
+        ]
+      }
+    ]
+  },
+  "defense_metrics": {
+    "1": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          72,
+          91,
+          40,
+          27,
+          83,
+          63,
+          50,
+          82,
+          58,
+          18,
+          33,
+          17,
+          31,
+          95,
+          71,
+          68,
+          74,
+          54,
+          51,
+          46
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "2": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          28,
+          17,
+          65,
+          63,
+          11,
+          96,
+          6,
+          14,
+          19,
+          80,
+          20,
+          87,
+          54,
+          76,
+          8,
+          49,
+          48,
+          59,
+          67,
+          32
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "3": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          70,
+          1,
+          87,
+          92,
+          14,
+          68,
+          96,
+          34,
+          98,
+          82,
+          43,
+          37,
+          55,
+          20,
+          58,
+          0,
+          33,
+          64,
+          97,
+          22
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "4": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          64,
+          13,
+          80,
+          38,
+          81,
+          77,
+          25,
+          19,
+          47,
+          97,
+          20,
+          69,
+          99,
+          67,
+          0,
+          76,
+          41,
+          62,
+          2,
+          14
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "5": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          46,
+          39,
+          30,
+          7,
+          72,
+          10,
+          93,
+          62,
+          8,
+          97,
+          68,
+          98,
+          16,
+          84,
+          60,
+          70,
+          21,
+          33,
+          67,
+          77
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "6": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          54,
+          27,
+          69,
+          96,
+          93,
+          88,
+          25,
+          91,
+          39,
+          51,
+          85,
+          83,
+          47,
+          56,
+          66,
+          57,
+          15,
+          31,
+          28,
+          8
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "7": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          43,
+          2,
+          75,
+          70,
+          29,
+          28,
+          0,
+          9,
+          90,
+          80,
+          7,
+          8,
+          4,
+          42,
+          65,
+          30,
+          35,
+          85,
+          62,
+          27
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "8": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          69,
+          16,
+          92,
+          73,
+          60,
+          31,
+          52,
+          24,
+          12,
+          84,
+          55,
+          45,
+          54,
+          59,
+          93,
+          6,
+          86,
+          83,
+          82,
+          7
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "9": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          51,
+          93,
+          43,
+          13,
+          31,
+          24,
+          68,
+          57,
+          17,
+          54,
+          23,
+          35,
+          59,
+          9,
+          56,
+          70,
+          12,
+          6,
+          83,
+          69
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "10": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          1,
+          11,
+          96,
+          30,
+          21,
+          52,
+          62,
+          61,
+          27,
+          51,
+          7,
+          48,
+          0,
+          49,
+          33,
+          58,
+          36,
+          54,
+          89,
+          93
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "11": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          71,
+          84,
+          91,
+          62,
+          19,
+          24,
+          37,
+          27,
+          7,
+          74,
+          94,
+          69,
+          95,
+          40,
+          6,
+          61,
+          64,
+          67,
+          20,
+          65
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "12": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          10,
+          23,
+          8,
+          76,
+          86,
+          30,
+          51,
+          15,
+          72,
+          31,
+          74,
+          5,
+          79,
+          53,
+          84,
+          66,
+          40,
+          33,
+          26,
+          85
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "13": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          91,
+          40,
+          30,
+          33,
+          50,
+          16,
+          85,
+          82,
+          38,
+          58,
+          96,
+          9,
+          1,
+          79,
+          72,
+          12,
+          68,
+          27,
+          64,
+          44
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "14": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          8,
+          31,
+          47,
+          36,
+          20,
+          56,
+          69,
+          90,
+          38,
+          78,
+          83,
+          67,
+          1,
+          85,
+          70,
+          84,
+          13,
+          17,
+          33,
+          14
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "15": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          13,
+          95,
+          70,
+          19,
+          34,
+          36,
+          77,
+          26,
+          91,
+          43,
+          87,
+          81,
+          33,
+          64,
+          62,
+          32,
+          6,
+          11,
+          54,
+          35
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "16": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          5,
+          0,
+          42,
+          98,
+          16,
+          81,
+          33,
+          20,
+          94,
+          56,
+          70,
+          90,
+          54,
+          71,
+          1,
+          14,
+          9,
+          88,
+          19,
+          69
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "17": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          4,
+          47,
+          74,
+          70,
+          18,
+          55,
+          16,
+          5,
+          39,
+          46,
+          45,
+          26,
+          87,
+          31,
+          85,
+          13,
+          99,
+          71,
+          52,
+          79
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "18": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          95,
+          19,
+          30,
+          20,
+          22,
+          52,
+          3,
+          94,
+          42,
+          85,
+          31,
+          34,
+          89,
+          13,
+          48,
+          4,
+          60,
+          28,
+          25,
+          58
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "19": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          44,
+          39,
+          29,
+          28,
+          3,
+          84,
+          24,
+          51,
+          42,
+          35,
+          8,
+          98,
+          82,
+          65,
+          86,
+          68,
+          14,
+          33,
+          22,
+          74
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "20": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          33,
+          4,
+          13,
+          76,
+          55,
+          44,
+          93,
+          40,
+          77,
+          65,
+          14,
+          49,
+          73,
+          24,
+          32,
+          5,
+          90,
+          0,
+          66,
+          68
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "21": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          87,
+          92,
+          94,
+          85,
+          25,
+          46,
+          55,
+          8,
+          42,
+          79,
+          40,
+          84,
+          15,
+          38,
+          64,
+          39,
+          52,
+          41,
+          51,
+          89
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "22": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          37,
+          70,
+          16,
+          24,
+          53,
+          85,
+          48,
+          86,
+          95,
+          22,
+          78,
+          72,
+          38,
+          51,
+          0,
+          36,
+          26,
+          55,
+          74,
+          77
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "23": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          83,
+          41,
+          59,
+          56,
+          86,
+          27,
+          65,
+          60,
+          94,
+          21,
+          84,
+          10,
+          36,
+          81,
+          79,
+          42,
+          11,
+          96,
+          30,
+          39
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "24": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          28,
+          25,
+          18,
+          3,
+          5,
+          31,
+          60,
+          78,
+          98,
+          9,
+          58,
+          53,
+          80,
+          73,
+          24,
+          91,
+          89,
+          49,
+          63,
+          51
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "25": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          31,
+          18,
+          83,
+          88,
+          0,
+          96,
+          98,
+          13,
+          99,
+          54,
+          28,
+          22,
+          89,
+          66,
+          59,
+          6,
+          71,
+          15,
+          58,
+          17
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "26": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          59,
+          85,
+          67,
+          71,
+          76,
+          40,
+          96,
+          56,
+          78,
+          92,
+          64,
+          54,
+          70,
+          57,
+          20,
+          95,
+          60,
+          33,
+          31,
+          81
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "27": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          35,
+          98,
+          99,
+          66,
+          62,
+          80,
+          30,
+          56,
+          9,
+          91,
+          36,
+          34,
+          42,
+          40,
+          69,
+          10,
+          17,
+          19,
+          29,
+          49
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "28": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          88,
+          19,
+          90,
+          27,
+          8,
+          53,
+          52,
+          42,
+          69,
+          59,
+          7,
+          26,
+          49,
+          98,
+          74,
+          89,
+          2,
+          97,
+          73,
+          48
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "29": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          61,
+          0,
+          45,
+          38,
+          96,
+          49,
+          53,
+          68,
+          95,
+          94,
+          69,
+          77,
+          28,
+          62,
+          34,
+          55,
+          3,
+          43,
+          85,
+          86
+        ],
+        "defense_effectiveness": null
+      }
+    ],
+    "30": [
+      {
+        "defense_type": "fltrust",
+        "rejected_count": 0,
+        "detected_malicious": [
+          51,
+          92,
+          21,
+          59,
+          16,
+          79,
+          68,
+          3,
+          50,
+          75,
+          72,
+          84,
+          10,
+          82,
+          54,
+          17,
+          23,
+          6,
+          33,
+          48
+        ],
+        "defense_effectiveness": null
+      }
+    ]
+  },
+  "summary": {
+    "convergence": {
+      "final_accuracy": 94.16,
+      "final_loss": 0.20063086850538897,
+      "convergence_round": 12,
+      "stability_variance": 0.09408055555555311,
+      "total_rounds": 30
+    },
+    "total_rounds": 30,
+    "total_clients": 100,
+    "attack_rounds": 30,
+    "defense_rounds": 30,
+    "attack_success_rate": 1.0,
+    "total_rejected_models": 0
+  }
+}

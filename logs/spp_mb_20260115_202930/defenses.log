@@ -1,0 +1,60 @@
+2026-01-15 20:29:46,091 - FL_Defense_spp_mb - INFO - Round 1: spp defense applied - Rejected clients: [69, 28, 75, 35] - Detected malicious: [69, 28, 75, 35]
+2026-01-15 20:29:46,091 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:29:55,919 - FL_Defense_spp_mb - INFO - Round 2: spp defense applied - Rejected clients: [54, 35, 27, 13] - Detected malicious: [54, 35, 27, 13]
+2026-01-15 20:29:55,920 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:30:10,294 - FL_Defense_spp_mb - INFO - Round 3: spp defense applied - Rejected clients: [11, 77] - Detected malicious: [11, 77]
+2026-01-15 20:30:10,294 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:30:20,979 - FL_Defense_spp_mb - INFO - Round 4: spp defense applied
+2026-01-15 20:30:20,980 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:30:31,658 - FL_Defense_spp_mb - INFO - Round 5: spp defense applied - Rejected clients: [29] - Detected malicious: [29]
+2026-01-15 20:30:31,658 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:30:47,129 - FL_Defense_spp_mb - INFO - Round 6: spp defense applied - Rejected clients: [35, 81] - Detected malicious: [35, 81]
+2026-01-15 20:30:47,130 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:30:59,280 - FL_Defense_spp_mb - INFO - Round 7: spp defense applied - Rejected clients: [77, 81] - Detected malicious: [77, 81]
+2026-01-15 20:30:59,280 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:31:10,101 - FL_Defense_spp_mb - INFO - Round 8: spp defense applied - Rejected clients: [31, 81, 71, 28] - Detected malicious: [31, 81, 71, 28]
+2026-01-15 20:31:10,101 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:31:21,996 - FL_Defense_spp_mb - INFO - Round 9: spp defense applied - Rejected clients: [29, 4] - Detected malicious: [29, 4]
+2026-01-15 20:31:21,997 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:31:34,155 - FL_Defense_spp_mb - INFO - Round 10: spp defense applied - Rejected clients: [27] - Detected malicious: [27]
+2026-01-15 20:31:34,156 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:31:45,124 - FL_Defense_spp_mb - INFO - Round 11: spp defense applied - Rejected clients: [17, 31, 71, 54] - Detected malicious: [17, 31, 71, 54]
+2026-01-15 20:31:45,125 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:31:58,277 - FL_Defense_spp_mb - INFO - Round 12: spp defense applied - Rejected clients: [28, 17, 11, 14] - Detected malicious: [28, 17, 11, 14]
+2026-01-15 20:31:58,277 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:32:08,828 - FL_Defense_spp_mb - INFO - Round 13: spp defense applied - Rejected clients: [54] - Detected malicious: [54]
+2026-01-15 20:32:08,828 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:32:21,075 - FL_Defense_spp_mb - INFO - Round 14: spp defense applied - Rejected clients: [14] - Detected malicious: [14]
+2026-01-15 20:32:21,075 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:32:32,524 - FL_Defense_spp_mb - INFO - Round 15: spp defense applied - Rejected clients: [14, 64] - Detected malicious: [14, 64]
+2026-01-15 20:32:32,524 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:32:46,586 - FL_Defense_spp_mb - INFO - Round 16: spp defense applied - Rejected clients: [64, 13, 81, 77] - Detected malicious: [64, 13, 81, 77]
+2026-01-15 20:32:46,587 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:33:03,141 - FL_Defense_spp_mb - INFO - Round 17: spp defense applied - Rejected clients: [69] - Detected malicious: [69]
+2026-01-15 20:33:03,142 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:33:15,850 - FL_Defense_spp_mb - INFO - Round 18: spp defense applied - Rejected clients: [14] - Detected malicious: [14]
+2026-01-15 20:33:15,850 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:33:32,164 - FL_Defense_spp_mb - INFO - Round 19: spp defense applied
+2026-01-15 20:33:32,165 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:33:45,617 - FL_Defense_spp_mb - INFO - Round 20: spp defense applied - Rejected clients: [77, 54, 27, 69] - Detected malicious: [77, 54, 27, 69]
+2026-01-15 20:33:45,617 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:34:01,156 - FL_Defense_spp_mb - INFO - Round 21: spp defense applied - Rejected clients: [31] - Detected malicious: [31]
+2026-01-15 20:34:01,156 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:34:15,824 - FL_Defense_spp_mb - INFO - Round 22: spp defense applied - Rejected clients: [28, 75, 29] - Detected malicious: [28, 75, 29]
+2026-01-15 20:34:15,824 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:34:26,701 - FL_Defense_spp_mb - INFO - Round 23: spp defense applied - Rejected clients: [29, 4, 35] - Detected malicious: [29, 4, 35]
+2026-01-15 20:34:26,701 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:34:39,427 - FL_Defense_spp_mb - INFO - Round 24: spp defense applied - Rejected clients: [27, 69, 31] - Detected malicious: [27, 69, 31]
+2026-01-15 20:34:39,427 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:34:54,464 - FL_Defense_spp_mb - INFO - Round 25: spp defense applied - Rejected clients: [54] - Detected malicious: [54]
+2026-01-15 20:34:54,464 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:35:04,666 - FL_Defense_spp_mb - INFO - Round 26: spp defense applied - Rejected clients: [86, 13, 31] - Detected malicious: [86, 13, 31]
+2026-01-15 20:35:04,666 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:35:10,462 - FL_Defense_spp_mb - INFO - Round 27: spp defense applied - Rejected clients: [17, 54, 35, 31] - Detected malicious: [17, 54, 35, 31]
+2026-01-15 20:35:10,462 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:35:16,204 - FL_Defense_spp_mb - INFO - Round 28: spp defense applied - Rejected clients: [69, 11] - Detected malicious: [69, 11]
+2026-01-15 20:35:16,204 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:35:24,314 - FL_Defense_spp_mb - INFO - Round 29: spp defense applied - Rejected clients: [27] - Detected malicious: [27]
+2026-01-15 20:35:24,314 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}
+2026-01-15 20:35:31,069 - FL_Defense_spp_mb - INFO - Round 30: spp defense applied - Rejected clients: [54, 71] - Detected malicious: [54, 71]
+2026-01-15 20:35:31,069 - FL_Defense_spp_mb - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.0}

@@ -1,0 +1,60 @@
+2026-01-15 20:30:07,882 - FL_Defense_spp_faker - INFO - Round 1: spp defense applied - Detected malicious: [69, 28, 75, 35]
+2026-01-15 20:30:07,882 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:30:20,560 - FL_Defense_spp_faker - INFO - Round 2: spp defense applied - Rejected clients: [54, 35, 27] - Detected malicious: [54, 35, 27, 13]
+2026-01-15 20:30:20,561 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:30:31,661 - FL_Defense_spp_faker - INFO - Round 3: spp defense applied - Rejected clients: [77] - Detected malicious: [11, 77]
+2026-01-15 20:30:31,661 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:30:47,408 - FL_Defense_spp_faker - INFO - Round 4: spp defense applied
+2026-01-15 20:30:47,409 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:30:59,811 - FL_Defense_spp_faker - INFO - Round 5: spp defense applied - Detected malicious: [29]
+2026-01-15 20:30:59,811 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:31:11,233 - FL_Defense_spp_faker - INFO - Round 6: spp defense applied - Detected malicious: [35, 81]
+2026-01-15 20:31:11,233 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:31:23,229 - FL_Defense_spp_faker - INFO - Round 7: spp defense applied - Detected malicious: [77, 81]
+2026-01-15 20:31:23,229 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:31:36,146 - FL_Defense_spp_faker - INFO - Round 8: spp defense applied - Detected malicious: [31, 81, 71, 28]
+2026-01-15 20:31:36,146 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:31:48,065 - FL_Defense_spp_faker - INFO - Round 9: spp defense applied - Detected malicious: [29, 4]
+2026-01-15 20:31:48,065 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:32:00,862 - FL_Defense_spp_faker - INFO - Round 10: spp defense applied - Detected malicious: [27]
+2026-01-15 20:32:00,862 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:32:12,960 - FL_Defense_spp_faker - INFO - Round 11: spp defense applied - Detected malicious: [17, 31, 71, 54]
+2026-01-15 20:32:12,960 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:32:25,920 - FL_Defense_spp_faker - INFO - Round 12: spp defense applied - Detected malicious: [28, 17, 11, 14]
+2026-01-15 20:32:25,920 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:32:38,660 - FL_Defense_spp_faker - INFO - Round 13: spp defense applied - Detected malicious: [54]
+2026-01-15 20:32:38,660 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:32:54,918 - FL_Defense_spp_faker - INFO - Round 14: spp defense applied - Detected malicious: [14]
+2026-01-15 20:32:54,918 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:33:09,402 - FL_Defense_spp_faker - INFO - Round 15: spp defense applied - Detected malicious: [14, 64]
+2026-01-15 20:33:09,402 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:33:25,457 - FL_Defense_spp_faker - INFO - Round 16: spp defense applied - Detected malicious: [64, 13, 81, 77]
+2026-01-15 20:33:25,457 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:33:40,518 - FL_Defense_spp_faker - INFO - Round 17: spp defense applied - Detected malicious: [69]
+2026-01-15 20:33:40,518 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:33:55,814 - FL_Defense_spp_faker - INFO - Round 18: spp defense applied - Detected malicious: [14]
+2026-01-15 20:33:55,814 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:34:10,984 - FL_Defense_spp_faker - INFO - Round 19: spp defense applied
+2026-01-15 20:34:10,985 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:34:25,426 - FL_Defense_spp_faker - INFO - Round 20: spp defense applied - Detected malicious: [77, 54, 27, 69]
+2026-01-15 20:34:25,426 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:34:37,182 - FL_Defense_spp_faker - INFO - Round 21: spp defense applied - Detected malicious: [31]
+2026-01-15 20:34:37,182 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:34:52,678 - FL_Defense_spp_faker - INFO - Round 22: spp defense applied - Detected malicious: [28, 75, 29]
+2026-01-15 20:34:52,679 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:04,199 - FL_Defense_spp_faker - INFO - Round 23: spp defense applied - Detected malicious: [29, 4, 35]
+2026-01-15 20:35:04,199 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:10,472 - FL_Defense_spp_faker - INFO - Round 24: spp defense applied - Detected malicious: [27, 69, 31]
+2026-01-15 20:35:10,472 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:16,268 - FL_Defense_spp_faker - INFO - Round 25: spp defense applied - Detected malicious: [54]
+2026-01-15 20:35:16,268 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:24,770 - FL_Defense_spp_faker - INFO - Round 26: spp defense applied - Detected malicious: [86, 13, 31]
+2026-01-15 20:35:24,770 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:33,053 - FL_Defense_spp_faker - INFO - Round 27: spp defense applied - Detected malicious: [17, 54, 35, 31]
+2026-01-15 20:35:33,054 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:44,146 - FL_Defense_spp_faker - INFO - Round 28: spp defense applied - Detected malicious: [69, 11]
+2026-01-15 20:35:44,146 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:50,663 - FL_Defense_spp_faker - INFO - Round 29: spp defense applied - Detected malicious: [27]
+2026-01-15 20:35:50,664 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}
+2026-01-15 20:35:58,996 - FL_Defense_spp_faker - INFO - Round 30: spp defense applied - Detected malicious: [54, 71]
+2026-01-15 20:35:58,996 - FL_Defense_spp_faker - INFO - Defense parameters: {'selection_ratio': 0.5, 'cosine_threshold': 0.5}

@@ -1,0 +1,602 @@
+{
+  "1": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        81,
+        31,
+        28,
+        17,
+        86
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:15:39.596556"
+    }
+  ],
+  "2": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        94,
+        69,
+        11,
+        3,
+        64
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:15:45.379678"
+    }
+  ],
+  "3": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        3,
+        71,
+        25,
+        69,
+        28
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:15:49.348469"
+    }
+  ],
+  "4": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        75,
+        0,
+        20,
+        89,
+        54
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:15:53.180615"
+    }
+  ],
+  "5": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        27,
+        97,
+        13,
+        11,
+        77
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:15:57.385764"
+    }
+  ],
+  "6": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        93,
+        15,
+        48,
+        10,
+        70
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:01.274450"
+    }
+  ],
+  "7": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        46,
+        24,
+        90,
+        5,
+        29
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:05.128084"
+    }
+  ],
+  "8": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        10,
+        29,
+        48,
+        81,
+        46
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:09.000788"
+    }
+  ],
+  "9": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        20,
+        47,
+        45,
+        89,
+        9
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:12.852343"
+    }
+  ],
+  "10": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        81,
+        68,
+        93,
+        31,
+        48
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:17.263000"
+    }
+  ],
+  "11": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        81,
+        71,
+        28,
+        7,
+        29
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:21.425203"
+    }
+  ],
+  "12": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        4,
+        27,
+        72,
+        91,
+        83
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:25.238051"
+    }
+  ],
+  "13": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        33,
+        17,
+        31,
+        71,
+        68
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:29.047473"
+    }
+  ],
+  "14": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        33,
+        95,
+        54,
+        46,
+        28
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:32.814974"
+    }
+  ],
+  "15": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        11,
+        14,
+        19,
+        80,
+        20
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:36.608268"
+    }
+  ],
+  "16": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        49,
+        48,
+        59,
+        32,
+        70
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:40.658302"
+    }
+  ],
+  "17": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        14,
+        68,
+        96,
+        43,
+        37
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:44.677951"
+    }
+  ],
+  "18": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        20,
+        0,
+        33,
+        64,
+        97
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:49.265227"
+    }
+  ],
+  "19": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        81,
+        64,
+        25,
+        47,
+        97
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:53.491797"
+    }
+  ],
+  "20": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        69,
+        99,
+        67,
+        0,
+        46
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:16:57.712096"
+    }
+  ],
+  "21": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        7,
+        72,
+        10,
+        62,
+        68
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:02.042355"
+    }
+  ],
+  "22": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        60,
+        70,
+        21,
+        33,
+        54
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:06.989654"
+    }
+  ],
+  "23": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        27,
+        88,
+        91,
+        39,
+        85
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:12.195885"
+    }
+  ],
+  "24": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        83,
+        57,
+        15,
+        31,
+        43
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:16.301671"
+    }
+  ],
+  "25": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        75,
+        29,
+        9,
+        90,
+        7
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:20.643441"
+    }
+  ],
+  "26": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        29,
+        4,
+        65,
+        30,
+        62
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:24.840873"
+    }
+  ],
+  "27": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        16,
+        73,
+        60,
+        31,
+        24
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:29.174207"
+    }
+  ],
+  "28": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        84,
+        45,
+        59,
+        6,
+        86
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:34.096364"
+    }
+  ],
+  "29": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        83,
+        7,
+        13,
+        31,
+        24
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:39.315603"
+    }
+  ],
+  "30": [
+    {
+      "defense_type": "krum",
+      "defense_params": {
+        "num_malicious": 2,
+        "multi_krum": true,
+        "num_selected": 5
+      },
+      "rejected_clients": [
+        68,
+        57,
+        17,
+        23,
+        31
+      ],
+      "detected_malicious": [],
+      "effectiveness_metrics": null,
+      "timestamp": "2026-01-14T10:17:44.066789"
+    }
+  ]
+}

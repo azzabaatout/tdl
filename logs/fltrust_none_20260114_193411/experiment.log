@@ -1,0 +1,200 @@
+2026-01-14 19:34:11,174 - FL_Main_fltrust_none - INFO - Experiment Configuration: {
+  "experiment_name": "fltrust_none",
+  "random_seed": 42,
+  "dataset": {
+    "type": "mnist",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "iid"
+  },
+  "model": {
+    "type": "lenet",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 30,
+    "num_clients": 100,
+    "client_participation_rate": 0.1,
+    "learning_rate": 0.01,
+    "local_epochs": 2,
+    "batch_size": 32
+  },
+  "server": {
+    "data_size": 500
+  },
+  "attack": {
+    "type": "none",
+    "num_malicious_clients": 0
+  },
+  "defense": {
+    "type": "fltrust",
+    "params": {
+      "server_epochs": 5,
+      "server_lr": 0.01,
+      "cosine_threshold": 0.0,
+      "use_relu": true,
+      "clip_updates": true,
+      "use_statistical_filtering": true,
+      "std_threshold": 1.5
+    }
+  }
+}
+2026-01-14 19:34:11,175 - FL_Main_fltrust_none - INFO - Using device: cpu
+2026-01-14 19:34:19,740 - FL_Main_fltrust_none - INFO - Data partitioned among 100 clients
+2026-01-14 19:34:19,754 - FL_Main_fltrust_none - INFO - Model initialized: lenet
+2026-01-14 19:34:19,756 - FL_Main_fltrust_none - INFO - Server initialized with defense: fltrust
+2026-01-14 19:34:19,870 - FL_Main_fltrust_none - INFO - Created 100 clients (0 malicious)
+2026-01-14 19:34:19,870 - FL_Main_fltrust_none - INFO - Experiment setup completed
+2026-01-14 19:34:19,870 - FL_Main_fltrust_none - INFO - Starting experiment with 30 rounds
+2026-01-14 19:34:19,870 - FL_Main_fltrust_none - INFO - === Round 1 Started ===
+2026-01-14 19:34:19,870 - FL_Main_fltrust_none - INFO - Participating clients: [81, 14, 3, 94, 35, 31, 28, 17, 13, 86]
+2026-01-14 19:34:39,639 - FL_Main_fltrust_none - INFO - === Round 1 Completed ===
+2026-01-14 19:34:39,639 - FL_Main_fltrust_none - INFO - Global Accuracy: 20.9200, Global Loss: 2.2852
+2026-01-14 19:34:39,639 - FL_Main_fltrust_none - INFO - Test Accuracy: 20.9200, Test Loss: 2.2852
+2026-01-14 19:34:39,640 - FL_Main_fltrust_none - INFO - === Round 2 Started ===
+2026-01-14 19:34:39,640 - FL_Main_fltrust_none - INFO - Participating clients: [94, 69, 11, 75, 54, 4, 3, 27, 29, 64]
+2026-01-14 19:34:55,866 - FL_Main_fltrust_none - INFO - === Round 2 Completed ===
+2026-01-14 19:34:55,866 - FL_Main_fltrust_none - INFO - Global Accuracy: 41.6700, Global Loss: 2.2451
+2026-01-14 19:34:55,866 - FL_Main_fltrust_none - INFO - Test Accuracy: 41.6700, Test Loss: 2.2451
+2026-01-14 19:34:55,869 - FL_Main_fltrust_none - INFO - === Round 3 Started ===
+2026-01-14 19:34:55,869 - FL_Main_fltrust_none - INFO - Participating clients: [77, 3, 71, 25, 91, 83, 89, 69, 53, 28]
+2026-01-14 19:35:09,566 - FL_Main_fltrust_none - INFO - === Round 3 Completed ===
+2026-01-14 19:35:09,566 - FL_Main_fltrust_none - INFO - Global Accuracy: 49.7400, Global Loss: 2.0974
+2026-01-14 19:35:09,567 - FL_Main_fltrust_none - INFO - Test Accuracy: 49.7400, Test Loss: 2.0974
+2026-01-14 19:35:09,567 - FL_Main_fltrust_none - INFO - === Round 4 Started ===
+2026-01-14 19:35:09,568 - FL_Main_fltrust_none - INFO - Participating clients: [57, 75, 35, 0, 97, 20, 89, 54, 43, 19]
+2026-01-14 19:35:23,903 - FL_Main_fltrust_none - INFO - === Round 4 Completed ===
+2026-01-14 19:35:23,903 - FL_Main_fltrust_none - INFO - Global Accuracy: 79.3300, Global Loss: 1.4722
+2026-01-14 19:35:23,903 - FL_Main_fltrust_none - INFO - Test Accuracy: 79.3300, Test Loss: 1.4722
+2026-01-14 19:35:23,904 - FL_Main_fltrust_none - INFO - === Round 5 Started ===
+2026-01-14 19:35:23,904 - FL_Main_fltrust_none - INFO - Participating clients: [27, 97, 43, 13, 11, 48, 12, 45, 44, 77]
+2026-01-14 19:35:37,255 - FL_Main_fltrust_none - INFO - === Round 5 Completed ===
+2026-01-14 19:35:37,256 - FL_Main_fltrust_none - INFO - Global Accuracy: 84.4500, Global Loss: 0.9768
+2026-01-14 19:35:37,256 - FL_Main_fltrust_none - INFO - Test Accuracy: 84.4500, Test Loss: 0.9768
+2026-01-14 19:35:37,257 - FL_Main_fltrust_none - INFO - === Round 6 Started ===
+2026-01-14 19:35:37,258 - FL_Main_fltrust_none - INFO - Participating clients: [33, 5, 93, 58, 68, 15, 48, 10, 70, 37]
+2026-01-14 19:35:58,721 - FL_Main_fltrust_none - INFO - === Round 6 Completed ===
+2026-01-14 19:35:58,722 - FL_Main_fltrust_none - INFO - Global Accuracy: 87.4500, Global Loss: 0.6108
+2026-01-14 19:35:58,722 - FL_Main_fltrust_none - INFO - Test Accuracy: 87.4500, Test Loss: 0.6108
+2026-01-14 19:35:58,723 - FL_Main_fltrust_none - INFO - === Round 7 Started ===
+2026-01-14 19:35:58,723 - FL_Main_fltrust_none - INFO - Participating clients: [80, 79, 46, 73, 24, 90, 8, 5, 84, 29]
+2026-01-14 19:36:11,811 - FL_Main_fltrust_none - INFO - === Round 7 Completed ===
+2026-01-14 19:36:11,811 - FL_Main_fltrust_none - INFO - Global Accuracy: 89.6700, Global Loss: 0.4428
+2026-01-14 19:36:11,811 - FL_Main_fltrust_none - INFO - Test Accuracy: 89.6700, Test Loss: 0.4428
+2026-01-14 19:36:11,811 - FL_Main_fltrust_none - INFO - === Round 8 Started ===
+2026-01-14 19:36:11,811 - FL_Main_fltrust_none - INFO - Participating clients: [98, 37, 10, 29, 12, 48, 35, 58, 81, 46]
+2026-01-14 19:36:23,064 - FL_Main_fltrust_none - INFO - === Round 8 Completed ===
+2026-01-14 19:36:23,064 - FL_Main_fltrust_none - INFO - Global Accuracy: 91.0100, Global Loss: 0.3582
+2026-01-14 19:36:23,065 - FL_Main_fltrust_none - INFO - Test Accuracy: 91.0100, Test Loss: 0.3582
+2026-01-14 19:36:23,066 - FL_Main_fltrust_none - INFO - === Round 9 Started ===
+2026-01-14 19:36:23,066 - FL_Main_fltrust_none - INFO - Participating clients: [20, 47, 45, 26, 85, 34, 89, 87, 82, 9]
+2026-01-14 19:36:33,764 - FL_Main_fltrust_none - INFO - === Round 9 Completed ===
+2026-01-14 19:36:33,764 - FL_Main_fltrust_none - INFO - Global Accuracy: 91.6800, Global Loss: 0.3042
+2026-01-14 19:36:33,764 - FL_Main_fltrust_none - INFO - Test Accuracy: 91.6800, Test Loss: 0.3042
+2026-01-14 19:36:33,765 - FL_Main_fltrust_none - INFO - === Round 10 Started ===
+2026-01-14 19:36:33,765 - FL_Main_fltrust_none - INFO - Participating clients: [77, 81, 21, 68, 93, 31, 20, 59, 48, 34]
+2026-01-14 19:36:45,388 - FL_Main_fltrust_none - INFO - === Round 10 Completed ===
+2026-01-14 19:36:45,388 - FL_Main_fltrust_none - INFO - Global Accuracy: 92.2900, Global Loss: 0.2657
+2026-01-14 19:36:45,388 - FL_Main_fltrust_none - INFO - Test Accuracy: 92.2900, Test Loss: 0.2657
+2026-01-14 19:36:45,388 - FL_Main_fltrust_none - INFO - === Round 11 Started ===
+2026-01-14 19:36:45,389 - FL_Main_fltrust_none - INFO - Participating clients: [81, 88, 71, 28, 87, 41, 98, 99, 7, 29]
+2026-01-14 19:36:55,232 - FL_Main_fltrust_none - INFO - === Round 11 Completed ===
+2026-01-14 19:36:55,232 - FL_Main_fltrust_none - INFO - Global Accuracy: 92.9900, Global Loss: 0.2382
+2026-01-14 19:36:55,232 - FL_Main_fltrust_none - INFO - Test Accuracy: 92.9900, Test Loss: 0.2382
+2026-01-14 19:36:55,234 - FL_Main_fltrust_none - INFO - === Round 12 Started ===
+2026-01-14 19:36:55,234 - FL_Main_fltrust_none - INFO - Participating clients: [4, 40, 51, 34, 8, 27, 72, 91, 83, 63]
+2026-01-14 19:37:04,252 - FL_Main_fltrust_none - INFO - === Round 12 Completed ===
+2026-01-14 19:37:04,252 - FL_Main_fltrust_none - INFO - Global Accuracy: 93.3900, Global Loss: 0.2199
+2026-01-14 19:37:04,252 - FL_Main_fltrust_none - INFO - Test Accuracy: 93.3900, Test Loss: 0.2199
+2026-01-14 19:37:04,253 - FL_Main_fltrust_none - INFO - === Round 13 Started ===
+2026-01-14 19:37:04,253 - FL_Main_fltrust_none - INFO - Participating clients: [50, 82, 58, 18, 33, 17, 31, 95, 71, 68]
+2026-01-14 19:37:14,589 - FL_Main_fltrust_none - INFO - === Round 13 Completed ===
+2026-01-14 19:37:14,589 - FL_Main_fltrust_none - INFO - Global Accuracy: 93.8800, Global Loss: 0.2036
+2026-01-14 19:37:14,590 - FL_Main_fltrust_none - INFO - Test Accuracy: 93.8800, Test Loss: 0.2036
+2026-01-14 19:37:14,591 - FL_Main_fltrust_none - INFO - === Round 14 Started ===
+2026-01-14 19:37:14,591 - FL_Main_fltrust_none - INFO - Participating clients: [33, 95, 74, 54, 51, 46, 28, 17, 65, 63]
+2026-01-14 19:37:22,145 - FL_Main_fltrust_none - INFO - === Round 14 Completed ===
+2026-01-14 19:37:22,145 - FL_Main_fltrust_none - INFO - Global Accuracy: 94.3300, Global Loss: 0.1891
+2026-01-14 19:37:22,145 - FL_Main_fltrust_none - INFO - Test Accuracy: 94.3300, Test Loss: 0.1891
+2026-01-14 19:37:22,146 - FL_Main_fltrust_none - INFO - === Round 15 Started ===
+2026-01-14 19:37:22,146 - FL_Main_fltrust_none - INFO - Participating clients: [11, 96, 6, 14, 19, 80, 20, 87, 54, 76]
+2026-01-14 19:37:29,800 - FL_Main_fltrust_none - INFO - === Round 15 Completed ===
+2026-01-14 19:37:29,800 - FL_Main_fltrust_none - INFO - Global Accuracy: 94.5500, Global Loss: 0.1776
+2026-01-14 19:37:29,800 - FL_Main_fltrust_none - INFO - Test Accuracy: 94.5500, Test Loss: 0.1776
+2026-01-14 19:37:29,801 - FL_Main_fltrust_none - INFO - === Round 16 Started ===
+2026-01-14 19:37:29,801 - FL_Main_fltrust_none - INFO - Participating clients: [8, 49, 48, 76, 59, 67, 32, 70, 1, 87]
+2026-01-14 19:37:37,609 - FL_Main_fltrust_none - INFO - === Round 16 Completed ===
+2026-01-14 19:37:37,609 - FL_Main_fltrust_none - INFO - Global Accuracy: 94.7900, Global Loss: 0.1686
+2026-01-14 19:37:37,609 - FL_Main_fltrust_none - INFO - Test Accuracy: 94.7900, Test Loss: 0.1686
+2026-01-14 19:37:37,609 - FL_Main_fltrust_none - INFO - === Round 17 Started ===
+2026-01-14 19:37:37,609 - FL_Main_fltrust_none - INFO - Participating clients: [92, 14, 87, 68, 96, 34, 98, 82, 43, 37]
+2026-01-14 19:37:44,910 - FL_Main_fltrust_none - INFO - === Round 17 Completed ===
+2026-01-14 19:37:44,910 - FL_Main_fltrust_none - INFO - Global Accuracy: 94.9700, Global Loss: 0.1606
+2026-01-14 19:37:44,910 - FL_Main_fltrust_none - INFO - Test Accuracy: 94.9700, Test Loss: 0.1606
+2026-01-14 19:37:44,910 - FL_Main_fltrust_none - INFO - === Round 18 Started ===
+2026-01-14 19:37:44,910 - FL_Main_fltrust_none - INFO - Participating clients: [55, 20, 58, 0, 92, 33, 64, 97, 22, 13]
+2026-01-14 19:37:51,757 - FL_Main_fltrust_none - INFO - === Round 18 Completed ===
+2026-01-14 19:37:51,758 - FL_Main_fltrust_none - INFO - Global Accuracy: 95.2300, Global Loss: 0.1535
+2026-01-14 19:37:51,758 - FL_Main_fltrust_none - INFO - Test Accuracy: 95.2300, Test Loss: 0.1535
+2026-01-14 19:37:51,758 - FL_Main_fltrust_none - INFO - === Round 19 Started ===
+2026-01-14 19:37:51,758 - FL_Main_fltrust_none - INFO - Participating clients: [80, 38, 81, 64, 77, 25, 19, 47, 97, 20]
+2026-01-14 19:37:59,322 - FL_Main_fltrust_none - INFO - === Round 19 Completed ===
+2026-01-14 19:37:59,322 - FL_Main_fltrust_none - INFO - Global Accuracy: 95.4300, Global Loss: 0.1469
+2026-01-14 19:37:59,322 - FL_Main_fltrust_none - INFO - Test Accuracy: 95.4300, Test Loss: 0.1469
+2026-01-14 19:37:59,322 - FL_Main_fltrust_none - INFO - === Round 20 Started ===
+2026-01-14 19:37:59,322 - FL_Main_fltrust_none - INFO - Participating clients: [69, 99, 67, 0, 76, 41, 62, 2, 14, 46]
+2026-01-14 19:38:05,723 - FL_Main_fltrust_none - INFO - === Round 20 Completed ===
+2026-01-14 19:38:05,723 - FL_Main_fltrust_none - INFO - Global Accuracy: 95.6500, Global Loss: 0.1405
+2026-01-14 19:38:05,723 - FL_Main_fltrust_none - INFO - Test Accuracy: 95.6500, Test Loss: 0.1405
+2026-01-14 19:38:05,724 - FL_Main_fltrust_none - INFO - === Round 21 Started ===
+2026-01-14 19:38:05,724 - FL_Main_fltrust_none - INFO - Participating clients: [39, 30, 7, 72, 10, 93, 62, 8, 97, 68]
+2026-01-14 19:38:13,698 - FL_Main_fltrust_none - INFO - === Round 21 Completed ===
+2026-01-14 19:38:13,698 - FL_Main_fltrust_none - INFO - Global Accuracy: 95.8200, Global Loss: 0.1348
+2026-01-14 19:38:13,698 - FL_Main_fltrust_none - INFO - Test Accuracy: 95.8200, Test Loss: 0.1348
+2026-01-14 19:38:13,698 - FL_Main_fltrust_none - INFO - === Round 22 Started ===
+2026-01-14 19:38:13,698 - FL_Main_fltrust_none - INFO - Participating clients: [98, 16, 84, 60, 70, 21, 33, 67, 77, 54]
+2026-01-14 19:38:20,266 - FL_Main_fltrust_none - INFO - === Round 22 Completed ===
+2026-01-14 19:38:20,267 - FL_Main_fltrust_none - INFO - Global Accuracy: 95.9300, Global Loss: 0.1302
+2026-01-14 19:38:20,267 - FL_Main_fltrust_none - INFO - Test Accuracy: 95.9300, Test Loss: 0.1302
+2026-01-14 19:38:20,267 - FL_Main_fltrust_none - INFO - === Round 23 Started ===
+2026-01-14 19:38:20,267 - FL_Main_fltrust_none - INFO - Participating clients: [27, 69, 96, 93, 88, 25, 91, 39, 51, 85]
+2026-01-14 19:38:26,787 - FL_Main_fltrust_none - INFO - === Round 23 Completed ===
+2026-01-14 19:38:26,787 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.0600, Global Loss: 0.1258
+2026-01-14 19:38:26,787 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.0600, Test Loss: 0.1258
+2026-01-14 19:38:26,787 - FL_Main_fltrust_none - INFO - === Round 24 Started ===
+2026-01-14 19:38:26,787 - FL_Main_fltrust_none - INFO - Participating clients: [83, 47, 56, 66, 57, 15, 31, 28, 8, 43]
+2026-01-14 19:38:33,188 - FL_Main_fltrust_none - INFO - === Round 24 Completed ===
+2026-01-14 19:38:33,188 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.1600, Global Loss: 0.1221
+2026-01-14 19:38:33,188 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.1600, Test Loss: 0.1221
+2026-01-14 19:38:33,188 - FL_Main_fltrust_none - INFO - === Round 25 Started ===
+2026-01-14 19:38:33,188 - FL_Main_fltrust_none - INFO - Participating clients: [2, 75, 70, 29, 28, 0, 9, 90, 80, 7]
+2026-01-14 19:38:39,497 - FL_Main_fltrust_none - INFO - === Round 25 Completed ===
+2026-01-14 19:38:39,497 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.3200, Global Loss: 0.1186
+2026-01-14 19:38:39,497 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.3200, Test Loss: 0.1186
+2026-01-14 19:38:39,498 - FL_Main_fltrust_none - INFO - === Round 26 Started ===
+2026-01-14 19:38:39,498 - FL_Main_fltrust_none - INFO - Participating clients: [29, 8, 4, 42, 9, 65, 30, 35, 85, 62]
+2026-01-14 19:38:47,269 - FL_Main_fltrust_none - INFO - === Round 26 Completed ===
+2026-01-14 19:38:47,269 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.3900, Global Loss: 0.1147
+2026-01-14 19:38:47,269 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.3900, Test Loss: 0.1147
+2026-01-14 19:38:47,269 - FL_Main_fltrust_none - INFO - === Round 27 Started ===
+2026-01-14 19:38:47,269 - FL_Main_fltrust_none - INFO - Participating clients: [27, 69, 16, 92, 73, 60, 31, 52, 24, 12]
+2026-01-14 19:38:52,779 - FL_Main_fltrust_none - INFO - === Round 27 Completed ===
+2026-01-14 19:38:52,780 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.5500, Global Loss: 0.1119
+2026-01-14 19:38:52,780 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.5500, Test Loss: 0.1119
+2026-01-14 19:38:52,780 - FL_Main_fltrust_none - INFO - === Round 28 Started ===
+2026-01-14 19:38:52,780 - FL_Main_fltrust_none - INFO - Participating clients: [12, 84, 55, 45, 54, 52, 59, 93, 6, 86]
+2026-01-14 19:38:57,560 - FL_Main_fltrust_none - INFO - === Round 28 Completed ===
+2026-01-14 19:38:57,560 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.5800, Global Loss: 0.1094
+2026-01-14 19:38:57,560 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.5800, Test Loss: 0.1094
+2026-01-14 19:38:57,560 - FL_Main_fltrust_none - INFO - === Round 29 Started ===
+2026-01-14 19:38:57,560 - FL_Main_fltrust_none - INFO - Participating clients: [83, 82, 12, 7, 51, 93, 43, 13, 31, 24]
+2026-01-14 19:39:02,855 - FL_Main_fltrust_none - INFO - === Round 29 Completed ===
+2026-01-14 19:39:02,856 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.6500, Global Loss: 0.1072
+2026-01-14 19:39:02,856 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.6500, Test Loss: 0.1072
+2026-01-14 19:39:02,857 - FL_Main_fltrust_none - INFO - === Round 30 Started ===
+2026-01-14 19:39:02,857 - FL_Main_fltrust_none - INFO - Participating clients: [24, 68, 57, 17, 54, 23, 35, 59, 31, 9]
+2026-01-14 19:39:07,874 - FL_Main_fltrust_none - INFO - === Round 30 Completed ===
+2026-01-14 19:39:07,874 - FL_Main_fltrust_none - INFO - Global Accuracy: 96.8400, Global Loss: 0.1036
+2026-01-14 19:39:07,874 - FL_Main_fltrust_none - INFO - Test Accuracy: 96.8400, Test Loss: 0.1036
+2026-01-14 19:39:07,874 - FL_Main_fltrust_none - INFO - Experiment completed
+2026-01-14 19:39:07,881 - FL_Main_fltrust_none - INFO - All logs saved to logs/fltrust_none_20260114_193411

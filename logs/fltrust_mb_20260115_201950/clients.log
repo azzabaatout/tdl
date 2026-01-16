@@ -1,0 +1,300 @@
+2026-01-15 20:19:54,444 - FL_Client_fltrust_mb - INFO - Client 25 - Round 1: Acc=0.0000, Loss=2.2687, Epochs=2
+2026-01-15 20:19:54,685 - FL_Client_fltrust_mb - INFO - Client 91 - Round 1: Acc=0.0000, Loss=2.2705, Epochs=2
+2026-01-15 20:19:54,900 - FL_Client_fltrust_mb - INFO - Client 83 - Round 1: Acc=0.0000, Loss=2.2719, Epochs=2
+2026-01-15 20:19:55,122 - FL_Client_fltrust_mb - INFO - Client 89 - Round 1: Acc=0.0000, Loss=2.2653, Epochs=2
+2026-01-15 20:19:55,342 - FL_Client_fltrust_mb - INFO - Client 69 - Round 1: Acc=0.0000, Loss=2.2712, Epochs=2 [MALICIOUS]
+2026-01-15 20:19:55,563 - FL_Client_fltrust_mb - INFO - Client 53 - Round 1: Acc=0.0000, Loss=2.2708, Epochs=2
+2026-01-15 20:19:55,825 - FL_Client_fltrust_mb - INFO - Client 28 - Round 1: Acc=0.0000, Loss=2.2558, Epochs=2 [MALICIOUS]
+2026-01-15 20:19:56,073 - FL_Client_fltrust_mb - INFO - Client 57 - Round 1: Acc=0.0000, Loss=2.2658, Epochs=2
+2026-01-15 20:19:56,415 - FL_Client_fltrust_mb - INFO - Client 75 - Round 1: Acc=0.0000, Loss=2.2672, Epochs=2 [MALICIOUS]
+2026-01-15 20:19:56,744 - FL_Client_fltrust_mb - INFO - Client 35 - Round 1: Acc=0.0000, Loss=2.2639, Epochs=2 [MALICIOUS]
+2026-01-15 20:19:58,206 - FL_Client_fltrust_mb - INFO - Client 0 - Round 2: Acc=0.0000, Loss=2.1824, Epochs=2
+2026-01-15 20:19:58,418 - FL_Client_fltrust_mb - INFO - Client 97 - Round 2: Acc=0.0000, Loss=2.1563, Epochs=2
+2026-01-15 20:19:58,629 - FL_Client_fltrust_mb - INFO - Client 20 - Round 2: Acc=0.0000, Loss=2.1782, Epochs=2
+2026-01-15 20:19:58,840 - FL_Client_fltrust_mb - INFO - Client 89 - Round 2: Acc=0.0000, Loss=1.9442, Epochs=2
+2026-01-15 20:19:59,053 - FL_Client_fltrust_mb - INFO - Client 54 - Round 2: Acc=0.0000, Loss=2.1965, Epochs=2 [MALICIOUS]
+2026-01-15 20:19:59,264 - FL_Client_fltrust_mb - INFO - Client 43 - Round 2: Acc=0.0000, Loss=2.1829, Epochs=2
+2026-01-15 20:19:59,475 - FL_Client_fltrust_mb - INFO - Client 35 - Round 2: Acc=0.0000, Loss=1.9253, Epochs=2 [MALICIOUS]
+2026-01-15 20:19:59,685 - FL_Client_fltrust_mb - INFO - Client 19 - Round 2: Acc=0.0000, Loss=2.1742, Epochs=2
+2026-01-15 20:19:59,894 - FL_Client_fltrust_mb - INFO - Client 27 - Round 2: Acc=0.0000, Loss=2.1962, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:00,109 - FL_Client_fltrust_mb - INFO - Client 13 - Round 2: Acc=0.0000, Loss=2.1809, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:01,560 - FL_Client_fltrust_mb - INFO - Client 11 - Round 3: Acc=0.0000, Loss=1.8321, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:01,776 - FL_Client_fltrust_mb - INFO - Client 48 - Round 3: Acc=0.0000, Loss=1.9120, Epochs=2
+2026-01-15 20:20:01,989 - FL_Client_fltrust_mb - INFO - Client 12 - Round 3: Acc=0.0000, Loss=1.8681, Epochs=2
+2026-01-15 20:20:02,202 - FL_Client_fltrust_mb - INFO - Client 45 - Round 3: Acc=0.0000, Loss=1.9057, Epochs=2
+2026-01-15 20:20:02,414 - FL_Client_fltrust_mb - INFO - Client 44 - Round 3: Acc=0.0000, Loss=1.8857, Epochs=2
+2026-01-15 20:20:02,710 - FL_Client_fltrust_mb - INFO - Client 77 - Round 3: Acc=0.0000, Loss=1.8393, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:02,997 - FL_Client_fltrust_mb - INFO - Client 33 - Round 3: Acc=0.0000, Loss=1.8478, Epochs=2
+2026-01-15 20:20:03,284 - FL_Client_fltrust_mb - INFO - Client 5 - Round 3: Acc=0.0000, Loss=1.8809, Epochs=2
+2026-01-15 20:20:03,592 - FL_Client_fltrust_mb - INFO - Client 93 - Round 3: Acc=0.0000, Loss=1.8484, Epochs=2
+2026-01-15 20:20:03,881 - FL_Client_fltrust_mb - INFO - Client 58 - Round 3: Acc=0.0000, Loss=1.8623, Epochs=2
+2026-01-15 20:20:05,369 - FL_Client_fltrust_mb - INFO - Client 68 - Round 4: Acc=0.0000, Loss=1.4690, Epochs=2
+2026-01-15 20:20:05,652 - FL_Client_fltrust_mb - INFO - Client 15 - Round 4: Acc=0.0000, Loss=1.4387, Epochs=2
+2026-01-15 20:20:06,169 - FL_Client_fltrust_mb - INFO - Client 48 - Round 4: Acc=0.0000, Loss=1.1600, Epochs=2
+2026-01-15 20:20:06,529 - FL_Client_fltrust_mb - INFO - Client 10 - Round 4: Acc=0.0000, Loss=1.3846, Epochs=2
+2026-01-15 20:20:06,752 - FL_Client_fltrust_mb - INFO - Client 70 - Round 4: Acc=0.0000, Loss=1.4313, Epochs=2
+2026-01-15 20:20:06,969 - FL_Client_fltrust_mb - INFO - Client 37 - Round 4: Acc=0.0000, Loss=1.3651, Epochs=2
+2026-01-15 20:20:07,189 - FL_Client_fltrust_mb - INFO - Client 80 - Round 4: Acc=0.0000, Loss=1.4075, Epochs=2
+2026-01-15 20:20:07,401 - FL_Client_fltrust_mb - INFO - Client 79 - Round 4: Acc=0.0000, Loss=1.4567, Epochs=2
+2026-01-15 20:20:07,612 - FL_Client_fltrust_mb - INFO - Client 46 - Round 4: Acc=0.0000, Loss=1.4278, Epochs=2
+2026-01-15 20:20:07,822 - FL_Client_fltrust_mb - INFO - Client 73 - Round 4: Acc=0.0000, Loss=1.4219, Epochs=2
+2026-01-15 20:20:09,272 - FL_Client_fltrust_mb - INFO - Client 24 - Round 5: Acc=0.0000, Loss=0.9136, Epochs=2
+2026-01-15 20:20:09,485 - FL_Client_fltrust_mb - INFO - Client 90 - Round 5: Acc=0.0000, Loss=1.0727, Epochs=2
+2026-01-15 20:20:09,774 - FL_Client_fltrust_mb - INFO - Client 8 - Round 5: Acc=0.0000, Loss=0.8580, Epochs=2
+2026-01-15 20:20:10,012 - FL_Client_fltrust_mb - INFO - Client 5 - Round 5: Acc=0.0000, Loss=0.8096, Epochs=2
+2026-01-15 20:20:10,238 - FL_Client_fltrust_mb - INFO - Client 84 - Round 5: Acc=0.0000, Loss=0.9882, Epochs=2
+2026-01-15 20:20:10,451 - FL_Client_fltrust_mb - INFO - Client 29 - Round 5: Acc=0.0000, Loss=1.0191, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:10,667 - FL_Client_fltrust_mb - INFO - Client 98 - Round 5: Acc=0.0000, Loss=0.9729, Epochs=2
+2026-01-15 20:20:10,890 - FL_Client_fltrust_mb - INFO - Client 37 - Round 5: Acc=0.0000, Loss=0.8769, Epochs=2
+2026-01-15 20:20:11,107 - FL_Client_fltrust_mb - INFO - Client 10 - Round 5: Acc=0.0000, Loss=0.8154, Epochs=2
+2026-01-15 20:20:11,323 - FL_Client_fltrust_mb - INFO - Client 12 - Round 5: Acc=0.0000, Loss=0.8496, Epochs=2
+2026-01-15 20:20:12,915 - FL_Client_fltrust_mb - INFO - Client 48 - Round 6: Acc=0.0000, Loss=0.6261, Epochs=2
+2026-01-15 20:20:13,171 - FL_Client_fltrust_mb - INFO - Client 35 - Round 6: Acc=0.0000, Loss=0.6506, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:13,614 - FL_Client_fltrust_mb - INFO - Client 58 - Round 6: Acc=0.0000, Loss=0.5871, Epochs=2
+2026-01-15 20:20:13,871 - FL_Client_fltrust_mb - INFO - Client 81 - Round 6: Acc=0.0000, Loss=0.7391, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:14,194 - FL_Client_fltrust_mb - INFO - Client 46 - Round 6: Acc=0.0000, Loss=0.5954, Epochs=2
+2026-01-15 20:20:14,437 - FL_Client_fltrust_mb - INFO - Client 20 - Round 6: Acc=0.0000, Loss=0.6779, Epochs=2
+2026-01-15 20:20:14,685 - FL_Client_fltrust_mb - INFO - Client 47 - Round 6: Acc=0.0000, Loss=0.6190, Epochs=2
+2026-01-15 20:20:14,936 - FL_Client_fltrust_mb - INFO - Client 45 - Round 6: Acc=0.0000, Loss=0.6714, Epochs=2
+2026-01-15 20:20:15,189 - FL_Client_fltrust_mb - INFO - Client 26 - Round 6: Acc=0.0000, Loss=0.6647, Epochs=2
+2026-01-15 20:20:15,440 - FL_Client_fltrust_mb - INFO - Client 85 - Round 6: Acc=0.0000, Loss=0.6262, Epochs=2
+2026-01-15 20:20:17,238 - FL_Client_fltrust_mb - INFO - Client 34 - Round 7: Acc=0.0000, Loss=0.4871, Epochs=2
+2026-01-15 20:20:17,491 - FL_Client_fltrust_mb - INFO - Client 89 - Round 7: Acc=0.0000, Loss=0.4568, Epochs=2
+2026-01-15 20:20:17,757 - FL_Client_fltrust_mb - INFO - Client 87 - Round 7: Acc=0.0000, Loss=0.4979, Epochs=2
+2026-01-15 20:20:18,069 - FL_Client_fltrust_mb - INFO - Client 82 - Round 7: Acc=0.0000, Loss=0.4694, Epochs=2
+2026-01-15 20:20:18,391 - FL_Client_fltrust_mb - INFO - Client 9 - Round 7: Acc=0.0000, Loss=0.4353, Epochs=2
+2026-01-15 20:20:18,932 - FL_Client_fltrust_mb - INFO - Client 77 - Round 7: Acc=0.0000, Loss=0.4307, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:19,643 - FL_Client_fltrust_mb - INFO - Client 81 - Round 7: Acc=0.0000, Loss=0.5549, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:19,960 - FL_Client_fltrust_mb - INFO - Client 21 - Round 7: Acc=0.0000, Loss=0.6586, Epochs=2
+2026-01-15 20:20:20,262 - FL_Client_fltrust_mb - INFO - Client 68 - Round 7: Acc=0.0000, Loss=0.6027, Epochs=2
+2026-01-15 20:20:20,565 - FL_Client_fltrust_mb - INFO - Client 93 - Round 7: Acc=0.0000, Loss=0.5672, Epochs=2
+2026-01-15 20:20:22,854 - FL_Client_fltrust_mb - INFO - Client 31 - Round 8: Acc=0.0000, Loss=0.3875, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:23,214 - FL_Client_fltrust_mb - INFO - Client 20 - Round 8: Acc=0.0000, Loss=0.3965, Epochs=2
+2026-01-15 20:20:23,574 - FL_Client_fltrust_mb - INFO - Client 59 - Round 8: Acc=0.0000, Loss=0.4420, Epochs=2
+2026-01-15 20:20:23,893 - FL_Client_fltrust_mb - INFO - Client 48 - Round 8: Acc=0.0000, Loss=0.4184, Epochs=2
+2026-01-15 20:20:24,181 - FL_Client_fltrust_mb - INFO - Client 34 - Round 8: Acc=0.0000, Loss=0.3595, Epochs=2
+2026-01-15 20:20:24,557 - FL_Client_fltrust_mb - INFO - Client 81 - Round 8: Acc=0.0000, Loss=0.4665, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:24,936 - FL_Client_fltrust_mb - INFO - Client 88 - Round 8: Acc=0.0000, Loss=0.4477, Epochs=2
+2026-01-15 20:20:25,314 - FL_Client_fltrust_mb - INFO - Client 71 - Round 8: Acc=0.0000, Loss=0.4454, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:25,627 - FL_Client_fltrust_mb - INFO - Client 28 - Round 8: Acc=0.0000, Loss=0.4035, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:25,966 - FL_Client_fltrust_mb - INFO - Client 87 - Round 8: Acc=0.0000, Loss=0.4483, Epochs=2
+2026-01-15 20:20:28,003 - FL_Client_fltrust_mb - INFO - Client 41 - Round 9: Acc=0.0000, Loss=0.3875, Epochs=2
+2026-01-15 20:20:28,369 - FL_Client_fltrust_mb - INFO - Client 98 - Round 9: Acc=0.0000, Loss=0.3976, Epochs=2
+2026-01-15 20:20:28,703 - FL_Client_fltrust_mb - INFO - Client 99 - Round 9: Acc=0.0000, Loss=0.3846, Epochs=2
+2026-01-15 20:20:29,060 - FL_Client_fltrust_mb - INFO - Client 7 - Round 9: Acc=0.0000, Loss=0.3706, Epochs=2
+2026-01-15 20:20:29,354 - FL_Client_fltrust_mb - INFO - Client 29 - Round 9: Acc=0.0000, Loss=0.4005, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:29,646 - FL_Client_fltrust_mb - INFO - Client 4 - Round 9: Acc=0.0000, Loss=0.3764, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:29,932 - FL_Client_fltrust_mb - INFO - Client 40 - Round 9: Acc=0.0000, Loss=0.3331, Epochs=2
+2026-01-15 20:20:30,208 - FL_Client_fltrust_mb - INFO - Client 51 - Round 9: Acc=0.0000, Loss=0.3022, Epochs=2
+2026-01-15 20:20:30,477 - FL_Client_fltrust_mb - INFO - Client 34 - Round 9: Acc=0.0000, Loss=0.3497, Epochs=2
+2026-01-15 20:20:30,743 - FL_Client_fltrust_mb - INFO - Client 8 - Round 9: Acc=0.0000, Loss=0.3115, Epochs=2
+2026-01-15 20:20:33,683 - FL_Client_fltrust_mb - INFO - Client 27 - Round 10: Acc=0.0000, Loss=0.3645, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:34,146 - FL_Client_fltrust_mb - INFO - Client 72 - Round 10: Acc=0.0000, Loss=0.3555, Epochs=2
+2026-01-15 20:20:34,546 - FL_Client_fltrust_mb - INFO - Client 91 - Round 10: Acc=0.0000, Loss=0.3037, Epochs=2
+2026-01-15 20:20:34,827 - FL_Client_fltrust_mb - INFO - Client 40 - Round 10: Acc=0.0000, Loss=0.2663, Epochs=2
+2026-01-15 20:20:35,107 - FL_Client_fltrust_mb - INFO - Client 83 - Round 10: Acc=0.0000, Loss=0.3471, Epochs=2
+2026-01-15 20:20:35,396 - FL_Client_fltrust_mb - INFO - Client 63 - Round 10: Acc=0.0000, Loss=0.2788, Epochs=2
+2026-01-15 20:20:35,672 - FL_Client_fltrust_mb - INFO - Client 50 - Round 10: Acc=0.0000, Loss=0.3860, Epochs=2
+2026-01-15 20:20:35,953 - FL_Client_fltrust_mb - INFO - Client 82 - Round 10: Acc=0.0000, Loss=0.2317, Epochs=2
+2026-01-15 20:20:36,233 - FL_Client_fltrust_mb - INFO - Client 58 - Round 10: Acc=0.0000, Loss=0.3075, Epochs=2
+2026-01-15 20:20:36,499 - FL_Client_fltrust_mb - INFO - Client 18 - Round 10: Acc=0.0000, Loss=0.3397, Epochs=2
+2026-01-15 20:20:38,828 - FL_Client_fltrust_mb - INFO - Client 33 - Round 11: Acc=0.0000, Loss=0.3145, Epochs=2
+2026-01-15 20:20:39,123 - FL_Client_fltrust_mb - INFO - Client 17 - Round 11: Acc=0.0000, Loss=0.2864, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:39,437 - FL_Client_fltrust_mb - INFO - Client 31 - Round 11: Acc=0.0000, Loss=0.3092, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:40,616 - FL_Client_fltrust_mb - INFO - Client 95 - Round 11: Acc=0.0000, Loss=0.2827, Epochs=2
+2026-01-15 20:20:41,035 - FL_Client_fltrust_mb - INFO - Client 71 - Round 11: Acc=0.0000, Loss=0.3355, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:41,399 - FL_Client_fltrust_mb - INFO - Client 68 - Round 11: Acc=0.0000, Loss=0.3030, Epochs=2
+2026-01-15 20:20:41,747 - FL_Client_fltrust_mb - INFO - Client 74 - Round 11: Acc=0.0000, Loss=0.3353, Epochs=2
+2026-01-15 20:20:42,401 - FL_Client_fltrust_mb - INFO - Client 54 - Round 11: Acc=0.0000, Loss=0.3048, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:42,811 - FL_Client_fltrust_mb - INFO - Client 51 - Round 11: Acc=0.0000, Loss=0.2354, Epochs=2
+2026-01-15 20:20:43,092 - FL_Client_fltrust_mb - INFO - Client 46 - Round 11: Acc=0.0000, Loss=0.3036, Epochs=2
+2026-01-15 20:20:45,116 - FL_Client_fltrust_mb - INFO - Client 28 - Round 12: Acc=0.0000, Loss=0.2475, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:45,386 - FL_Client_fltrust_mb - INFO - Client 17 - Round 12: Acc=0.0000, Loss=0.2726, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:45,660 - FL_Client_fltrust_mb - INFO - Client 65 - Round 12: Acc=0.0000, Loss=0.2083, Epochs=2
+2026-01-15 20:20:45,927 - FL_Client_fltrust_mb - INFO - Client 63 - Round 12: Acc=0.0000, Loss=0.2327, Epochs=2
+2026-01-15 20:20:46,202 - FL_Client_fltrust_mb - INFO - Client 11 - Round 12: Acc=0.0000, Loss=0.3250, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:46,471 - FL_Client_fltrust_mb - INFO - Client 96 - Round 12: Acc=0.0000, Loss=0.2479, Epochs=2
+2026-01-15 20:20:46,742 - FL_Client_fltrust_mb - INFO - Client 6 - Round 12: Acc=0.0000, Loss=0.2733, Epochs=2
+2026-01-15 20:20:47,569 - FL_Client_fltrust_mb - INFO - Client 14 - Round 12: Acc=0.0000, Loss=0.2711, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:48,341 - FL_Client_fltrust_mb - INFO - Client 19 - Round 12: Acc=0.0000, Loss=0.2902, Epochs=2
+2026-01-15 20:20:48,644 - FL_Client_fltrust_mb - INFO - Client 80 - Round 12: Acc=0.0000, Loss=0.2836, Epochs=2
+2026-01-15 20:20:50,668 - FL_Client_fltrust_mb - INFO - Client 20 - Round 13: Acc=0.0000, Loss=0.2458, Epochs=2
+2026-01-15 20:20:51,029 - FL_Client_fltrust_mb - INFO - Client 87 - Round 13: Acc=0.0000, Loss=0.2928, Epochs=2
+2026-01-15 20:20:51,325 - FL_Client_fltrust_mb - INFO - Client 54 - Round 13: Acc=0.0000, Loss=0.2268, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:51,623 - FL_Client_fltrust_mb - INFO - Client 76 - Round 13: Acc=0.0000, Loss=0.2572, Epochs=2
+2026-01-15 20:20:51,912 - FL_Client_fltrust_mb - INFO - Client 8 - Round 13: Acc=0.0000, Loss=0.1679, Epochs=2
+2026-01-15 20:20:52,180 - FL_Client_fltrust_mb - INFO - Client 49 - Round 13: Acc=0.0000, Loss=0.2341, Epochs=2
+2026-01-15 20:20:52,468 - FL_Client_fltrust_mb - INFO - Client 48 - Round 13: Acc=0.0000, Loss=0.3117, Epochs=2
+2026-01-15 20:20:52,792 - FL_Client_fltrust_mb - INFO - Client 59 - Round 13: Acc=0.0000, Loss=0.2222, Epochs=2
+2026-01-15 20:20:53,082 - FL_Client_fltrust_mb - INFO - Client 67 - Round 13: Acc=0.0000, Loss=0.2731, Epochs=2
+2026-01-15 20:20:53,370 - FL_Client_fltrust_mb - INFO - Client 32 - Round 13: Acc=0.0000, Loss=0.2221, Epochs=2
+2026-01-15 20:20:55,166 - FL_Client_fltrust_mb - INFO - Client 70 - Round 14: Acc=0.0000, Loss=0.2693, Epochs=2
+2026-01-15 20:20:55,467 - FL_Client_fltrust_mb - INFO - Client 1 - Round 14: Acc=0.0000, Loss=0.2534, Epochs=2
+2026-01-15 20:20:55,747 - FL_Client_fltrust_mb - INFO - Client 87 - Round 14: Acc=0.0000, Loss=0.2586, Epochs=2
+2026-01-15 20:20:56,025 - FL_Client_fltrust_mb - INFO - Client 92 - Round 14: Acc=0.0000, Loss=0.2135, Epochs=2
+2026-01-15 20:20:56,287 - FL_Client_fltrust_mb - INFO - Client 14 - Round 14: Acc=0.0000, Loss=0.2392, Epochs=2 [MALICIOUS]
+2026-01-15 20:20:56,574 - FL_Client_fltrust_mb - INFO - Client 68 - Round 14: Acc=0.0000, Loss=0.2433, Epochs=2
+2026-01-15 20:20:56,854 - FL_Client_fltrust_mb - INFO - Client 96 - Round 14: Acc=0.0000, Loss=0.2006, Epochs=2
+2026-01-15 20:20:57,127 - FL_Client_fltrust_mb - INFO - Client 34 - Round 14: Acc=0.0000, Loss=0.2222, Epochs=2
+2026-01-15 20:20:57,454 - FL_Client_fltrust_mb - INFO - Client 98 - Round 14: Acc=0.0000, Loss=0.2178, Epochs=2
+2026-01-15 20:20:57,724 - FL_Client_fltrust_mb - INFO - Client 82 - Round 14: Acc=0.0000, Loss=0.1762, Epochs=2
+2026-01-15 20:20:59,877 - FL_Client_fltrust_mb - INFO - Client 43 - Round 15: Acc=0.0000, Loss=0.2820, Epochs=2
+2026-01-15 20:21:00,243 - FL_Client_fltrust_mb - INFO - Client 14 - Round 15: Acc=0.0000, Loss=0.1962, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:00,565 - FL_Client_fltrust_mb - INFO - Client 37 - Round 15: Acc=0.0000, Loss=0.2280, Epochs=2
+2026-01-15 20:21:00,881 - FL_Client_fltrust_mb - INFO - Client 55 - Round 15: Acc=0.0000, Loss=0.1827, Epochs=2
+2026-01-15 20:21:01,224 - FL_Client_fltrust_mb - INFO - Client 20 - Round 15: Acc=0.0000, Loss=0.1717, Epochs=2
+2026-01-15 20:21:01,489 - FL_Client_fltrust_mb - INFO - Client 58 - Round 15: Acc=0.0000, Loss=0.2105, Epochs=2
+2026-01-15 20:21:01,757 - FL_Client_fltrust_mb - INFO - Client 0 - Round 15: Acc=0.0000, Loss=0.3324, Epochs=2
+2026-01-15 20:21:02,018 - FL_Client_fltrust_mb - INFO - Client 92 - Round 15: Acc=0.0000, Loss=0.1706, Epochs=2
+2026-01-15 20:21:02,286 - FL_Client_fltrust_mb - INFO - Client 33 - Round 15: Acc=0.0000, Loss=0.2312, Epochs=2
+2026-01-15 20:21:02,549 - FL_Client_fltrust_mb - INFO - Client 64 - Round 15: Acc=0.0000, Loss=0.2291, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:04,379 - FL_Client_fltrust_mb - INFO - Client 97 - Round 16: Acc=0.0000, Loss=0.2107, Epochs=2
+2026-01-15 20:21:04,650 - FL_Client_fltrust_mb - INFO - Client 22 - Round 16: Acc=0.0000, Loss=0.2639, Epochs=2
+2026-01-15 20:21:04,930 - FL_Client_fltrust_mb - INFO - Client 64 - Round 16: Acc=0.0000, Loss=0.2187, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:05,205 - FL_Client_fltrust_mb - INFO - Client 13 - Round 16: Acc=0.0000, Loss=0.2905, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:05,491 - FL_Client_fltrust_mb - INFO - Client 80 - Round 16: Acc=0.0000, Loss=0.1878, Epochs=2
+2026-01-15 20:21:05,766 - FL_Client_fltrust_mb - INFO - Client 38 - Round 16: Acc=0.0000, Loss=0.1366, Epochs=2
+2026-01-15 20:21:06,031 - FL_Client_fltrust_mb - INFO - Client 81 - Round 16: Acc=0.0000, Loss=0.3456, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:06,295 - FL_Client_fltrust_mb - INFO - Client 77 - Round 16: Acc=0.0000, Loss=0.1470, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:06,595 - FL_Client_fltrust_mb - INFO - Client 25 - Round 16: Acc=0.0000, Loss=0.1754, Epochs=2
+2026-01-15 20:21:06,977 - FL_Client_fltrust_mb - INFO - Client 19 - Round 16: Acc=0.0000, Loss=0.1749, Epochs=2
+2026-01-15 20:21:09,135 - FL_Client_fltrust_mb - INFO - Client 47 - Round 17: Acc=0.0000, Loss=0.2031, Epochs=2
+2026-01-15 20:21:09,428 - FL_Client_fltrust_mb - INFO - Client 97 - Round 17: Acc=0.0000, Loss=0.1798, Epochs=2
+2026-01-15 20:21:09,845 - FL_Client_fltrust_mb - INFO - Client 20 - Round 17: Acc=0.0000, Loss=0.1728, Epochs=2
+2026-01-15 20:21:10,257 - FL_Client_fltrust_mb - INFO - Client 69 - Round 17: Acc=0.0000, Loss=0.1977, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:10,503 - FL_Client_fltrust_mb - INFO - Client 99 - Round 17: Acc=0.0000, Loss=0.2793, Epochs=2
+2026-01-15 20:21:10,769 - FL_Client_fltrust_mb - INFO - Client 67 - Round 17: Acc=0.0000, Loss=0.2559, Epochs=2
+2026-01-15 20:21:11,118 - FL_Client_fltrust_mb - INFO - Client 0 - Round 17: Acc=0.0000, Loss=0.2125, Epochs=2
+2026-01-15 20:21:11,390 - FL_Client_fltrust_mb - INFO - Client 76 - Round 17: Acc=0.0000, Loss=0.2012, Epochs=2
+2026-01-15 20:21:11,696 - FL_Client_fltrust_mb - INFO - Client 41 - Round 17: Acc=0.0000, Loss=0.1941, Epochs=2
+2026-01-15 20:21:11,963 - FL_Client_fltrust_mb - INFO - Client 62 - Round 17: Acc=0.0000, Loss=0.1873, Epochs=2
+2026-01-15 20:21:13,731 - FL_Client_fltrust_mb - INFO - Client 2 - Round 18: Acc=0.0000, Loss=0.1512, Epochs=2
+2026-01-15 20:21:13,998 - FL_Client_fltrust_mb - INFO - Client 14 - Round 18: Acc=0.0000, Loss=0.1927, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:14,266 - FL_Client_fltrust_mb - INFO - Client 46 - Round 18: Acc=0.0000, Loss=0.2074, Epochs=2
+2026-01-15 20:21:14,538 - FL_Client_fltrust_mb - INFO - Client 39 - Round 18: Acc=0.0000, Loss=0.2466, Epochs=2
+2026-01-15 20:21:14,805 - FL_Client_fltrust_mb - INFO - Client 30 - Round 18: Acc=0.0000, Loss=0.1462, Epochs=2
+2026-01-15 20:21:15,076 - FL_Client_fltrust_mb - INFO - Client 7 - Round 18: Acc=0.0000, Loss=0.1693, Epochs=2
+2026-01-15 20:21:15,349 - FL_Client_fltrust_mb - INFO - Client 72 - Round 18: Acc=0.0000, Loss=0.1817, Epochs=2
+2026-01-15 20:21:15,618 - FL_Client_fltrust_mb - INFO - Client 10 - Round 18: Acc=0.0000, Loss=0.1927, Epochs=2
+2026-01-15 20:21:15,883 - FL_Client_fltrust_mb - INFO - Client 93 - Round 18: Acc=0.0000, Loss=0.1977, Epochs=2
+2026-01-15 20:21:16,157 - FL_Client_fltrust_mb - INFO - Client 62 - Round 18: Acc=0.0000, Loss=0.1673, Epochs=2
+2026-01-15 20:21:17,977 - FL_Client_fltrust_mb - INFO - Client 8 - Round 19: Acc=0.0000, Loss=0.1281, Epochs=2
+2026-01-15 20:21:18,237 - FL_Client_fltrust_mb - INFO - Client 97 - Round 19: Acc=0.0000, Loss=0.1105, Epochs=2
+2026-01-15 20:21:18,512 - FL_Client_fltrust_mb - INFO - Client 68 - Round 19: Acc=0.0000, Loss=0.2047, Epochs=2
+2026-01-15 20:21:18,776 - FL_Client_fltrust_mb - INFO - Client 98 - Round 19: Acc=0.0000, Loss=0.1643, Epochs=2
+2026-01-15 20:21:19,039 - FL_Client_fltrust_mb - INFO - Client 16 - Round 19: Acc=0.0000, Loss=0.1938, Epochs=2
+2026-01-15 20:21:19,314 - FL_Client_fltrust_mb - INFO - Client 84 - Round 19: Acc=0.0000, Loss=0.2228, Epochs=2
+2026-01-15 20:21:19,588 - FL_Client_fltrust_mb - INFO - Client 60 - Round 19: Acc=0.0000, Loss=0.1809, Epochs=2
+2026-01-15 20:21:19,852 - FL_Client_fltrust_mb - INFO - Client 70 - Round 19: Acc=0.0000, Loss=0.1592, Epochs=2
+2026-01-15 20:21:20,117 - FL_Client_fltrust_mb - INFO - Client 21 - Round 19: Acc=0.0000, Loss=0.2667, Epochs=2
+2026-01-15 20:21:20,451 - FL_Client_fltrust_mb - INFO - Client 33 - Round 19: Acc=0.0000, Loss=0.1810, Epochs=2
+2026-01-15 20:21:22,359 - FL_Client_fltrust_mb - INFO - Client 67 - Round 20: Acc=0.0000, Loss=0.1678, Epochs=2
+2026-01-15 20:21:22,748 - FL_Client_fltrust_mb - INFO - Client 77 - Round 20: Acc=0.0000, Loss=0.1144, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:23,072 - FL_Client_fltrust_mb - INFO - Client 54 - Round 20: Acc=0.0000, Loss=0.1590, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:23,367 - FL_Client_fltrust_mb - INFO - Client 27 - Round 20: Acc=0.0000, Loss=0.2175, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:23,660 - FL_Client_fltrust_mb - INFO - Client 69 - Round 20: Acc=0.0000, Loss=0.1680, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:23,930 - FL_Client_fltrust_mb - INFO - Client 96 - Round 20: Acc=0.0000, Loss=0.1474, Epochs=2
+2026-01-15 20:21:24,190 - FL_Client_fltrust_mb - INFO - Client 93 - Round 20: Acc=0.0000, Loss=0.1686, Epochs=2
+2026-01-15 20:21:24,462 - FL_Client_fltrust_mb - INFO - Client 88 - Round 20: Acc=0.0000, Loss=0.1514, Epochs=2
+2026-01-15 20:21:24,819 - FL_Client_fltrust_mb - INFO - Client 25 - Round 20: Acc=0.0000, Loss=0.2159, Epochs=2
+2026-01-15 20:21:25,129 - FL_Client_fltrust_mb - INFO - Client 91 - Round 20: Acc=0.0000, Loss=0.1874, Epochs=2
+2026-01-15 20:21:27,185 - FL_Client_fltrust_mb - INFO - Client 39 - Round 21: Acc=0.0000, Loss=0.2394, Epochs=2
+2026-01-15 20:21:27,476 - FL_Client_fltrust_mb - INFO - Client 51 - Round 21: Acc=0.0000, Loss=0.1451, Epochs=2
+2026-01-15 20:21:27,805 - FL_Client_fltrust_mb - INFO - Client 85 - Round 21: Acc=0.0000, Loss=0.1932, Epochs=2
+2026-01-15 20:21:28,141 - FL_Client_fltrust_mb - INFO - Client 83 - Round 21: Acc=0.0000, Loss=0.1915, Epochs=2
+2026-01-15 20:21:28,422 - FL_Client_fltrust_mb - INFO - Client 47 - Round 21: Acc=0.0000, Loss=0.1918, Epochs=2
+2026-01-15 20:21:28,713 - FL_Client_fltrust_mb - INFO - Client 56 - Round 21: Acc=0.0000, Loss=0.1285, Epochs=2
+2026-01-15 20:21:28,995 - FL_Client_fltrust_mb - INFO - Client 66 - Round 21: Acc=0.0000, Loss=0.2147, Epochs=2
+2026-01-15 20:21:29,275 - FL_Client_fltrust_mb - INFO - Client 57 - Round 21: Acc=0.0000, Loss=0.1756, Epochs=2
+2026-01-15 20:21:29,565 - FL_Client_fltrust_mb - INFO - Client 15 - Round 21: Acc=0.0000, Loss=0.2083, Epochs=2
+2026-01-15 20:21:29,898 - FL_Client_fltrust_mb - INFO - Client 31 - Round 21: Acc=0.0000, Loss=0.1882, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:31,899 - FL_Client_fltrust_mb - INFO - Client 28 - Round 22: Acc=0.0000, Loss=0.1601, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:33,447 - FL_Client_fltrust_mb - INFO - Client 8 - Round 22: Acc=0.0000, Loss=0.1161, Epochs=2
+2026-01-15 20:21:33,978 - FL_Client_fltrust_mb - INFO - Client 43 - Round 22: Acc=0.0000, Loss=0.1842, Epochs=2
+2026-01-15 20:21:34,604 - FL_Client_fltrust_mb - INFO - Client 2 - Round 22: Acc=0.0000, Loss=0.1095, Epochs=2
+2026-01-15 20:21:35,140 - FL_Client_fltrust_mb - INFO - Client 75 - Round 22: Acc=0.0000, Loss=0.1869, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:35,534 - FL_Client_fltrust_mb - INFO - Client 70 - Round 22: Acc=0.0000, Loss=0.1667, Epochs=2
+2026-01-15 20:21:35,983 - FL_Client_fltrust_mb - INFO - Client 29 - Round 22: Acc=0.0000, Loss=0.1835, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:36,436 - FL_Client_fltrust_mb - INFO - Client 0 - Round 22: Acc=0.0000, Loss=0.1356, Epochs=2
+2026-01-15 20:21:36,977 - FL_Client_fltrust_mb - INFO - Client 9 - Round 22: Acc=0.0000, Loss=0.1566, Epochs=2
+2026-01-15 20:21:37,428 - FL_Client_fltrust_mb - INFO - Client 90 - Round 22: Acc=0.0000, Loss=0.2056, Epochs=2
+2026-01-15 20:21:39,847 - FL_Client_fltrust_mb - INFO - Client 80 - Round 23: Acc=0.0000, Loss=0.1580, Epochs=2
+2026-01-15 20:21:40,204 - FL_Client_fltrust_mb - INFO - Client 7 - Round 23: Acc=0.0000, Loss=0.1608, Epochs=2
+2026-01-15 20:21:40,738 - FL_Client_fltrust_mb - INFO - Client 29 - Round 23: Acc=0.0000, Loss=0.1715, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:41,018 - FL_Client_fltrust_mb - INFO - Client 8 - Round 23: Acc=0.0000, Loss=0.1002, Epochs=2
+2026-01-15 20:21:41,344 - FL_Client_fltrust_mb - INFO - Client 4 - Round 23: Acc=0.0000, Loss=0.1324, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:41,659 - FL_Client_fltrust_mb - INFO - Client 42 - Round 23: Acc=0.0000, Loss=0.2017, Epochs=2
+2026-01-15 20:21:41,971 - FL_Client_fltrust_mb - INFO - Client 9 - Round 23: Acc=0.0000, Loss=0.1453, Epochs=2
+2026-01-15 20:21:42,291 - FL_Client_fltrust_mb - INFO - Client 65 - Round 23: Acc=0.0000, Loss=0.1277, Epochs=2
+2026-01-15 20:21:42,609 - FL_Client_fltrust_mb - INFO - Client 30 - Round 23: Acc=0.0000, Loss=0.1311, Epochs=2
+2026-01-15 20:21:42,939 - FL_Client_fltrust_mb - INFO - Client 35 - Round 23: Acc=0.0000, Loss=0.1958, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:45,336 - FL_Client_fltrust_mb - INFO - Client 85 - Round 24: Acc=0.0000, Loss=0.1601, Epochs=2
+2026-01-15 20:21:45,648 - FL_Client_fltrust_mb - INFO - Client 62 - Round 24: Acc=0.0000, Loss=0.1924, Epochs=2
+2026-01-15 20:21:46,012 - FL_Client_fltrust_mb - INFO - Client 27 - Round 24: Acc=0.0000, Loss=0.1588, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:46,364 - FL_Client_fltrust_mb - INFO - Client 69 - Round 24: Acc=0.0000, Loss=0.1195, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:46,661 - FL_Client_fltrust_mb - INFO - Client 16 - Round 24: Acc=0.0000, Loss=0.1705, Epochs=2
+2026-01-15 20:21:47,030 - FL_Client_fltrust_mb - INFO - Client 92 - Round 24: Acc=0.0000, Loss=0.1316, Epochs=2
+2026-01-15 20:21:47,329 - FL_Client_fltrust_mb - INFO - Client 73 - Round 24: Acc=0.0000, Loss=0.1682, Epochs=2
+2026-01-15 20:21:47,637 - FL_Client_fltrust_mb - INFO - Client 60 - Round 24: Acc=0.0000, Loss=0.1584, Epochs=2
+2026-01-15 20:21:47,955 - FL_Client_fltrust_mb - INFO - Client 31 - Round 24: Acc=0.0000, Loss=0.1754, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:48,335 - FL_Client_fltrust_mb - INFO - Client 52 - Round 24: Acc=0.0000, Loss=0.1053, Epochs=2
+2026-01-15 20:21:50,616 - FL_Client_fltrust_mb - INFO - Client 24 - Round 25: Acc=0.0000, Loss=0.1812, Epochs=2
+2026-01-15 20:21:50,936 - FL_Client_fltrust_mb - INFO - Client 12 - Round 25: Acc=0.0000, Loss=0.1509, Epochs=2
+2026-01-15 20:21:51,259 - FL_Client_fltrust_mb - INFO - Client 84 - Round 25: Acc=0.0000, Loss=0.1487, Epochs=2
+2026-01-15 20:21:51,855 - FL_Client_fltrust_mb - INFO - Client 55 - Round 25: Acc=0.0000, Loss=0.1106, Epochs=2
+2026-01-15 20:21:52,204 - FL_Client_fltrust_mb - INFO - Client 45 - Round 25: Acc=0.0000, Loss=0.1726, Epochs=2
+2026-01-15 20:21:52,543 - FL_Client_fltrust_mb - INFO - Client 54 - Round 25: Acc=0.0000, Loss=0.1719, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:52,864 - FL_Client_fltrust_mb - INFO - Client 52 - Round 25: Acc=0.0000, Loss=0.1118, Epochs=2
+2026-01-15 20:21:53,187 - FL_Client_fltrust_mb - INFO - Client 59 - Round 25: Acc=0.0000, Loss=0.1203, Epochs=2
+2026-01-15 20:21:53,525 - FL_Client_fltrust_mb - INFO - Client 93 - Round 25: Acc=0.0000, Loss=0.1412, Epochs=2
+2026-01-15 20:21:53,818 - FL_Client_fltrust_mb - INFO - Client 6 - Round 25: Acc=0.0000, Loss=0.2113, Epochs=2
+2026-01-15 20:21:56,030 - FL_Client_fltrust_mb - INFO - Client 86 - Round 26: Acc=0.0000, Loss=0.1447, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:56,555 - FL_Client_fltrust_mb - INFO - Client 83 - Round 26: Acc=0.0000, Loss=0.1536, Epochs=2
+2026-01-15 20:21:56,883 - FL_Client_fltrust_mb - INFO - Client 82 - Round 26: Acc=0.0000, Loss=0.1103, Epochs=2
+2026-01-15 20:21:57,169 - FL_Client_fltrust_mb - INFO - Client 12 - Round 26: Acc=0.0000, Loss=0.1730, Epochs=2
+2026-01-15 20:21:57,487 - FL_Client_fltrust_mb - INFO - Client 7 - Round 26: Acc=0.0000, Loss=0.1401, Epochs=2
+2026-01-15 20:21:57,813 - FL_Client_fltrust_mb - INFO - Client 51 - Round 26: Acc=0.0000, Loss=0.1156, Epochs=2
+2026-01-15 20:21:58,158 - FL_Client_fltrust_mb - INFO - Client 93 - Round 26: Acc=0.0000, Loss=0.1295, Epochs=2
+2026-01-15 20:21:58,554 - FL_Client_fltrust_mb - INFO - Client 43 - Round 26: Acc=0.0000, Loss=0.1400, Epochs=2
+2026-01-15 20:21:58,830 - FL_Client_fltrust_mb - INFO - Client 13 - Round 26: Acc=0.0000, Loss=0.1669, Epochs=2 [MALICIOUS]
+2026-01-15 20:21:59,176 - FL_Client_fltrust_mb - INFO - Client 31 - Round 26: Acc=0.0000, Loss=0.1510, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:01,228 - FL_Client_fltrust_mb - INFO - Client 24 - Round 27: Acc=0.0000, Loss=0.1388, Epochs=2
+2026-01-15 20:22:01,570 - FL_Client_fltrust_mb - INFO - Client 68 - Round 27: Acc=0.0000, Loss=0.1437, Epochs=2
+2026-01-15 20:22:01,868 - FL_Client_fltrust_mb - INFO - Client 57 - Round 27: Acc=0.0000, Loss=0.1287, Epochs=2
+2026-01-15 20:22:02,203 - FL_Client_fltrust_mb - INFO - Client 17 - Round 27: Acc=0.0000, Loss=0.1474, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:02,479 - FL_Client_fltrust_mb - INFO - Client 54 - Round 27: Acc=0.0000, Loss=0.1161, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:02,755 - FL_Client_fltrust_mb - INFO - Client 23 - Round 27: Acc=0.0000, Loss=0.1568, Epochs=2
+2026-01-15 20:22:03,078 - FL_Client_fltrust_mb - INFO - Client 35 - Round 27: Acc=0.0000, Loss=0.1197, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:04,469 - FL_Client_fltrust_mb - INFO - Client 59 - Round 27: Acc=0.0000, Loss=0.1202, Epochs=2
+2026-01-15 20:22:05,120 - FL_Client_fltrust_mb - INFO - Client 31 - Round 27: Acc=0.0000, Loss=0.1955, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:05,468 - FL_Client_fltrust_mb - INFO - Client 9 - Round 27: Acc=0.0000, Loss=0.1236, Epochs=2
+2026-01-15 20:22:07,444 - FL_Client_fltrust_mb - INFO - Client 56 - Round 28: Acc=0.0000, Loss=0.1091, Epochs=2
+2026-01-15 20:22:07,691 - FL_Client_fltrust_mb - INFO - Client 70 - Round 28: Acc=0.0000, Loss=0.1254, Epochs=2
+2026-01-15 20:22:07,923 - FL_Client_fltrust_mb - INFO - Client 12 - Round 28: Acc=0.0000, Loss=0.1474, Epochs=2
+2026-01-15 20:22:08,150 - FL_Client_fltrust_mb - INFO - Client 6 - Round 28: Acc=0.0000, Loss=0.1347, Epochs=2
+2026-01-15 20:22:08,383 - FL_Client_fltrust_mb - INFO - Client 83 - Round 28: Acc=0.0000, Loss=0.1492, Epochs=2
+2026-01-15 20:22:08,633 - FL_Client_fltrust_mb - INFO - Client 69 - Round 28: Acc=0.0000, Loss=0.1235, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:08,880 - FL_Client_fltrust_mb - INFO - Client 1 - Round 28: Acc=0.0000, Loss=0.1433, Epochs=2
+2026-01-15 20:22:09,116 - FL_Client_fltrust_mb - INFO - Client 11 - Round 28: Acc=0.0000, Loss=0.1145, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:09,346 - FL_Client_fltrust_mb - INFO - Client 96 - Round 28: Acc=0.0000, Loss=0.1161, Epochs=2
+2026-01-15 20:22:09,602 - FL_Client_fltrust_mb - INFO - Client 30 - Round 28: Acc=0.0000, Loss=0.1107, Epochs=2
+2026-01-15 20:22:11,202 - FL_Client_fltrust_mb - INFO - Client 21 - Round 29: Acc=0.0000, Loss=0.1922, Epochs=2
+2026-01-15 20:22:11,427 - FL_Client_fltrust_mb - INFO - Client 52 - Round 29: Acc=0.0000, Loss=0.0800, Epochs=2
+2026-01-15 20:22:11,651 - FL_Client_fltrust_mb - INFO - Client 62 - Round 29: Acc=0.0000, Loss=0.1539, Epochs=2
+2026-01-15 20:22:11,874 - FL_Client_fltrust_mb - INFO - Client 61 - Round 29: Acc=0.0000, Loss=0.1643, Epochs=2
+2026-01-15 20:22:12,109 - FL_Client_fltrust_mb - INFO - Client 27 - Round 29: Acc=0.0000, Loss=0.1240, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:12,336 - FL_Client_fltrust_mb - INFO - Client 51 - Round 29: Acc=0.0000, Loss=0.1590, Epochs=2
+2026-01-15 20:22:12,549 - FL_Client_fltrust_mb - INFO - Client 7 - Round 29: Acc=0.0000, Loss=0.1436, Epochs=2
+2026-01-15 20:22:12,762 - FL_Client_fltrust_mb - INFO - Client 48 - Round 29: Acc=0.0000, Loss=0.1450, Epochs=2
+2026-01-15 20:22:12,981 - FL_Client_fltrust_mb - INFO - Client 0 - Round 29: Acc=0.0000, Loss=0.1101, Epochs=2
+2026-01-15 20:22:13,206 - FL_Client_fltrust_mb - INFO - Client 49 - Round 29: Acc=0.0000, Loss=0.1424, Epochs=2
+2026-01-15 20:22:14,707 - FL_Client_fltrust_mb - INFO - Client 33 - Round 30: Acc=0.0000, Loss=0.1310, Epochs=2
+2026-01-15 20:22:14,918 - FL_Client_fltrust_mb - INFO - Client 58 - Round 30: Acc=0.0000, Loss=0.1478, Epochs=2
+2026-01-15 20:22:15,147 - FL_Client_fltrust_mb - INFO - Client 36 - Round 30: Acc=0.0000, Loss=0.1123, Epochs=2
+2026-01-15 20:22:15,389 - FL_Client_fltrust_mb - INFO - Client 54 - Round 30: Acc=0.0000, Loss=0.1544, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:15,607 - FL_Client_fltrust_mb - INFO - Client 89 - Round 30: Acc=0.0000, Loss=0.1213, Epochs=2
+2026-01-15 20:22:15,829 - FL_Client_fltrust_mb - INFO - Client 93 - Round 30: Acc=0.0000, Loss=0.1574, Epochs=2
+2026-01-15 20:22:16,053 - FL_Client_fltrust_mb - INFO - Client 71 - Round 30: Acc=0.0000, Loss=0.1497, Epochs=2 [MALICIOUS]
+2026-01-15 20:22:16,268 - FL_Client_fltrust_mb - INFO - Client 84 - Round 30: Acc=0.0000, Loss=0.1173, Epochs=2
+2026-01-15 20:22:16,489 - FL_Client_fltrust_mb - INFO - Client 91 - Round 30: Acc=0.0000, Loss=0.1177, Epochs=2
+2026-01-15 20:22:16,722 - FL_Client_fltrust_mb - INFO - Client 62 - Round 30: Acc=0.0000, Loss=0.1568, Epochs=2

@@ -1,0 +1,54 @@
+{
+  "experiment_name": "krum_faker",
+  "experiment_config": {
+    "experiment_name": "krum_faker",
+    "random_seed": 42,
+    "dataset": {
+      "type": "mnist",
+      "data_dir": "./data",
+      "num_classes": 10,
+      "partition_type": "iid"
+    },
+    "model": {
+      "type": "lenet",
+      "num_classes": 10
+    },
+    "federated_learning": {
+      "num_rounds": 30,
+      "num_clients": 100,
+      "client_participation_rate": 1.0,
+      "learning_rate": 0.01,
+      "local_epochs": 2,
+      "batch_size": 32
+    },
+    "server": {
+      "data_size": 100
+    },
+    "attack": {
+      "type": "faker",
+      "num_malicious_clients": 20,
+      "params": {
+        "target_defense": "krum",
+        "num_groups": 10
+      }
+    },
+    "defense": {
+      "type": "krum",
+      "params": {
+        "num_malicious": 20,
+        "multi_krum": false,
+        "num_selected": 1
+      }
+    }
+  },
+  "experiment_dir": "logs/krum_faker_20260115_192317",
+  "total_rounds": 30,
+  "total_clients": 100,
+  "total_attack_rounds": 30,
+  "total_defense_rounds": 30,
+  "final_timestamp": "2026-01-15T19:39:38.201623",
+  "final_accuracy": 93.7,
+  "final_loss": 0.3851367609775122,
+  "final_test_accuracy": 93.7,
+  "final_test_loss": 0.3851367609775122
+}

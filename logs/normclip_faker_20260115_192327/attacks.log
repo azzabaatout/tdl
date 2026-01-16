@@ -1,0 +1,84 @@
+2026-01-15 19:23:35,162 - FL_Attack_normclip_faker - INFO - Round 1: faker attack by clients [69, 28, 75, 35] - Success: True
+2026-01-15 19:23:35,163 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:23:35,163 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.1007421016693115, 'euclidean_distance': 5.178423881530762, 'cosine_similarity': 0.852393388748169, 'correlation': 0.8548664450645447, 'l2_norm1': 9.846794128417969, 'l2_norm2': 8.945595741271973}
+2026-01-15 19:23:41,167 - FL_Attack_normclip_faker - INFO - Round 2: faker attack by clients [54, 35, 27, 13] - Success: True
+2026-01-15 19:23:41,167 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:23:41,167 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.0429145097732544, 'euclidean_distance': 2.7737536430358887, 'cosine_similarity': 0.9546881318092346, 'correlation': 0.9547045230865479, 'l2_norm1': 9.319228172302246, 'l2_norm2': 8.935754776000977}
+2026-01-15 19:23:46,252 - FL_Attack_normclip_faker - INFO - Round 3: faker attack by clients [11, 77] - Success: True
+2026-01-15 19:23:46,252 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:23:46,252 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.0167511701583862, 'euclidean_distance': 1.639195442199707, 'cosine_similarity': 0.9836565852165222, 'correlation': 0.9836900234222412, 'l2_norm1': 9.104021072387695, 'l2_norm2': 8.954030990600586}
+2026-01-15 19:23:55,164 - FL_Attack_normclip_faker - INFO - Round 5: faker attack by clients [29] - Success: True
+2026-01-15 19:23:55,164 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:23:55,164 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.9077612161636353, 'euclidean_distance': 17.486337661743164, 'cosine_similarity': 0.30760809779167175, 'correlation': 0.3081459403038025, 'l2_norm1': 17.919174194335938, 'l2_norm2': 9.392776489257812}
+2026-01-15 19:23:59,361 - FL_Attack_normclip_faker - INFO - Round 6: faker attack by clients [35, 81] - Success: True
+2026-01-15 19:23:59,361 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:23:59,361 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 2.1864442825317383, 'euclidean_distance': 21.74634552001953, 'cosine_similarity': 0.18028506636619568, 'correlation': 0.18040680885314941, 'l2_norm1': 21.28047752380371, 'l2_norm2': 9.732915878295898}
+2026-01-15 19:24:03,113 - FL_Attack_normclip_faker - INFO - Round 7: faker attack by clients [77, 81] - Success: True
+2026-01-15 19:24:03,113 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:03,113 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.4418889284133911, 'euclidean_distance': 10.317575454711914, 'cosine_similarity': 0.6817582249641418, 'correlation': 0.6817584037780762, 'l2_norm1': 14.101399421691895, 'l2_norm2': 9.779809951782227}
+2026-01-15 19:24:06,976 - FL_Attack_normclip_faker - INFO - Round 8: faker attack by clients [31, 81, 71, 28] - Success: True
+2026-01-15 19:24:06,976 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:06,976 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.3504321575164795, 'euclidean_distance': 10.297782897949219, 'cosine_similarity': 0.675974428653717, 'correlation': 0.6759946942329407, 'l2_norm1': 13.920757293701172, 'l2_norm2': 10.308372497558594}
+2026-01-15 19:24:11,779 - FL_Attack_normclip_faker - INFO - Round 9: faker attack by clients [29, 4] - Success: True
+2026-01-15 19:24:11,780 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:11,780 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.546269416809082, 'euclidean_distance': 13.373597145080566, 'cosine_similarity': 0.5717623829841614, 'correlation': 0.5719032883644104, 'l2_norm1': 16.233375549316406, 'l2_norm2': 10.4984130859375}
+2026-01-15 19:24:15,662 - FL_Attack_normclip_faker - INFO - Round 10: faker attack by clients [27] - Success: True
+2026-01-15 19:24:15,662 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:15,662 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.4761407375335693, 'euclidean_distance': 11.447553634643555, 'cosine_similarity': 0.6917406916618347, 'correlation': 0.6925745010375977, 'l2_norm1': 15.849053382873535, 'l2_norm2': 10.736817359924316}
+2026-01-15 19:24:20,234 - FL_Attack_normclip_faker - INFO - Round 11: faker attack by clients [17, 31, 71, 54] - Success: True
+2026-01-15 19:24:20,235 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:20,235 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.1423730850219727, 'euclidean_distance': 6.726457595825195, 'cosine_similarity': 0.8437761068344116, 'correlation': 0.8437520861625671, 'l2_norm1': 12.511472702026367, 'l2_norm2': 10.952177047729492}
+2026-01-15 19:24:24,943 - FL_Attack_normclip_faker - INFO - Round 12: faker attack by clients [28, 17, 11, 14] - Success: True
+2026-01-15 19:24:24,943 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:24,943 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.4037052392959595, 'euclidean_distance': 11.837910652160645, 'cosine_similarity': 0.6530745029449463, 'correlation': 0.6528780460357666, 'l2_norm1': 15.58415699005127, 'l2_norm2': 11.102157592773438}
+2026-01-15 19:24:29,576 - FL_Attack_normclip_faker - INFO - Round 13: faker attack by clients [54] - Success: True
+2026-01-15 19:24:29,576 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:29,576 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.849398136138916, 'euclidean_distance': 18.28335952758789, 'cosine_similarity': 0.48955124616622925, 'correlation': 0.48905929923057556, 'l2_norm1': 20.931861877441406, 'l2_norm2': 11.318202018737793}
+2026-01-15 19:24:33,501 - FL_Attack_normclip_faker - INFO - Round 14: faker attack by clients [14] - Success: True
+2026-01-15 19:24:33,501 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:33,501 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.7229019403457642, 'euclidean_distance': 15.72763729095459, 'cosine_similarity': 0.6082999110221863, 'correlation': 0.6080479621887207, 'l2_norm1': 19.803279876708984, 'l2_norm2': 11.494142532348633}
+2026-01-15 19:24:37,386 - FL_Attack_normclip_faker - INFO - Round 15: faker attack by clients [14, 64] - Success: True
+2026-01-15 19:24:37,386 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:37,386 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.5387808084487915, 'euclidean_distance': 13.046687126159668, 'cosine_similarity': 0.6909224390983582, 'correlation': 0.6903677582740784, 'l2_norm1': 18.01801300048828, 'l2_norm2': 11.709278106689453}
+2026-01-15 19:24:41,438 - FL_Attack_normclip_faker - INFO - Round 16: faker attack by clients [64, 13, 81, 77] - Success: True
+2026-01-15 19:24:41,438 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:41,438 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.383804202079773, 'euclidean_distance': 11.676883697509766, 'cosine_similarity': 0.7069827318191528, 'correlation': 0.7063992023468018, 'l2_norm1': 16.506669998168945, 'l2_norm2': 11.928472518920898}
+2026-01-15 19:24:45,129 - FL_Attack_normclip_faker - INFO - Round 17: faker attack by clients [69] - Success: True
+2026-01-15 19:24:45,129 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:45,129 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.2937489748001099, 'euclidean_distance': 11.464056968688965, 'cosine_similarity': 0.6957530379295349, 'correlation': 0.6945687532424927, 'l2_norm1': 15.869050025939941, 'l2_norm2': 12.265941619873047}
+2026-01-15 19:24:48,929 - FL_Attack_normclip_faker - INFO - Round 18: faker attack by clients [14] - Success: True
+2026-01-15 19:24:48,929 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:48,929 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.3595229387283325, 'euclidean_distance': 11.54430866241455, 'cosine_similarity': 0.7150723934173584, 'correlation': 0.7150498628616333, 'l2_norm1': 16.507230758666992, 'l2_norm2': 12.141928672790527}
+2026-01-15 19:24:57,633 - FL_Attack_normclip_faker - INFO - Round 20: faker attack by clients [77, 54, 27, 69] - Success: True
+2026-01-15 19:24:57,633 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:24:57,633 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.0525141954421997, 'euclidean_distance': 4.601521968841553, 'cosine_similarity': 0.9353541135787964, 'correlation': 0.9352589845657349, 'l2_norm1': 12.997906684875488, 'l2_norm2': 12.34938907623291}
+2026-01-15 19:25:01,449 - FL_Attack_normclip_faker - INFO - Round 21: faker attack by clients [31] - Success: True
+2026-01-15 19:25:01,449 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:01,449 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.0918678045272827, 'euclidean_distance': 5.703467845916748, 'cosine_similarity': 0.906936764717102, 'correlation': 0.9067578315734863, 'l2_norm1': 13.535829544067383, 'l2_norm2': 12.39694881439209}
+2026-01-15 19:25:05,370 - FL_Attack_normclip_faker - INFO - Round 22: faker attack by clients [28, 75, 29] - Success: True
+2026-01-15 19:25:05,370 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:05,370 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.1187646389007568, 'euclidean_distance': 6.6176252365112305, 'cosine_similarity': 0.8807342052459717, 'correlation': 0.8805269002914429, 'l2_norm1': 13.967398643493652, 'l2_norm2': 12.484662055969238}
+2026-01-15 19:25:09,227 - FL_Attack_normclip_faker - INFO - Round 23: faker attack by clients [29, 4, 35] - Success: True
+2026-01-15 19:25:09,227 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:09,227 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.1014058589935303, 'euclidean_distance': 6.313922882080078, 'cosine_similarity': 0.8903604745864868, 'correlation': 0.8901077508926392, 'l2_norm1': 13.858707427978516, 'l2_norm2': 12.582743644714355}
+2026-01-15 19:25:13,228 - FL_Attack_normclip_faker - INFO - Round 24: faker attack by clients [27, 69, 31] - Success: True
+2026-01-15 19:25:13,228 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:13,228 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.2991328239440918, 'euclidean_distance': 10.555548667907715, 'cosine_similarity': 0.7661381959915161, 'correlation': 0.7660191655158997, 'l2_norm1': 16.424165725708008, 'l2_norm2': 12.642406463623047}
+2026-01-15 19:25:17,021 - FL_Attack_normclip_faker - INFO - Round 25: faker attack by clients [54] - Success: True
+2026-01-15 19:25:17,021 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:17,021 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.4532277584075928, 'euclidean_distance': 14.061890602111816, 'cosine_similarity': 0.6684336066246033, 'correlation': 0.6674695014953613, 'l2_norm1': 18.899642944335938, 'l2_norm2': 13.00528621673584}
+2026-01-15 19:25:21,078 - FL_Attack_normclip_faker - INFO - Round 26: faker attack by clients [86, 13, 31] - Success: True
+2026-01-15 19:25:21,078 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:21,078 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.0385974645614624, 'euclidean_distance': 4.536952495574951, 'cosine_similarity': 0.9416425824165344, 'correlation': 0.9414718151092529, 'l2_norm1': 13.451534271240234, 'l2_norm2': 12.951634407043457}
+2026-01-15 19:25:25,081 - FL_Attack_normclip_faker - INFO - Round 27: faker attack by clients [17, 54, 35, 31] - Success: True
+2026-01-15 19:25:25,081 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:25,081 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.1424967050552368, 'euclidean_distance': 7.594132900238037, 'cosine_similarity': 0.8608853816986084, 'correlation': 0.8607816696166992, 'l2_norm1': 14.919696807861328, 'l2_norm2': 13.058853149414062}
+2026-01-15 19:25:28,856 - FL_Attack_normclip_faker - INFO - Round 28: faker attack by clients [69, 11] - Success: True
+2026-01-15 19:25:28,857 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:28,857 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.5073134899139404, 'euclidean_distance': 15.288880348205566, 'cosine_similarity': 0.6406870484352112, 'correlation': 0.640448272228241, 'l2_norm1': 19.903852462768555, 'l2_norm2': 13.204853057861328}
+2026-01-15 19:25:32,606 - FL_Attack_normclip_faker - INFO - Round 29: faker attack by clients [27] - Success: True
+2026-01-15 19:25:32,606 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:32,606 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.3150807619094849, 'euclidean_distance': 11.612433433532715, 'cosine_similarity': 0.7500860691070557, 'correlation': 0.7495525479316711, 'l2_norm1': 17.556808471679688, 'l2_norm2': 13.350364685058594}
+2026-01-15 19:25:36,639 - FL_Attack_normclip_faker - INFO - Round 30: faker attack by clients [54, 71] - Success: True
+2026-01-15 19:25:36,640 - FL_Attack_normclip_faker - INFO - Attack parameters: {'target_defense': 'norm_clipping', 'num_groups': 10}
+2026-01-15 19:25:36,640 - FL_Attack_normclip_faker - INFO - Similarity metrics: {'l2_ratio': 1.2034022808074951, 'euclidean_distance': 9.570292472839355, 'cosine_similarity': 0.8048644065856934, 'correlation': 0.8045217394828796, 'l2_norm1': 16.11073112487793, 'l2_norm2': 13.387652397155762}

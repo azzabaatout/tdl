@@ -1,0 +1,2596 @@
+{
+  "25": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.2686749132055986,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:33.146808"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3643412150834737,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:23.225966"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3247217943793848,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:33.729892"
+    }
+  ],
+  "91": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.2704672499706873,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:33.360696"
+    },
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.327104875915929,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:01.114165"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3185548845090365,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:33.918168"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.118442271885119,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:01.622951"
+    }
+  ],
+  "83": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.2718687810395894,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:33.571796"
+    },
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3248392531746314,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:01.547066"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.363864490860387,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:35.386886"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5139771637163664,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:48.946259"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.7089074222665084,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:55.199243"
+    }
+  ],
+  "89": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.265278828771491,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:33.788760"
+    },
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.305626630783081,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:36.833786"
+    },
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3035241741883126,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:51.972980"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.1310459249898006,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:00.840861"
+    }
+  ],
+  "69": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.271152872788279,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:34.010997"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4521934546922384,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:24.914946"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.314848874744616,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:32.964720"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4593266562411658,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:43.419557"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.6815123181594047,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:55.493350"
+    }
+  ],
+  "53": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.269930274862992,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:34.249025"
+    }
+  ],
+  "28": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.256701431776348,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:34.478052"
+    },
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3050272276527,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:56.484016"
+    },
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.341815183037206,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:06.773175"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.355202605849818,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:37.460667"
+    }
+  ],
+  "57": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.2659509370201514,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:34.717038"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.362037332434403,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:36.135365"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.699910132508529,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:51.829614"
+    }
+  ],
+  "75": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.2676024060500297,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:34.937870"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3670412364758944,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:38.219609"
+    }
+  ],
+  "35": [
+    {
+      "round": 1,
+      "local_accuracy": 0.0,
+      "local_loss": 2.263381085897747,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:35.174923"
+    },
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3051639795303345,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:37.495920"
+    },
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.305501178691262,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:49.004523"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.419605167288529,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:41.845766"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.7510507169522738,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:52.660528"
+    }
+  ],
+  "0": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3077159241626135,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:36.196942"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.332686524642141,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:20.207340"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4526860588475277,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:25.477846"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.343854408515127,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:38.786076"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.423926215422781,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:58.934732"
+    }
+  ],
+  "97": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.30572583800868,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:36.410874"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.358390626154448,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:21.689449"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.462748226366545,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:24.536272"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.358002286208303,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:29.747201"
+    }
+  ],
+  "20": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.304521272056981,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:36.626202"
+    },
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.303067445755005,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:49.892324"
+    },
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.306324450593246,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:55.017229"
+    },
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3926508552149723,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:10.190519"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3228491607465243,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:19.830503"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4528707454079077,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:24.723218"
+    }
+  ],
+  "54": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3028545505122135,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:37.048982"
+    },
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.324357973901849,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:05.279514"
+    },
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4215950087497107,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:10.607650"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.335449971650776,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:32.572377"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.681772570861013,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:47.051569"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.7710369260687577,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:52.247621"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.2134948592436943,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:58:00.644063"
+    }
+  ],
+  "43": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3035738970104016,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:37.268899"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.337586898552744,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:18.966497"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.360993592362655,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:37.842305"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5364096854862415,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:50.119845"
+    }
+  ],
+  "19": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.301430250469007,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:37.721205"
+    },
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.360375216132716,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:08.905112"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3766427040100098,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:23.430417"
+    }
+  ],
+  "27": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3020217857862773,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:37.936911"
+    },
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.321843511179874,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:00.663270"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.332864108838533,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:32.772577"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4945952327627885,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:43.215958"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.535541622262252,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:58.151947"
+    }
+  ],
+  "13": [
+    {
+      "round": 2,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3072639578267147,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:38.175600"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.359587939162003,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:22.263995"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5241376412542245,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:50.309206"
+    }
+  ],
+  "11": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.315631395892093,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:39.223204"
+    },
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.347321679717616,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:08.018143"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.7628671432796277,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:56.041044"
+    }
+  ],
+  "48": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.319758095239338,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:39.445044"
+    },
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.321339400191056,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:43.223247"
+    },
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3050550787072432,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:48.787015"
+    },
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.311656299390291,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:55.438149"
+    },
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.406187477864717,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:11.460147"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.487989632706893,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:58.739751"
+    }
+  ],
+  "12": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3142630928441097,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:39.972461"
+    },
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3029004335403442,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:47.729263"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.6157743742591455,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:46.097749"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4980313213248,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:49.337945"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.6970925456599186,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:54.732786"
+    }
+  ],
+  "45": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3129484465247705,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:40.301410"
+    },
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.300881837543688,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:50.321555"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.630281034268831,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:46.858610"
+    }
+  ],
+  "44": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3177823330226697,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:40.620845"
+    }
+  ],
+  "77": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3132748227370414,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:40.843965"
+    },
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3021773162641024,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:52.882804"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3783381173485205,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:23.033828"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.336753192700838,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:32.372858"
+    }
+  ],
+  "33": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3145256293447396,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:41.064326"
+    },
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3103121581830477,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:03.659931"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.328439850556223,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:20.581249"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3621477139623543,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:31.244022"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.1231661784021476,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:00.056972"
+    }
+  ],
+  "5": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3153382602490877,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:41.272969"
+    },
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.305043157778288,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:46.370270"
+    }
+  ],
+  "93": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.30971308130967,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:41.496238"
+    },
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.301071625006826,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:53.778123"
+    },
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.380285005820425,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:28.464087"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.312744711574755,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:33.344523"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5929262324383386,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:47.650762"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.483720390420211,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:49.924867"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.079277603249801,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:01.039619"
+    }
+  ],
+  "58": [
+    {
+      "round": 3,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3150844448491146,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:41.722594"
+    },
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3027596285468652,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:49.230297"
+    },
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3193935783285844,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:02.409803"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3301289520765605,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:20.020477"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.1193564879266837,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:00.250536"
+    }
+  ],
+  "68": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3160754818665352,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:42.791690"
+    },
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.299641822513781,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:53.543924"
+    },
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3147269675606177,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:04.838250"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3628797405644466,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:14.233504"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3695924846749556,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:29.937233"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.7376000002810827,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:51.631091"
+    }
+  ],
+  "15": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3238077414663216,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:43.005979"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3756437427119206,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:36.322232"
+    }
+  ],
+  "10": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3220733278676082,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:43.437120"
+    },
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3041150130723653,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:47.496038"
+    },
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.439249609646044,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:28.276398"
+    }
+  ],
+  "70": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3182785573758578,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:43.657300"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3525360885419344,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:13.128786"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.354950365267302,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:30.867795"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.343771125140943,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:38.411069"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.707169219067222,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:54.499467"
+    }
+  ],
+  "37": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3197959724225496,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:43.869185"
+    },
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3044118253808272,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:47.275055"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3456374846006693,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:19.449833"
+    }
+  ],
+  "80": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.316760364331697,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:44.086440"
+    },
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3386608801389994,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:09.117665"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3464629524632503,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:22.455674"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.385777046805934,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:40.109728"
+    }
+  ],
+  "79": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3134265698884664,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:44.300379"
+    }
+  ],
+  "46": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.320243703691583,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:44.510504"
+    },
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3040295462859306,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:49.680659"
+    },
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3150602139924703,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:05.730362"
+    },
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.392917269154599,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:27.339833"
+    }
+  ],
+  "73": [
+    {
+      "round": 4,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3225394675606177,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:44.719303"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.512479826023704,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:43.986969"
+    }
+  ],
+  "24": [
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.2992673547644364,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:45.727685"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.6512913703918457,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:45.486611"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.7172516082462512,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:51.428105"
+    }
+  ],
+  "90": [
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3049755849336324,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:45.939494"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.379436361162286,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:39.175142"
+    }
+  ],
+  "8": [
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3016224221179358,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:46.156746"
+    },
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.320391793000071,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:59.643320"
+    },
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.404294722958615,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:11.031809"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.369086403595774,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:29.561052"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3592986244904366,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:37.649634"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3989500999450684,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:40.678595"
+    }
+  ],
+  "84": [
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.302607956685518,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:46.583473"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.37336486264279,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:30.496283"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.6263399437854162,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:46.476275"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.132596599428277,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:01.428245"
+    }
+  ],
+  "29": [
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3047386219626977,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:46.833731"
+    },
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.322461147057383,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:58.585622"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.367148675416645,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:38.598675"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.404451564738625,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:40.489731"
+    }
+  ],
+  "98": [
+    {
+      "round": 5,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3077566247237358,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:47.051114"
+    },
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3216631412506104,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:57.943559"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.362526874793203,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:14.885536"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.361685401514957,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:30.123207"
+    }
+  ],
+  "81": [
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.301643120615106,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:49.448934"
+    },
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.302568222347059,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:53.112184"
+    },
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.310903693500318,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:55.849331"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3828364485188533,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:22.843746"
+    }
+  ],
+  "47": [
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3038259995611092,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:50.105391"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5186152395449186,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:24.349947"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.395281710122761,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:35.575052"
+    }
+  ],
+  "26": [
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.30369224046406,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:50.537059"
+    }
+  ],
+  "85": [
+    {
+      "round": 6,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3040471265190527,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:50.755195"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3966251360742667,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:35.198942"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.499953684053923,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:42.831798"
+    }
+  ],
+  "34": [
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.304865931209765,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:51.755747"
+    },
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3069986481415596,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:55.643145"
+    },
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.321102506236026,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:59.435714"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.370336137319866,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:14.671064"
+    }
+  ],
+  "87": [
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3065129832217566,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:52.202045"
+    },
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.308740120185049,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:56.706387"
+    },
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4180740996410974,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:10.400281"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3619207018300106,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:13.586127"
+    }
+  ],
+  "82": [
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3052308559417725,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:52.422232"
+    },
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.321440295169228,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:02.193947"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3578036333385266,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:15.357544"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5260508938839563,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:49.142557"
+    }
+  ],
+  "9": [
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3033852388984277,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:52.656416"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.368778680500231,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:38.981133"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3991641935549284,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:41.248587"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.742700081122549,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:53.277092"
+    }
+  ],
+  "21": [
+    {
+      "round": 7,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3079519334592318,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:53.328388"
+    },
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.377572385888351,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:31.054673"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.490530365391781,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:57.373676"
+    }
+  ],
+  "31": [
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.313118947179694,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:54.799417"
+    },
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3259959911045276,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:04.120102"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.410038471221924,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:36.511824"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5260609011901054,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:44.362933"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.584110454509133,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:50.501968"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.802536964416504,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:53.065505"
+    }
+  ],
+  "59": [
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.310059120780543,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:55.229170"
+    },
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4047019983592786,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:11.672346"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.622147039363259,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:47.446339"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.709754786993328,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:52.861309"
+    }
+  ],
+  "88": [
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3104501523469625,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:56.058093"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3338211021925273,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:33.540712"
+    }
+  ],
+  "71": [
+    {
+      "round": 8,
+      "local_accuracy": 0.0,
+      "local_loss": 2.304834340748034,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:56.268642"
+    },
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3127300362837944,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:04.600171"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.158872460064135,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:58:01.233816"
+    }
+  ],
+  "41": [
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.322168833331058,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:57.731212"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4629707210942318,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:25.851063"
+    }
+  ],
+  "99": [
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.326196231340107,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:58.157899"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.476209546390333,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:25.103317"
+    }
+  ],
+  "7": [
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.323087685986569,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:58.371503"
+    },
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3934309357091,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:27.902231"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.385123566577309,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:40.298568"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.514376295240302,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:49.534813"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.451714672540364,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:58.545514"
+    }
+  ],
+  "4": [
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3247935458233484,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:56:58.801367"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.433009066079792,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:40.869815"
+    }
+  ],
+  "40": [
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3230504989624023,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:59.014353"
+    },
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3202175278412667,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:01.333530"
+    }
+  ],
+  "51": [
+    {
+      "round": 9,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3229285415850187,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:56:59.226757"
+    },
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3135756254196167,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:05.511501"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.358617638286791,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:35.007853"
+    },
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5010858648701717,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:49.730279"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.4009116950788,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:58.347927"
+    }
+  ],
+  "72": [
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3303818263505636,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:00.877331"
+    },
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4053455904910437,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:28.088523"
+    }
+  ],
+  "63": [
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3253008127212524,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:01.765826"
+    },
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3449131124898006,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:07.735838"
+    }
+  ],
+  "50": [
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3301383319653963,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:01.977968"
+    }
+  ],
+  "18": [
+    {
+      "round": 10,
+      "local_accuracy": 0.0,
+      "local_loss": 2.321982923306917,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:02.618420"
+    }
+  ],
+  "17": [
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.314055819260447,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:03.876302"
+    },
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.341052958839818,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:07.102335"
+    },
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.7241692605771517,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:52.040726"
+    }
+  ],
+  "95": [
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3112625511069047,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:04.361112"
+    }
+  ],
+  "74": [
+    {
+      "round": 11,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3242728584691097,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:05.061954"
+    }
+  ],
+  "65": [
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3549745898497734,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:07.416898"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.412417254949871,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:41.451949"
+    }
+  ],
+  "96": [
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.362060214343824,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:08.260680"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3754286201376664,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:14.449074"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3318832171590707,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:33.153587"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.8110158443450928,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:56.233478"
+    }
+  ],
+  "6": [
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.340508925287347,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:08.471583"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5870248769458972,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:47.843362"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.6657956524899133,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:54.982124"
+    }
+  ],
+  "14": [
+    {
+      "round": 12,
+      "local_accuracy": 0.0,
+      "local_loss": 2.353190453428971,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:08.689214"
+    },
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.363789025105928,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:14.016246"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.334426710480138,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:19.256154"
+    },
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.409939872591119,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:27.130848"
+    }
+  ],
+  "76": [
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4275930743468437,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:10.820141"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4849877545708106,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:25.664301"
+    }
+  ],
+  "49": [
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.415096251588119,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:11.248176"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.511749142094662,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:59.131561"
+    }
+  ],
+  "67": [
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4317049039037606,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:11.883630"
+    },
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4942821201525236,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:25.291003"
+    },
+    {
+      "round": 20,
+      "local_accuracy": 0.0,
+      "local_loss": 2.330045925943475,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:32.171369"
+    }
+  ],
+  "32": [
+    {
+      "round": 13,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4427490422600195,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:12.102545"
+    }
+  ],
+  "1": [
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.356230748327155,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:13.352920"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.7181996483551827,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:55.825690"
+    }
+  ],
+  "92": [
+    {
+      "round": 14,
+      "local_accuracy": 0.0,
+      "local_loss": 2.373155167228297,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:13.803169"
+    },
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3281111403515466,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:20.394393"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4796983505550183,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:43.796837"
+    }
+  ],
+  "55": [
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.337883861441361,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:19.636215"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.612311231462579,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:46.665938"
+    }
+  ],
+  "64": [
+    {
+      "round": 15,
+      "local_accuracy": 0.0,
+      "local_loss": 2.359175682067871,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:20.768828"
+    },
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.378796941355655,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:22.071307"
+    }
+  ],
+  "22": [
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3610958362880505,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:21.881656"
+    }
+  ],
+  "38": [
+    {
+      "round": 16,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3667065281617012,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:22.642294"
+    }
+  ],
+  "62": [
+    {
+      "round": 17,
+      "local_accuracy": 0.0,
+      "local_loss": 2.471345694441544,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:26.037885"
+    },
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3825933870516325,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:28.653370"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.464296711118598,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:43.021267"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.430726402684262,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:57.766373"
+    },
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.048694089839333,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:01.820507"
+    }
+  ],
+  "2": [
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.417684366828517,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:26.941908"
+    },
+    {
+      "round": 22,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3671599877508065,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:38.031280"
+    }
+  ],
+  "39": [
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.405441924145347,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:27.528142"
+    },
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3725581043644954,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:34.821128"
+    }
+  ],
+  "30": [
+    {
+      "round": 18,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4043080994957373,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:27.714966"
+    },
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.382356543289988,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:41.648584"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.7177375680521916,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:56.421782"
+    }
+  ],
+  "16": [
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3689970844670345,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:30.308930"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.459250525424355,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:43.608411"
+    }
+  ],
+  "60": [
+    {
+      "round": 19,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3541668465262964,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:30.682215"
+    },
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.4325173967762996,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:44.173204"
+    }
+  ],
+  "56": [
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.3733870292964734,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:35.761887"
+    },
+    {
+      "round": 28,
+      "local_accuracy": 0.0,
+      "local_loss": 3.733066809804816,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:54.237020"
+    }
+  ],
+  "66": [
+    {
+      "round": 21,
+      "local_accuracy": 0.0,
+      "local_loss": 2.401836583488866,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:35.948703"
+    }
+  ],
+  "42": [
+    {
+      "round": 23,
+      "local_accuracy": 0.0,
+      "local_loss": 2.396496992362173,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:41.057801"
+    }
+  ],
+  "52": [
+    {
+      "round": 24,
+      "local_accuracy": 0.0,
+      "local_loss": 2.464565208083705,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:44.554645"
+    },
+    {
+      "round": 25,
+      "local_accuracy": 0.0,
+      "local_loss": 2.5759374718917045,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:47.242019"
+    },
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.4259687348415975,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:57.570502"
+    }
+  ],
+  "86": [
+    {
+      "round": 26,
+      "local_accuracy": 0.0,
+      "local_loss": 2.526193800725435,
+      "epochs_completed": 2,
+      "is_malicious": true,
+      "timestamp": "2026-01-15T18:57:48.748337"
+    }
+  ],
+  "23": [
+    {
+      "round": 27,
+      "local_accuracy": 0.0,
+      "local_loss": 2.6816024152856124,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:52.455287"
+    }
+  ],
+  "61": [
+    {
+      "round": 29,
+      "local_accuracy": 0.0,
+      "local_loss": 4.495443425680461,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:57:57.958708"
+    }
+  ],
+  "36": [
+    {
+      "round": 30,
+      "local_accuracy": 0.0,
+      "local_loss": 3.226849549695065,
+      "epochs_completed": 2,
+      "is_malicious": false,
+      "timestamp": "2026-01-15T18:58:00.443077"
+    }
+  ]
+}

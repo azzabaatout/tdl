@@ -1,0 +1,60 @@
+2026-01-15 19:23:35,163 - FL_Defense_normclip_faker - INFO - Round 1: norm_clipping defense applied - Detected malicious: [69, 28, 75, 35]
+2026-01-15 19:23:35,163 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:23:41,167 - FL_Defense_normclip_faker - INFO - Round 2: norm_clipping defense applied - Detected malicious: [54, 35, 27, 13]
+2026-01-15 19:23:41,167 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:23:46,252 - FL_Defense_normclip_faker - INFO - Round 3: norm_clipping defense applied - Detected malicious: [11, 77]
+2026-01-15 19:23:46,252 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:23:50,663 - FL_Defense_normclip_faker - INFO - Round 4: norm_clipping defense applied
+2026-01-15 19:23:50,663 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:23:55,164 - FL_Defense_normclip_faker - INFO - Round 5: norm_clipping defense applied - Detected malicious: [29]
+2026-01-15 19:23:55,164 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:23:59,361 - FL_Defense_normclip_faker - INFO - Round 6: norm_clipping defense applied - Detected malicious: [35, 81]
+2026-01-15 19:23:59,361 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:03,113 - FL_Defense_normclip_faker - INFO - Round 7: norm_clipping defense applied - Detected malicious: [77, 81]
+2026-01-15 19:24:03,113 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:06,976 - FL_Defense_normclip_faker - INFO - Round 8: norm_clipping defense applied - Detected malicious: [31, 81, 71, 28]
+2026-01-15 19:24:06,976 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:11,780 - FL_Defense_normclip_faker - INFO - Round 9: norm_clipping defense applied - Detected malicious: [29, 4]
+2026-01-15 19:24:11,780 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:15,662 - FL_Defense_normclip_faker - INFO - Round 10: norm_clipping defense applied - Detected malicious: [27]
+2026-01-15 19:24:15,662 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:20,235 - FL_Defense_normclip_faker - INFO - Round 11: norm_clipping defense applied - Detected malicious: [17, 31, 71, 54]
+2026-01-15 19:24:20,235 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:24,943 - FL_Defense_normclip_faker - INFO - Round 12: norm_clipping defense applied - Detected malicious: [28, 17, 11, 14]
+2026-01-15 19:24:24,944 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:29,576 - FL_Defense_normclip_faker - INFO - Round 13: norm_clipping defense applied - Detected malicious: [54]
+2026-01-15 19:24:29,576 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:33,501 - FL_Defense_normclip_faker - INFO - Round 14: norm_clipping defense applied - Detected malicious: [14]
+2026-01-15 19:24:33,502 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:37,386 - FL_Defense_normclip_faker - INFO - Round 15: norm_clipping defense applied - Detected malicious: [14, 64]
+2026-01-15 19:24:37,386 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:41,438 - FL_Defense_normclip_faker - INFO - Round 16: norm_clipping defense applied - Detected malicious: [64, 13, 81, 77]
+2026-01-15 19:24:41,439 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:45,129 - FL_Defense_normclip_faker - INFO - Round 17: norm_clipping defense applied - Detected malicious: [69]
+2026-01-15 19:24:45,129 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:48,929 - FL_Defense_normclip_faker - INFO - Round 18: norm_clipping defense applied - Detected malicious: [14]
+2026-01-15 19:24:48,929 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:53,648 - FL_Defense_normclip_faker - INFO - Round 19: norm_clipping defense applied
+2026-01-15 19:24:53,649 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:24:57,633 - FL_Defense_normclip_faker - INFO - Round 20: norm_clipping defense applied - Detected malicious: [77, 54, 27, 69]
+2026-01-15 19:24:57,633 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:01,449 - FL_Defense_normclip_faker - INFO - Round 21: norm_clipping defense applied - Detected malicious: [31]
+2026-01-15 19:25:01,449 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:05,370 - FL_Defense_normclip_faker - INFO - Round 22: norm_clipping defense applied - Detected malicious: [28, 75, 29]
+2026-01-15 19:25:05,370 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:09,227 - FL_Defense_normclip_faker - INFO - Round 23: norm_clipping defense applied - Detected malicious: [29, 4, 35]
+2026-01-15 19:25:09,227 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:13,228 - FL_Defense_normclip_faker - INFO - Round 24: norm_clipping defense applied - Detected malicious: [27, 69, 31]
+2026-01-15 19:25:13,228 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:17,021 - FL_Defense_normclip_faker - INFO - Round 25: norm_clipping defense applied - Detected malicious: [54]
+2026-01-15 19:25:17,021 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:21,078 - FL_Defense_normclip_faker - INFO - Round 26: norm_clipping defense applied - Detected malicious: [86, 13, 31]
+2026-01-15 19:25:21,078 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:25,081 - FL_Defense_normclip_faker - INFO - Round 27: norm_clipping defense applied - Detected malicious: [17, 54, 35, 31]
+2026-01-15 19:25:25,081 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:28,857 - FL_Defense_normclip_faker - INFO - Round 28: norm_clipping defense applied - Detected malicious: [69, 11]
+2026-01-15 19:25:28,857 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:32,606 - FL_Defense_normclip_faker - INFO - Round 29: norm_clipping defense applied - Detected malicious: [27]
+2026-01-15 19:25:32,606 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
+2026-01-15 19:25:36,640 - FL_Defense_normclip_faker - INFO - Round 30: norm_clipping defense applied - Detected malicious: [54, 71]
+2026-01-15 19:25:36,640 - FL_Defense_normclip_faker - INFO - Defense parameters: {'max_norm': 100.0, 'check_lower_bound': True}
