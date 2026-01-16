@@ -6,7 +6,6 @@ class FakerAttack:
     """
     Faker attack implementation based on the paper.
     Generates poisoned models by scaling local model parameters.
-    note: refactored and simplified based on the pseudocode available
     """
 
     def __init__(self, local_model: np.ndarray, defense_type: str = 'fltrust', num_groups: int = 10):
@@ -99,6 +98,7 @@ class FakerAttack:
         alpha[:self.J//2] += perturb
         alpha[self.J//2:2*(self.J//2)] -= perturb
 
+        # scaling to satisfy norm constraint ||wi'||_2 <= ||wi||_2
         current_norm = np.linalg.norm(alpha * self.wi)
         benign_norm = np.linalg.norm(self.wi)
         alpha *= (benign_norm / (current_norm + 1e-10))
@@ -120,12 +120,23 @@ class FakerAttack:
 
         if use_grouping and self.num_groups < self.J:
             if initial_alpha is None:
-                # start near 1.0 with small perturbations
-                alpha_init = np.ones(self.num_groups) + np.random.randn(self.num_groups) * 0.3
-                alpha_init = np.clip(alpha_init, 0.5, 2.0)
+                # Analytically construct alphas for target cosine ~ 0.1
+                # with f fraction positive at +k and (1-f) negative at -k:
+                # cosine approx. (2f - 1), so f = 0.55 gives cosine ≈ 0.1
+                # use 55% positive, 45% negative
+                target_positive_frac = 0.55
+                num_positive = int(self.num_groups * target_positive_frac)
+                num_negative = self.num_groups - num_positive
+
+                # all at same magnitude but opposite signs
+                alpha_init = np.zeros(self.num_groups)
+                alpha_init[:num_positive] = 5.0    # pos
+                alpha_init[num_positive:] = -5.0   # negative (e.gflipped)
+                np.random.shuffle(alpha_init)  # randomize  positions
             else:
                 alpha_init = np.array(initial_alpha)[:self.num_groups]
 
+            # for FLTrust: constrain ONLY cosine, not full similarity metric
             if self.defense_type == 'fltrust':
                 def similarity_constraint(alpha_grouped):
                     alpha_full = self.expand_alpha(alpha_grouped)
@@ -133,7 +144,9 @@ class FakerAttack:
                     cos = self._cosine_sim(poisoned, self.local_model)
                     return cos
 
-                sl, su = 0.01, 0.7
+                # target cosine around 0.1 - barely positive, maximum harm
+                # combine with penalty term to keep optimizer on track
+                sl, su = 0.05, 0.3
             else:
                 def similarity_constraint(alpha_grouped):
                     alpha_full = self.expand_alpha(alpha_grouped)
@@ -142,11 +155,19 @@ class FakerAttack:
                 sl, su = self.get_similarity_bounds()
 
             constraint = NonlinearConstraint(similarity_constraint, lb=sl, ub=su)
-            bounds = [(0.5, 2.0)] * self.num_groups  # a tighter bound
+            # wider bounds for more extreme alphas
+            # negative alphas flip parameters, large positive amplify
+            bounds = [(-10.0, 10.0)] * self.num_groups
 
             def objective(alpha_grouped):
                 alpha_full = self.expand_alpha(alpha_grouped)
-                return self.objective_function(alpha_full)
+                base_obj = self.objective_function(alpha_full)
+                # add penalty for high cosine to keep optimizer in low-cosine region
+                poisoned = alpha_full * self.local_model
+                cos = self._cosine_sim(poisoned, self.local_model)
+                # penalize cosine > 0.3 heavily
+                penalty = 1e6 * max(0, cos - 0.3) ** 2
+                return base_obj + penalty
             #  this is more computationally intensive but theoretically
             #  more accurate than the paper's "fast" heuristic
             # (no other choice)
@@ -162,12 +183,11 @@ class FakerAttack:
             alpha_opt = self.expand_alpha(result.x)
 
         else:
-            # similar for non-grouped...
             pass
 
         poisoned_model = alpha_opt * self.local_model
 
-        # compute final metrics
+        # comp final metrics
         if self.defense_type == 'fltrust':
             final_cos = self._cosine_sim(poisoned_model, self.local_model)
             final_si = self.compute_similarity(alpha_opt)
