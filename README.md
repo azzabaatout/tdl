@@ -17,91 +17,91 @@ chmod +x RUN_TABLE_EXPERIMENTS.sh
 
 ## Individual Commands (Run these one by one)
 
-### ROW 1: Baseline (FedAvg) - No Defense
+### Baseline (FedAvg) - No Defense
 
 ```bash
-# Column 1: No Attack
+# No Attack
 python src/experiments.py --config configs/table/baseline_none.yaml
 
-# Column 2: LA Attack
+# LA Attack
 python src/experiments.py --config configs/table/baseline_la.yaml
 
-# Column 3: MB Attack
+# MB Attack
 python src/experiments.py --config configs/table/baseline_mb.yaml
 
-# Column 4: Faker Attack
+# Faker Attack
 python src/experiments.py --config configs/table/baseline_faker.yaml
 ```
 
 ---
 
-### ROW 2: FLTrust Defense
+### FLTrust Defense
 
 ```bash
-# Column 1: No Attack
+# No Attack
 python src/experiments.py --config configs/table/fltrust_none.yaml
 
-# Column 2: LA Attack
+# LA Attack
 python src/experiments.py --config configs/table/fltrust_la.yaml
 
-# Column 3: MB Attack
+# MB Attack
 python src/experiments.py --config configs/table/fltrust_mb.yaml
 
-# Column 4: Faker Attack (MOST IMPORTANT)
+# Faker Attack
 python src/experiments.py --config configs/table/fltrust_faker.yaml
 ```
 
 ---
 
-### ROW 3: Norm-clipping Defense
+### Norm-clipping Defense
 
 ```bash
-# Column 1: No Attack
+# No Attack
 python src/experiments.py --config configs/table/normclip_none.yaml
 
-# Column 2: LA Attack
+# LA Attack
 python src/experiments.py --config configs/table/normclip_la.yaml
 
-# Column 3: MB Attack
+# MB Attack
 python src/experiments.py --config configs/table/normclip_mb.yaml
 
-# Column 4: Faker Attack
+# Faker Attack
 python src/experiments.py --config configs/table/normclip_faker.yaml
 ```
 
 ---
 
-### ROW 4: SPP Defense
+### SPP Defense
 
 ```bash
-# Column 1: No Attack
+# No Attack
 python src/experiments.py --config configs/table/spp_none.yaml
 
-# Column 2: LA Attack
+# LA Attack
 python src/experiments.py --config configs/table/spp_la.yaml
 
-# Column 3: MB Attack
+# MB Attack
 python src/experiments.py --config configs/table/spp_mb.yaml
 
-# Column 4: Faker Attack (KEY RESULT!)
+# Faker Attack
 python src/experiments.py --config configs/table/spp_faker.yaml
 ```
 
 ---
 
-### ROW 5: Krum Defense
+### Krum Defense
 
 ```bash
-# Column 1: No Attack
+# No Attack
 python src/experiments.py --config configs/table/krum_none.yaml
 
-# Column 2: LA Attack
+# LA Attack
 python src/experiments.py --config configs/table/krum_la.yaml
 
-# Column 3: MB Attack
+# MB Attack
 python src/experiments.py --config configs/table/krum_mb.yaml
 
-# Column 4: Faker Attack
+# Faker Attack
 python src/experiments.py --config configs/table/krum_faker.yaml
 ```
 
