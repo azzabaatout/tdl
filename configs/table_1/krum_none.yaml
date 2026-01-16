@@ -24,6 +24,6 @@ attack:
 defense:
   type: "krum"
   params:
-    num_malicious: 5
+    num_malicious: 2
     multi_krum: true
-    num_selected: 10
+    num_selected: 5

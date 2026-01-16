@@ -22,11 +22,12 @@ attack:
   type: "mb"
   num_malicious_clients: 20
   params:
-    manipulation_factor: 2.0
-    target_label: 0
+    scaling_min: -100.0
+    scaling_max: 100.0
+    num_steps: 200
 defense:
   type: "krum"
   params:
-    num_malicious: 5
+    num_malicious: 2
     multi_krum: true
-    num_selected: 10
+    num_selected: 5

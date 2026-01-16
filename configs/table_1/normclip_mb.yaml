@@ -22,10 +22,11 @@ attack:
   type: "mb"
   num_malicious_clients: 20
   params:
-    manipulation_factor: 2.0
-    target_label: 0
+    scaling_min: -100.0
+    scaling_max: 100.0
+    num_steps: 200
 defense:
   type: "norm_clipping"
   params:
-    max_norm: 10.0
-    norm_type: "l2"
+    max_norm: 100.0
+    check_lower_bound: true

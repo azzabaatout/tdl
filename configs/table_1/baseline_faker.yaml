@@ -22,10 +22,8 @@ attack:
   type: "faker"
   num_malicious_clients: 20
   params:
-    similarity_type: "cosine"
-    target_similarity: 0.95
-    max_iterations: 100
-    learning_rate: 0.01
-    stealth_factor: 0.9
+    target_defense: "none"  # no defense - use simple scaling attack
+    scale_factor: -5.0      # Negative scaling for maximum damage
+    noise_scale: 0.01
 defense:
   type: "none"

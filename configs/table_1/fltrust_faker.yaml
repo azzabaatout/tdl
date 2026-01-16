@@ -12,7 +12,7 @@ model:
 federated_learning:
   num_rounds: 30
   num_clients: 100
-  client_participation_rate: 0.1
+  client_participation_rate: 0.2  # increased to get more malicious clients per round
   learning_rate: 0.01
   local_epochs: 2
   batch_size: 32
@@ -20,13 +20,18 @@ server:
   data_size: 500
 attack:
   type: "faker"
-  num_malicious_clients: 20
+  num_malicious_clients: 100  # 70% malicious - testing breaking point
   params:
-    similarity_type: "cosine"
-    target_similarity: 0.95
-    max_iterations: 100
-    learning_rate: 0.01
-    stealth_factor: 0.9
+    target_defense: "fltrust"
+    optimization_mode: "constrained"
+    num_groups: 100                   # more groups = finer control for partial layer flipping
+    optimization_iterations: 50
+    min_cosine_margin: 0.05           # min viable similarity (barely legal)
+    alpha_min: -10.0                  # allow negative alphas (layer flipping)
+    alpha_max: 10.0                   # max amplification per group
+    # we force negative initialization to explore anti-gradient space
+    # otpinks: "alternating_negative", "all_negative", "random_negative", "gradient_aware"
+    init_strategy: "alternating_negative"
 defense:
   type: "fltrust"
   params:
@@ -34,6 +39,6 @@ defense:
     server_lr: 0.01
     cosine_threshold: 0.0
     use_relu: true
-    clip_updates: true
+    clip_updates: false
     use_statistical_filtering: true
     std_threshold: 1.5

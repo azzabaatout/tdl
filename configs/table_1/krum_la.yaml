@@ -22,12 +22,11 @@ attack:
   type: "la"
   num_malicious_clients: 20
   params:
+    target_norm_ratio: 10.0
     max_iterations: 100
-    step_size: 0.1
-    target_norm_ratio: 15.0
 defense:
   type: "krum"
   params:
-    num_malicious: 5
+    num_malicious: 2
     multi_krum: true
-    num_selected: 10
+    num_selected: 5

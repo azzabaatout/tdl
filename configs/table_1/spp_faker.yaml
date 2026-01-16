@@ -22,16 +22,12 @@ attack:
   type: "faker"
   num_malicious_clients: 20
   params:
-    similarity_type: "cosine"
-    target_similarity: 0.95
-    max_iterations: 100
-    learning_rate: 0.01
-    stealth_factor: 0.9
+    target_defense: "fltrust"       # SPP uses cosine similarity like FLTrust
+    num_groups: 50                  # More groups = more flexibility for mixed-sign alphas
+    optimization_iterations: 10     # Number of iterations for α optimization
+    min_cosine_margin: 0.001        # Safety margin to ensure C > 0
 defense:
   type: "spp"
   params:
     selection_ratio: 0.5
-    cosine_threshold: 0.0
-    use_relu: true
-    server_epochs: 5
-    server_lr: 0.01
+    cosine_threshold: 0.5
