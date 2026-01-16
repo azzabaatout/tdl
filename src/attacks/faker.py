@@ -1,251 +1,187 @@
-import torch
-import copy
 import numpy as np
-from .base_attack import ModelPoisoningAttack
+from scipy.optimize import minimize, NonlinearConstraint
+from typing import Tuple, Optional
 
+class FakerAttack:
+    """
+    Faker attack implementation based on the paper.
+    Generates poisoned models by scaling local model parameters.
+    note: refactored and simplified based on the pseudocode available
+    """
 
-class FakerAttack(ModelPoisoningAttack):
-    """
-    Faker Attack: Sophisticated attack that exploits vulnerabilities in similarity metrics.
-    """
-    
-    def __init__(self, attack_params=None):
-        super().__init__(attack_params)
-        self.max_iterations = attack_params.get('max_iterations', 100)
-        self.learning_rate = attack_params.get('learning_rate', 0.01)
-        self.target_similarity = attack_params.get('target_similarity', 0.9)
-        self.similarity_type = attack_params.get('similarity_type', 'cosine')
-        self.stealth_factor = attack_params.get('stealth_factor', 1.0)
-        self.convergence_threshold = attack_params.get('convergence_threshold', 1e-4)
-    
-    def attack(self, model, benign_models=None, reference_model=None, **kwargs):
-        """
-        Faker Attack: Generate poisoned model that appears similar to benign models.
-        
-        Args:
-            model: The local model to be poisoned
-            benign_models: List of benign models for similarity calculation
-            reference_model: Reference model (e.g., previous global model)
-        
-        Returns:
-            dict: Attack results including metrics
-        """
-        original_model = copy.deepcopy(model)
-        
-        if reference_model is None and benign_models:
-            # use first benign model as reference if no explicit reference
-            reference_model = benign_models[0]
-        elif reference_model is None:
-            # if no reference available, create a simple poisoned model
-            return self._simple_poisoning(model, original_model)
-        
-        # we execute sophisticated similarity-based attack
-        attack_success = self._execute_similarity_attack(model, reference_model, benign_models)
-        
-        # and calculate attack metrics
-        metrics = self.calculate_similarity_metrics(original_model, model)
-        
-        return {
-            'attack_success': attack_success,
-            'metrics': metrics,
-            'similarity_type': self.similarity_type
-        }
-    
-    def _execute_similarity_attack(self, model, reference_model, benign_models=None):
-        target_flat = self._flatten_model(reference_model)
-        current_flat = self._flatten_model(model)
-        
-        # init attack direction
-        attack_direction = torch.randn_like(current_flat)
-        attack_direction = attack_direction / torch.norm(attack_direction)
-        
-        best_loss = float('inf')
-        best_params = current_flat.clone()
-        
-        for iteration in range(self.max_iterations):
-            # cacl gradient for similarity objective
-            grad = self._calculate_similarity_gradient(current_flat, target_flat, attack_direction)
-            
-            # update of params
-            current_flat = current_flat - self.learning_rate * grad
-            
-            # apply stealth constraints
-            current_flat = self._apply_stealth_constraints(current_flat, target_flat, best_params)
-            
-            # calc loss
-            loss = self._calculate_attack_loss(current_flat, target_flat, benign_models)
-            
-            if loss < best_loss:
-                best_loss = loss
-                best_params = current_flat.clone()
-            
-            if iteration > 0 and abs(prev_loss - loss) < self.convergence_threshold:
-                break
-            
-            prev_loss = loss
-            
-            if iteration % 20 == 0 and iteration > 0:
-                self.learning_rate *= 0.9
-        
-        # apply best parameters back to model
-        self._unflatten_model(best_params, model)
-        
-        return best_loss < float('inf')
-    
-    def _calculate_similarity_gradient(self, current_params, target_params, attack_direction):
-        """Calculate gradient for similarity-based objective."""
-        if self.similarity_type == 'cosine':
-            return self._cosine_similarity_gradient(current_params, target_params)
-        elif self.similarity_type == 'euclidean':
-            return self._euclidean_distance_gradient(current_params, target_params)
-        elif self.similarity_type == 'l2_norm':
-            return self._l2_norm_gradient(current_params, target_params)
+    def __init__(self, local_model: np.ndarray, defense_type: str = 'fltrust', num_groups: int = 10):
+        self.local_model = np.array(local_model).flatten()
+        self.J = len(self.local_model)
+        self.num_groups = min(num_groups, self.J)
+        self.group_size = max(1, self.J // self.num_groups)
+        self.defense_type = defense_type
+
+    def generate(self, wg_prev: np.ndarray = None):
+        if self.defense_type == 'fltrust':
+            return self._attack_fltrust()
+        elif self.defense_type == 'norm_clipping':
+            return self._attack_norm_clipping()
+        elif self.defense_type == 'krum':
+            return self._attack_krum(wg_prev)
         else:
-            return self._cosine_similarity_gradient(current_params, target_params)
-    
-    def _cosine_similarity_gradient(self, current_params, target_params):
-        dot_product = torch.dot(current_params, target_params)
-        current_norm = torch.norm(current_params)
-        target_norm = torch.norm(target_params)
-        
-        if current_norm == 0:
-            return torch.zeros_like(current_params)
-        
-        grad_numerator = target_params
-        grad_denominator = dot_product * current_params / (current_norm ** 2)
-        
-        grad = (grad_numerator - grad_denominator) / (target_norm * current_norm)
-        
-        # For attack: we want to minimize similarity (maximize negative similarity)
-        return -grad
-    
-    def _euclidean_distance_gradient(self, current_params, target_params):
-        """Gradient for Euclidean distance objective."""
-        # This hsould be ||current - target||^2
-        return 2 * (current_params - target_params)
-    
-    def _l2_norm_gradient(self, current_params, target_params):
-        """Gradient for L2 norm ratio objective."""
-        current_norm = torch.norm(current_params)
-        target_norm = torch.norm(target_params)
-        
-        if current_norm == 0:
-            return torch.zeros_like(current_params)
-        
-        #  ||current|| / ||target||
-        return current_params / (current_norm * target_norm)
-    
-    def _apply_stealth_constraints(self, current_params, target_params, original_params):
-        """Apply constraints to maintain stealth."""
-        # Constraint 1: Don't deviate too much from original
-        max_deviation = self.stealth_factor * torch.norm(original_params)
-        deviation = current_params - original_params
-        deviation_norm = torch.norm(deviation)
-        
-        if deviation_norm > max_deviation:
-            deviation = deviation * (max_deviation / deviation_norm)
-            current_params = original_params + deviation
-        
-        # Constraint 2: Maintain reasonable norm ratio
-        current_norm = torch.norm(current_params)
-        target_norm = torch.norm(target_params)
-        max_norm_ratio = 5.0  # Maximum allowed norm ratio
-        
-        if current_norm > max_norm_ratio * target_norm:
-            current_params = current_params * (max_norm_ratio * target_norm / current_norm)
-        
-        return current_params
-    
-    def _calculate_attack_loss(self, current_params, target_params, benign_models):
-        """Calculate overall attack loss."""
-        # first objective: similarity manipulation
-        if self.similarity_type == 'cosine':
-            dot_product = torch.dot(current_params, target_params)
-            current_norm = torch.norm(current_params)
-            target_norm = torch.norm(target_params)
-            
-            if current_norm == 0 or target_norm == 0:
-                similarity_loss = 1.0
+            raise ValueError(f"Defense {self.defense_type} not supported.")
+
+    def expand_alpha(self, alpha_grouped: np.ndarray) -> np.ndarray:
+        """Expand T grouped scalars to J individual scalars."""
+        alpha_full = np.repeat(alpha_grouped, self.group_size)
+        if len(alpha_full) < self.J:
+            alpha_full = np.append(alpha_full, [alpha_grouped[-1]]*(self.J - len(alpha_full)))
+        return alpha_full[:self.J]
+
+    @staticmethod
+    def _cosine_sim(vec1: np.ndarray, vec2: np.ndarray) -> float:
+        """Compute cosine similarity."""
+        dot = np.dot(vec1, vec2)
+        norm1 = np.linalg.norm(vec1)
+        norm2 = np.linalg.norm(vec2)
+        return dot / (norm1 * norm2 + 1e-10)
+
+    def compute_similarity(self, alpha: np.ndarray) -> float:
+        """Compute defense-specific similarity metric."""
+        poisoned = alpha * self.local_model
+
+        if self.defense_type == 'fltrust':
+            cos_sim = self._cosine_sim(poisoned, self.local_model)
+            norm_ratio = np.linalg.norm(poisoned) / (np.linalg.norm(self.local_model) + 1e-10)
+            return cos_sim * norm_ratio
+
+        elif self.defense_type == 'krum':
+            euclidean_dist = np.linalg.norm(poisoned - self.local_model)
+            return -euclidean_dist
+
+        elif self.defense_type == 'norm_clipping':
+            return np.linalg.norm(poisoned)
+
+        else:
+            return self._cosine_sim(poisoned, self.local_model)
+
+    def compute_difference(self, alpha: np.ndarray) -> float:
+        """Compute Δi = sum of |alpha_j - 1|."""
+        return np.sum(np.abs(alpha - 1.0))
+
+    def get_similarity_bounds(self) -> Tuple[float, float]:
+        """Get defense-specific similarity bounds."""
+        if self.defense_type == 'fltrust':
+            return 0.0, 1e9  # Cosine >= 0
+        elif self.defense_type == 'norm_clipping':
+            benign_norm = np.linalg.norm(self.local_model)
+            return -1e9, benign_norm
+        elif self.defense_type == 'krum':
+            return -1e9, 0.0  # Euclidean dist <= 0 (similarity is negative dist)
+        else:
+            return 0.0, 1.0
+
+    def objective_function(self, alpha: np.ndarray) -> float:
+        """Maximize f(α) = si * Δi (return negative for minimization)."""
+        si = self.compute_similarity(alpha)
+        di = self.compute_difference(alpha)
+        return -(si * di)
+
+    def _attack_fltrust(self):
+        # Theorem 2: Maximize Si * Di.
+        # analyzical solution sets J-1 scalars and solves for the last.
+        # heuristic (might not be accuarte): Large positive scaling that maintains direction (cos > 0).
+        alpha = np.random.uniform(1.5, 3.0, self.J)
+        # ensure cosine similarity remains positive (C1)
+        poisoned = alpha * self.wi
+        return poisoned
+
+    def _attack_norm_clipping(self):
+        # theorem 4: Constraint ||wi'|| <= ||wi||
+        # we maximizesum|alpha-1| by varying scalars around 1.0
+        alpha = np.ones(self.J)
+        perturb = np.random.uniform(0.1, 0.8, self.J // 2)
+        alpha[:self.J//2] += perturb
+        alpha[self.J//2:2*(self.J//2)] -= perturb
+
+        current_norm = np.linalg.norm(alpha * self.wi)
+        benign_norm = np.linalg.norm(self.wi)
+        alpha *= (benign_norm / (current_norm + 1e-10))
+        return alpha * self.wi
+
+    def _attack_krum(self, wg_prev):
+        # Theorem 3: E(wi', wi) <= E(wg_prev, wi)
+        if wg_prev is None:
+            raise ValueError("Krum attack requires previous global model wg.")
+
+        dist_budget = np.linalg.norm(wg_prev.flatten() - self.wi)
+        # scale parameters to the edge of the Euclidean distance budget
+        scaling_factor = 1.0 + (dist_budget / (np.linalg.norm(self.wi) + 1e-10))
+        return self.wi * scaling_factor
+
+    def generate_poisoned_model(self, initial_alpha: Optional[np.ndarray] = None,
+                                use_grouping: bool = True):
+        """Generate poisoned model via optimization."""
+
+        if use_grouping and self.num_groups < self.J:
+            if initial_alpha is None:
+                # start near 1.0 with small perturbations
+                alpha_init = np.ones(self.num_groups) + np.random.randn(self.num_groups) * 0.3
+                alpha_init = np.clip(alpha_init, 0.5, 2.0)
             else:
-                cosine_sim = dot_product / (current_norm * target_norm)
-                similarity_loss = (cosine_sim - self.target_similarity) ** 2
-        
-        elif self.similarity_type == 'euclidean':
-            distance = torch.norm(current_params - target_params)
-            similarity_loss = distance.item()
-        
-        else:  # L2 norm ratio
-            current_norm = torch.norm(current_params)
-            target_norm = torch.norm(target_params)
-            norm_ratio = current_norm / target_norm if target_norm != 0 else float('inf')
-            similarity_loss = (norm_ratio - 1.0) ** 2
-        
-        return similarity_loss
-    
-    def _simple_poisoning(self, model, original_model):
-        """Simple poisoning when no reference model is available."""
-        poison_scale = self.attack_params.get('simple_poison_scale', -1.0)
-        
-        for param in model.parameters():
-            param.data = param.data * poison_scale
-        
-        metrics = self.calculate_similarity_metrics(original_model, model)
-        
-        return {
-            'attack_success': True,
-            'metrics': metrics,
-            'similarity_type': 'simple_scaling'
-        }
+                alpha_init = np.array(initial_alpha)[:self.num_groups]
 
+            if self.defense_type == 'fltrust':
+                def similarity_constraint(alpha_grouped):
+                    alpha_full = self.expand_alpha(alpha_grouped)
+                    poisoned = alpha_full * self.local_model
+                    cos = self._cosine_sim(poisoned, self.local_model)
+                    return cos
 
-class AdaptiveFakerAttack(FakerAttack):
-    """Enhanced Faker attack with adaptive strategies."""
-    
-    def __init__(self, attack_params=None):
-        super().__init__(attack_params)
-        self.multi_target = attack_params.get('multi_target', False)
-        self.dynamic_similarity = attack_params.get('dynamic_similarity', False)
-        self.evasion_strength = attack_params.get('evasion_strength', 1.0)
-    
-    def _execute_similarity_attack(self, model, reference_model, benign_models=None):
-        """Enhanced attack with adaptive target selection."""
-        if self.multi_target and benign_models and len(benign_models) > 1:
-            return self._multi_target_attack(model, reference_model, benign_models)
+                sl, su = 0.01, 0.7
+            else:
+                def similarity_constraint(alpha_grouped):
+                    alpha_full = self.expand_alpha(alpha_grouped)
+                    return self.compute_similarity(alpha_full)
+
+                sl, su = self.get_similarity_bounds()
+
+            constraint = NonlinearConstraint(similarity_constraint, lb=sl, ub=su)
+            bounds = [(0.5, 2.0)] * self.num_groups  # a tighter bound
+
+            def objective(alpha_grouped):
+                alpha_full = self.expand_alpha(alpha_grouped)
+                return self.objective_function(alpha_full)
+            #  this is more computationally intensive but theoretically
+            #  more accurate than the paper's "fast" heuristic
+            # (no other choice)
+            result = minimize(
+                objective,
+                x0=alpha_init,
+                method='SLSQP',
+                bounds=bounds,
+                constraints=constraint,
+                options={'maxiter': 500, 'ftol': 1e-8}
+            )
+
+            alpha_opt = self.expand_alpha(result.x)
+
         else:
-            return super()._execute_similarity_attack(model, reference_model, benign_models)
-    
-    def _multi_target_attack(self, model, reference_model, benign_models):
-        """Attack targeting multiple benign models simultaneously."""
-        current_flat = self._flatten_model(model)
-        
-        # calc weighted target based on multiple benign models
-        target_vectors = [self._flatten_model(bm) for bm in benign_models]
-        weights = [1.0 / len(benign_models)] * len(benign_models)
-        
-        weighted_target = torch.zeros_like(current_flat)
-        for i, target_vec in enumerate(target_vectors):
-            weighted_target += weights[i] * target_vec
-        
-        # execute attack with weighted target
-        best_loss = float('inf')
-        for iteration in range(self.max_iterations):
-            # calc gradient towards weighted target
-            grad = self._calculate_similarity_gradient(current_flat, weighted_target, None)
-            
-            # update with adaptive learning rate
-            adaptive_lr = self.learning_rate * (1.0 - iteration / self.max_iterations)
-            current_flat = current_flat - adaptive_lr * grad
-            
-            # calc loss against all targets
-            total_loss = 0
-            for target_vec in target_vectors:
-                loss = self._calculate_attack_loss(current_flat, target_vec, None)
-                total_loss += loss
-            
-            if total_loss < best_loss:
-                best_loss = total_loss
-                best_params = current_flat.clone()
-        
-        # apply best parameters
-        self._unflatten_model(best_params, model)
-        return True
+            # similar for non-grouped...
+            pass
+
+        poisoned_model = alpha_opt * self.local_model
+
+        # compute final metrics
+        if self.defense_type == 'fltrust':
+            final_cos = self._cosine_sim(poisoned_model, self.local_model)
+            final_si = self.compute_similarity(alpha_opt)
+        else:
+            final_cos = None
+            final_si = self.compute_similarity(alpha_opt)
+
+        final_di = self.compute_difference(alpha_opt)
+
+
+        return poisoned_model, alpha_opt, {
+            'success': result.success,
+            'cosine': final_cos,
+            'similarity': final_si,
+            'difference': final_di,
+            'objective': final_si * final_di
+        }
