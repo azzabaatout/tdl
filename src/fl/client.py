@@ -3,8 +3,10 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
 import copy
+import numpy as np
 
 from src.attacks.faker import FakerAttack
+
 
 class FLClient:
     def __init__(self, client_id, model, train_data, test_data=None,
@@ -102,6 +104,23 @@ class MaliciousClient(FLClient):
         self.reference_state_dict = None
         # faker attack will be instantiated per-attack with the local update
 
+        # for cooperative Krum attack (Section 5.4 of the paper):
+        # for attacking Krum, we let attacker i send its obtained poisoned
+        # local model w̄_i to the other m−1 attackers, who also submit w_i
+        self.shared_poisoned_state = None  # will be set by coordinator for Krum
+        self.is_lead_attacker = False  # only the lead attacker generates the poisoned model
+
+    def set_shared_poisoned_state(self, state_dict):
+        """
+        Set shared poisoned model state for cooperative Krum attack.
+        Called by the experiment coordinator after lead attacker generates the poisoned model.
+        """
+        self.shared_poisoned_state = copy.deepcopy(state_dict)
+
+    def set_as_lead_attacker(self, is_lead=True):
+        """Mark this client as the lead attacker who generates the poisoned model."""
+        self.is_lead_attacker = is_lead
+
     def update_model(self, global_state_dict):
         """Update local model with global parameters, storing reference for Faker attack."""
         # store the global model state as reference before updating
@@ -122,6 +141,15 @@ class MaliciousClient(FLClient):
 
     def apply_attack(self):
         """Apply the specified attack to the local model."""
+        # for cooperative Krum attack: if shared_poisoned_state is set,
+        # use it directly instead of generating a new poisoned model.
+        # This implements Section 5.4: we let attacker i send its obtained
+        # poisoned local model w_i (w tilde) to the other m−1 attackers, who also submit ww_i
+        if self.shared_poisoned_state is not None:
+            print(f"[DEBUG] Client {self.client_id}: Using shared poisoned model (cooperative Krum)")
+            self.model.load_state_dict(self.shared_poisoned_state)
+            return
+
         if self.attack_method == 'la':
             self._local_attack()
         elif self.attack_method == 'mb':
@@ -205,6 +233,14 @@ class MaliciousClient(FLClient):
     def _faker_krum(self):
         """
         Faker Attack for Krum using scipy optimization from faker.py.
+
+        Theorem 3 constraint: E(w_i, w_i) < E(wg, wi)
+        Working with UPDATES (not full models):
+        - update Δ = w_local - w_global
+        - poisoned update = α * Δ
+        - constraint: ||(α-1)*Δ|| < ||Δ|| → |α-1| < 1 → α ∈ (0, 2)
+
+        This allows meaningful perturbations while satisfying the constraint.
         """
         print(f"[DEBUG] Client {self.client_id}: Running Faker-Krum (scipy optimization)")
 
@@ -216,42 +252,56 @@ class MaliciousClient(FLClient):
         for name, param in self.model.named_parameters():
             if name in self.reference_state_dict:
                 global_param = self.reference_state_dict[name].to(param.device)
-                update = param.data - global_param
+                update = param.data - global_param  # this is delta= w_local - w_global
                 update_flat.append(update.flatten())
                 param_shapes[name] = param.shape
                 param_names.append(name)
 
-        w_local = torch.cat(update_flat)
-        device = w_local.device
+        w_update = torch.cat(update_flat)
+        device = w_update.device
 
-        if torch.norm(w_local) < 1e-10:
+        update_norm = torch.norm(w_update).item()
+        if update_norm < 1e-10:
+            print(f"[DEBUG] Client {self.client_id}: Update too small, skipping attack")
             return
 
         # convert to numpy for FakerAttack
-        local_np = w_local.cpu().numpy()
+        update_np = w_update.cpu().numpy()
+
+        # for Krum with updates:
+        # - local_model = update delta
+        # - global_model = zeros (reference point for updates)
+        # - dist_budget = ||0- Δ|| = ||delta|| (the update norm)
+        # - constraint: ||(α-1)*delta|| < ||delta|| means |alpha-1| < 1, so alpha ∈ (0, 2)
+        zeros_np = np.zeros_like(update_np)
 
         # get attack params
         num_groups = self.attack_params.get('num_groups', 10)
 
-        # create  Faker Attack instance with the local update
+        # create faker attack instance with updates
         faker = FakerAttack(
-            local_model=local_np,
+            local_model=update_np,
             defense_type='krum',
-            num_groups=num_groups
+            num_groups=num_groups,
+            global_model=zeros_np
         )
 
-        # gen poisoned model via scipy optimization
-        poisoned_np, alpha_opt, metrics = faker.generate_poisoned_model(use_grouping=True)
+        # gen poisoned update via scipy optimization
+        poisoned_update_np, alpha_opt, metrics = faker.generate_poisoned_model(use_grouping=True)
 
         # convert back to torch
-        poisoned_update = torch.from_numpy(poisoned_np).float().to(device)
+        poisoned_update = torch.from_numpy(poisoned_update_np).float().to(device)
 
         print(f"[DEBUG] Client {self.client_id}: Optimization success = {metrics.get('success', False)}")
-        print(f"[DEBUG] Client {self.client_id}: Similarity si = {metrics.get('similarity', 0):.4f}")
-        print(f"[DEBUG] Client {self.client_id}: Difference Δi = {metrics.get('difference', 0):.4f}")
-        print(f"[DEBUG] Client {self.client_id}: Objective f(α) = {metrics.get('objective', 0):.4f}")
+        print(f"[DEBUG] Client {self.client_id}: Update norm ||delta|| = {update_norm:.4f}")
+        print(f"[DEBUG] Client {self.client_id}: Euclidean dist ||(α-1)*delta|| = {metrics.get('euclidean_distance', 0):.4f}")
+        print(f"[DEBUG] Client {self.client_id}: Difference deltai = {metrics.get('difference', 0):.4f}")
 
-        # apply to model: global + poisoned_update
+        # Verify constraint
+        actual_dist = metrics.get('euclidean_distance', 0)
+        print(f"[DEBUG] Client {self.client_id}: Constraint ||(alpha-1)*delta|| < ||delta||: {actual_dist:.4f} < {update_norm:.4f} = {actual_dist < update_norm}")
+
+        # apply poisoned update to model: w_global + poisoned_update
         global_flat = torch.cat([self.reference_state_dict[name].flatten().to(device)
                                  for name in param_names])
         poisoned_flat = global_flat + poisoned_update

@@ -16,13 +16,14 @@ class SPP(SimilarityBasedDefense):
     4. Evaluate similarity: Calculate similarity S(ṽi, vr) on partial vectors
     5. Filter/Aggregate: Discard models that fail the partial similarity test
 
+
     """
 
     def __init__(self, defense_params=None):
         super().__init__(defense_params)
         self.selection_ratio = defense_params.get('selection_ratio', 0.5)  # J/2 as per paper
         self.current_round = 0
-        self.cosine_threshold = defense_params.get('cosine_threshold', 0.0)
+        self.cosine_threshold = defense_params.get('cosine_threshold', 0.9)
 
         print(f"[SPP INIT] cosine_threshold = {self.cosine_threshold}")
         print(f"[SPP INIT] selection_ratio = {self.selection_ratio}")
