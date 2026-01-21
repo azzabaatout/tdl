@@ -1,0 +1,45 @@
+{
+  "experiment_name": "fltrust_la",
+  "random_seed": 42,
+  "dataset": {
+    "type": "cifar",
+    "data_dir": "./data",
+    "num_classes": 10,
+    "partition_type": "iid"
+  },
+  "model": {
+    "type": "lenet",
+    "num_classes": 10
+  },
+  "federated_learning": {
+    "num_rounds": 30,
+    "num_clients": 100,
+    "client_participation_rate": 0.1,
+    "learning_rate": 0.01,
+    "local_epochs": 2,
+    "batch_size": 32
+  },
+  "server": {
+    "data_size": 500
+  },
+  "attack": {
+    "type": "la",
+    "num_malicious_clients": 20,
+    "params": {
+      "target_norm_ratio": 10.0,
+      "max_iterations": 100
+    }
+  },
+  "defense": {
+    "type": "fltrust",
+    "params": {
+      "server_epochs": 5,
+      "server_lr": 0.01,
+      "cosine_threshold": 0.0,
+      "use_relu": true,
+      "clip_updates": true,
+      "use_statistical_filtering": true,
+      "std_threshold": 1.5
+    }
+  }
+}

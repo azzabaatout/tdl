@@ -1,0 +1,657 @@
+{
+  "1": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        69,
+        28,
+        75,
+        35
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.996073722839355,
+        "euclidean_distance": 89.64768981933594,
+        "cosine_similarity": -0.004224515054374933,
+        "correlation": -0.004223846364766359,
+        "l2_norm1": 89.16511535644531,
+        "l2_norm2": 8.920013427734375
+      },
+      "timestamp": "2026-01-21T12:24:36.614910"
+    }
+  ],
+  "2": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        54,
+        35,
+        27,
+        13
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.989749908447266,
+        "euclidean_distance": 89.70611572265625,
+        "cosine_similarity": -0.008744855411350727,
+        "correlation": -0.008739227429032326,
+        "l2_norm1": 89.18274688720703,
+        "l2_norm2": 8.927425384521484
+      },
+      "timestamp": "2026-01-21T12:25:04.964006"
+    }
+  ],
+  "3": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        11,
+        77
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": 9.996886253356934,
+        "euclidean_distance": 89.80313873291016,
+        "cosine_similarity": -0.000466268538730219,
+        "correlation": -0.000469640624942258,
+        "l2_norm1": 89.35306549072266,
+        "l2_norm2": 8.938089370727539
+      },
+      "timestamp": "2026-01-21T12:25:31.702128"
+    }
+  ],
+  "5": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        29
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.990761756896973,
+        "euclidean_distance": 90.41956329345703,
+        "cosine_similarity": 0.0005793421878479421,
+        "correlation": 0.0005220972234383225,
+        "l2_norm1": 89.97518920898438,
+        "l2_norm2": 9.005838394165039
+      },
+      "timestamp": "2026-01-21T12:26:25.597857"
+    }
+  ],
+  "6": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        35,
+        81
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": 9.972678184509277,
+        "euclidean_distance": 90.65019226074219,
+        "cosine_similarity": 0.00029548193560913205,
+        "correlation": 0.0002848106960300356,
+        "l2_norm1": 90.20050048828125,
+        "l2_norm2": 9.044761657714844
+      },
+      "timestamp": "2026-01-21T12:26:49.929724"
+    }
+  ],
+  "7": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        77,
+        81
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.010083198547363,
+        "euclidean_distance": 91.00177764892578,
+        "cosine_similarity": 0.002412564354017377,
+        "correlation": 0.0023741782642900944,
+        "l2_norm1": 90.57270812988281,
+        "l2_norm2": 9.048147201538086
+      },
+      "timestamp": "2026-01-21T12:27:15.373605"
+    }
+  ],
+  "8": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        31,
+        81,
+        71,
+        28
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.962855339050293,
+        "euclidean_distance": 91.19078826904297,
+        "cosine_similarity": 0.010976041667163372,
+        "correlation": 0.01102579478174448,
+        "l2_norm1": 90.8340072631836,
+        "l2_norm2": 9.117266654968262
+      },
+      "timestamp": "2026-01-21T12:27:42.049825"
+    }
+  ],
+  "9": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        29,
+        4
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.0121431350708,
+        "euclidean_distance": 91.630615234375,
+        "cosine_similarity": -0.004293461795896292,
+        "correlation": -0.004344247281551361,
+        "l2_norm1": 91.13826751708984,
+        "l2_norm2": 9.10277271270752
+      },
+      "timestamp": "2026-01-21T12:28:06.862958"
+    }
+  ],
+  "10": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        27
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.99665641784668,
+        "euclidean_distance": 91.76663970947266,
+        "cosine_similarity": 0.0012825087178498507,
+        "correlation": 0.0012915019178763032,
+        "l2_norm1": 91.32255554199219,
+        "l2_norm2": 9.135310173034668
+      },
+      "timestamp": "2026-01-21T12:28:36.004726"
+    }
+  ],
+  "11": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        17,
+        31,
+        71,
+        54
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.996397018432617,
+        "euclidean_distance": 91.90885162353516,
+        "cosine_similarity": 0.0007714256644248962,
+        "correlation": 0.0007563596591353416,
+        "l2_norm1": 91.45940399169922,
+        "l2_norm2": 9.149236679077148
+      },
+      "timestamp": "2026-01-21T12:29:02.070101"
+    }
+  ],
+  "12": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        28,
+        17,
+        11,
+        14
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.995634078979492,
+        "euclidean_distance": 92.45391082763672,
+        "cosine_similarity": 0.0074631888419389725,
+        "correlation": 0.007356367539614439,
+        "l2_norm1": 92.06275177001953,
+        "l2_norm2": 9.210296630859375
+      },
+      "timestamp": "2026-01-21T12:29:28.148531"
+    }
+  ],
+  "13": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        54
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.018768310546875,
+        "euclidean_distance": 93.24795532226562,
+        "cosine_similarity": -0.012129509821534157,
+        "correlation": -0.012138539925217628,
+        "l2_norm1": 92.67589569091797,
+        "l2_norm2": 9.250228881835938
+      },
+      "timestamp": "2026-01-21T12:29:54.980171"
+    }
+  ],
+  "14": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        14
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.985069274902344,
+        "euclidean_distance": 92.95594787597656,
+        "cosine_similarity": 0.01734021306037903,
+        "correlation": 0.017283575609326363,
+        "l2_norm1": 92.65274810791016,
+        "l2_norm2": 9.279129028320312
+      },
+      "timestamp": "2026-01-21T12:30:19.863832"
+    }
+  ],
+  "15": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        14,
+        64
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.024415969848633,
+        "euclidean_distance": 93.55329132080078,
+        "cosine_similarity": -0.00402222853153944,
+        "correlation": -0.0040651909075677395,
+        "l2_norm1": 93.05430603027344,
+        "l2_norm2": 9.28276538848877
+      },
+      "timestamp": "2026-01-21T12:30:45.315072"
+    }
+  ],
+  "16": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        64,
+        13,
+        81,
+        77
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.010637283325195,
+        "euclidean_distance": 93.55840301513672,
+        "cosine_similarity": 0.011627625674009323,
+        "correlation": 0.011620680801570415,
+        "l2_norm1": 93.20232391357422,
+        "l2_norm2": 9.310328483581543
+      },
+      "timestamp": "2026-01-21T12:31:13.845711"
+    }
+  ],
+  "17": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        69
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.9672212600708,
+        "euclidean_distance": 93.89248657226562,
+        "cosine_similarity": 0.0016497769393026829,
+        "correlation": 0.0016380997840315104,
+        "l2_norm1": 93.43878173828125,
+        "l2_norm2": 9.37460708618164
+      },
+      "timestamp": "2026-01-21T12:31:40.266701"
+    }
+  ],
+  "18": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        14
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.025657653808594,
+        "euclidean_distance": 94.55452728271484,
+        "cosine_similarity": -0.00830154586583376,
+        "correlation": -0.008325573988258839,
+        "l2_norm1": 94.0106201171875,
+        "l2_norm2": 9.377002716064453
+      },
+      "timestamp": "2026-01-21T12:32:05.250141"
+    }
+  ],
+  "20": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        77,
+        54,
+        27,
+        69
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.987263679504395,
+        "euclidean_distance": 94.94095611572266,
+        "cosine_similarity": 0.004350144881755114,
+        "correlation": 0.004335646517574787,
+        "l2_norm1": 94.50933837890625,
+        "l2_norm2": 9.46298599243164
+      },
+      "timestamp": "2026-01-21T12:32:59.093800"
+    }
+  ],
+  "21": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        31
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.020994186401367,
+        "euclidean_distance": 95.50464630126953,
+        "cosine_similarity": 0.006047834642231464,
+        "correlation": 0.006048546638339758,
+        "l2_norm1": 95.08948516845703,
+        "l2_norm2": 9.48902702331543
+      },
+      "timestamp": "2026-01-21T12:33:25.027688"
+    }
+  ],
+  "22": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        28,
+        75,
+        29
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": true,
+      "similarity_metrics": {
+        "l2_ratio": 9.974395751953125,
+        "euclidean_distance": 95.60995483398438,
+        "cosine_similarity": 0.007950909435749054,
+        "correlation": 0.00800558552145958,
+        "l2_norm1": 95.20816802978516,
+        "l2_norm2": 9.545256614685059
+      },
+      "timestamp": "2026-01-21T12:33:50.804671"
+    }
+  ],
+  "23": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        29,
+        4,
+        35
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.98867416381836,
+        "euclidean_distance": 96.3559799194336,
+        "cosine_similarity": -0.010699573904275894,
+        "correlation": -0.01071250718086958,
+        "l2_norm1": 95.77519989013672,
+        "l2_norm2": 9.588379859924316
+      },
+      "timestamp": "2026-01-21T12:34:19.431938"
+    }
+  ],
+  "24": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        27,
+        69,
+        31
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.983870506286621,
+        "euclidean_distance": 96.01806640625,
+        "cosine_similarity": 0.012475702911615372,
+        "correlation": 0.012476641684770584,
+        "l2_norm1": 95.65843200683594,
+        "l2_norm2": 9.581296920776367
+      },
+      "timestamp": "2026-01-21T12:34:45.402930"
+    }
+  ],
+  "25": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        54
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.006199836730957,
+        "euclidean_distance": 96.66096496582031,
+        "cosine_similarity": 0.0045669060200452805,
+        "correlation": 0.004562208894640207,
+        "l2_norm1": 96.22533416748047,
+        "l2_norm2": 9.616571426391602
+      },
+      "timestamp": "2026-01-21T12:35:10.324205"
+    }
+  ],
+  "26": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        86,
+        13,
+        31
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.967041015625,
+        "euclidean_distance": 96.78131103515625,
+        "cosine_similarity": -0.0020670033991336823,
+        "correlation": -0.0020720581524074078,
+        "l2_norm1": 96.2780532836914,
+        "l2_norm2": 9.659642219543457
+      },
+      "timestamp": "2026-01-21T12:35:37.084757"
+    }
+  ],
+  "27": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        17,
+        54,
+        35,
+        31
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.99345588684082,
+        "euclidean_distance": 97.20854187011719,
+        "cosine_similarity": 0.003348143305629492,
+        "correlation": 0.0033491812646389008,
+        "l2_norm1": 96.75761413574219,
+        "l2_norm2": 9.682097434997559
+      },
+      "timestamp": "2026-01-21T12:36:03.401597"
+    }
+  ],
+  "28": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        69,
+        11
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.003520965576172,
+        "euclidean_distance": 97.64022064208984,
+        "cosine_similarity": -0.004068366251885891,
+        "correlation": -0.004065438639372587,
+        "l2_norm1": 97.11688995361328,
+        "l2_norm2": 9.708271026611328
+      },
+      "timestamp": "2026-01-21T12:36:31.372631"
+    }
+  ],
+  "29": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        27
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 9.98161792755127,
+        "euclidean_distance": 97.7352294921875,
+        "cosine_similarity": -0.0036083972081542015,
+        "correlation": -0.003588051302358508,
+        "l2_norm1": 97.21361541748047,
+        "l2_norm2": 9.739264488220215
+      },
+      "timestamp": "2026-01-21T12:36:58.645447"
+    }
+  ],
+  "30": [
+    {
+      "attack_type": "la",
+      "attacker_ids": [
+        54,
+        71
+      ],
+      "attack_params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      },
+      "attack_success": false,
+      "similarity_metrics": {
+        "l2_ratio": 10.047073364257812,
+        "euclidean_distance": 98.51766204833984,
+        "cosine_similarity": -0.016992289572954178,
+        "correlation": -0.016983317211270332,
+        "l2_norm1": 97.8695068359375,
+        "l2_norm2": 9.741096496582031
+      },
+      "timestamp": "2026-01-21T12:37:24.831454"
+    }
+  ]
+}

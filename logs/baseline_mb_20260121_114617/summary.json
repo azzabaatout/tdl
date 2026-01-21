@@ -1,0 +1,50 @@
+{
+  "experiment_name": "baseline_mb",
+  "experiment_config": {
+    "experiment_name": "baseline_mb",
+    "random_seed": 42,
+    "dataset": {
+      "type": "cifar",
+      "data_dir": "./data",
+      "num_classes": 10,
+      "partition_type": "iid"
+    },
+    "model": {
+      "type": "lenet",
+      "num_classes": 10
+    },
+    "federated_learning": {
+      "num_rounds": 30,
+      "num_clients": 100,
+      "client_participation_rate": 0.1,
+      "learning_rate": 0.01,
+      "local_epochs": 2,
+      "batch_size": 32
+    },
+    "server": {
+      "data_size": 100
+    },
+    "attack": {
+      "type": "mb",
+      "num_malicious_clients": 20,
+      "params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      }
+    },
+    "defense": {
+      "type": "none"
+    }
+  },
+  "experiment_dir": "logs/baseline_mb_20260121_114617",
+  "total_rounds": 30,
+  "total_clients": 97,
+  "total_attack_rounds": 28,
+  "total_defense_rounds": 0,
+  "final_timestamp": "2026-01-21T11:58:11.413431",
+  "final_accuracy": 10.0,
+  "final_loss": NaN,
+  "final_test_accuracy": 10.0,
+  "final_test_loss": NaN
+}

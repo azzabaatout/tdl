@@ -1,0 +1,59 @@
+{
+  "experiment_name": "fltrust_mb",
+  "experiment_config": {
+    "experiment_name": "fltrust_mb",
+    "random_seed": 42,
+    "dataset": {
+      "type": "cifar",
+      "data_dir": "./data",
+      "num_classes": 10,
+      "partition_type": "iid"
+    },
+    "model": {
+      "type": "lenet",
+      "num_classes": 10
+    },
+    "federated_learning": {
+      "num_rounds": 30,
+      "num_clients": 100,
+      "client_participation_rate": 0.1,
+      "learning_rate": 0.01,
+      "local_epochs": 2,
+      "batch_size": 32
+    },
+    "server": {
+      "data_size": 500
+    },
+    "attack": {
+      "type": "mb",
+      "num_malicious_clients": 20,
+      "params": {
+        "scaling_min": -100.0,
+        "scaling_max": 100.0,
+        "num_steps": 200
+      }
+    },
+    "defense": {
+      "type": "fltrust",
+      "params": {
+        "server_epochs": 5,
+        "server_lr": 0.01,
+        "cosine_threshold": 0.0,
+        "use_relu": true,
+        "clip_updates": true,
+        "use_statistical_filtering": true,
+        "std_threshold": 1.5
+      }
+    }
+  },
+  "experiment_dir": "logs/fltrust_mb_20260121_123742",
+  "total_rounds": 30,
+  "total_clients": 97,
+  "total_attack_rounds": 28,
+  "total_defense_rounds": 30,
+  "final_timestamp": "2026-01-21T12:51:19.343031",
+  "final_accuracy": 42.34,
+  "final_loss": 1.5899556738119156,
+  "final_test_accuracy": 42.34,
+  "final_test_loss": 1.5899556738119156
+}

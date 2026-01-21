@@ -1,0 +1,300 @@
+2026-01-21 11:58:45,136 - FL_Client_baseline_faker - INFO - Client 25 - Round 1: Acc=0.0000, Loss=2.2974, Epochs=2
+2026-01-21 11:58:46,813 - FL_Client_baseline_faker - INFO - Client 91 - Round 1: Acc=0.0000, Loss=2.2988, Epochs=2
+2026-01-21 11:58:48,224 - FL_Client_baseline_faker - INFO - Client 83 - Round 1: Acc=0.0000, Loss=2.2998, Epochs=2
+2026-01-21 11:58:49,583 - FL_Client_baseline_faker - INFO - Client 89 - Round 1: Acc=0.0000, Loss=2.2962, Epochs=2
+2026-01-21 11:58:50,933 - FL_Client_baseline_faker - INFO - Client 69 - Round 1: Acc=0.0000, Loss=2.3012, Epochs=2 [MALICIOUS]
+2026-01-21 11:58:52,238 - FL_Client_baseline_faker - INFO - Client 53 - Round 1: Acc=0.0000, Loss=2.3005, Epochs=2
+2026-01-21 11:58:53,431 - FL_Client_baseline_faker - INFO - Client 28 - Round 1: Acc=0.0000, Loss=2.2974, Epochs=2 [MALICIOUS]
+2026-01-21 11:58:54,600 - FL_Client_baseline_faker - INFO - Client 57 - Round 1: Acc=0.0000, Loss=2.3020, Epochs=2
+2026-01-21 11:58:55,879 - FL_Client_baseline_faker - INFO - Client 75 - Round 1: Acc=0.0000, Loss=2.2993, Epochs=2 [MALICIOUS]
+2026-01-21 11:58:57,138 - FL_Client_baseline_faker - INFO - Client 35 - Round 1: Acc=0.0000, Loss=2.2982, Epochs=2 [MALICIOUS]
+2026-01-21 11:59:07,430 - FL_Client_baseline_faker - INFO - Client 0 - Round 2: Acc=0.0000, Loss=2.3088, Epochs=2
+2026-01-21 11:59:08,880 - FL_Client_baseline_faker - INFO - Client 97 - Round 2: Acc=0.0000, Loss=2.3003, Epochs=2
+2026-01-21 11:59:10,504 - FL_Client_baseline_faker - INFO - Client 20 - Round 2: Acc=0.0000, Loss=2.3104, Epochs=2
+2026-01-21 11:59:12,109 - FL_Client_baseline_faker - INFO - Client 89 - Round 2: Acc=0.0000, Loss=2.2988, Epochs=2
+2026-01-21 11:59:13,750 - FL_Client_baseline_faker - INFO - Client 54 - Round 2: Acc=0.0000, Loss=2.3042, Epochs=2 [MALICIOUS]
+2026-01-21 11:59:15,379 - FL_Client_baseline_faker - INFO - Client 43 - Round 2: Acc=0.0000, Loss=2.3020, Epochs=2
+2026-01-21 11:59:17,036 - FL_Client_baseline_faker - INFO - Client 35 - Round 2: Acc=0.0000, Loss=2.3066, Epochs=2 [MALICIOUS]
+2026-01-21 11:59:18,550 - FL_Client_baseline_faker - INFO - Client 19 - Round 2: Acc=0.0000, Loss=2.3057, Epochs=2
+2026-01-21 11:59:19,839 - FL_Client_baseline_faker - INFO - Client 27 - Round 2: Acc=0.0000, Loss=2.3002, Epochs=2 [MALICIOUS]
+2026-01-21 11:59:21,141 - FL_Client_baseline_faker - INFO - Client 13 - Round 2: Acc=0.0000, Loss=2.2997, Epochs=2 [MALICIOUS]
+2026-01-21 11:59:28,459 - FL_Client_baseline_faker - INFO - Client 11 - Round 3: Acc=0.0000, Loss=2.3184, Epochs=2 [MALICIOUS]
+2026-01-21 11:59:30,144 - FL_Client_baseline_faker - INFO - Client 48 - Round 3: Acc=0.0000, Loss=2.3216, Epochs=2
+2026-01-21 11:59:31,820 - FL_Client_baseline_faker - INFO - Client 12 - Round 3: Acc=0.0000, Loss=2.3133, Epochs=2
+2026-01-21 11:59:33,444 - FL_Client_baseline_faker - INFO - Client 45 - Round 3: Acc=0.0000, Loss=2.3212, Epochs=2
+2026-01-21 11:59:34,809 - FL_Client_baseline_faker - INFO - Client 44 - Round 3: Acc=0.0000, Loss=2.3150, Epochs=2
+2026-01-21 11:59:36,314 - FL_Client_baseline_faker - INFO - Client 77 - Round 3: Acc=0.0000, Loss=2.3235, Epochs=2 [MALICIOUS]
+2026-01-21 11:59:37,740 - FL_Client_baseline_faker - INFO - Client 33 - Round 3: Acc=0.0000, Loss=2.3197, Epochs=2
+2026-01-21 11:59:39,262 - FL_Client_baseline_faker - INFO - Client 5 - Round 3: Acc=0.0000, Loss=2.3134, Epochs=2
+2026-01-21 11:59:40,870 - FL_Client_baseline_faker - INFO - Client 93 - Round 3: Acc=0.0000, Loss=2.3225, Epochs=2
+2026-01-21 11:59:42,206 - FL_Client_baseline_faker - INFO - Client 58 - Round 3: Acc=0.0000, Loss=2.3189, Epochs=2
+2026-01-21 11:59:51,677 - FL_Client_baseline_faker - INFO - Client 68 - Round 4: Acc=0.0000, Loss=2.3275, Epochs=2
+2026-01-21 11:59:52,802 - FL_Client_baseline_faker - INFO - Client 15 - Round 4: Acc=0.0000, Loss=2.3239, Epochs=2
+2026-01-21 11:59:54,235 - FL_Client_baseline_faker - INFO - Client 48 - Round 4: Acc=0.0000, Loss=2.3312, Epochs=2
+2026-01-21 11:59:55,790 - FL_Client_baseline_faker - INFO - Client 10 - Round 4: Acc=0.0000, Loss=2.3312, Epochs=2
+2026-01-21 11:59:56,993 - FL_Client_baseline_faker - INFO - Client 70 - Round 4: Acc=0.0000, Loss=2.3352, Epochs=2
+2026-01-21 11:59:58,218 - FL_Client_baseline_faker - INFO - Client 37 - Round 4: Acc=0.0000, Loss=2.3341, Epochs=2
+2026-01-21 11:59:59,531 - FL_Client_baseline_faker - INFO - Client 80 - Round 4: Acc=0.0000, Loss=2.3350, Epochs=2
+2026-01-21 12:00:00,832 - FL_Client_baseline_faker - INFO - Client 79 - Round 4: Acc=0.0000, Loss=2.3325, Epochs=2
+2026-01-21 12:00:02,160 - FL_Client_baseline_faker - INFO - Client 46 - Round 4: Acc=0.0000, Loss=2.3364, Epochs=2
+2026-01-21 12:00:03,574 - FL_Client_baseline_faker - INFO - Client 73 - Round 4: Acc=0.0000, Loss=2.3369, Epochs=2
+2026-01-21 12:00:12,695 - FL_Client_baseline_faker - INFO - Client 24 - Round 5: Acc=0.0000, Loss=2.3032, Epochs=2
+2026-01-21 12:00:14,256 - FL_Client_baseline_faker - INFO - Client 90 - Round 5: Acc=0.0000, Loss=2.3033, Epochs=2
+2026-01-21 12:00:15,932 - FL_Client_baseline_faker - INFO - Client 8 - Round 5: Acc=0.0000, Loss=2.3048, Epochs=2
+2026-01-21 12:00:17,464 - FL_Client_baseline_faker - INFO - Client 5 - Round 5: Acc=0.0000, Loss=2.2974, Epochs=2
+2026-01-21 12:00:18,918 - FL_Client_baseline_faker - INFO - Client 84 - Round 5: Acc=0.0000, Loss=2.3027, Epochs=2
+2026-01-21 12:00:20,268 - FL_Client_baseline_faker - INFO - Client 29 - Round 5: Acc=0.0000, Loss=2.2995, Epochs=2 [MALICIOUS]
+2026-01-21 12:00:21,640 - FL_Client_baseline_faker - INFO - Client 98 - Round 5: Acc=0.0000, Loss=2.3018, Epochs=2
+2026-01-21 12:00:22,909 - FL_Client_baseline_faker - INFO - Client 37 - Round 5: Acc=0.0000, Loss=2.3011, Epochs=2
+2026-01-21 12:00:24,341 - FL_Client_baseline_faker - INFO - Client 10 - Round 5: Acc=0.0000, Loss=2.2975, Epochs=2
+2026-01-21 12:00:26,028 - FL_Client_baseline_faker - INFO - Client 12 - Round 5: Acc=0.0000, Loss=2.2987, Epochs=2
+2026-01-21 12:00:36,522 - FL_Client_baseline_faker - INFO - Client 48 - Round 6: Acc=0.0000, Loss=2.3001, Epochs=2
+2026-01-21 12:00:37,997 - FL_Client_baseline_faker - INFO - Client 35 - Round 6: Acc=0.0000, Loss=2.3021, Epochs=2 [MALICIOUS]
+2026-01-21 12:00:39,205 - FL_Client_baseline_faker - INFO - Client 58 - Round 6: Acc=0.0000, Loss=2.3010, Epochs=2
+2026-01-21 12:00:40,400 - FL_Client_baseline_faker - INFO - Client 81 - Round 6: Acc=0.0000, Loss=2.2994, Epochs=2 [MALICIOUS]
+2026-01-21 12:00:41,672 - FL_Client_baseline_faker - INFO - Client 46 - Round 6: Acc=0.0000, Loss=2.2987, Epochs=2
+2026-01-21 12:00:42,913 - FL_Client_baseline_faker - INFO - Client 20 - Round 6: Acc=0.0000, Loss=2.3001, Epochs=2
+2026-01-21 12:00:44,248 - FL_Client_baseline_faker - INFO - Client 47 - Round 6: Acc=0.0000, Loss=2.3027, Epochs=2
+2026-01-21 12:00:45,736 - FL_Client_baseline_faker - INFO - Client 45 - Round 6: Acc=0.0000, Loss=2.3025, Epochs=2
+2026-01-21 12:00:47,325 - FL_Client_baseline_faker - INFO - Client 26 - Round 6: Acc=0.0000, Loss=2.3041, Epochs=2
+2026-01-21 12:00:48,958 - FL_Client_baseline_faker - INFO - Client 85 - Round 6: Acc=0.0000, Loss=2.2977, Epochs=2
+2026-01-21 12:01:00,314 - FL_Client_baseline_faker - INFO - Client 34 - Round 7: Acc=0.0000, Loss=2.3037, Epochs=2
+2026-01-21 12:01:02,040 - FL_Client_baseline_faker - INFO - Client 89 - Round 7: Acc=0.0000, Loss=2.2983, Epochs=2
+2026-01-21 12:01:03,768 - FL_Client_baseline_faker - INFO - Client 87 - Round 7: Acc=0.0000, Loss=2.3033, Epochs=2
+2026-01-21 12:01:05,441 - FL_Client_baseline_faker - INFO - Client 82 - Round 7: Acc=0.0000, Loss=2.3018, Epochs=2
+2026-01-21 12:01:07,084 - FL_Client_baseline_faker - INFO - Client 9 - Round 7: Acc=0.0000, Loss=2.3029, Epochs=2
+2026-01-21 12:01:08,559 - FL_Client_baseline_faker - INFO - Client 77 - Round 7: Acc=0.0000, Loss=2.3040, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:09,898 - FL_Client_baseline_faker - INFO - Client 81 - Round 7: Acc=0.0000, Loss=2.3006, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:11,031 - FL_Client_baseline_faker - INFO - Client 21 - Round 7: Acc=0.0000, Loss=2.3009, Epochs=2
+2026-01-21 12:01:12,159 - FL_Client_baseline_faker - INFO - Client 68 - Round 7: Acc=0.0000, Loss=2.2998, Epochs=2
+2026-01-21 12:01:13,303 - FL_Client_baseline_faker - INFO - Client 93 - Round 7: Acc=0.0000, Loss=2.3027, Epochs=2
+2026-01-21 12:01:23,198 - FL_Client_baseline_faker - INFO - Client 31 - Round 8: Acc=0.0000, Loss=2.3095, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:24,477 - FL_Client_baseline_faker - INFO - Client 20 - Round 8: Acc=0.0000, Loss=2.3041, Epochs=2
+2026-01-21 12:01:26,148 - FL_Client_baseline_faker - INFO - Client 59 - Round 8: Acc=0.0000, Loss=2.3063, Epochs=2
+2026-01-21 12:01:27,708 - FL_Client_baseline_faker - INFO - Client 48 - Round 8: Acc=0.0000, Loss=2.3035, Epochs=2
+2026-01-21 12:01:29,316 - FL_Client_baseline_faker - INFO - Client 34 - Round 8: Acc=0.0000, Loss=2.3060, Epochs=2
+2026-01-21 12:01:31,037 - FL_Client_baseline_faker - INFO - Client 81 - Round 8: Acc=0.0000, Loss=2.3088, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:32,747 - FL_Client_baseline_faker - INFO - Client 88 - Round 8: Acc=0.0000, Loss=2.3081, Epochs=2
+2026-01-21 12:01:34,466 - FL_Client_baseline_faker - INFO - Client 71 - Round 8: Acc=0.0000, Loss=2.3081, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:36,180 - FL_Client_baseline_faker - INFO - Client 28 - Round 8: Acc=0.0000, Loss=2.3080, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:37,608 - FL_Client_baseline_faker - INFO - Client 87 - Round 8: Acc=0.0000, Loss=2.3049, Epochs=2
+2026-01-21 12:01:46,254 - FL_Client_baseline_faker - INFO - Client 41 - Round 9: Acc=0.0000, Loss=2.3144, Epochs=2
+2026-01-21 12:01:47,821 - FL_Client_baseline_faker - INFO - Client 98 - Round 9: Acc=0.0000, Loss=2.3168, Epochs=2
+2026-01-21 12:01:49,425 - FL_Client_baseline_faker - INFO - Client 99 - Round 9: Acc=0.0000, Loss=2.3154, Epochs=2
+2026-01-21 12:01:50,882 - FL_Client_baseline_faker - INFO - Client 7 - Round 9: Acc=0.0000, Loss=2.3208, Epochs=2
+2026-01-21 12:01:52,113 - FL_Client_baseline_faker - INFO - Client 29 - Round 9: Acc=0.0000, Loss=2.3088, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:53,475 - FL_Client_baseline_faker - INFO - Client 4 - Round 9: Acc=0.0000, Loss=2.3122, Epochs=2 [MALICIOUS]
+2026-01-21 12:01:54,797 - FL_Client_baseline_faker - INFO - Client 40 - Round 9: Acc=0.0000, Loss=2.3051, Epochs=2
+2026-01-21 12:01:56,142 - FL_Client_baseline_faker - INFO - Client 51 - Round 9: Acc=0.0000, Loss=2.3188, Epochs=2
+2026-01-21 12:01:57,462 - FL_Client_baseline_faker - INFO - Client 34 - Round 9: Acc=0.0000, Loss=2.3157, Epochs=2
+2026-01-21 12:01:59,114 - FL_Client_baseline_faker - INFO - Client 8 - Round 9: Acc=0.0000, Loss=2.3089, Epochs=2
+2026-01-21 12:02:09,201 - FL_Client_baseline_faker - INFO - Client 27 - Round 10: Acc=0.0000, Loss=2.3077, Epochs=2 [MALICIOUS]
+2026-01-21 12:02:10,914 - FL_Client_baseline_faker - INFO - Client 72 - Round 10: Acc=0.0000, Loss=2.3254, Epochs=2
+2026-01-21 12:02:12,549 - FL_Client_baseline_faker - INFO - Client 91 - Round 10: Acc=0.0000, Loss=2.3070, Epochs=2
+2026-01-21 12:02:13,989 - FL_Client_baseline_faker - INFO - Client 40 - Round 10: Acc=0.0000, Loss=2.3042, Epochs=2
+2026-01-21 12:02:15,406 - FL_Client_baseline_faker - INFO - Client 83 - Round 10: Acc=0.0000, Loss=2.3043, Epochs=2
+2026-01-21 12:02:17,151 - FL_Client_baseline_faker - INFO - Client 63 - Round 10: Acc=0.0000, Loss=2.3175, Epochs=2
+2026-01-21 12:02:19,042 - FL_Client_baseline_faker - INFO - Client 50 - Round 10: Acc=0.0000, Loss=2.3177, Epochs=2
+2026-01-21 12:02:20,730 - FL_Client_baseline_faker - INFO - Client 82 - Round 10: Acc=0.0000, Loss=2.3058, Epochs=2
+2026-01-21 12:02:22,341 - FL_Client_baseline_faker - INFO - Client 58 - Round 10: Acc=0.0000, Loss=2.3111, Epochs=2
+2026-01-21 12:02:24,030 - FL_Client_baseline_faker - INFO - Client 18 - Round 10: Acc=0.0000, Loss=2.3131, Epochs=2
+2026-01-21 12:02:34,872 - FL_Client_baseline_faker - INFO - Client 33 - Round 11: Acc=0.0000, Loss=2.3052, Epochs=2
+2026-01-21 12:02:36,538 - FL_Client_baseline_faker - INFO - Client 17 - Round 11: Acc=0.0000, Loss=2.3120, Epochs=2 [MALICIOUS]
+2026-01-21 12:02:38,140 - FL_Client_baseline_faker - INFO - Client 31 - Round 11: Acc=0.0000, Loss=2.3149, Epochs=2 [MALICIOUS]
+2026-01-21 12:02:39,811 - FL_Client_baseline_faker - INFO - Client 95 - Round 11: Acc=0.0000, Loss=2.2967, Epochs=2
+2026-01-21 12:02:41,504 - FL_Client_baseline_faker - INFO - Client 71 - Round 11: Acc=0.0000, Loss=2.3166, Epochs=2 [MALICIOUS]
+2026-01-21 12:02:43,034 - FL_Client_baseline_faker - INFO - Client 68 - Round 11: Acc=0.0000, Loss=2.3088, Epochs=2
+2026-01-21 12:02:44,204 - FL_Client_baseline_faker - INFO - Client 74 - Round 11: Acc=0.0000, Loss=2.3093, Epochs=2
+2026-01-21 12:02:45,666 - FL_Client_baseline_faker - INFO - Client 54 - Round 11: Acc=0.0000, Loss=2.3164, Epochs=2 [MALICIOUS]
+2026-01-21 12:02:47,326 - FL_Client_baseline_faker - INFO - Client 51 - Round 11: Acc=0.0000, Loss=2.3138, Epochs=2
+2026-01-21 12:02:48,763 - FL_Client_baseline_faker - INFO - Client 46 - Round 11: Acc=0.0000, Loss=2.3085, Epochs=2
+2026-01-21 12:02:59,738 - FL_Client_baseline_faker - INFO - Client 28 - Round 12: Acc=0.0000, Loss=2.3372, Epochs=2 [MALICIOUS]
+2026-01-21 12:03:01,441 - FL_Client_baseline_faker - INFO - Client 17 - Round 12: Acc=0.0000, Loss=2.3271, Epochs=2 [MALICIOUS]
+2026-01-21 12:03:03,133 - FL_Client_baseline_faker - INFO - Client 65 - Round 12: Acc=0.0000, Loss=2.3292, Epochs=2
+2026-01-21 12:03:04,807 - FL_Client_baseline_faker - INFO - Client 63 - Round 12: Acc=0.0000, Loss=2.3314, Epochs=2
+2026-01-21 12:03:06,485 - FL_Client_baseline_faker - INFO - Client 11 - Round 12: Acc=0.0000, Loss=2.3425, Epochs=2 [MALICIOUS]
+2026-01-21 12:03:07,998 - FL_Client_baseline_faker - INFO - Client 96 - Round 12: Acc=0.0000, Loss=2.3302, Epochs=2
+2026-01-21 12:03:09,608 - FL_Client_baseline_faker - INFO - Client 6 - Round 12: Acc=0.0000, Loss=2.3309, Epochs=2
+2026-01-21 12:03:11,312 - FL_Client_baseline_faker - INFO - Client 14 - Round 12: Acc=0.0000, Loss=2.3309, Epochs=2 [MALICIOUS]
+2026-01-21 12:03:12,962 - FL_Client_baseline_faker - INFO - Client 19 - Round 12: Acc=0.0000, Loss=2.3343, Epochs=2
+2026-01-21 12:03:14,605 - FL_Client_baseline_faker - INFO - Client 80 - Round 12: Acc=0.0000, Loss=2.3339, Epochs=2
+2026-01-21 12:03:24,784 - FL_Client_baseline_faker - INFO - Client 20 - Round 13: Acc=0.0000, Loss=2.3835, Epochs=2
+2026-01-21 12:03:26,508 - FL_Client_baseline_faker - INFO - Client 87 - Round 13: Acc=0.0000, Loss=2.3819, Epochs=2
+2026-01-21 12:03:27,931 - FL_Client_baseline_faker - INFO - Client 54 - Round 13: Acc=0.0000, Loss=2.3818, Epochs=2 [MALICIOUS]
+2026-01-21 12:03:29,545 - FL_Client_baseline_faker - INFO - Client 76 - Round 13: Acc=0.0000, Loss=2.3807, Epochs=2
+2026-01-21 12:03:31,222 - FL_Client_baseline_faker - INFO - Client 8 - Round 13: Acc=0.0000, Loss=2.3656, Epochs=2
+2026-01-21 12:03:32,931 - FL_Client_baseline_faker - INFO - Client 49 - Round 13: Acc=0.0000, Loss=2.3950, Epochs=2
+2026-01-21 12:03:34,613 - FL_Client_baseline_faker - INFO - Client 48 - Round 13: Acc=0.0000, Loss=2.3668, Epochs=2
+2026-01-21 12:03:36,242 - FL_Client_baseline_faker - INFO - Client 59 - Round 13: Acc=0.0000, Loss=2.3712, Epochs=2
+2026-01-21 12:03:37,849 - FL_Client_baseline_faker - INFO - Client 67 - Round 13: Acc=0.0000, Loss=2.3613, Epochs=2
+2026-01-21 12:03:39,545 - FL_Client_baseline_faker - INFO - Client 32 - Round 13: Acc=0.0000, Loss=2.3821, Epochs=2
+2026-01-21 12:03:50,627 - FL_Client_baseline_faker - INFO - Client 70 - Round 14: Acc=0.0000, Loss=2.3558, Epochs=2
+2026-01-21 12:03:52,334 - FL_Client_baseline_faker - INFO - Client 1 - Round 14: Acc=0.0000, Loss=2.3428, Epochs=2
+2026-01-21 12:03:54,035 - FL_Client_baseline_faker - INFO - Client 87 - Round 14: Acc=0.0000, Loss=2.3464, Epochs=2
+2026-01-21 12:03:55,702 - FL_Client_baseline_faker - INFO - Client 92 - Round 14: Acc=0.0000, Loss=2.3468, Epochs=2
+2026-01-21 12:03:57,407 - FL_Client_baseline_faker - INFO - Client 14 - Round 14: Acc=0.0000, Loss=2.3473, Epochs=2 [MALICIOUS]
+2026-01-21 12:03:59,014 - FL_Client_baseline_faker - INFO - Client 68 - Round 14: Acc=0.0000, Loss=2.3413, Epochs=2
+2026-01-21 12:04:00,722 - FL_Client_baseline_faker - INFO - Client 96 - Round 14: Acc=0.0000, Loss=2.3467, Epochs=2
+2026-01-21 12:04:02,406 - FL_Client_baseline_faker - INFO - Client 34 - Round 14: Acc=0.0000, Loss=2.3505, Epochs=2
+2026-01-21 12:04:04,060 - FL_Client_baseline_faker - INFO - Client 98 - Round 14: Acc=0.0000, Loss=2.3551, Epochs=2
+2026-01-21 12:04:05,737 - FL_Client_baseline_faker - INFO - Client 82 - Round 14: Acc=0.0000, Loss=2.3314, Epochs=2
+2026-01-21 12:04:16,815 - FL_Client_baseline_faker - INFO - Client 43 - Round 15: Acc=0.0000, Loss=2.3413, Epochs=2
+2026-01-21 12:04:18,471 - FL_Client_baseline_faker - INFO - Client 14 - Round 15: Acc=0.0000, Loss=2.3347, Epochs=2 [MALICIOUS]
+2026-01-21 12:04:20,164 - FL_Client_baseline_faker - INFO - Client 37 - Round 15: Acc=0.0000, Loss=2.3270, Epochs=2
+2026-01-21 12:04:21,773 - FL_Client_baseline_faker - INFO - Client 55 - Round 15: Acc=0.0000, Loss=2.3255, Epochs=2
+2026-01-21 12:04:23,484 - FL_Client_baseline_faker - INFO - Client 20 - Round 15: Acc=0.0000, Loss=2.3430, Epochs=2
+2026-01-21 12:04:25,195 - FL_Client_baseline_faker - INFO - Client 58 - Round 15: Acc=0.0000, Loss=2.3288, Epochs=2
+2026-01-21 12:04:26,886 - FL_Client_baseline_faker - INFO - Client 0 - Round 15: Acc=0.0000, Loss=2.3407, Epochs=2
+2026-01-21 12:04:28,513 - FL_Client_baseline_faker - INFO - Client 92 - Round 15: Acc=0.0000, Loss=2.3294, Epochs=2
+2026-01-21 12:04:30,197 - FL_Client_baseline_faker - INFO - Client 33 - Round 15: Acc=0.0000, Loss=2.3249, Epochs=2
+2026-01-21 12:04:31,861 - FL_Client_baseline_faker - INFO - Client 64 - Round 15: Acc=0.0000, Loss=2.3351, Epochs=2 [MALICIOUS]
+2026-01-21 12:04:43,342 - FL_Client_baseline_faker - INFO - Client 97 - Round 16: Acc=0.0000, Loss=2.3251, Epochs=2
+2026-01-21 12:04:44,875 - FL_Client_baseline_faker - INFO - Client 22 - Round 16: Acc=0.0000, Loss=2.3521, Epochs=2
+2026-01-21 12:04:46,505 - FL_Client_baseline_faker - INFO - Client 64 - Round 16: Acc=0.0000, Loss=2.3375, Epochs=2 [MALICIOUS]
+2026-01-21 12:04:48,038 - FL_Client_baseline_faker - INFO - Client 13 - Round 16: Acc=0.0000, Loss=2.3325, Epochs=2 [MALICIOUS]
+2026-01-21 12:04:49,297 - FL_Client_baseline_faker - INFO - Client 80 - Round 16: Acc=0.0000, Loss=2.3470, Epochs=2
+2026-01-21 12:04:50,790 - FL_Client_baseline_faker - INFO - Client 38 - Round 16: Acc=0.0000, Loss=2.3466, Epochs=2
+2026-01-21 12:04:52,487 - FL_Client_baseline_faker - INFO - Client 81 - Round 16: Acc=0.0000, Loss=2.3638, Epochs=2 [MALICIOUS]
+2026-01-21 12:04:54,206 - FL_Client_baseline_faker - INFO - Client 77 - Round 16: Acc=0.0000, Loss=2.3757, Epochs=2 [MALICIOUS]
+2026-01-21 12:04:55,939 - FL_Client_baseline_faker - INFO - Client 25 - Round 16: Acc=0.0000, Loss=2.3426, Epochs=2
+2026-01-21 12:04:57,655 - FL_Client_baseline_faker - INFO - Client 19 - Round 16: Acc=0.0000, Loss=2.3456, Epochs=2
+2026-01-21 12:05:08,427 - FL_Client_baseline_faker - INFO - Client 47 - Round 17: Acc=0.0000, Loss=2.4240, Epochs=2
+2026-01-21 12:05:10,117 - FL_Client_baseline_faker - INFO - Client 97 - Round 17: Acc=0.0000, Loss=2.3763, Epochs=2
+2026-01-21 12:05:11,954 - FL_Client_baseline_faker - INFO - Client 20 - Round 17: Acc=0.0000, Loss=2.4187, Epochs=2
+2026-01-21 12:05:13,611 - FL_Client_baseline_faker - INFO - Client 69 - Round 17: Acc=0.0000, Loss=2.4197, Epochs=2 [MALICIOUS]
+2026-01-21 12:05:15,290 - FL_Client_baseline_faker - INFO - Client 99 - Round 17: Acc=0.0000, Loss=2.4095, Epochs=2
+2026-01-21 12:05:16,975 - FL_Client_baseline_faker - INFO - Client 67 - Round 17: Acc=0.0000, Loss=2.3812, Epochs=2
+2026-01-21 12:05:18,503 - FL_Client_baseline_faker - INFO - Client 0 - Round 17: Acc=0.0000, Loss=2.4068, Epochs=2
+2026-01-21 12:05:20,127 - FL_Client_baseline_faker - INFO - Client 76 - Round 17: Acc=0.0000, Loss=2.4070, Epochs=2
+2026-01-21 12:05:21,691 - FL_Client_baseline_faker - INFO - Client 41 - Round 17: Acc=0.0000, Loss=2.4154, Epochs=2
+2026-01-21 12:05:23,289 - FL_Client_baseline_faker - INFO - Client 62 - Round 17: Acc=0.0000, Loss=2.4009, Epochs=2
+2026-01-21 12:05:33,899 - FL_Client_baseline_faker - INFO - Client 2 - Round 18: Acc=0.0000, Loss=2.3730, Epochs=2
+2026-01-21 12:05:35,606 - FL_Client_baseline_faker - INFO - Client 14 - Round 18: Acc=0.0000, Loss=2.3743, Epochs=2 [MALICIOUS]
+2026-01-21 12:05:37,241 - FL_Client_baseline_faker - INFO - Client 46 - Round 18: Acc=0.0000, Loss=2.3611, Epochs=2
+2026-01-21 12:05:38,937 - FL_Client_baseline_faker - INFO - Client 39 - Round 18: Acc=0.0000, Loss=2.3909, Epochs=2
+2026-01-21 12:05:40,477 - FL_Client_baseline_faker - INFO - Client 30 - Round 18: Acc=0.0000, Loss=2.3654, Epochs=2
+2026-01-21 12:05:41,777 - FL_Client_baseline_faker - INFO - Client 7 - Round 18: Acc=0.0000, Loss=2.3887, Epochs=2
+2026-01-21 12:05:43,156 - FL_Client_baseline_faker - INFO - Client 72 - Round 18: Acc=0.0000, Loss=2.3884, Epochs=2
+2026-01-21 12:05:44,603 - FL_Client_baseline_faker - INFO - Client 10 - Round 18: Acc=0.0000, Loss=2.3759, Epochs=2
+2026-01-21 12:05:46,339 - FL_Client_baseline_faker - INFO - Client 93 - Round 18: Acc=0.0000, Loss=2.3862, Epochs=2
+2026-01-21 12:05:47,919 - FL_Client_baseline_faker - INFO - Client 62 - Round 18: Acc=0.0000, Loss=2.3535, Epochs=2
+2026-01-21 12:05:59,287 - FL_Client_baseline_faker - INFO - Client 8 - Round 19: Acc=0.0000, Loss=2.3418, Epochs=2
+2026-01-21 12:06:00,974 - FL_Client_baseline_faker - INFO - Client 97 - Round 19: Acc=0.0000, Loss=2.3293, Epochs=2
+2026-01-21 12:06:02,653 - FL_Client_baseline_faker - INFO - Client 68 - Round 19: Acc=0.0000, Loss=2.3417, Epochs=2
+2026-01-21 12:06:04,343 - FL_Client_baseline_faker - INFO - Client 98 - Round 19: Acc=0.0000, Loss=2.3577, Epochs=2
+2026-01-21 12:06:06,021 - FL_Client_baseline_faker - INFO - Client 16 - Round 19: Acc=0.0000, Loss=2.3717, Epochs=2
+2026-01-21 12:06:07,783 - FL_Client_baseline_faker - INFO - Client 84 - Round 19: Acc=0.0000, Loss=2.3573, Epochs=2
+2026-01-21 12:06:09,341 - FL_Client_baseline_faker - INFO - Client 60 - Round 19: Acc=0.0000, Loss=2.3637, Epochs=2
+2026-01-21 12:06:11,025 - FL_Client_baseline_faker - INFO - Client 70 - Round 19: Acc=0.0000, Loss=2.3562, Epochs=2
+2026-01-21 12:06:12,717 - FL_Client_baseline_faker - INFO - Client 21 - Round 19: Acc=0.0000, Loss=2.3562, Epochs=2
+2026-01-21 12:06:14,401 - FL_Client_baseline_faker - INFO - Client 33 - Round 19: Acc=0.0000, Loss=2.3438, Epochs=2
+2026-01-21 12:06:25,521 - FL_Client_baseline_faker - INFO - Client 67 - Round 20: Acc=0.0000, Loss=2.3107, Epochs=2
+2026-01-21 12:06:27,186 - FL_Client_baseline_faker - INFO - Client 77 - Round 20: Acc=0.0000, Loss=2.3421, Epochs=2 [MALICIOUS]
+2026-01-21 12:06:28,674 - FL_Client_baseline_faker - INFO - Client 54 - Round 20: Acc=0.0000, Loss=2.3253, Epochs=2 [MALICIOUS]
+2026-01-21 12:06:30,352 - FL_Client_baseline_faker - INFO - Client 27 - Round 20: Acc=0.0000, Loss=2.3212, Epochs=2 [MALICIOUS]
+2026-01-21 12:06:32,037 - FL_Client_baseline_faker - INFO - Client 69 - Round 20: Acc=0.0000, Loss=2.3229, Epochs=2 [MALICIOUS]
+2026-01-21 12:06:33,707 - FL_Client_baseline_faker - INFO - Client 96 - Round 20: Acc=0.0000, Loss=2.3181, Epochs=2
+2026-01-21 12:06:35,376 - FL_Client_baseline_faker - INFO - Client 93 - Round 20: Acc=0.0000, Loss=2.3222, Epochs=2
+2026-01-21 12:06:37,080 - FL_Client_baseline_faker - INFO - Client 88 - Round 20: Acc=0.0000, Loss=2.3274, Epochs=2
+2026-01-21 12:06:38,660 - FL_Client_baseline_faker - INFO - Client 25 - Round 20: Acc=0.0000, Loss=2.3201, Epochs=2
+2026-01-21 12:06:40,289 - FL_Client_baseline_faker - INFO - Client 91 - Round 20: Acc=0.0000, Loss=2.3086, Epochs=2
+2026-01-21 12:06:52,128 - FL_Client_baseline_faker - INFO - Client 39 - Round 21: Acc=0.0000, Loss=2.3672, Epochs=2
+2026-01-21 12:06:56,521 - FL_Client_baseline_faker - INFO - Client 51 - Round 21: Acc=0.0000, Loss=2.3724, Epochs=2
+2026-01-21 12:07:00,667 - FL_Client_baseline_faker - INFO - Client 85 - Round 21: Acc=0.0000, Loss=2.3626, Epochs=2
+2026-01-21 12:07:01,843 - FL_Client_baseline_faker - INFO - Client 83 - Round 21: Acc=0.0000, Loss=2.3425, Epochs=2
+2026-01-21 12:07:03,050 - FL_Client_baseline_faker - INFO - Client 47 - Round 21: Acc=0.0000, Loss=2.3687, Epochs=2
+2026-01-21 12:07:03,976 - FL_Client_baseline_faker - INFO - Client 56 - Round 21: Acc=0.0000, Loss=2.3729, Epochs=2
+2026-01-21 12:07:05,026 - FL_Client_baseline_faker - INFO - Client 66 - Round 21: Acc=0.0000, Loss=2.3645, Epochs=2
+2026-01-21 12:07:06,880 - FL_Client_baseline_faker - INFO - Client 57 - Round 21: Acc=0.0000, Loss=2.3644, Epochs=2
+2026-01-21 12:07:09,330 - FL_Client_baseline_faker - INFO - Client 15 - Round 21: Acc=0.0000, Loss=2.3588, Epochs=2
+2026-01-21 12:07:10,596 - FL_Client_baseline_faker - INFO - Client 31 - Round 21: Acc=0.0000, Loss=2.3807, Epochs=2 [MALICIOUS]
+2026-01-21 12:07:19,844 - FL_Client_baseline_faker - INFO - Client 28 - Round 22: Acc=0.0000, Loss=2.3646, Epochs=2 [MALICIOUS]
+2026-01-21 12:07:21,034 - FL_Client_baseline_faker - INFO - Client 8 - Round 22: Acc=0.0000, Loss=2.3474, Epochs=2
+2026-01-21 12:07:22,295 - FL_Client_baseline_faker - INFO - Client 43 - Round 22: Acc=0.0000, Loss=2.3584, Epochs=2
+2026-01-21 12:07:23,432 - FL_Client_baseline_faker - INFO - Client 2 - Round 22: Acc=0.0000, Loss=2.3482, Epochs=2
+2026-01-21 12:07:24,545 - FL_Client_baseline_faker - INFO - Client 75 - Round 22: Acc=0.0000, Loss=2.3780, Epochs=2 [MALICIOUS]
+2026-01-21 12:07:25,684 - FL_Client_baseline_faker - INFO - Client 70 - Round 22: Acc=0.0000, Loss=2.3561, Epochs=2
+2026-01-21 12:07:27,126 - FL_Client_baseline_faker - INFO - Client 29 - Round 22: Acc=0.0000, Loss=2.3481, Epochs=2 [MALICIOUS]
+2026-01-21 12:07:28,126 - FL_Client_baseline_faker - INFO - Client 0 - Round 22: Acc=0.0000, Loss=2.3556, Epochs=2
+2026-01-21 12:07:29,218 - FL_Client_baseline_faker - INFO - Client 9 - Round 22: Acc=0.0000, Loss=2.3563, Epochs=2
+2026-01-21 12:07:30,221 - FL_Client_baseline_faker - INFO - Client 90 - Round 22: Acc=0.0000, Loss=2.3547, Epochs=2
+2026-01-21 12:07:38,864 - FL_Client_baseline_faker - INFO - Client 80 - Round 23: Acc=0.0000, Loss=2.3906, Epochs=2
+2026-01-21 12:07:40,060 - FL_Client_baseline_faker - INFO - Client 7 - Round 23: Acc=0.0000, Loss=2.4029, Epochs=2
+2026-01-21 12:07:41,384 - FL_Client_baseline_faker - INFO - Client 29 - Round 23: Acc=0.0000, Loss=2.3805, Epochs=2 [MALICIOUS]
+2026-01-21 12:07:42,641 - FL_Client_baseline_faker - INFO - Client 8 - Round 23: Acc=0.0000, Loss=2.3750, Epochs=2
+2026-01-21 12:07:43,752 - FL_Client_baseline_faker - INFO - Client 4 - Round 23: Acc=0.0000, Loss=2.3844, Epochs=2 [MALICIOUS]
+2026-01-21 12:07:44,865 - FL_Client_baseline_faker - INFO - Client 42 - Round 23: Acc=0.0000, Loss=2.3787, Epochs=2
+2026-01-21 12:07:45,995 - FL_Client_baseline_faker - INFO - Client 9 - Round 23: Acc=0.0000, Loss=2.3804, Epochs=2
+2026-01-21 12:07:47,164 - FL_Client_baseline_faker - INFO - Client 65 - Round 23: Acc=0.0000, Loss=2.3765, Epochs=2
+2026-01-21 12:07:48,320 - FL_Client_baseline_faker - INFO - Client 30 - Round 23: Acc=0.0000, Loss=2.3714, Epochs=2
+2026-01-21 12:07:49,466 - FL_Client_baseline_faker - INFO - Client 35 - Round 23: Acc=0.0000, Loss=2.4058, Epochs=2 [MALICIOUS]
+2026-01-21 12:07:58,067 - FL_Client_baseline_faker - INFO - Client 85 - Round 24: Acc=0.0000, Loss=2.4173, Epochs=2
+2026-01-21 12:07:59,369 - FL_Client_baseline_faker - INFO - Client 62 - Round 24: Acc=0.0000, Loss=2.4159, Epochs=2
+2026-01-21 12:08:00,633 - FL_Client_baseline_faker - INFO - Client 27 - Round 24: Acc=0.0000, Loss=2.4419, Epochs=2 [MALICIOUS]
+2026-01-21 12:08:01,854 - FL_Client_baseline_faker - INFO - Client 69 - Round 24: Acc=0.0000, Loss=2.4453, Epochs=2 [MALICIOUS]
+2026-01-21 12:08:03,104 - FL_Client_baseline_faker - INFO - Client 16 - Round 24: Acc=0.0000, Loss=2.4500, Epochs=2
+2026-01-21 12:08:04,808 - FL_Client_baseline_faker - INFO - Client 92 - Round 24: Acc=0.0000, Loss=2.4308, Epochs=2
+2026-01-21 12:08:06,254 - FL_Client_baseline_faker - INFO - Client 73 - Round 24: Acc=0.0000, Loss=2.4502, Epochs=2
+2026-01-21 12:08:07,368 - FL_Client_baseline_faker - INFO - Client 60 - Round 24: Acc=0.0000, Loss=2.4443, Epochs=2
+2026-01-21 12:08:08,734 - FL_Client_baseline_faker - INFO - Client 31 - Round 24: Acc=0.0000, Loss=2.4545, Epochs=2 [MALICIOUS]
+2026-01-21 12:08:10,365 - FL_Client_baseline_faker - INFO - Client 52 - Round 24: Acc=0.0000, Loss=2.4203, Epochs=2
+2026-01-21 12:08:21,056 - FL_Client_baseline_faker - INFO - Client 24 - Round 25: Acc=0.0000, Loss=2.5481, Epochs=2
+2026-01-21 12:08:22,513 - FL_Client_baseline_faker - INFO - Client 12 - Round 25: Acc=0.0000, Loss=2.5529, Epochs=2
+2026-01-21 12:08:23,730 - FL_Client_baseline_faker - INFO - Client 84 - Round 25: Acc=0.0000, Loss=2.5452, Epochs=2
+2026-01-21 12:08:25,375 - FL_Client_baseline_faker - INFO - Client 55 - Round 25: Acc=0.0000, Loss=2.5115, Epochs=2
+2026-01-21 12:08:26,975 - FL_Client_baseline_faker - INFO - Client 45 - Round 25: Acc=0.0000, Loss=2.5602, Epochs=2
+2026-01-21 12:08:28,087 - FL_Client_baseline_faker - INFO - Client 54 - Round 25: Acc=0.0000, Loss=2.5644, Epochs=2 [MALICIOUS]
+2026-01-21 12:08:29,244 - FL_Client_baseline_faker - INFO - Client 52 - Round 25: Acc=0.0000, Loss=2.5053, Epochs=2
+2026-01-21 12:08:30,476 - FL_Client_baseline_faker - INFO - Client 59 - Round 25: Acc=0.0000, Loss=2.5268, Epochs=2
+2026-01-21 12:08:31,672 - FL_Client_baseline_faker - INFO - Client 93 - Round 25: Acc=0.0000, Loss=2.5762, Epochs=2
+2026-01-21 12:08:33,004 - FL_Client_baseline_faker - INFO - Client 6 - Round 25: Acc=0.0000, Loss=2.5455, Epochs=2
+2026-01-21 12:08:43,204 - FL_Client_baseline_faker - INFO - Client 86 - Round 26: Acc=0.0000, Loss=2.4642, Epochs=2 [MALICIOUS]
+2026-01-21 12:08:44,417 - FL_Client_baseline_faker - INFO - Client 83 - Round 26: Acc=0.0000, Loss=2.4256, Epochs=2
+2026-01-21 12:08:45,714 - FL_Client_baseline_faker - INFO - Client 82 - Round 26: Acc=0.0000, Loss=2.4479, Epochs=2
+2026-01-21 12:08:47,168 - FL_Client_baseline_faker - INFO - Client 12 - Round 26: Acc=0.0000, Loss=2.4465, Epochs=2
+2026-01-21 12:08:48,824 - FL_Client_baseline_faker - INFO - Client 7 - Round 26: Acc=0.0000, Loss=2.4974, Epochs=2
+2026-01-21 12:08:50,038 - FL_Client_baseline_faker - INFO - Client 51 - Round 26: Acc=0.0000, Loss=2.4726, Epochs=2
+2026-01-21 12:08:51,392 - FL_Client_baseline_faker - INFO - Client 93 - Round 26: Acc=0.0000, Loss=2.4755, Epochs=2
+2026-01-21 12:08:53,002 - FL_Client_baseline_faker - INFO - Client 43 - Round 26: Acc=0.0000, Loss=2.4783, Epochs=2
+2026-01-21 12:08:54,283 - FL_Client_baseline_faker - INFO - Client 13 - Round 26: Acc=0.0000, Loss=2.4554, Epochs=2 [MALICIOUS]
+2026-01-21 12:08:55,516 - FL_Client_baseline_faker - INFO - Client 31 - Round 26: Acc=0.0000, Loss=2.4841, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:06,136 - FL_Client_baseline_faker - INFO - Client 24 - Round 27: Acc=0.0000, Loss=2.5563, Epochs=2
+2026-01-21 12:09:09,416 - FL_Client_baseline_faker - INFO - Client 68 - Round 27: Acc=0.0000, Loss=2.5562, Epochs=2
+2026-01-21 12:09:10,791 - FL_Client_baseline_faker - INFO - Client 57 - Round 27: Acc=0.0000, Loss=2.5707, Epochs=2
+2026-01-21 12:09:12,063 - FL_Client_baseline_faker - INFO - Client 17 - Round 27: Acc=0.0000, Loss=2.5764, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:13,347 - FL_Client_baseline_faker - INFO - Client 54 - Round 27: Acc=0.0000, Loss=2.5839, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:14,537 - FL_Client_baseline_faker - INFO - Client 23 - Round 27: Acc=0.0000, Loss=2.6239, Epochs=2
+2026-01-21 12:09:16,015 - FL_Client_baseline_faker - INFO - Client 35 - Round 27: Acc=0.0000, Loss=2.5959, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:17,300 - FL_Client_baseline_faker - INFO - Client 59 - Round 27: Acc=0.0000, Loss=2.5422, Epochs=2
+2026-01-21 12:09:18,576 - FL_Client_baseline_faker - INFO - Client 31 - Round 27: Acc=0.0000, Loss=2.5989, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:19,659 - FL_Client_baseline_faker - INFO - Client 9 - Round 27: Acc=0.0000, Loss=2.5714, Epochs=2
+2026-01-21 12:09:27,802 - FL_Client_baseline_faker - INFO - Client 56 - Round 28: Acc=0.0000, Loss=3.2412, Epochs=2
+2026-01-21 12:09:29,019 - FL_Client_baseline_faker - INFO - Client 70 - Round 28: Acc=0.0000, Loss=3.2538, Epochs=2
+2026-01-21 12:09:30,178 - FL_Client_baseline_faker - INFO - Client 12 - Round 28: Acc=0.0000, Loss=3.1382, Epochs=2
+2026-01-21 12:09:31,448 - FL_Client_baseline_faker - INFO - Client 6 - Round 28: Acc=0.0000, Loss=3.2195, Epochs=2
+2026-01-21 12:09:32,702 - FL_Client_baseline_faker - INFO - Client 83 - Round 28: Acc=0.0000, Loss=3.1250, Epochs=2
+2026-01-21 12:09:34,125 - FL_Client_baseline_faker - INFO - Client 69 - Round 28: Acc=0.0000, Loss=3.2354, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:35,741 - FL_Client_baseline_faker - INFO - Client 1 - Round 28: Acc=0.0000, Loss=3.1393, Epochs=2
+2026-01-21 12:09:37,295 - FL_Client_baseline_faker - INFO - Client 11 - Round 28: Acc=0.0000, Loss=3.3326, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:38,567 - FL_Client_baseline_faker - INFO - Client 96 - Round 28: Acc=0.0000, Loss=3.2764, Epochs=2
+2026-01-21 12:09:40,319 - FL_Client_baseline_faker - INFO - Client 30 - Round 28: Acc=0.0000, Loss=3.1805, Epochs=2
+2026-01-21 12:09:49,766 - FL_Client_baseline_faker - INFO - Client 21 - Round 29: Acc=0.0000, Loss=6.9927, Epochs=2
+2026-01-21 12:09:51,282 - FL_Client_baseline_faker - INFO - Client 52 - Round 29: Acc=0.0000, Loss=7.6333, Epochs=2
+2026-01-21 12:09:52,804 - FL_Client_baseline_faker - INFO - Client 62 - Round 29: Acc=0.0000, Loss=7.2608, Epochs=2
+2026-01-21 12:09:54,350 - FL_Client_baseline_faker - INFO - Client 61 - Round 29: Acc=0.0000, Loss=7.3802, Epochs=2
+2026-01-21 12:09:55,892 - FL_Client_baseline_faker - INFO - Client 27 - Round 29: Acc=0.0000, Loss=6.6418, Epochs=2 [MALICIOUS]
+2026-01-21 12:09:56,995 - FL_Client_baseline_faker - INFO - Client 51 - Round 29: Acc=0.0000, Loss=7.5581, Epochs=2
+2026-01-21 12:09:58,675 - FL_Client_baseline_faker - INFO - Client 7 - Round 29: Acc=0.0000, Loss=7.1989, Epochs=2
+2026-01-21 12:09:59,664 - FL_Client_baseline_faker - INFO - Client 48 - Round 29: Acc=0.0000, Loss=7.6684, Epochs=2
+2026-01-21 12:10:01,374 - FL_Client_baseline_faker - INFO - Client 0 - Round 29: Acc=0.0000, Loss=7.0151, Epochs=2
+2026-01-21 12:10:03,416 - FL_Client_baseline_faker - INFO - Client 49 - Round 29: Acc=0.0000, Loss=7.8948, Epochs=2
+2026-01-21 12:10:12,651 - FL_Client_baseline_faker - INFO - Client 33 - Round 30: Acc=0.0000, Loss=2.5077, Epochs=2
+2026-01-21 12:10:13,902 - FL_Client_baseline_faker - INFO - Client 58 - Round 30: Acc=0.0000, Loss=2.5520, Epochs=2
+2026-01-21 12:10:15,115 - FL_Client_baseline_faker - INFO - Client 36 - Round 30: Acc=0.0000, Loss=2.5653, Epochs=2
+2026-01-21 12:10:16,276 - FL_Client_baseline_faker - INFO - Client 54 - Round 30: Acc=0.0000, Loss=2.5788, Epochs=2 [MALICIOUS]
+2026-01-21 12:10:17,634 - FL_Client_baseline_faker - INFO - Client 89 - Round 30: Acc=0.0000, Loss=2.5606, Epochs=2
+2026-01-21 12:10:18,878 - FL_Client_baseline_faker - INFO - Client 93 - Round 30: Acc=0.0000, Loss=2.5638, Epochs=2
+2026-01-21 12:10:20,242 - FL_Client_baseline_faker - INFO - Client 71 - Round 30: Acc=0.0000, Loss=2.5335, Epochs=2 [MALICIOUS]
+2026-01-21 12:10:21,735 - FL_Client_baseline_faker - INFO - Client 84 - Round 30: Acc=0.0000, Loss=2.5431, Epochs=2
+2026-01-21 12:10:23,029 - FL_Client_baseline_faker - INFO - Client 91 - Round 30: Acc=0.0000, Loss=2.5053, Epochs=2
+2026-01-21 12:10:24,362 - FL_Client_baseline_faker - INFO - Client 62 - Round 30: Acc=0.0000, Loss=2.5365, Epochs=2

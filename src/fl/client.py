@@ -282,8 +282,7 @@ class MaliciousClient(FLClient):
         faker = FakerAttack(
             local_model=update_np,
             defense_type='krum',
-            num_groups=num_groups,
-            global_model=zeros_np
+            num_groups=num_groups
         )
 
         # gen poisoned update via scipy optimization

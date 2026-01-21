@@ -1,0 +1,60 @@
+2026-01-21 12:38:24,654 - FL_Defense_fltrust_mb - INFO - Round 1: fltrust defense applied - Rejected clients: [69, 28, 75, 35] - Detected malicious: [69, 28, 75, 35]
+2026-01-21 12:38:24,654 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:38:50,049 - FL_Defense_fltrust_mb - INFO - Round 2: fltrust defense applied - Rejected clients: [54, 35, 27, 13] - Detected malicious: [54, 35, 27, 13]
+2026-01-21 12:38:50,049 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:39:16,261 - FL_Defense_fltrust_mb - INFO - Round 3: fltrust defense applied - Rejected clients: [11, 77] - Detected malicious: [11, 77]
+2026-01-21 12:39:16,261 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:39:41,710 - FL_Defense_fltrust_mb - INFO - Round 4: fltrust defense applied
+2026-01-21 12:39:41,711 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:40:06,267 - FL_Defense_fltrust_mb - INFO - Round 5: fltrust defense applied - Rejected clients: [29] - Detected malicious: [29]
+2026-01-21 12:40:06,267 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:40:32,133 - FL_Defense_fltrust_mb - INFO - Round 6: fltrust defense applied - Rejected clients: [35, 81] - Detected malicious: [35, 81]
+2026-01-21 12:40:32,133 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:40:59,394 - FL_Defense_fltrust_mb - INFO - Round 7: fltrust defense applied - Rejected clients: [77, 81] - Detected malicious: [77, 81]
+2026-01-21 12:40:59,394 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:41:25,272 - FL_Defense_fltrust_mb - INFO - Round 8: fltrust defense applied - Rejected clients: [31, 81, 71, 28] - Detected malicious: [31, 81, 71, 28]
+2026-01-21 12:41:25,272 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:41:51,748 - FL_Defense_fltrust_mb - INFO - Round 9: fltrust defense applied - Rejected clients: [29, 4] - Detected malicious: [29, 4]
+2026-01-21 12:41:51,748 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:42:17,816 - FL_Defense_fltrust_mb - INFO - Round 10: fltrust defense applied - Rejected clients: [27] - Detected malicious: [27]
+2026-01-21 12:42:17,816 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:42:45,628 - FL_Defense_fltrust_mb - INFO - Round 11: fltrust defense applied - Rejected clients: [17, 31, 71, 54] - Detected malicious: [17, 31, 71, 54]
+2026-01-21 12:42:45,628 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:43:11,561 - FL_Defense_fltrust_mb - INFO - Round 12: fltrust defense applied - Rejected clients: [28, 17, 11, 14] - Detected malicious: [28, 17, 11, 14]
+2026-01-21 12:43:11,561 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:43:41,057 - FL_Defense_fltrust_mb - INFO - Round 13: fltrust defense applied - Rejected clients: [54] - Detected malicious: [54]
+2026-01-21 12:43:41,057 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:44:09,612 - FL_Defense_fltrust_mb - INFO - Round 14: fltrust defense applied - Rejected clients: [14] - Detected malicious: [14]
+2026-01-21 12:44:09,612 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:44:35,070 - FL_Defense_fltrust_mb - INFO - Round 15: fltrust defense applied - Rejected clients: [14, 64] - Detected malicious: [14, 64]
+2026-01-21 12:44:35,070 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:45:00,824 - FL_Defense_fltrust_mb - INFO - Round 16: fltrust defense applied - Rejected clients: [64, 13, 81, 77] - Detected malicious: [64, 13, 81, 77]
+2026-01-21 12:45:00,824 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:45:27,567 - FL_Defense_fltrust_mb - INFO - Round 17: fltrust defense applied - Rejected clients: [69, 62] - Detected malicious: [69]
+2026-01-21 12:45:27,567 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:45:53,265 - FL_Defense_fltrust_mb - INFO - Round 18: fltrust defense applied - Rejected clients: [14] - Detected malicious: [14]
+2026-01-21 12:45:53,265 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:46:22,663 - FL_Defense_fltrust_mb - INFO - Round 19: fltrust defense applied
+2026-01-21 12:46:22,663 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:46:49,005 - FL_Defense_fltrust_mb - INFO - Round 20: fltrust defense applied - Rejected clients: [77, 54, 27, 69] - Detected malicious: [77, 54, 27, 69]
+2026-01-21 12:46:49,005 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:47:13,949 - FL_Defense_fltrust_mb - INFO - Round 21: fltrust defense applied - Rejected clients: [31] - Detected malicious: [31]
+2026-01-21 12:47:13,949 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:47:40,174 - FL_Defense_fltrust_mb - INFO - Round 22: fltrust defense applied - Rejected clients: [28, 75, 29] - Detected malicious: [28, 75, 29]
+2026-01-21 12:47:40,174 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:48:05,690 - FL_Defense_fltrust_mb - INFO - Round 23: fltrust defense applied - Rejected clients: [29, 4, 35] - Detected malicious: [29, 4, 35]
+2026-01-21 12:48:05,691 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:48:34,021 - FL_Defense_fltrust_mb - INFO - Round 24: fltrust defense applied - Rejected clients: [27, 69, 31] - Detected malicious: [27, 69, 31]
+2026-01-21 12:48:34,021 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:49:00,696 - FL_Defense_fltrust_mb - INFO - Round 25: fltrust defense applied - Rejected clients: [54] - Detected malicious: [54]
+2026-01-21 12:49:00,696 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:49:27,671 - FL_Defense_fltrust_mb - INFO - Round 26: fltrust defense applied - Rejected clients: [86, 51, 13, 31] - Detected malicious: [86, 13, 31]
+2026-01-21 12:49:27,671 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:49:53,455 - FL_Defense_fltrust_mb - INFO - Round 27: fltrust defense applied - Rejected clients: [17, 54, 35, 31] - Detected malicious: [17, 54, 35, 31]
+2026-01-21 12:49:53,455 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:50:17,874 - FL_Defense_fltrust_mb - INFO - Round 28: fltrust defense applied - Rejected clients: [69, 11] - Detected malicious: [69, 11]
+2026-01-21 12:50:17,874 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:50:44,022 - FL_Defense_fltrust_mb - INFO - Round 29: fltrust defense applied - Rejected clients: [62, 27] - Detected malicious: [27]
+2026-01-21 12:50:44,022 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}
+2026-01-21 12:51:10,371 - FL_Defense_fltrust_mb - INFO - Round 30: fltrust defense applied - Rejected clients: [54, 71] - Detected malicious: [54, 71]
+2026-01-21 12:51:10,371 - FL_Defense_fltrust_mb - INFO - Defense parameters: {'server_epochs': 5, 'server_lr': 0.01, 'cosine_threshold': 0.0, 'use_relu': True, 'clip_updates': True, 'use_statistical_filtering': True, 'std_threshold': 1.5}

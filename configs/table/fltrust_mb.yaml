@@ -2,7 +2,7 @@
 experiment_name: "fltrust_mb"
 random_seed: 42
 dataset:
-  type: "mnist"
+  type: "cifar"
   data_dir: "./data"
   num_classes: 10
   partition_type: "iid"

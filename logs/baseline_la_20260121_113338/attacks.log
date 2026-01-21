@@ -1,0 +1,84 @@
+2026-01-21 11:34:17,400 - FL_Attack_baseline_la - INFO - Round 1: la attack by clients [69, 28, 75, 35] - Success: True
+2026-01-21 11:34:17,401 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:34:17,401 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': 9.996073722839355, 'euclidean_distance': 89.64768981933594, 'cosine_similarity': -0.004224515054374933, 'correlation': -0.004223846364766359, 'l2_norm1': 89.16511535644531, 'l2_norm2': 8.920013427734375}
+2026-01-21 11:34:40,903 - FL_Attack_baseline_la - INFO - Round 2: la attack by clients [54, 35, 27, 13] - Success: True
+2026-01-21 11:34:40,904 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:34:40,904 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': 10.007966041564941, 'euclidean_distance': 187.18458557128906, 'cosine_similarity': 0.006634869147092104, 'correlation': 0.00651173759251833, 'l2_norm1': 186.37953186035156, 'l2_norm2': 18.623117446899414}
+2026-01-21 11:35:04,638 - FL_Attack_baseline_la - INFO - Round 3: la attack by clients [11, 77] - Success: True
+2026-01-21 11:35:04,639 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:35:04,639 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': 5.815798282623291, 'euclidean_distance': 444.7071228027344, 'cosine_similarity': -0.003581622615456581, 'correlation': -0.0027855276130139828, 'l2_norm1': 438.0137023925781, 'l2_norm2': 75.31446075439453}
+2026-01-21 11:35:52,586 - FL_Attack_baseline_la - INFO - Round 5: la attack by clients [29] - Success: True
+2026-01-21 11:35:52,586 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:35:52,586 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': 10.000031471252441, 'euclidean_distance': 768.8112182617188, 'cosine_similarity': -0.02054995857179165, 'correlation': -0.02080507203936577, 'l2_norm1': 763.4441528320312, 'l2_norm2': 76.34417724609375}
+2026-01-21 11:36:16,982 - FL_Attack_baseline_la - INFO - Round 6: la attack by clients [35, 81] - Success: True
+2026-01-21 11:36:16,982 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:36:16,983 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': 11.998987197875977, 'euclidean_distance': 1331.29052734375, 'cosine_similarity': -0.01571846194565296, 'correlation': -0.015303139574825764, 'l2_norm1': 1324.96923828125, 'l2_norm2': 110.42342376708984}
+2026-01-21 11:36:39,013 - FL_Attack_baseline_la - INFO - Round 7: la attack by clients [77, 81] - Success: True
+2026-01-21 11:36:39,013 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:36:39,013 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:37:02,245 - FL_Attack_baseline_la - INFO - Round 8: la attack by clients [31, 81, 71, 28] - Success: True
+2026-01-21 11:37:02,245 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:37:02,245 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:37:27,178 - FL_Attack_baseline_la - INFO - Round 9: la attack by clients [29, 4] - Success: True
+2026-01-21 11:37:27,178 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:37:27,178 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:37:51,709 - FL_Attack_baseline_la - INFO - Round 10: la attack by clients [27] - Success: True
+2026-01-21 11:37:51,709 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:37:51,709 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:38:16,719 - FL_Attack_baseline_la - INFO - Round 11: la attack by clients [17, 31, 71, 54] - Success: True
+2026-01-21 11:38:16,720 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:38:16,720 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:38:41,195 - FL_Attack_baseline_la - INFO - Round 12: la attack by clients [28, 17, 11, 14] - Success: True
+2026-01-21 11:38:41,195 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:38:41,196 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:39:08,134 - FL_Attack_baseline_la - INFO - Round 13: la attack by clients [54] - Success: True
+2026-01-21 11:39:08,134 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:39:08,135 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:39:32,220 - FL_Attack_baseline_la - INFO - Round 14: la attack by clients [14] - Success: True
+2026-01-21 11:39:32,221 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:39:32,221 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:39:55,753 - FL_Attack_baseline_la - INFO - Round 15: la attack by clients [14, 64] - Success: True
+2026-01-21 11:39:55,754 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:39:55,754 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:40:19,701 - FL_Attack_baseline_la - INFO - Round 16: la attack by clients [64, 13, 81, 77] - Success: True
+2026-01-21 11:40:19,701 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:40:19,701 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:40:43,730 - FL_Attack_baseline_la - INFO - Round 17: la attack by clients [69] - Success: True
+2026-01-21 11:40:43,730 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:40:43,731 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:41:07,452 - FL_Attack_baseline_la - INFO - Round 18: la attack by clients [14] - Success: True
+2026-01-21 11:41:07,453 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:41:07,453 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:41:54,822 - FL_Attack_baseline_la - INFO - Round 20: la attack by clients [77, 54, 27, 69] - Success: True
+2026-01-21 11:41:54,822 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:41:54,822 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:42:19,076 - FL_Attack_baseline_la - INFO - Round 21: la attack by clients [31] - Success: True
+2026-01-21 11:42:19,077 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:42:19,077 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:42:41,764 - FL_Attack_baseline_la - INFO - Round 22: la attack by clients [28, 75, 29] - Success: True
+2026-01-21 11:42:41,765 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:42:41,765 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:43:04,281 - FL_Attack_baseline_la - INFO - Round 23: la attack by clients [29, 4, 35] - Success: True
+2026-01-21 11:43:04,281 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:43:04,281 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:43:28,595 - FL_Attack_baseline_la - INFO - Round 24: la attack by clients [27, 69, 31] - Success: True
+2026-01-21 11:43:28,595 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:43:28,595 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:43:52,628 - FL_Attack_baseline_la - INFO - Round 25: la attack by clients [54] - Success: True
+2026-01-21 11:43:52,628 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:43:52,628 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:44:17,681 - FL_Attack_baseline_la - INFO - Round 26: la attack by clients [86, 13, 31] - Success: True
+2026-01-21 11:44:17,681 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:44:17,682 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:44:41,566 - FL_Attack_baseline_la - INFO - Round 27: la attack by clients [17, 54, 35, 31] - Success: True
+2026-01-21 11:44:41,566 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:44:41,566 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:45:06,400 - FL_Attack_baseline_la - INFO - Round 28: la attack by clients [69, 11] - Success: True
+2026-01-21 11:45:06,400 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:45:06,400 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:45:30,808 - FL_Attack_baseline_la - INFO - Round 29: la attack by clients [27] - Success: True
+2026-01-21 11:45:30,809 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:45:30,809 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}
+2026-01-21 11:45:55,019 - FL_Attack_baseline_la - INFO - Round 30: la attack by clients [54, 71] - Success: True
+2026-01-21 11:45:55,020 - FL_Attack_baseline_la - INFO - Attack parameters: {'target_norm_ratio': 10.0, 'max_iterations': 100}
+2026-01-21 11:45:55,020 - FL_Attack_baseline_la - INFO - Similarity metrics: {'l2_ratio': nan, 'euclidean_distance': nan, 'cosine_similarity': nan, 'correlation': 0.0, 'l2_norm1': nan, 'l2_norm2': nan}

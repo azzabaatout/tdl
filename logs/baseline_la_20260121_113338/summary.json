@@ -1,0 +1,49 @@
+{
+  "experiment_name": "baseline_la",
+  "experiment_config": {
+    "experiment_name": "baseline_la",
+    "random_seed": 42,
+    "dataset": {
+      "type": "cifar",
+      "data_dir": "./data",
+      "num_classes": 10,
+      "partition_type": "iid"
+    },
+    "model": {
+      "type": "lenet",
+      "num_classes": 10
+    },
+    "federated_learning": {
+      "num_rounds": 30,
+      "num_clients": 100,
+      "client_participation_rate": 0.1,
+      "learning_rate": 0.01,
+      "local_epochs": 2,
+      "batch_size": 32
+    },
+    "server": {
+      "data_size": 100
+    },
+    "attack": {
+      "type": "la",
+      "num_malicious_clients": 20,
+      "params": {
+        "target_norm_ratio": 10.0,
+        "max_iterations": 100
+      }
+    },
+    "defense": {
+      "type": "none"
+    }
+  },
+  "experiment_dir": "logs/baseline_la_20260121_113338",
+  "total_rounds": 30,
+  "total_clients": 97,
+  "total_attack_rounds": 28,
+  "total_defense_rounds": 0,
+  "final_timestamp": "2026-01-21T11:46:03.253480",
+  "final_accuracy": 10.0,
+  "final_loss": NaN,
+  "final_test_accuracy": 10.0,
+  "final_test_loss": NaN
+}
