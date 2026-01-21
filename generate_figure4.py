@@ -15,6 +15,9 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from datetime import datetime
 
+from src.data.cifar import CIFARDataset
+from src.data.fmnist import FMNISTDataset
+
 # Add project root to path
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
@@ -25,6 +28,9 @@ from src.data.mnist import MNISTDataset
 from src.models.lenet import LeNet
 from src.fl.server import FLServer
 from src.fl.client import FLClient, MaliciousClient
+
+dataset_hardcoded_lowcaps = "cifar"   # < alternatively change this 'mnist'
+dataset_hardcoded_uppercaps = "cifar-10-batches-py" # folder name for the data set. alternatively change this to "MNIST"
 
 
 class Figure4Experiment:
@@ -78,6 +84,10 @@ class Figure4Experiment:
         # Setup dataset
         if self.dataset_type == 'mnist':
             self.dataset = MNISTDataset(data_dir='./data', num_classes=10)
+        elif self.dataset_type == 'fmnist':
+            self.dataset = FMNISTDataset(data_dir='./data', num_classes=10)
+        elif self.dataset_type == 'cifar':
+            self.dataset = CIFARDataset(data_dir='./data', num_classes=10)
         else:
             raise ValueError(f"Unknown dataset: {self.dataset_type}")
 
@@ -397,7 +407,7 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
         output_dir: Directory to save results
     """
     if datasets is None:
-        datasets = ['mnist']  # Start with MNIST, add others as needed
+        datasets = [dataset_hardcoded_lowcaps]  # Start with MNIST, add others as needed
 
     # Create output directory
     output_path = Path(output_dir)
@@ -433,7 +443,7 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
         print(f"Results saved to: {result_file}")
 
         # Generate plot for this dataset
-        dataset_names = {'mnist': 'MNIST'}
+        dataset_names = {dataset_hardcoded_lowcaps: dataset_hardcoded_uppercaps}
         plot_path = output_path / f'figure4_{dataset}_{timestamp}.png'
         plot_figure4(results, dataset_name=dataset_names.get(dataset, dataset.upper()),
                     save_path=str(plot_path))
@@ -452,7 +462,7 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
             'SPP': {'color': 'red', 'marker': 's'},
         }
 
-        dataset_names = {'mnist': 'MNIST'}
+        dataset_names = {dataset_hardcoded_lowcaps: dataset_hardcoded_uppercaps}
 
         for ax, dataset in zip(axes, datasets):
             results = all_results[dataset]
@@ -494,8 +504,8 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Generate Figure 4 from the paper")
-    parser.add_argument("--datasets", nargs='+', default=['mnist'],
-                       choices=['mnist'],
+    parser.add_argument("--datasets", nargs='+', default=[dataset_hardcoded_lowcaps],
+                       choices=[dataset_hardcoded_lowcaps],
                        help="Datasets to run experiments on")
     parser.add_argument("--rounds", type=int, default=50,
                        help="Number of FL rounds (default: 50)")

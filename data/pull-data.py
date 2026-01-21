@@ -5,6 +5,10 @@ import tempfile
 import sys
 import pathlib
 
+#
+# Run this script. This will download the required dataset 
+#
+
 
 url = "https://syncandshare.lrz.de/dl/fiDGmQHJBu8282XT6E48jv/in.zip"
 extract_to = pathlib.Path().resolve()
