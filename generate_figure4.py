@@ -31,7 +31,7 @@ from src.fl.client import FLClient, MaliciousClient
 
 dataset_hardcoded_lowcaps = "cifar"   # < alternatively change this 'mnist'
 dataset_hardcoded_uppercaps = "cifar-10-batches-py" # folder name for the data set. alternatively change this to "MNIST"
-
+hardcoded_channel_number = 3
 
 class Figure4Experiment:
     """
@@ -103,7 +103,7 @@ class Figure4Experiment:
         self.client_datasets = partitioner.partition_data()
 
         # Setup model
-        self.model = LeNet(num_classes=10, in_channels=1, input_size=28)
+        self.model = LeNet(num_classes=10, in_channels=hardcoded_channel_number, input_size=28)
         self.model.to(self.device)
 
         # Setup server with defense
