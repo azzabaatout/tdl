@@ -30,7 +30,7 @@ from src.fl.server import FLServer
 from src.fl.client import FLClient, MaliciousClient
 
 dataset_hardcoded_lowcaps = "cifar"   # < alternatively change this 'mnist'
-dataset_hardcoded_uppercaps = "cifar-10-batches-py" # folder name for the data set. alternatively change this to "MNIST"
+dataset_hardcoded_uppercaps = "cifar-10-python-py" # folder name for the data set. alternatively change this to "MNIST"
 hardcoded_channel_number = 3
 
 class Figure4Experiment:
@@ -189,17 +189,47 @@ class Figure4Experiment:
 
         We compute the average absolute difference across randomly selected parameters.
         """
+        
+        ### -- measuring various things --
+        difference_collection = {
+            'rnd-everyround-mean-100': 0,
+            'rnd-everyround-mean-2': 0,
+            'rnd-everyround-collection-100': 0,
+            'det-everyround-maxdiff-1': 0
+        }
+        
         flat1 = self._flatten_model(model1).cpu()
         flat2 = self._flatten_model(model2).cpu()
-
+        
+        
+        # ----------
+        diffs = torch.abs(flat1 - flat2)
+        max_idx = torch.argmax(diffs).item()
+        max_diff = diffs[max_idx].item()
+        difference_collection['det-everyround-maxdiff-1'] = max_diff
+        
+        # -----------
         # Randomly select parameters (paper mentions "two parameters" but we use more for stability)
         num_params = len(flat1)
         num_samples = min(100, num_params)  # Sample 100 parameters
         indices = random.sample(range(num_params), num_samples)
-
         # Calculate absolute difference for selected parameters
         diff = torch.abs(flat1[indices] - flat2[indices])
-        return diff.mean().item()
+        difference_collection['rnd-everyround-mean-100'] = diff.mean().item()
+        
+        # -----------
+        num_samples = min(2, num_params)  # Sample 100 parameters
+        indices = random.sample(range(num_params), num_samples)
+        diff = torch.abs(flat1[indices] - flat2[indices])
+        difference_collection['rnd-everyround-mean-2'] = diff.mean().item()
+        
+        # ------------
+        num_samples = min(100, num_params)  # Sample 100 parameters
+        indices = random.sample(range(num_params), num_samples)
+        diff = torch.abs(flat1[indices] - flat2[indices])
+        difference_collection['rnd-everyround-collection-100'] = diff.detach().numpy()
+        return difference_collection
+        
 
     def _fedavg_aggregate(self, client_updates, weights=None):
         """Simple FedAvg aggregation without defense."""
@@ -330,8 +360,8 @@ def run_all_defenses(dataset_type='mnist', num_rounds=50):
                 defense_type=defense_type,
                 dataset_type=dataset_type,
                 num_rounds=num_rounds,
-                num_clients=100,
-                num_malicious=20,
+                num_clients=20,
+                num_malicious=3,
                 classes_per_client=5
             )
             experiment.run()
@@ -369,7 +399,14 @@ def plot_figure4(results, dataset_name='MNIST', save_path=None):
         if 'error' in result:
             continue
 
-        differences = result['differences']
+        #
+        #    'rnd-everyround-mean-100': 0,
+        #    'rnd-everyround-mean-2': 0,
+        #    'rnd-everyround-collection-100': 0,
+        #    'det-everyround-maxdiff-1': 0
+        #
+        
+        differences = [r['det-everyround-maxdiff-1'] for r in result['differences']]
         rounds = list(range(len(differences)))
 
         style = styles.get(label, {'color': 'gray', 'marker': 'o', 'linestyle': '-'})
@@ -431,14 +468,17 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
             # Convert to serializable format
             serializable = {}
             for label, res in results.items():
+                
                 serializable[label] = {
                     'defense_type': res.get('defense_type', ''),
                     'dataset': res.get('dataset', ''),
-                    'differences': res.get('differences', []),
+                    'differences': res.get('differences', ''),
                     'accuracies': res.get('accuracies', []),
                     'config': res.get('config', {}),
                     'error': res.get('error', None)
                 }
+                serializable[label]['differences'] = serializable[label]['differences'][0]
+                serializable[label]['differences']['rnd-everyround-collection-100'] = serializable[label]['differences']['rnd-everyround-collection-100'].tolist()
             json.dump(serializable, f, indent=2)
         print(f"Results saved to: {result_file}")
 
@@ -507,7 +547,7 @@ if __name__ == "__main__":
     parser.add_argument("--datasets", nargs='+', default=[dataset_hardcoded_lowcaps],
                        choices=[dataset_hardcoded_lowcaps],
                        help="Datasets to run experiments on")
-    parser.add_argument("--rounds", type=int, default=50,
+    parser.add_argument("--rounds", type=int, default=3,
                        help="Number of FL rounds (default: 50)")
     parser.add_argument("--output", type=str, default='figure4_results',
                        help="Output directory for results")
