@@ -9,7 +9,9 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=baatout@stanford.edu
 
-module load python/3.12
+# Load required modules with specific versions for compatibility
+module load python/3.11 || module load python/3.10 || module load python/3.9
+module load gcc/11.2.0 || module load gcc/10.1.0 || module load gcc/9.3.0 || echo "GCC module not found"
 
 cd "$SLURM_SUBMIT_DIR"
 
