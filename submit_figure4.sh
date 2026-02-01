@@ -28,4 +28,4 @@ export PYTHONPATH=$PYTHONPATH:$PWD
 export CUDA_VISIBLE_DEVICES=0
 export OMP_NUM_THREADS=8
 
-python generate_figure4.py
+python generate_figure4.py --datasets cifar --rounds 50 --output figure4_result
