@@ -66,6 +66,12 @@ class Figure4Experiment:
         self.differences = []  # Difference per round
         self.round_accuracies = []  # Global model accuracy per round
 
+        # Fixed parameter indices for consistent tracking across rounds (paper Figure 4)
+        self.fixed_param_indices = None
+
+        # Benign-only server for computing unpoisoned global model
+        self.benign_server = None
+
         # Set random seed for reproducibility
         self.set_random_seeds(42)
 
@@ -114,6 +120,13 @@ class Figure4Experiment:
             defense_params=defense_params
         )
 
+        # Setup a second (benign) server with the same defense for computing unpoisoned global model
+        self.benign_server = FLServer(
+            model=copy.deepcopy(self.model),
+            defense_method=self.defense_type,
+            defense_params=copy.deepcopy(defense_params)
+        )
+
         # Setup server data for defenses that need it
         if self.defense_type in ['fltrust', 'spp']:
             server_data_size = 100
@@ -121,6 +134,7 @@ class Figure4Experiment:
             from torch.utils.data import Subset
             server_data = Subset(self.test_dataset, server_indices)
             self.server.set_server_data(server_data)
+            self.benign_server.set_server_data(copy.deepcopy(server_data))
 
         # Setup clients
         self.clients = []
@@ -187,47 +201,30 @@ class Figure4Experiment:
         Following the paper: "We randomly select two parameters from both poisoned
         and unpoisoned global models in each round to measure the difference."
 
-        We compute the average absolute difference across randomly selected parameters.
+        We fix two parameter indices at round 0 and track them across all rounds,
+        so the divergence accumulates over time (matching the paper's scale of 0-16).
         """
-        
-        ### -- measuring various things --
-        difference_collection = {
-            'rnd-everyround-mean-100': 0,
-            'rnd-everyround-mean-2': 0,
-            'rnd-everyround-collection-100': 0,
-            'det-everyround-maxdiff-1': 0
-        }
-        
+
         flat1 = self._flatten_model(model1).cpu()
         flat2 = self._flatten_model(model2).cpu()
-        
-        
-        # ----------
-        diffs = torch.abs(flat1 - flat2)
-        max_idx = torch.argmax(diffs).item()
-        max_diff = diffs[max_idx].item()
-        difference_collection['det-everyround-maxdiff-1'] = max_diff
-        
-        # -----------
-        # Randomly select parameters (paper mentions "two parameters" but we use more for stability)
         num_params = len(flat1)
-        num_samples = min(100, num_params)  # Sample 100 parameters
-        indices = random.sample(range(num_params), num_samples)
-        # Calculate absolute difference for selected parameters
-        diff = torch.abs(flat1[indices] - flat2[indices])
-        difference_collection['rnd-everyround-mean-100'] = diff.mean().item()
-        
-        # -----------
-        num_samples = min(2, num_params)  # Sample 100 parameters
-        indices = random.sample(range(num_params), num_samples)
-        diff = torch.abs(flat1[indices] - flat2[indices])
-        difference_collection['rnd-everyround-mean-2'] = diff.mean().item()
-        
-        # ------------
-        num_samples = min(100, num_params)  # Sample 100 parameters
-        indices = random.sample(range(num_params), num_samples)
-        diff = torch.abs(flat1[indices] - flat2[indices])
-        difference_collection['rnd-everyround-collection-100'] = diff.detach().numpy()
+
+        # Fix parameter indices once and reuse across all rounds
+        if self.fixed_param_indices is None:
+            self.fixed_param_indices = random.sample(range(num_params), min(2, num_params))
+
+        diffs = torch.abs(flat1 - flat2)
+
+        difference_collection = {
+            # Paper metric: mean of 2 fixed parameters tracked across rounds
+            'fixed-2-mean': torch.abs(flat1[self.fixed_param_indices] - flat2[self.fixed_param_indices]).mean().item(),
+            # Max difference across all parameters
+            'det-everyround-maxdiff-1': diffs.max().item(),
+            # Random 100 params (for reference)
+            'rnd-everyround-mean-100': diffs[random.sample(range(num_params), min(100, num_params))].mean().item(),
+            # Random 2 params per round (old method, for comparison)
+            'rnd-everyround-mean-2': diffs[random.sample(range(num_params), min(2, num_params))].mean().item(),
+        }
         return difference_collection
         
 
@@ -257,40 +254,66 @@ class Figure4Experiment:
         return aggregated_state
 
     def run_round(self, round_num):
-        """Run a single FL round and compute model difference."""
-        global_state_dict = self.server.broadcast_model()
+        """Run a single FL round and compute model difference.
 
-        client_updates = []
-        benign_updates = []
+        Runs two parallel aggregations using the same defense:
+        1. Poisoned: all clients (including malicious) -> poisoned global model
+        2. Benign: replace malicious clients' updates with their un-poisoned versions -> benign global model
+        Then compares the two resulting global models.
+        """
+        global_state_dict = self.server.broadcast_model()
+        # Sync benign server to same starting point so clients train from same state
+        self.benign_server.global_model.load_state_dict(copy.deepcopy(global_state_dict))
+
+        all_updates = []
+        benign_only_updates = []
 
         for client in self.clients:
             client.update_model(global_state_dict)
-            client.local_train()
+
+            is_malicious = getattr(client, 'is_malicious', False)
+
+            if is_malicious:
+                # Train normally (without attack) to capture benign state,
+                # then apply the attack separately
+                saved_attack = client.attack_method
+                client.attack_method = 'none'
+                client.local_train()  # normal training only
+                benign_state = copy.deepcopy(client.get_model_parameters())
+                client.attack_method = saved_attack
+                client.apply_attack()  # now apply the attack
+            else:
+                client.local_train()
+                benign_state = None
 
             update = {
                 'client_id': client.client_id,
                 'model_state': client.get_model_parameters(),
                 'data_size': client.get_data_size(),
-                'is_malicious': getattr(client, 'is_malicious', False)
+                'is_malicious': is_malicious
             }
-            client_updates.append(update)
+            all_updates.append(update)
 
-            # Collect benign updates separately
-            if not getattr(client, 'is_malicious', False):
-                benign_updates.append(update)
+            if is_malicious:
+                # For the benign run, use the normally-trained (un-poisoned) model
+                benign_only_updates.append({
+                    'client_id': client.client_id,
+                    'model_state': benign_state,
+                    'data_size': client.get_data_size(),
+                    'is_malicious': False
+                })
+            else:
+                benign_only_updates.append(update)
 
-        # agg 1: All clients (poisoned global model)
-        self.server.receive_updates(client_updates)
+        # Aggregation 1: with attack (poisoned global model)
+        self.server.receive_updates(all_updates)
         self.server.aggregate_updates()
         poisoned_global_model = copy.deepcopy(self.server.global_model)
 
-        benign_global_model = copy.deepcopy(self.model)
-        benign_global_model.load_state_dict(global_state_dict)
-
-        if benign_updates:
-            benign_state = self._fedavg_aggregate(benign_updates)
-            if benign_state:
-                benign_global_model.load_state_dict(benign_state)
+        # Aggregation 2: without attack (benign global model), same defense
+        self.benign_server.receive_updates(benign_only_updates)
+        self.benign_server.aggregate_updates()
+        benign_global_model = copy.deepcopy(self.benign_server.global_model)
 
         difference = self._calculate_model_difference(poisoned_global_model, benign_global_model)
         self.differences.append(difference)
@@ -406,7 +429,7 @@ def plot_figure4(results, dataset_name='MNIST', save_path=None):
         #    'det-everyround-maxdiff-1': 0
         #
         
-        differences = [r['det-everyround-maxdiff-1'] for r in result['differences']]
+        differences = [r['fixed-2-mean'] for r in result['differences']]
         rounds = list(range(len(differences)))
 
         style = styles.get(label, {'color': 'gray', 'marker': 'o', 'linestyle': '-'})
