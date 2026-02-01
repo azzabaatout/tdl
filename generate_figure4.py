@@ -109,7 +109,8 @@ class Figure4Experiment:
         self.client_datasets = partitioner.partition_data()
 
         # Setup model
-        self.model = LeNet(num_classes=10, in_channels=hardcoded_channel_number, input_size=28)
+        in_channels = 1 if self.dataset_type == 'mnist' else 3
+        self.model = LeNet(num_classes=10, in_channels=in_channels, input_size=28)
         self.model.to(self.device)
 
         # Setup server with defense
@@ -332,7 +333,7 @@ class Figure4Experiment:
             diff, acc = self.run_round(round_num)
 
             if round_num % 10 == 0:
-                print(f"Round {round_num}: Difference = {diff:.4f}, Accuracy = {acc:.2f}%")
+                print(f"Round {round_num}: Difference = {diff['fixed-2-mean']:.4f}, Accuracy = {acc:.2f}%")
 
         return self.differences
 
@@ -500,9 +501,13 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
                     'config': res.get('config', {}),
                     'error': res.get('error', None)
                 }
-                serializable[label]['differences'] = [
-                    {k: float(v) for k, v in d.items()} for d in serializable[label]['differences']
-                ]
+                diffs = serializable[label]['differences']
+                if diffs and isinstance(diffs[0], dict):
+                    serializable[label]['differences'] = [
+                        {k: float(v) for k, v in d.items()} for d in diffs
+                    ]
+                else:
+                    serializable[label]['differences'] = [float(d) for d in diffs]
             json.dump(serializable, f, indent=2)
         print(f"Results saved to: {result_file}")
 
@@ -569,7 +574,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate Figure 4 from the paper")
     parser.add_argument("--datasets", nargs='+', default=[dataset_hardcoded_lowcaps],
-                       choices=[dataset_hardcoded_lowcaps],
+                       choices=['cifar', 'mnist'],
                        help="Datasets to run experiments on")
     parser.add_argument("--rounds", type=int, default=3,
                        help="Number of FL rounds (default: 50)")
