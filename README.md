@@ -3,6 +3,12 @@ Implementation of the paper "Can We Trust the Similarity Measurement in Federate
 
 ---
 
+## Installation
+
+1. Create a fresh python environment 3.12.7
+2. Run `poetry install`
+
+
 ## Quick Start - Run ALL Experiments
 
 ```bash

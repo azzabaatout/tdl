@@ -13,7 +13,7 @@ class LeNet(nn.Module):
         # calc flattened size
         self.flat_features = self._get_flat_features(in_channels, input_size)
 
-        self.fc1 = nn.Linear(self.flat_features, 120)
+        self.fc1 = nn.Linear(400, 120)
         self.fc2 = nn.Linear(120, 84)
         self.fc3 = nn.Linear(84, num_classes)
 
