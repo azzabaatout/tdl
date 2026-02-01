@@ -14,15 +14,15 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
 # Import FL components
-from src.data.cifar import CIFARDataset
-from src.data.mnist import MNISTDataset
-from src.models.lenet import LeNet
-from src.models.alexnet_small import AlexNetSmall
-from src.models.resnet18 import ResNet18
-from src.fl.server import FLServer
-from src.fl.client import FLClient, MaliciousClient
-from src.utils.metrics import FLMetrics
-from src.utils.logging import FLLogger
+from .data.cifar import CIFARDataset
+from .data.mnist import MNISTDataset
+from .models.lenet import LeNet
+from .models.alexnet_small import AlexNetSmall
+from .models.resnet18 import ResNet18
+from .fl.server import FLServer
+from .fl.client import FLClient, MaliciousClient
+from .utils.metrics import FLMetrics
+from .utils.logging import FLLogger
 
 
 class FLExperiment:

@@ -1,0 +1,32 @@
+# FLTrust vs MB Attack - Paper settings (n=100, m=20, c=5)
+experiment_name: "fltrust_mb"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid"
+  alpha: 5                    # c=5 classes per client
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100
+  client_participation_rate: 1.0
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  data_size: 100                   # FLTrust requires clean dataset
+  aggregation: "fltrust"           # Added: Explicitly use FLTrust
+attack:
+  type: "mb"
+  num_malicious_clients: 20
+  params:
+    threshold: 0.00001             # Paper uses threshold = 10^-5
+    max_iterations: 200            # MB uses iterative search method
+defense:
+  type: "fltrust"
+  params:
+    clean_data_size: 100           # 100 examples from test data

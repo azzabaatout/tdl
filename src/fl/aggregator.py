@@ -1,6 +1,6 @@
 import torch
 from collections import OrderedDict
-from src.models.model_utils import flatten_model
+from ..utils.model_utils import flatten_model
 
 
 class Aggregator:

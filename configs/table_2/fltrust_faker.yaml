@@ -1,0 +1,33 @@
+# FLTrust vs Faker Attack - Paper settings (n=100, m=20, c=5)
+experiment_name: "fltrust_faker"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid"
+  alpha: 5                    # c=5 classes per client
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100
+  client_participation_rate: 1.0
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  data_size: 100                   # FLTrust requires clean dataset
+  aggregation: "fltrust"           # Added: Explicitly use FLTrust
+attack:
+  type: "faker"
+  num_malicious_clients: 100
+  params:
+    target_defense: "fltrust"      # Use Faker-FLTrust (Theorem 2)
+    num_groups: 10                 # T=10 for richer optimization space
+    cooperative: true              # Section 5.4 cooperative mode
+defense:
+  type: "fltrust"
+  params:
+    clean_data_size: 100           # 100 examples from test data

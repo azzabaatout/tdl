@@ -1,0 +1,33 @@
+# SPP (Similarity of Partial Parameters) - MB Attack
+experiment_name: "spp_mb"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid"
+  alpha: 5                    # c=5 classes per client
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100
+  client_participation_rate: 1.0     # Changed: All clients participate
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  data_size: 100                     # SPP requires clean dataset for reference model
+  aggregation: "fedavg"              # SPP uses FedAvg after filtering
+attack:
+  type: "mb"
+  num_malicious_clients: 20
+  params:
+    threshold: 0.00001               # Paper uses threshold = 10^-5
+    max_iterations: 200              # MB uses iterative search method
+defense:
+  type: "spp"
+  params:
+    selection_ratio: 0.5             # Select 50% of parameters randomly
+    cosine_threshold: 0.9            # High threshold to detect attacks (benign ~0.99)

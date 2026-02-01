@@ -1,0 +1,32 @@
+# Baseline (FedAvg) - Faker Attack
+experiment_name: "baseline_faker"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid"
+  alpha: 5                    # c=5 for non-IID distribution
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100
+  client_participation_rate: 1.0  # Changed: All clients participate
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  aggregation: "fedavg"            # Added: Explicitly use FedAvg
+  data_size: 0                     # Changed: No clean dataset needed
+attack:
+  type: "faker"
+  num_malicious_clients: 20
+  params:
+    target_defense: "none"         # No defense baseline
+    num_groups: 2                  # Changed: T=2 (paper uses T=2)
+    cooperative: true              # Section 5.4: cooperative mode
+    # Note: For baseline with no defense, Faker can use aggressive scaling
+defense:
+  type: "none"

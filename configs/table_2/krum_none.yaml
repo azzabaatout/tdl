@@ -1,0 +1,30 @@
+# Krum - No Attack
+experiment_name: "krum_none"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid"
+  alpha: 5                    # c=5 for non-IID distribution
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100
+  client_participation_rate: 1.0  #  All clients participate
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  data_size: 100
+attack:
+  type: "none"
+  num_malicious_clients: 0
+defense:
+  type: "krum"
+  params:
+    num_malicious: 0               # Changed: m=0 (no malicious clients)
+    multi_krum: false              # Changed: Paper uses standard Krum
+    num_selected: 1                # Changed: Krum selects only 1 model

@@ -1,0 +1,35 @@
+# Krum - Faker Attack
+experiment_name: "krum_faker"
+random_seed: 42
+dataset:
+  type: "mnist"
+  data_dir: "./data"
+  num_classes: 10
+  partition_type: "non_iid"
+  alpha: 5                    # c=5 classes per client
+model:
+  type: "lenet"
+  num_classes: 10
+federated_learning:
+  num_rounds: 30
+  num_clients: 100            # Paper uses 100 clients
+  client_participation_rate: 1.0
+  learning_rate: 0.01
+  local_epochs: 2
+  batch_size: 32
+server:
+  data_size: 0                # Changed: Krum doesn't need clean dataset
+  aggregation: "krum"         # Added: Explicitly use Krum
+attack:
+  type: "faker"
+  num_malicious_clients: 20
+  params:
+    target_defense: "krum"    # Use Faker-Krum (Theorem 3)
+    num_groups: 10            # T=10 for richer optimization space
+    cooperative: true         # Cooperative mode for multiple attackers
+defense:
+  type: "krum"
+  params:
+    num_malicious: 20         # Krum assumes server knows m
+    multi_krum: false         # Standard Krum, not Multi-Krum
+    num_selected: 1           # Krum selects exactly 1 model

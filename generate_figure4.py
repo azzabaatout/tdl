@@ -4,12 +4,10 @@ Generate Figure 4: Evaluation of global model's difference with n=100, m=20, and
 """
 
 import torch
-import yaml
 import copy
 import random
 import numpy as np
 import sys
-import os
 import json
 import matplotlib.pyplot as plt
 from pathlib import Path

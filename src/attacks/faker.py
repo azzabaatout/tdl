@@ -6,6 +6,9 @@ class FakerAttack:
     """
     Faker attack implementation based on the paper.
     Generates poisoned models by scaling local model parameters.
+    Goal: Exploit vulnerabilities in similarity metrics by finding
+    scalars α that maximize parameter difference while satisfying similarity
+    constraints of the target defense.
     """
 
     def __init__(self, local_model: np.ndarray, defense_type: str = 'fltrust', num_groups: int = 10):
