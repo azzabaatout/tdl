@@ -109,8 +109,16 @@ class Figure4Experiment:
         self.client_datasets = partitioner.partition_data()
 
         # Setup model
-        in_channels = 1 if self.dataset_type == 'mnist' else 3
-        self.model = LeNet(num_classes=10, in_channels=in_channels, input_size=28)
+        if self.dataset_type == 'cifar':
+            in_channels = 3
+            input_size = 32  # CIFAR-10 is 32x32
+        elif self.dataset_type in ['mnist', 'fmnist']:
+            in_channels = 1
+            input_size = 28  # MNIST/FMNIST is 28x28
+        else:
+            in_channels = 1
+            input_size = 28
+        self.model = LeNet(num_classes=10, in_channels=in_channels, input_size=input_size)
         self.model.to(self.device)
 
         # Setup server with defense
@@ -261,58 +269,72 @@ class Figure4Experiment:
         1. Poisoned: all clients (including malicious) -> poisoned global model
         2. Benign: replace malicious clients' updates with their un-poisoned versions -> benign global model
         Then compares the two resulting global models.
-        """
-        global_state_dict = self.server.broadcast_model()
-        # Sync benign server to same starting point so clients train from same state
-        self.benign_server.global_model.load_state_dict(copy.deepcopy(global_state_dict))
 
-        all_updates = []
-        benign_only_updates = []
+        To avoid state leakage (optimizer momentum, model weights) between the
+        two systems, we save/restore the full client state before each run.
+        """
+        poisoned_global_state = self.server.broadcast_model()
+        benign_global_state = copy.deepcopy(poisoned_global_state)
+        # Sync benign server to same starting point so clients train from same state
+        self.benign_server.global_model.load_state_dict(benign_global_state)
+
+        poisoned_updates = []
+        benign_updates = []
 
         for client in self.clients:
-            client.update_model(global_state_dict)
+            # Save full client state (optimizer) before training
+            saved_optimizer_state = copy.deepcopy(client.optimizer.state_dict())
 
-            is_malicious = getattr(client, 'is_malicious', False)
+            # --- Poisoned system: clients train, malicious ones attack ---
+            client.update_model(poisoned_global_state)
+            client.local_train()  # For malicious clients, this includes attack
 
-            if is_malicious:
-                # Train normally (without attack) to capture benign state,
-                # then apply the attack separately
-                saved_attack = client.attack_method
-                client.attack_method = 'none'
-                client.local_train()  # normal training only
-                benign_state = copy.deepcopy(client.get_model_parameters())
-                client.attack_method = saved_attack
-                client.apply_attack()  # now apply the attack
+            # Save the poisoned model state (we'll need to restore it later)
+            poisoned_model_state = client.get_model_parameters()
+
+            poisoned_updates.append({
+                'client_id': client.client_id,
+                'model_state': copy.deepcopy(poisoned_model_state),
+                'data_size': client.get_data_size(),
+                'is_malicious': getattr(client, 'is_malicious', False)
+            })
+
+            # Save poisoned system's optimizer state (this is the "real" timeline)
+            poisoned_optimizer_state = copy.deepcopy(client.optimizer.state_dict())
+
+            # --- Benign system: restore pre-training optimizer, train honestly ---
+            client.optimizer.load_state_dict(saved_optimizer_state)
+            client.update_model(benign_global_state)
+
+            if getattr(client, 'is_malicious', False):
+                # Temporarily disable attack to get honest training
+                original_attack = client.attack_method
+                client.attack_method = None
+                client.local_train()
+                client.attack_method = original_attack
             else:
                 client.local_train()
-                benign_state = None
 
-            update = {
+            benign_updates.append({
                 'client_id': client.client_id,
                 'model_state': client.get_model_parameters(),
                 'data_size': client.get_data_size(),
-                'is_malicious': is_malicious
-            }
-            all_updates.append(update)
+                'is_malicious': False
+            })
 
-            if is_malicious:
-                # For the benign run, use the normally-trained (un-poisoned) model
-                benign_only_updates.append({
-                    'client_id': client.client_id,
-                    'model_state': benign_state,
-                    'data_size': client.get_data_size(),
-                    'is_malicious': False
-                })
-            else:
-                benign_only_updates.append(update)
+            # Restore to poisoned system state so client is consistent
+            # with the poisoned global model going into the next round
+            # (poisoned system is the "real" timeline)
+            client.optimizer.load_state_dict(poisoned_optimizer_state)
+            client.model.load_state_dict(poisoned_model_state)
 
-        # Aggregation 1: with attack (poisoned global model)
-        self.server.receive_updates(all_updates)
+        # Aggregate poisoned system
+        self.server.receive_updates(poisoned_updates)
         self.server.aggregate_updates()
         poisoned_global_model = copy.deepcopy(self.server.global_model)
 
-        # Aggregation 2: without attack (benign global model), same defense
-        self.benign_server.receive_updates(benign_only_updates)
+        # Aggregate benign system (same defense applied)
+        self.benign_server.receive_updates(benign_updates)
         self.benign_server.aggregate_updates()
         benign_global_model = copy.deepcopy(self.benign_server.global_model)
 
@@ -380,13 +402,14 @@ def run_all_defenses(dataset_type='mnist', num_rounds=50):
         print(f"{'='*60}")
 
         try:
+            # Paper parameters: n=100, m=20, c=5 (Figure 4)
             experiment = Figure4Experiment(
                 defense_type=defense_type,
                 dataset_type=dataset_type,
                 num_rounds=num_rounds,
-                num_clients=20,
-                num_malicious=3,
-                classes_per_client=5
+                num_clients=100,  # n=100 as in paper
+                num_malicious=20,  # m=20 as in paper
+                classes_per_client=5  # c=5 as in paper
             )
             experiment.run()
             results[label] = experiment.get_results()
