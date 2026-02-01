@@ -4,8 +4,8 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=256G
 #SBATCH --time=24:00:00
-#SBATCH --output=fig_cifar.out
-#SBATCH --error=fig_cifar.err
+#SBATCH --output=fig_fmnist.out
+#SBATCH --error=fig_fmnist.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=baatout@stanford.edu
 
@@ -28,4 +28,4 @@ export PYTHONPATH=$PYTHONPATH:$PWD
 export CUDA_VISIBLE_DEVICES=0
 export OMP_NUM_THREADS=8
 
-python generate_figure4.py --datasets cifar --rounds 20 --output figure4_result
+python generate_figure4.py --datasets fmnist --rounds 20 --output figure4_result

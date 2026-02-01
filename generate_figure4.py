@@ -574,7 +574,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate Figure 4 from the paper")
     parser.add_argument("--datasets", nargs='+', default=[dataset_hardcoded_lowcaps],
-                       choices=['cifar', 'mnist'],
+                       choices=['cifar', 'mnist', 'fmnist'],
                        help="Datasets to run experiments on")
     parser.add_argument("--rounds", type=int, default=3,
                        help="Number of FL rounds (default: 50)")
