@@ -500,7 +500,9 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
                     'config': res.get('config', {}),
                     'error': res.get('error', None)
                 }
-                serializable[label]['differences'] = [float(d) for d in serializable[label]['differences']]
+                serializable[label]['differences'] = [
+                    {k: float(v) for k, v in d.items()} for d in serializable[label]['differences']
+                ]
             json.dump(serializable, f, indent=2)
         print(f"Results saved to: {result_file}")
 
