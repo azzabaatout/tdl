@@ -187,7 +187,7 @@ class Figure4Experiment:
 
         We compute the average absolute difference across randomly selected parameters.
         """
-        
+
         ### -- measuring various things --
         difference_collection = {
             'rnd-everyround-mean-100': 0,
@@ -195,17 +195,17 @@ class Figure4Experiment:
             'rnd-everyround-collection-100': 0,
             'det-everyround-maxdiff-1': 0
         }
-        
+
         flat1 = self._flatten_model(model1).cpu()
         flat2 = self._flatten_model(model2).cpu()
-        
-        
+
+
         # ----------
         diffs = torch.abs(flat1 - flat2)
         max_idx = torch.argmax(diffs).item()
         max_diff = diffs[max_idx].item()
         difference_collection['det-everyround-maxdiff-1'] = max_diff
-        
+
         # -----------
         # Randomly select parameters (paper mentions "two parameters" but we use more for stability)
         num_params = len(flat1)
@@ -214,20 +214,20 @@ class Figure4Experiment:
         # Calculate absolute difference for selected parameters
         diff = torch.abs(flat1[indices] - flat2[indices])
         difference_collection['rnd-everyround-mean-100'] = diff.mean().item()
-        
+
         # -----------
         num_samples = min(2, num_params)  # Sample 100 parameters
         indices = random.sample(range(num_params), num_samples)
         diff = torch.abs(flat1[indices] - flat2[indices])
         difference_collection['rnd-everyround-mean-2'] = diff.mean().item()
-        
+
         # ------------
         num_samples = min(100, num_params)  # Sample 100 parameters
         indices = random.sample(range(num_params), num_samples)
         diff = torch.abs(flat1[indices] - flat2[indices])
         difference_collection['rnd-everyround-collection-100'] = diff.detach().numpy()
         return difference_collection
-        
+
 
     def _fedavg_aggregate(self, client_updates, weights=None):
         """Simple FedAvg aggregation without defense."""
@@ -256,14 +256,16 @@ class Figure4Experiment:
 
     def run_round(self, round_num):
         """Run a single FL round and compute model difference."""
-        global_state_dict = self.server.broadcast_model()
+
+        # step 1 — Poisoned server broadcasts its global model, all 100 clients train from it:
+        global_state_dict = self.server.broadcast_model()  # get the current global model
 
         client_updates = []
         benign_updates = []
 
         for client in self.clients:
-            client.update_model(global_state_dict)
-            client.local_train()
+            client.update_model(global_state_dict)  # every client (all 100) loads it
+            client.local_train()                     # every client trains locally from that same starting point
 
             update = {
                 'client_id': client.client_id,
@@ -273,23 +275,24 @@ class Figure4Experiment:
             }
             client_updates.append(update)
 
-            # Collect benign updates separately
             if not getattr(client, 'is_malicious', False):
-                benign_updates.append(update)
+                benign_updates.append(update)  # benign updates are separated out as they come in
 
-        # agg 1: All clients (poisoned global model)
-        self.server.receive_updates(client_updates)
-        self.server.aggregate_updates()
-        poisoned_global_model = copy.deepcopy(self.server.global_model)
+        # step 2 — Poisoned model: defense applied to all 100 updates:
+        self.server.receive_updates(client_updates)   # all 100 updates
+        self.server.aggregate_updates()                # defense + aggregation
+        poisoned_global_model = copy.deepcopy(self.server.global_model)  # snapshot it
 
+        # step 3 — Benign model: plain average of the 80 benign updates, no defense:
         benign_global_model = copy.deepcopy(self.model)
-        benign_global_model.load_state_dict(global_state_dict)
+        benign_global_model.load_state_dict(global_state_dict)  # fallback if no benign updates
 
         if benign_updates:
-            benign_state = self._fedavg_aggregate(benign_updates)
+            benign_state = self._fedavg_aggregate(benign_updates)  # plain weighted average of the 80
             if benign_state:
-                benign_global_model.load_state_dict(benign_state)
+                benign_global_model.load_state_dict(benign_state)  # that is the benign model
 
+        # step 4 — measure difference:
         difference = self._calculate_model_difference(poisoned_global_model, benign_global_model)
         self.differences.append(difference)
 
@@ -403,7 +406,7 @@ def plot_figure4(results, dataset_name='MNIST', save_path=None):
         #    'rnd-everyround-collection-100': 0,
         #    'det-everyround-maxdiff-1': 0
         #
-        
+
         differences = [r['det-everyround-maxdiff-1'] for r in result['differences']]
         rounds = list(range(len(differences)))
 
@@ -466,7 +469,7 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
             # Convert to serializable format
             serializable = {}
             for label, res in results.items():
-                
+
                 serializable[label] = {
                     'defense_type': res.get('defense_type', ''),
                     'dataset': res.get('dataset', ''),
@@ -484,7 +487,7 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
         dataset_names = {dataset_hardcoded_lowcaps: dataset_hardcoded_uppercaps}
         plot_path = output_path / f'figure4_{dataset}_{timestamp}.png'
         plot_figure4(results, dataset_name=dataset_names.get(dataset, dataset.upper()),
-                    save_path=str(plot_path))
+                     save_path=str(plot_path))
 
     # Generate combined figure if multiple datasets
     if len(datasets) > 1:
@@ -514,13 +517,13 @@ def generate_figure4(datasets=None, num_rounds=50, output_dir='figure4_results')
                 style = styles.get(label, {'color': 'gray', 'marker': 'o'})
 
                 ax.plot(rounds, differences, label=label,
-                       color=style['color'], marker=style['marker'],
-                       markersize=4, markevery=5, linewidth=1.5)
+                        color=style['color'], marker=style['marker'],
+                        markersize=4, markevery=5, linewidth=1.5)
 
             ax.set_xlabel('Round', fontsize=11)
             ax.set_ylabel('Difference', fontsize=11)
             ax.set_title(f'({chr(97+datasets.index(dataset))}) {dataset_names.get(dataset, dataset.upper())}.',
-                        fontsize=11)
+                         fontsize=11)
             ax.legend(loc='upper right', fontsize=9)
             ax.grid(True, alpha=0.3)
 
@@ -543,12 +546,12 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate Figure 4 from the paper")
     parser.add_argument("--datasets", nargs='+', default=[dataset_hardcoded_lowcaps],
-                       choices=[dataset_hardcoded_lowcaps],
-                       help="Datasets to run experiments on")
+                        choices=[dataset_hardcoded_lowcaps],
+                        help="Datasets to run experiments on")
     parser.add_argument("--rounds", type=int, default=3,
-                       help="Number of FL rounds (default: 50)")
+                        help="Number of FL rounds (default: 50)")
     parser.add_argument("--output", type=str, default='figure4_results',
-                       help="Output directory for results")
+                        help="Output directory for results")
 
     args = parser.parse_args()
 
